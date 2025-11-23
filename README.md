@@ -1,12 +1,13 @@
 # Part I: Mathematical Modeling
 
-Chapter 1: Introduction to Mathematical Modeling
+**Chapter 1: Introduction to Mathematical Modeling**
 
-Chapter 2: Machine Learning vis-a-vis Mathematical Modeling
+**Chapter 2: Machine Learning vis-a-vis Mathematical Modeling**
 
 # Part II: Mathematical Tools
 
-![2](https://github.com/user-attachments/assets/9a5c4db0-479f-4edb-b561-acd023221d57)
+![2](https://github.com/user-attachments/assets/a12aaaa8-1e0a-4301-bbce-6b7c11e73292)
+
 
 
 # Part III: Mathematical Optimization
