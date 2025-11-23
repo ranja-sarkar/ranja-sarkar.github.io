@@ -11,6 +11,6 @@ Chapter 2: Machine Learning vis-a-vis Mathematical Modeling
 
 # Part III: Mathematical Optimization
 
+![3](https://github.com/user-attachments/assets/58381432-31d8-4c0d-b3e4-e3bab9e39a4c)
 
-![3](https://github.com/user-attachments/assets/57556e6c-74a3-44f7-9e69-6cee89573dd0)
 
