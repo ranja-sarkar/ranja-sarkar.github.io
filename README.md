@@ -1,5 +1,8 @@
 # Part I: Mathematical Modeling
 
+Chapter 1: Introduction to Mathematical Modeling
+
+Chapter 2: Machine Learning vis-a-vis Mathematical Modeling
 
 # Part II: Mathematical Tools
 
