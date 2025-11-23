@@ -1,5 +1,5 @@
 
-Book Repo: https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md
+[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md)
 
 ![ii](https://github.com/user-attachments/assets/247cf3d9-e96d-49a7-b556-149a537db809)
 
