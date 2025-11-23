@@ -1,3 +1,7 @@
+
+![ii](https://github.com/user-attachments/assets/247cf3d9-e96d-49a7-b556-149a537db809)
+
+
 # Part I: Mathematical Modeling
 
 **Chapter 1: Introduction to Mathematical Modeling**
