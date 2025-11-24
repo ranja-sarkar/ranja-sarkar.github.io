@@ -25,10 +25,10 @@ Chapter 8: [Markov Chain](https://github.com/ranja-sarkar/Markov)
 
 # Part III: Mathematical Optimization
 
-Chapter 9: [Exploring Optimization Techniques](https://github.com/ranja-sarkar/Hyperparameters)
+Chapter 9: [Exploring Optimization Techniques](https://github.com/ranja-sarkar/Hyperparameters) (link in chapter page 98)
 
 Chapter 10:  [Optimization Techniques for Machine Learning](https://github.com/ranja-sarkar/Optimization-NOGD)
 
-![3](https://github.com/user-attachments/assets/58381432-31d8-4c0d-b3e4-e3bab9e39a4c)
+
 
 
