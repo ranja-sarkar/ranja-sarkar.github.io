@@ -10,8 +10,17 @@
 
 # Part II: Mathematical Tools
 
-![2](https://github.com/user-attachments/assets/a12aaaa8-1e0a-4301-bbce-6b7c11e73292)
+Chapter 3: [Principal Component Analysis](https://github.com/ranja-sarkar/pca) (link in chapter page 39)
 
+Chapter 4: [Gradient Descent](https://github.com/ranja-sarkar/GD)
+
+Chapter 5: [Support Vector Machine](https://github.com/ranja-sarkar/SVM)
+
+Chapter 6: [Graphs](https://github.com/ranja-sarkar/networks-graphs) (link in chapter page 67)
+
+Chapter 7: [Kalman Filter](https://github.com/ranja-sarkar/Kalman)
+
+Chapter 8: [Markov Chain](https://github.com/ranja-sarkar/Markov)
 
 
 # Part III: Mathematical Optimization
