@@ -50,4 +50,5 @@ This broadly come under [Scientific Machine Learning (SciML)](https://github.com
 
 5. [Why is AI hard and Physics simple?](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/15b3d94ed12fdde4485b7d84898f737545f0ed62/_posts/assets/Physics%20simple-AI%20hard.pdf)
 
+6. [PINNs for solving nonlinear PDEs](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/efdc65b9cd38d980cacb603186727f0c3805db6f/_posts/assets/PINN-solving-nonlinear-PDEs.pdf)
 
