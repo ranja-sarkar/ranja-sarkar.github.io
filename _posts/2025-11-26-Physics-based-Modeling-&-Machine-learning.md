@@ -4,19 +4,19 @@ tags: [physics, models, machinelearning]
 
 Ranja Sarkar
 
-The [paper by Jared Willard et al (2020)](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/bd0e97bb7a75469e16be738cf528f040927ed0d7/_posts/assets/Phys-ml.pdf) about the integration of Physics with machine learning makes for an insightful read. The paper provides the objectives of such integration, **a brief summary of which** is as follows. Please read the paper for more details.
+The [paper by Jared Willard et al (2020)](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/bd0e97bb7a75469e16be738cf528f040927ed0d7/_posts/assets/Phys-ml.pdf) about the integration of Physics with machine learning makes for an insightful read. The paper provides the objectives of such integration, *a brief summary of which* is as follows. Please read the paper for more details.
  
- **Finding representations of more complex physics-based models**
+ **Finding representations of complex Physics-based models**
     
 Reduced-order models (ROMs) are the computationally inexpensive representations. Constructing ROMs involves dimensionality reduction that attempts to capture most important dynamical characteristics of often large, high-fidelity simulations and models of physical systems.
 
 **Discovering governing equations**
    
-Many dynamical systems (e.g. finance) have no formal analytic descriptions and often data is abundant in such cases, but the underlying governing equations remain elusive. There are some data-driven techniques for identification of unknown, potential governing equations of nonlinear systems and are based on the [Occam’s razor principle](https://www.newscientist.com/definition/occams-razor/), where the goal is to use only a few equation terms to describe the given system. 
+Many dynamical systems (e.g. finance) have no formal analytic descriptions and often data are abundant in such cases, but the underlying governing equations remain elusive. There are some data-driven techniques for identification of unknown, potential governing equations of nonlinear systems and are based on the [Occam’s razor principle](https://www.newscientist.com/definition/occams-razor/), where the goal is to use only a few equation terms to describe the given system. 
 
 **Solving PDEs**
 
-Governing equations are known for many physical systems but direct numerical solutions of PDEs using common traditional methods prove to be expensive. Neural networks have shown success in approximating solutions across different kinds of physics-based PDEs. 
+Governing equations are known for many physical systems but direct numerical solutions of PDEs using common traditional methods prove to be expensive. Neural networks have shown success in approximating solutions across different kinds of Physics-based PDEs. 
 
 **Uncertainty quantification** 
 
