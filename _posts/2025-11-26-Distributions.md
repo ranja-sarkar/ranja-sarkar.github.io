@@ -1,7 +1,9 @@
-author: "Ranja Sarkar"
+Ranja Sarkar
+
+tags: probability, statistics
 
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
-I visited it recently and landed at their pages of [tag: Probability and tag: Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
+I visited it recently and landed at their pages of [Probability and Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
 And I couldn't help exclaim, 'how beautifully demonstrated!”
 
 Maybe I was too distracted back then to have not noticed, or I was too much into partial differential equations (PDEs).
