@@ -1,5 +1,5 @@
 ---
-tags:[Physics, Models, MachineLearning]
+tags: [physics, models, machinelearning]
 ---
 
 Ranja Sarkar
