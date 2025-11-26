@@ -33,4 +33,4 @@ On the other hand, Bernoulli distribution is a **discrete probability distributi
 <img width="255" height="184" alt="px" src="https://github.com/user-attachments/assets/a3393118-25e2-40d6-99b4-a5b5fd1bdbf3" />
 
 
-In a binomial distribution, **n** identical trials have 2 possible outcomes in each and can be thought of as multiple independent Bernoulli trials. 
+In a binomial distribution, **n** identical trials have 2 possible outcomes in each and can be thought of as multiple independent Bernoulli trials. In a [Poisson distribution](https://mathworld.wolfram.com/PoissonDistribution.html), there are large number of rare events or occurences with unlimited outcomes. 
