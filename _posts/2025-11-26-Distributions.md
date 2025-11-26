@@ -34,3 +34,12 @@ On the other hand, Bernoulli distribution is a **discrete probability distributi
 
 
 In a binomial distribution, **n** identical trials have 2 possible outcomes in each and can be thought of as multiple independent Bernoulli trials. In a [Poisson distribution](https://mathworld.wolfram.com/PoissonDistribution.html), there are large number of rare events or occurences with unlimited outcomes. 
+
+----
+
+Fitting the [right kind of distribution](https://reliability.readthedocs.io/en/latest/Fitting%20a%20specific%20distribution%20to%20data.html) to a dataset is not straight-forward, there are many ways to write the equations of the distributions (PDF, CDF, etc.), and the distribution parametrization needs careful attention.
+
+For example, where do we use the **Weibull distribution**?
+
+It is largely used in reliability engineering. [Reliability](https://github.com/MatthewReid854/reliability?tab=readme-ov-file) is the #probability that a system will perform its intended function adequately in a specified period of time. The Weibull distribution adapts to increasing, decreasing, and constant time-to-failure or time between events in mechanical systems. 
+
