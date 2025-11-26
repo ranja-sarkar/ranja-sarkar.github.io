@@ -1,7 +1,5 @@
 Ranja Sarkar
 
-tags: probability, statistics
-
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [Probability and Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
 And I couldn't help exclaim, 'how beautifully demonstrated!”
@@ -21,3 +19,11 @@ The beta distribution, for both shape parameters equal to unity that is, beta (1
 One can use [Box-Muller transformation](https://mathworld.wolfram.com/Box-MullerTransformation.html) on two independent standard uniform variates to arrive at two standard normal variates.  
  
 I dug up the web deeper and found an [illustration](https://www.math.wm.edu/~leemis/chart/UDR/UDR.html) of the relationships between distributions.
+
+------
+
+Uniform distribution, wherein outcomes are equally likely and standard normal distribution are **continuous probability distributions**.  
+In the latter, mean, median, and mode of the distribution coincide. The curve of the distribution is bell-shaped and symmetrical about the line x=μ (mean). The total area under the curve is 1. Exactly half of the values are to the left of the center and the other half to the right.
+
+![Standard Normal Distribution]()
+
