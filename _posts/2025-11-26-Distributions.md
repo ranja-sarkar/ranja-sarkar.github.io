@@ -1,3 +1,7 @@
+---
+tags: [probability, statistics] 
+---
+
 Ranja Sarkar
 
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
