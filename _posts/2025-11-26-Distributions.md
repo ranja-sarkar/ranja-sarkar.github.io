@@ -41,7 +41,7 @@ Fitting the [right kind of distribution](https://reliability.readthedocs.io/en/l
 
 For example, where do we use the **Weibull distribution**?
 
-It is largely used in reliability engineering. [Reliability](https://github.com/MatthewReid854/reliability?tab=readme-ov-file) is the #probability that a system will perform its intended function adequately in a specified period of time. The Weibull distribution adapts to increasing, decreasing, and constant time-to-failure or time between events in mechanical systems. 
+It is largely used in reliability engineering. [Reliability](https://github.com/MatthewReid854/reliability?tab=readme-ov-file) is the probability that a system will perform its intended function adequately in a specified period of time. The Weibull distribution adapts to increasing, decreasing, and constant time-to-failure or time between events in mechanical systems. 
 
 <img width="181" height="353" alt="wbd" src="https://github.com/user-attachments/assets/52a8989a-2cf4-4b86-a729-24105e3f8eef" />
 
