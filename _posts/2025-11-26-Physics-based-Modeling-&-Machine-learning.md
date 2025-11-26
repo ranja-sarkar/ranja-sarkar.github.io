@@ -28,7 +28,7 @@ Physics-based approaches for data generation often rely on running simulations o
 
 ------
 
-Along similar line is **Ben Moseley's** [thesis](https://ora.ox.ac.uk/objects/uuid:b790477c-771f-4926-99c6-d2f9d248cb23/files/d8p58pd35h).
+Along similar line is **Ben Moseley's** [thesis](https://ora.ox.ac.uk/objects/uuid:b790477c-771f-4926-99c6-d2f9d248cb23/files/d8p58pd35h) (2022).
 His doctoral research thesis is about Physics-informed machine learning. One of the thesis chapters talks about scalable [Physics-informed neural network (pinn)](https://benmoseley.blog/my-research/so-what-is-a-physics-informed-neural-network/).
 
 <img width="484" height="194" alt="pinn" src="https://github.com/user-attachments/assets/acef87ff-dad7-41c4-9f17-96493ae947dc" />
@@ -40,9 +40,14 @@ This broadly come under [Scientific Machine Learning (SciML)](https://github.com
 
 # References
 
-1. [Validation of trustwprthy SciML](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e23b92b2cac7a1b5a0b52b35dc4446ac6c3d20f5/_posts/assets/validation_sciML.pdf)
+1. [Validation of trustworthy SciML](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e23b92b2cac7a1b5a0b52b35dc4446ac6c3d20f5/_posts/assets/validation_sciML.pdf)
 
 2. [Advancing the frontiers of research with SciML](https://www.arxiv.org/pdf/2501.18708)
 
+3. [Physics-informed Deep Learning](https://github.com/maziarraissi/PINNs)
+
+4. [Unreasonable effectiveness of deep learning in AI](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/fc7884ad15bf94ea2e66f625d9bde7b951388ba7/_posts/assets/unreasonable-effectiveness-of-deep-learning-in-AI.pdf)
+
+5. [Why is AI hard and Physics simple?](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/15b3d94ed12fdde4485b7d84898f737545f0ed62/_posts/assets/Physics%20simple-AI%20hard.pdf)
 
 
