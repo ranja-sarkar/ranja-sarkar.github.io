@@ -25,5 +25,5 @@ I dug up the web deeper and found an [illustration](https://www.math.wm.edu/~lee
 Uniform distribution, wherein outcomes are equally likely and standard normal distribution are **continuous probability distributions**.  
 In the latter, mean, median, and mode of the distribution coincide. The curve of the distribution is bell-shaped and symmetrical about the line x=μ (mean). The total area under the curve is 1. Exactly half of the values are to the left of the center and the other half to the right.
 
-![Standard Normal Distribution]()
+![Standard Normal Distribution](_posts/assets/nd.png)
 
