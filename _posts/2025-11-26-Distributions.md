@@ -24,8 +24,9 @@ I dug up the web deeper and found an [illustration](https://www.math.wm.edu/~lee
 
 Uniform distribution, wherein outcomes are equally likely and standard normal distribution are **continuous probability distributions**. In the latter, mean, median, and mode of the distribution coincide. The curve of the distribution is bell-shaped and symmetrical about the line x=μ (mean). The total area under the curve is 1. 
 
-![Standard Normal Distribution](/assets/nd.png)
+![Standard Normal Distribution](/_posts/assets/nd.png)
 
 Exponential (1-parameter) and Weibull (2-parameter) distributions are also continuous probability distributions. To know more about them, please refer to [the page](https://reliability.readthedocs.io/en/latest/Equations%20of%20supported%20distributions.html) of reliability engineering.
 
-Now, Bernoulli distribution for one is a **discrete probability distribution**.
+Now, Bernoulli distribution for one is a **discrete probability distribution**, wherein a single trial has 2 possible outcomes.
+
