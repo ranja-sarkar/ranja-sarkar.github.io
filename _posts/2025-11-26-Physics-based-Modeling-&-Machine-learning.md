@@ -33,9 +33,16 @@ His doctoral research thesis is about Physics-informed machine learning. One of 
 
 <img width="484" height="194" alt="pinn" src="https://github.com/user-attachments/assets/acef87ff-dad7-41c4-9f17-96493ae947dc" />
 
-
 This broadly come under [Scientific Machine Learning (SciML)](https://github.com/SciML), the open-source software for which is available [here](https://sciml.ai/).
 
 ![sciml](https://github.com/user-attachments/assets/cc5ba07e-61cf-4d52-ab56-d31708b208f3)
+
+
+# References
+
+1. [Validation of trustwprthy SciML](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e23b92b2cac7a1b5a0b52b35dc4446ac6c3d20f5/_posts/assets/validation_sciML.pdf)
+
+2. [Advancing the frontiers of research with SciML](https://www.arxiv.org/pdf/2501.18708)
+
 
 
