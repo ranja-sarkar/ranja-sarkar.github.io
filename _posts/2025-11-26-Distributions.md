@@ -4,6 +4,7 @@ title: "Distributions"
 
 date: YYYY-MM-DD hh:mm:ss -0000
 
+categories: CATEGORY-1 CATEGORY-2
 
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [Probability & Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
