@@ -28,7 +28,7 @@ Uniform distribution, wherein outcomes are equally likely and standard normal di
 
 Exponential (1-parameter) and Weibull (2-parameter) distributions are also continuous probability distributions. To know more about them, please refer to [the page](https://reliability.readthedocs.io/en/latest/Equations%20of%20supported%20distributions.html) of reliability engineering.
 
-On the other hand, Bernoulli distribution is a **discrete probability distribution**, wherein a single trial has 2 possible outcomes. If X defines the outcome of the trial and P is the probability of success of 1 outcome, it follows a Bernoulli distribution.
+On the other hand, Bernoulli distribution is a **discrete probability distribution**, wherein a single trial has 2 possible outcomes. If X defines the outcome of the trial and P (y-axis) is the probability of success of 1 outcome, it follows a Bernoulli distribution.
 
 <img width="255" height="184" alt="px" src="https://github.com/user-attachments/assets/a3393118-25e2-40d6-99b4-a5b5fd1bdbf3" />
 
