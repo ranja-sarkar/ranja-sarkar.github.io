@@ -1,5 +1,4 @@
 ---
-title: "Integrating Physics-based Modeling with Machine Learning"
 tags:[Physics, Models, MachineLearning]
 ---
 
