@@ -1,6 +1,5 @@
 author: "Ranja Sarkar"
 
-
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [tag: Probability and tag: Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
 And I couldn't help exclaim, 'how beautifully demonstrated!”
