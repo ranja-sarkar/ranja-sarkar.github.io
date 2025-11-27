@@ -6,16 +6,18 @@ Ranja Sarkar
 
 -----
 
-Missing values in tabular data occur when information is either not available or difficult to find. Grasping the underlying reasons of the absence of data and scrutinizing the nature of missingness are crucial. Often, understanding the data-generating  mechanism becomes important. 
+Missing values in tabular data occur when information is either not available or difficult to find. Grasping the underlying reasons of the absence of data and scrutinizing the nature of missingness are crucial. Often, understanding the data-generating mechanism becomes important. 
+
+**Missingness** is absence. **Sparsity** is scantiness.
 
 ![11](https://github.com/user-attachments/assets/04f4a9ae-2a76-4cf1-8ff1-b3cef401bf7d)
 
-Sparse data is subtly different from missing data. Some values are not present in missing data whereas values are present but zero in sparse data. We often come across sparse datasets with many variables having zero values, presenting challenges in data preparation for training a model. Values are known in sparse data unlike missing data, but they're not useful. This makes it difficult to identify the relevant features in sparse tabular data. If all features are used for machine learning (violating maximum relevance-minimum redundancy), overfitting of model occurs. On the other hand, if too many features are removed (too much data compression), we are at a risk of losing valuable information. 
+Sparse data is subtly different from missing data. Some values are not present in missing data whereas values are present but zero in sparse data. We often come across sparse datasets with many variables having zero values, presenting challenges in data preparation for training a model. 
 
 ![22](https://github.com/user-attachments/assets/7181383c-6ee5-46e9-9cb4-149fd24c3738)
 
 
-**Missingness** is absence. **Sparsity** is scantiness.
+Values are known in sparse data unlike missing data, but they're not useful. This makes it difficult to identify the relevant features in sparse tabular data. If all features are used for machine learning (violating maximum relevance-minimum redundancy), overfitting of model occurs. On the other hand, if too many features are removed (too much data compression), we are at a risk of losing valuable information. 
 
 -----
 
@@ -88,5 +90,5 @@ When working with **text data** and [natural language processing (NLP)](https://
 
 -----
 
-Finally, **sensitivity analysis** which is defined as studying how the uncertainty in model output can be allocated to its inputs, the sources of uncertainty. Assumptions made during imputing missing values cannot be definitively validated for correctness and hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (for missingness & sparsity) data. 
+Finally, **sensitivity analysis** which is defined as studying how the uncertainty in model output can be allocated to its inputs, the sources of uncertainty is important. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (missing & sparse) data. 
 
