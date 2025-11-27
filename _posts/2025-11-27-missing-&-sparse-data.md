@@ -38,10 +38,13 @@ For filling in the gaps or imputing correctly, we must spot the profound busines
 
 ![hash](https://github.com/user-attachments/assets/2993d0ee-86c2-4fef-80ff-6ff9e1903981)
 
-Setting a threshold to the percentage of non-zero values in a feature also helps decide which feature to drop from the data. The one falling below this threshold if removed reduces sparsity of the dataset. There are other methods to do the attain the objective for example, PCA, t-SNE. 
+💡 Setting a threshold to the percentage of non-zero values in a feature also helps decide which feature to drop from the data. The one falling below this threshold if removed reduces sparsity of the dataset. There are other methods to do the attain the objective for example, PCA, t-SNE. 
 
-**PCA** is an unsupervised learning algorithm that identifies principal components (PCs) of the data along principal axes, the directions in which the data varies most. PCs represent the data in a lower-dimensional space with most variability, and preserve maximum information. PCA thus helps identy the top features to train a model, ensuring the model is reliable.  
+💡 **PCA** is an unsupervised learning algorithm that identifies principal components (PCs) of the data along principal axes, the directions in which the data varies most. PCs represent the data in a lower-dimensional space with most variability, and preserve maximum information. PCA thus helps identy the top features to train a model, ensuring the model is reliable.  
 
-t-distributed Stochastic Neighbour Embedding or **t-SNE** is also an unsupervised learning algorithm. It is a nonlinear dimensionality reduction technique used to cluster (also visualize) high-dimensional data. A low dimensional embedding of the data is obtained with t-SNE while preserving global structure of the data. To use t-SNE with sparse data, the sparse matrix must first be converted into a dense matrix. 
+💡 t-distributed Stochastic Neighbour Embedding or **t-SNE** is also an unsupervised learning algorithm. It is a nonlinear dimensionality reduction technique used to cluster (also visualize) high-dimensional data. A low dimensional embedding of the data is obtained with t-SNE while preserving global structure of the data. To use t-SNE with sparse data, the sparse matrix must first be converted into a dense matrix. 
 
 ![ss](https://github.com/user-attachments/assets/bba8800d-b418-497c-af47-3988852736c9)
+
+💡 There are some machine learning algorithms designed to perform well with sparse data. Support Vector Machines (SVM) performs well with sparse data because it efficiently uses a subset of data known as support vectors for maximum margin and reliable training of the model. If there are non-linearities in the feature relationships, a flexible and data-adaptive approach (non-parametric model) is k-Nearest Neighbours (kNN). [XGBoost](https://xgboosting.com/train-xgboost-with-sparse-array/) incorporates sparsity-aware split finding while optimizing the model, providing robust handling of sparse data.  
+
