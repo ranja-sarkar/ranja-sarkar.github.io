@@ -1,5 +1,5 @@
 ---
-tags: data-handling, exploration, analysis
+tags: [data-handling, exploration, analysis]
 ---
 
 Ranja Sarkar
@@ -16,6 +16,6 @@ There exist [missingness patterns](https://github.com/ranja-sarkar/ranja-sarkar.
 
 3. Missing not at random (MNAR)
 
-For filling in the gaps correctly, we must spot the profound business implications of our choices of the method, as missing values may harbor insights capable of driving real impact. Leveraging domain expertise is essential, otherwise the outcome may be biased or erroneous. Missingness thus requires delving deeper into its root causes and tailoring the methods of imputation accordingly. 
+For filling in the gaps or imputing correctly, we must spot the profound business implications of our choices, as missing values may harbor insights capable of driving real impact. Leveraging domain expertise is essential, otherwise the outcome may be biased or erroneous. Missingness thus requires delving deeper into its root causes and tailoring the methods of imputation accordingly. A [benchmark of data imputaion methods](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.693674/full) is required to guide our data preprocessing method selection.
 
 
