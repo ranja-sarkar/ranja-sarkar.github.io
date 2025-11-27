@@ -4,6 +4,8 @@ tags: [physics, models, machinelearning]
 
 Ranja Sarkar
 
+-----
+
 The [paper by Jared Willard et al (2020)](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/bd0e97bb7a75469e16be738cf528f040927ed0d7/_posts/assets/Phys-ml.pdf) about the integration of Physics with machine learning makes for an insightful read. The paper provides the objectives of such integration, *a brief summary of which* is as follows. Please read the paper for more details.
  
  **Finding representations of complex Physics-based models**
