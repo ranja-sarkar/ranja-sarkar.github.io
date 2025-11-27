@@ -1,9 +1,10 @@
 ---
 layout: default
 
-title: My posts
+title: Blogger
 
 permalink: /myblog
 ---
 
+# My posts about Data Science & stuff
 
