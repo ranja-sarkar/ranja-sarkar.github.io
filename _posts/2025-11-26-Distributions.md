@@ -1,7 +1,9 @@
+---
+layout: post
 title: "Distributions"
-
-date: 2025-11-26
-
+date: YYYY-MM-DD hh:mm:ss -0000
+categories: blog
+---
 
 <!-- --- -->
 <!-- tags: [probability, statistics]  -->
