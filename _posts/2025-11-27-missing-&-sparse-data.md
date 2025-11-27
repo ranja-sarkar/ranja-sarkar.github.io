@@ -38,13 +38,26 @@ Out of these types, MNAR raises the level of difficulty of handling missing data
 
 💡 **Mean/median/mode Imputation**
 
+The following scenarios arise while using a [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) dataframe function (python) to drop rows or columns in tabulardata having missing values:
+
+-> dropna(): drops all rows with missing values.
+
+-> dropna(how = ‘all’): drops the rows where all column values are missing.
+
+-> dropna(thresh = minimum_value): drops rows based on a threshold/minimum 
+
+-> dropna(axis = 1): drops all columns with missing values. 
+
+The fillna() pandas function is used to impute with mean or median of the feature or column for continuous or discrete numeric data. Mean and median imputation can provide a good estimate of the missing values for normally distributed and skewed data respectively. However, mean imputation is sensitive to outliers, and median imputation essentially makes the assumption that the data is MCAR which might be not be true in every case. For categorical/qualitative data (nominal or ordinal), the best measures of central tendency are mode and median. 
+
 
 💡 **Multiple Imputation**
 
 
-💡 **Maximum Likelihood Estimation**
 
+💡 **Maximum Likelihood Estimation (MLE)**
 
+The assumption that the observed data are a sample drawn from a multivariate normal distribution helps to estimate the missing data, and it is done ny using conditional distributions of other (relatively complete) features. Expectation Maximization is a type of MLE that can be used to generate a new dataset in which the missing values have been imputed with values estimated by MLE.
 
 -----
 
