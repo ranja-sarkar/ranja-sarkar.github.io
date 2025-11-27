@@ -1,7 +1,8 @@
 theme: jekyll-theme-slate
 title: Dr. Ranja Sarkar
 description: Author of "A Handbook of Mathematical Models with Python" 
-baseurl: /ranja-sarkar
+url: "https://github.com"
+baseurl: "/ranja-sarkar"
 
 
 
