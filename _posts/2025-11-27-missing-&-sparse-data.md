@@ -13,7 +13,9 @@ Sparse data is subtly different from missing data. Some values are not present i
 ![22](https://github.com/user-attachments/assets/7181383c-6ee5-46e9-9cb4-149fd24c3738)
 
 
-**Missingness** is *absence* whereas **sparsity** is *scantiness*.
+**Missingness** is absence.
+
+**Sparsity** is scantiness.
 
 -----
 
