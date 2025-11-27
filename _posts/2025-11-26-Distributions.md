@@ -1,10 +1,13 @@
 ---
 title: "Distributions"
----
+
+date: 2025-11-26
 
 ---
-tags: [probability, statistics]
----
+
+<!-- --- -->
+<!-- tags: [probability, statistics]  -->
+<!-- --- -->
 
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [Probability and Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
