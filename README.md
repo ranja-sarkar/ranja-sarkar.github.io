@@ -1,7 +1,8 @@
 
-[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md)
-
 <img width="289" height="157" alt="bb" src="https://github.com/user-attachments/assets/13b68948-b538-4622-ae1c-16a09dd63641" />
+
+
+[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md)
 
 
 # Part I: Mathematical Modeling
