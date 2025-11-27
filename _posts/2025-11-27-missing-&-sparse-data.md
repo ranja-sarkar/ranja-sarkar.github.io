@@ -38,7 +38,7 @@ Out of these types, MNAR raises the level of difficulty of handling missing data
 
 💡 **Mean/median/mode Imputation**
 
-The following scenarios arise while using a [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) dataframe function (python) to drop rows or columns in tabulardata having missing values:
+The following scenarios arise while using a [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) dataframe function (python) to drop rows or columns in tabular data having missing values.
 
 -> dropna(): drops all rows with missing values.
 
@@ -53,7 +53,13 @@ The fillna() pandas function is used to impute with mean or median of the featur
 
 💡 **Multiple Imputation**
 
+This is a method wherein the missing information in a feature/column is filled by considering the information from other features in the dataset. This method can however be computationally expensive for large datasets. 
 
+The reliance of random forest algorithm on bootstrapping and feature randomness inherently mitigates missing data issues, for example when a feature has missing values, splits on that feature are avoided during model training. It uses a straightforward approach of "surrogate split”, where missing values are substituted using correlated features or majority-class decisions. This retains the implicit simplicity and robustness of the algorithm.
+
+The XGBoost algorithm can also handle missing data, an example is in [this article](https://link.springer.com/article/10.1007/s42452-020-3128-y)
+
+Multiple Imputation by Chained Equations (MICE) and Fully Conditional Specification (FCS) find use in some cases. MICE, for example performs imputation for features with missing data within a separate model which makes it possible to capture complex interactions between them. FCS imputes missing values one at a time, conditional on observations, it then repeats the process multiple times to create several complete datasets. 
 
 💡 **Maximum Likelihood Estimation (MLE)**
 
