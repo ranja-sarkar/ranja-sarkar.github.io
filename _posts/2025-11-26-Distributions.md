@@ -1,9 +1,7 @@
----
 title: "Distributions"
 
 date: 2025-11-26
 
----
 
 <!-- --- -->
 <!-- tags: [probability, statistics]  -->
