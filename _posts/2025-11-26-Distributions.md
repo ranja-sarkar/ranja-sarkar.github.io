@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Distributions"
+title: Distributions
 date: YYYY-MM-DD hh:mm:ss -0000
 categories: blog
 ---
