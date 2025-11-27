@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Distributions
-date: YYYY-MM-DD 
 categories: blog
 ---
 
