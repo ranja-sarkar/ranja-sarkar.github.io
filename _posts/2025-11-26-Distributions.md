@@ -1,9 +1,8 @@
 --- 
 tags: [probability, statistics]  
 ---
-Ranja Sarkar
 
-<img width="289" height="157" alt="bb" src="https://github.com/user-attachments/assets/ea82d644-9d6c-41f8-9c23-6c633dccada0" />
+Ranja Sarkar
 
 -----
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
