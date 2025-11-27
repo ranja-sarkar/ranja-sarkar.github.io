@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: "Blogger"
+title: Blogger
 
 permalink: /myblog
 ---
