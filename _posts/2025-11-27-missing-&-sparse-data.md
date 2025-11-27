@@ -87,3 +87,6 @@ The assumption that the observed data are a sample drawn from a multivariate nor
 When working with **text data** and [natural language processing (NLP)](https://smltar.com/embeddings), sparsity arises because many documents do not contain most words resulting in zero values. There are special data structures and algorithms for handling such data. For example, an array can more efficiently store the locations and values of the non-zero elements (not all elements) than other data structures. 
 
 -----
+
+Finally, **sensitivity analysis** which is defined as studying how the uncertainty in model output can be allocated to its inputs, the sources of uncertainty. Assumptions made during imputing missing values cannot be definitively validated for correctness and hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (for missingness & sparsity) data. 
+
