@@ -1,7 +1,7 @@
 ---
 layout: default
 
-title: "My posts"
+title: ""
 
 permalink: /myblog
 ---
