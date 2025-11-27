@@ -1,12 +1,8 @@
----
-layout: post
-title: Distributions
-categories: blog
+--- 
+tags: [probability, statistics]  
 ---
 
-<!-- --- -->
-<!-- tags: [probability, statistics]  -->
-<!-- --- -->
+Ranja Sarkar
 
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [Probability and Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
