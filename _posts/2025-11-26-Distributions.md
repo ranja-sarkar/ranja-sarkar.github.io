@@ -1,4 +1,10 @@
 ---
+layout: post 
+
+title: "Distributions"
+
+date: YY-MM-DD
+
 tags: [probability, statistics]
 ---
 
