@@ -48,3 +48,8 @@ For filling in the gaps or imputing correctly, we must spot the profound busines
 
 💡 There are some machine learning algorithms designed to perform well with sparse data. Support Vector Machines (SVM) performs well with sparse data because it efficiently uses a subset of data known as support vectors for maximum margin and reliable training of the model. If there are non-linearities in the feature relationships, a flexible and data-adaptive approach (non-parametric model) is k-Nearest Neighbours (kNN). [XGBoost](https://xgboosting.com/train-xgboost-with-sparse-array/) incorporates sparsity-aware split finding while optimizing the model, providing robust handling of sparse data.  
 
+-----
+
+When working with **text data** and [natural language processing (NLP)](https://smltar.com/embeddings), sparsity arises because many documents do not contain most words resulting in zero values. There are special data structures and algorithms for handling such data. For example, an array can more efficiently store the locations and values of the non-zero elements (not all elements) than other data structures. 
+
+-----
