@@ -4,6 +4,8 @@ tags: [data-handling, exploration, analysis]
 
 Ranja Sarkar
 
+-----
+
 Missing values in tabular data occur when information is either not available or difficult to find. Grasping the underlying reasons of the absence of data and scrutinizing the nature of missingness are crucial. Often, understanding the data-generating  mechanism becomes important. 
 
 ![11](https://github.com/user-attachments/assets/04f4a9ae-2a76-4cf1-8ff1-b3cef401bf7d)
@@ -36,5 +38,10 @@ For filling in the gaps or imputing correctly, we must spot the profound busines
 
 ![hash](https://github.com/user-attachments/assets/2993d0ee-86c2-4fef-80ff-6ff9e1903981)
 
+Setting a threshold to the percentage of non-zero values in a feature also helps decide which feature to drop from the data. The one falling below this threshold if removed reduces sparsity of the dataset. There are other methods to do the attain the objective for example, PCA, t-SNE. 
 
+**PCA** is an unsupervised learning algorithm that identifies principal components (PCs) of the data along principal axes, the directions in which the data varies most. PCs represent the data in a lower-dimensional space with most variability, and preserve maximum information. PCA thus helps identy the top features to train a model, ensuring the model is reliable.  
 
+t-distributed Stochastic Neighbour Embedding or **t-SNE** is also an unsupervised learning algorithm. It is a nonlinear dimensionality reduction technique used to cluster (also visualize) high-dimensional data. A low dimensional embedding of the data is obtained with t-SNE while preserving global structure of the data. To use t-SNE with sparse data, the sparse matrix must first be converted into a dense matrix. 
+
+![ss](https://github.com/user-attachments/assets/bba8800d-b418-497c-af47-3988852736c9)
