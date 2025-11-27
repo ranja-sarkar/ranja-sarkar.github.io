@@ -1,8 +1,8 @@
 ---
-layout: post 
-
 title: "Distributions"
+---
 
+---
 tags: [probability, statistics]
 ---
 
