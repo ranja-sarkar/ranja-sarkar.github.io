@@ -1,6 +1,8 @@
 ---
 layout: page
 
+theme: jekyll-theme-minimal
+
 title: Blogger
 
 permalink: /myblog
