@@ -4,6 +4,7 @@
 
 [Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md)
 
+-----
 
 # Part I: Mathematical Modeling
 
