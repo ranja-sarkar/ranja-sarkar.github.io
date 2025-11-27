@@ -33,7 +33,7 @@ For filling in the gaps or imputing correctly, we must spot the profound busines
 
 ![dd](https://github.com/user-attachments/assets/970a0131-f944-4fb6-a472-718bd96dc5dd)
 
-
+Ou of these types, MNAR raises the level of difficulty of handling missing data, because the missingness falls in line with unobserved/implicit features and is capable of distorting the entire data analysis. 
 -----
 
 **Handling sparse data** too demands a nuanced approach. Using sparse data to train a model require good amount of computing resources owing to their large size. They require longer processing time which limits the throughput. There are methods to mitigate these challenges, other than feature hashing wherein each feature is converted into a fixed-length array of values using a hashing function (maps each to an index) that makes it feasible to store the features. 
