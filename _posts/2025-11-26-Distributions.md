@@ -1,7 +1,7 @@
 ---
 tags: [probability, statistics]
 
-title: "Distributions"
+title: Distributions
 ---
 
 
