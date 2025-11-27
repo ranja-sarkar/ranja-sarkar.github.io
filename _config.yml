@@ -2,6 +2,5 @@
 remote_theme: pages-themes/dinky@v0.2.0
 title: Dr. Ranja Sarkar
 description: Author of "A Handbook of Mathematical Models with Python" 
-plugins:
-- jekyll-remote-theme 
+
 
