@@ -1,4 +1,4 @@
----
+<img width="495" height="293" alt="db" src="https://github.com/user-attachments/assets/70f4ebd5-6a70-4ed9-8845-6143fa9604a5" />---
 layout: default
 
 title: Blogger
@@ -19,11 +19,11 @@ I too took a break and visited the Himalayas during the autumn of 2023. The thou
 
 After coming back from my short vacation, during the winter of 2024 I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. 
 
-There are things we realize only when we slow down. Almost all of us have clear understanding and knowledge of a few things and clouded concepts of many other things. Real contentment and joy comes from sharing your learning with others and learn back from them. Contributing to the community has two-way benefits, it's useful to more than just myself.
+There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and clouded, not-so-clear concepts of many other things. Real contentment and joy comes from sharing your knowledge and learning with others and learn back from them. Contributing to the community has two-way benefits, it's useful to more than just myself.
 
 # Posts 
 
-<img width="175" height="149" alt="ds" src="https://github.com/user-attachments/assets/9aec6f34-e3b7-46b7-981a-8ac33d0c4fb3" />
+<img width="495" height="293" alt="db" src="https://github.com/user-attachments/assets/4fbc9cd9-2149-4f07-833c-8d123d0c88f7" />
 
 
 ▶️ [Missing & Sparse Data](https://ranja-sarkar.github.io/2025/11/27/missing-&-sparse-data.html)
