@@ -1,4 +1,4 @@
-<img width="495" height="293" alt="db" src="https://github.com/user-attachments/assets/70f4ebd5-6a70-4ed9-8845-6143fa9604a5" />---
+---
 layout: default
 
 title: Blogger
