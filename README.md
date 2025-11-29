@@ -1,6 +1,7 @@
 
 <img width="289" height="157" alt="bb" src="https://github.com/user-attachments/assets/13b68948-b538-4622-ae1c-16a09dd63641" />
 
+[*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
 
 [Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md)
 
