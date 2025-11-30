@@ -4,7 +4,8 @@ tags: [probability, statistics]
 
 Ranja Sarkar
 
------
+![ben1](https://github.com/user-attachments/assets/de3ef8f5-36c9-4f4d-ba95-1efa71e7077d)
+
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [Probability and Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
 And I couldn't help exclaim, 'how beautifully demonstrated!”
@@ -50,4 +51,11 @@ It is largely used in reliability engineering. [Reliability](https://github.com/
 
 <img width="181" height="353" alt="wbd" src="https://github.com/user-attachments/assets/52a8989a-2cf4-4b86-a729-24105e3f8eef" />
 
+-----
+
+Statistical models can be broadly categorized into two, based on the **probability distributions** they leverage.
+
+1. **Discriminative models** - utilize conditional probability
+
+2. **Generative models** - utilize joint probability distribution
 
