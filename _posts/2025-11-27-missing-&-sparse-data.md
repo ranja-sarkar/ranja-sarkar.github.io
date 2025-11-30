@@ -4,7 +4,7 @@ tags: [data-handling, exploration, analysis]
 
 Ranja Sarkar
 
------
+![named](https://github.com/user-attachments/assets/b35c1f2a-d7c9-4cca-8c4e-e7f1d9af34a8)
 
 Missing values in tabular data occur when information is either not available or difficult to find. Grasping the underlying reasons of the absence of data and scrutinizing the nature of missingness are crucial. Often, understanding the data-generating mechanism becomes important. 
 
