@@ -17,7 +17,7 @@ I too took a break and visited the Himalayas during the autumn of 2023. The thou
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
-After coming back from my short vacation, during the winter of 2024 I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. I'm migrating my Substack posts since (Jan-2024) to GitHub pages, it is work-in-progress.
+After coming back from my short vacation, during the winter of 2024 (Jan) I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. I'm migrating my Substack posts since Oct-2025 to GitHub pages, it is work-in-progress.
 
 There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and clouded, not-so-clear concepts of many other things. Real contentment and joy comes from sharing your knowledge and learning with others and learn back from them. Contributing to the community has two-way benefits, it's useful to more than just myself.
 
@@ -34,9 +34,12 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 ▶️ [Distributions](https://ranja-sarkar.github.io/2025/11/26/Distributions.html)
 
-▶️ [KnowHow]()
+▶️ [KnowHow](https://ranja-sarkar.github.io/2025/11/28/know-how.html)
 
 # Posts
 
 *December-2025*
+
+<img width="518" height="73" alt="prompt" src="https://github.com/user-attachments/assets/cf8fa63e-32c1-43d7-ba3f-59064c03d0a2" />
+
 
