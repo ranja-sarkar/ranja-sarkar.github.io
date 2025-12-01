@@ -111,7 +111,7 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 <img width="155" height="96" alt="33" src="https://github.com/user-attachments/assets/9776af16-ef34-4a30-a69a-93c6b2e04861" />
 
-📌 **Neural networks or deep learning**
+📌 **Neural networks or Deep learning**
 
 LLMs make use of the transformer architecture and Generative AI is backed by LLMs. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
 
@@ -135,7 +135,7 @@ A transformer processes input sequences in parallel, making it efficient for tra
 
 📌 **LLMs to Agents**
 
-If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md). Factual inconsistencies can be mitigated to a good extent by use of RAG.
+If external databases are integrated with an LLM to cater to the specific domain or use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md). Factual inconsistencies can be mitigated to a good extent by use of RAG.
 
 When LLMs dynamically direct their own processes and tools (accessible to them), maintaining control over how they accomplish tasks, they act as **agents**. Agents are different from workflows. Workflows are systems where LLMs and other tools are orchestrated through predefined code paths. We must be well-aware of business cases [when agents should be used](https://www.anthropic.com/engineering/building-effective-agents).
 
@@ -143,11 +143,11 @@ One can build an agent with the open-source [langchain framework](https://docs.l
 
 <img width="445" height="214" alt="ag" src="https://github.com/user-attachments/assets/355d1891-0324-41a5-8d08-0cd481b078a7" />
 
-LLMs can be made and behaviorally conscious and more responsible in their outputs by rewarding good decisions and punishing bad ones. Training a machine/model to make better decisions/outcome by rewarding is known as **reinforcement learning (RL)**. 
+LLMs can be made and behaviorally conscious and more responsible in their outputs by rewarding good decisions and punishing bad ones. Training a machine/model to make better decisions/outcome by rewarding is known as [reinforcement learning (RL)](https://mlu-explain.github.io/reinforcement-learning/). 
 
 <img width="743" height="301" alt="rl" src="https://github.com/user-attachments/assets/40b0a8b3-c3ad-4ddc-af88-becbc3a35cec" />
 
-LMs can be made better by RL from human feedback [(RLHF)](https://github.com/ranja-sarkar/LLM-RAG/tree/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/self-correction).
+LLMs can be made to perform better by RL from human feedback [(RLHF)](https://github.com/ranja-sarkar/LLM-RAG/tree/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/self-correction).
 
 -----
 
@@ -159,10 +159,9 @@ LMs can be made better by RL from human feedback [(RLHF)](https://github.com/ran
 
 ▶️  The self-attention operation has O(n²) [time complexity](https://ranjas.substack.com/p/data-structures-and-algorithms), the mechanism with which LLMs analyse relations between tokens kills efficiency
 
-It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
+It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations in the output. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
 
 
-💡 Memory-efficient hybrid systems are smarter solutions.
+💡*Memory-efficient hybrid systems are smarter solutions.*
 
 
-<img width="83" height="164" alt="ll" src="https://github.com/user-attachments/assets/1da3bc13-af94-483d-b8fc-c88fa6e96a14" />
