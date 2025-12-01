@@ -7,7 +7,7 @@ Ranja Sarkar
 <img width="554" height="155" alt="22" src="https://github.com/user-attachments/assets/6f3aa923-5473-429c-b73f-497a6344ffac" />
 
 
-If represented in a Venn diagram, the AI world underwent a change with the advent of generative AI (genAI). Natural language processing (NLP) and machine learning (ML) remain major subsets in the AI superset. The deep learning (DL) set has genAI as a subset having substantial intersection with NLP.  
+If represented in a Venn diagram, the AI superset has two major subsets - Natural language processing (NLP) and machine learning (ML). Deep learning (DL) or neural networks forms a sub-subset and generative AI is a subset of DL having substantial intersection with NLP.  
 
 <img width="359" height="151" alt="11" src="https://github.com/user-attachments/assets/6ab64b0f-1db1-45fb-b827-7ec9b435e358" />
 
@@ -54,7 +54,7 @@ The **classical approach** of converting text into numeric vectors is to use the
 
 -----
 
-In [**transformer architecture**](https://github.com/ranja-sarkar/LLM-RAG/blob/main/attention.pdf) which underlies large language models (LLMs), a positional encoding matrix is created to represent all the possible positions a word/token can take. 
+In [transformer architecture](https://github.com/ranja-sarkar/LLM-RAG/blob/main/attention.pdf) which underlies **large language models (LLMs)**, a positional encoding matrix is created to represent all the possible positions a word/token can take. 
 
 Positional encoding is used to provide a relative position for each token in a sequence. When reading a sentence, each word in the sentence is dependent on the words around it. For example, some words have different meanings in different contexts, so a model should understand these variations and the words that each word relies on for context. 
 In the architecture, the values in the representation are not fixed binary values but changing floating points allowing for fine-grained learned representations.
@@ -82,9 +82,9 @@ Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One
 
 Post pre-processing and feature extraction, the data is ready to be comsumed that is, models can be trained with the data.
 
-A supervised learning model learns patterns from the features to predict the labels. We perform classification tasks with labelled data, for example detection of spam emails wherein the model is trained with emails that have labels (spam and no-spam). Typical supervised learning algorithms used for text classification are (multinomial) [Naive Bayes](https://colab.research.google.com/drive/1KP4h2GylP6bH9H0q_W0k6gQokWXasY9-) and logistic regression.  
+A **supervised learning** model learns patterns from the features to predict the labels. We perform classification tasks with labelled data, for example detection of spam emails wherein the model is trained with emails that have labels (spam and no-spam). Typical supervised learning algorithms used for text classification are (multinomial) [Naive Bayes](https://colab.research.google.com/drive/1KP4h2GylP6bH9H0q_W0k6gQokWXasY9-) and logistic regression.  
 
-Unsupervised learning encompasses 
+**Unsupervised learning** encompasses 
 
 1. **clustering** algorithms like (agglomerative/bottom-up) [hierarchical clustering](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering) (connectivity-based), kmeans clustering (centroid-based), density-based clustering (DBSCAN, [OPTICS](https://scikit-learn.org/stable/auto_examples/cluster/plot_optics.html)) 
 
@@ -105,6 +105,8 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 <img width="155" height="96" alt="33" src="https://github.com/user-attachments/assets/9776af16-ef34-4a30-a69a-93c6b2e04861" />
 
+📌 **Tokens to neural networks to LLMs**
 
+LLMs make use of the transformer architecture. 
 
 ![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
