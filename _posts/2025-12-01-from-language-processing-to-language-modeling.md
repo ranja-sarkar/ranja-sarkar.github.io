@@ -20,7 +20,7 @@ Coming back to the Venn diagram, the [remaining space](https://open.substack.com
 
 With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data here.
 
-📌 NLP
+📌 **NLP**
 
 NLP involves transforming raw text data into a format that the machine understands. In NLP, each text sentence is called a document and collection of documents is referred to as text corpus.  
 
@@ -40,8 +40,15 @@ Good old **python libraries** like **nltk**, spacy, gensim, textblob can be used
 
 <img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/7040db22-9a07-4507-aa04-2d47c946ca4d" />
 
-These days we have [tokenizers](https://github.com/huggingface/tokenizers) by Hugging Face](https://huggingface.co/) available to do the same. Hugging face also has a [playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground) to experiment with different tokenizers. 
+These days we have [tokenizers](https://github.com/huggingface/tokenizers) by [Hugging Face](https://huggingface.co/) available to do the same. Hugging face also has a [playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground) to experiment with different tokenizers. 
+
+<img width="256" height="110" alt="05" src="https://github.com/user-attachments/assets/9109a56b-7368-477c-b79c-183fb6812797" />
 
 
+2. Part-Of-Speech (POS) tagging can be rule-based, statistical or based on deep learning 
+
+This is usually done for entity recognition from a corpus.
+
+3. Vectorization is word embedding which is converting the tokens into numbers. In [embeddings](https://madewithml.com/courses/foundations/embeddings/), we have fixed length representations for the tokens in a text regardless of the number of tokens in the vocabulary. 
 
 ![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
