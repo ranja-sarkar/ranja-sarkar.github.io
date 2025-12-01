@@ -1,11 +1,11 @@
-
 ---
 tags: [nlp, llm]
 ---
 
 Ranja Sarkar
 
-![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
+<img width="554" height="155" alt="22" src="https://github.com/user-attachments/assets/6f3aa923-5473-429c-b73f-497a6344ffac" />
+
 
 If represented in a Venn diagram, the AI world underwent a change with the advent of generative AI (genAI). Natural language processing (NLP) and machine learning (ML) remain major subsets in the AI superset. The deep learning (DL) set has genAI as a subset having substantial intersection with NLP.  
 
@@ -19,4 +19,20 @@ Well, we humans create value with data and it is what we call Data Science that 
 Coming back to the Venn diagram, the [remaining space](https://open.substack.com/pub/ranjas/p/artificial-intelligence) in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization.
 
 With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data here.
- 
+
+📌 NLP
+
+NLP involves transforming raw text data into a format that the machine understands. In NLP, each text sentence is called a document and collection of documents is referred to as text corpus.  
+
+1. Data pre-processing or text cleaning comprises of tokenization, stemming & lemmatization
+
+   <img width="947" height="194" alt="00" src="https://github.com/user-attachments/assets/45699eed-cd58-4940-b6a3-de6ff6b67958" />
+
+
+   <img width="634" height="161" alt="01" src="https://github.com/user-attachments/assets/d0d1c718-4b73-4a01-b2a2-1ae45651ad28" />
+
+<img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/bc89421d-9c15-4297-a938-34a0afa752dd" />
+
+
+
+![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
