@@ -34,7 +34,7 @@ The stem in lemmatization belongs to a valid word in the language.
 
 <img width="761" height="184" alt="02" src="https://github.com/user-attachments/assets/6d2a9962-bd23-4722-b9ba-2b6ccf113710" />
 
-Good old **python**](https://www.nltk.org/) libraries like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
+Good old [**python**](https://www.nltk.org/) libraries like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
 
 <img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/7040db22-9a07-4507-aa04-2d47c946ca4d" />
 
@@ -109,14 +109,13 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 LLMs make use of the transformer architecture and Generative AI is backed by LLMs. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
 
-*LLMs split the text (input sequence/sentence) into tokens, convert them into vector embeddings.*
+▶️ *LLMs split the text (input sequence/sentence) into tokens, convert them into vector embeddings.*
 
-*LLMs use positional embeddings to track token order.* 
+▶️ *LLMs use positional embeddings to track token order.* 
 
 Positional encoding is typically introduced as a set of additional vectors that are added to the embeddings. A positional encoding vector is created for each position so each position has a unique representation, before being fed into the network. Feedforward neural networks apply non-linear transformations to the token representations, allowing capture of complex patterns and relationships. 
 
-*The self-attention mechanism in a transformer architecture allows each word to attend to every other word in the sequence, weighing the importance for the current token.
-The cross-attention mechanism on the other hand allows looking across a related sequence. Self-attention operates in multiple attention heads to capture different relationships between tokens. Cross-attention is also multi-headed. The activation function softmax is used to calculate attention weights in the multi-head attention mechanism.*
+▶️ *The self-attention mechanism in a transformer architecture allows each word to attend to every other word in the sequence, weighing the importance for the current token.The cross-attention mechanism on the other hand allows looking across a related sequence. Self-attention operates in multiple attention heads to capture different relationships between tokens. Cross-attention is also multi-headed. The activation function softmax is used to calculate attention weights in the multi-head attention mechanism.*
 
 -----
 
@@ -126,11 +125,17 @@ The families of the transformer architecture are encoder-only, decoder-only, and
 
 A transformer processes input sequences in parallel, making it efficient for training and inference. It has better long-range interaactions and makes it deeper (in layers) than Recurrent Neural Networks (RNNs) in practice.  It needs less training time than that needed by RNNs which also run into limitations in retaining context when the “distance” or range between pieces of information in an input is long.
 
-💡 **A transformer is one of the most important sequence modeling improvements of the past decade.**
+💡 *A transformer is one of the most important sequence modeling improvements of the past decade.*
 
 📌 **GPTs to Agents**
 
+If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [**RAG (retrieval augmented generation)**](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md).
 
+When LLMs dynamically direct their own processes and tools (accessible to them), maintaining control over how they accomplish tasks, they act as **agents**. Agents are different from workflows. Workflows are systems where LLMs and other tools are orchestrated through predefined code paths. We must be well-aware of business cases [when agents should be used](https://www.anthropic.com/engineering/building-effective-agents).
+
+One can build an agent with the [langchain framework](https://docs.langchain.com/oss/python/langchain/rag).
+
+<img width="445" height="214" alt="ag" src="https://github.com/user-attachments/assets/355d1891-0324-41a5-8d08-0cd481b078a7" />
 
 
 ![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
