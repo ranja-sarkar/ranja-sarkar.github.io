@@ -36,10 +36,11 @@ The stem in lemmatization belongs to a valid word in the language.
 
 <img width="761" height="184" alt="02" src="https://github.com/user-attachments/assets/6d2a9962-bd23-4722-b9ba-2b6ccf113710" />
 
-Good old **python libraries** like **nltk**, spacy, gensim, textblob can be used to tokenize as well.
+Good old **python libraries** like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
 
 <img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/7040db22-9a07-4507-aa04-2d47c946ca4d" />
 
+These days we have [tokenizers](https://github.com/huggingface/tokenizers) by Hugging Face](https://huggingface.co/) available to do the same. Hugging face also has a [playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground) to experiment with different tokenizers. 
 
 
 
