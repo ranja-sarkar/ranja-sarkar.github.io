@@ -24,7 +24,7 @@ With NLP, several tasks like topic classification, sentiment analysis, relations
 
 NLP involves transforming raw text data into a format that the machine understands. In NLP, each text sentence is called a document and collection of documents is referred to as text corpus.  
 
-1. Data pre-processing or text cleaning comprises of tokenization, stemming & lemmatization
+✅ Data pre-processing or text cleaning comprises of tokenization, stemming & lemmatization
 
 <img width="947" height="194" alt="00" src="https://github.com/user-attachments/assets/45699eed-cd58-4940-b6a3-de6ff6b67958" />
 
@@ -44,11 +44,30 @@ These days we have [tokenizers](https://github.com/huggingface/tokenizers) by [H
 
 <img width="256" height="110" alt="05" src="https://github.com/user-attachments/assets/9109a56b-7368-477c-b79c-183fb6812797" />
 
-
-2. Part-Of-Speech (POS) tagging can be rule-based, statistical or based on deep learning 
+✅ Part-Of-Speech (POS) tagging can be rule-based, statistical or based on deep learning 
 
 This is usually done for entity recognition from a corpus.
 
-3. Vectorization is word embedding which is converting the tokens into numbers. In [embeddings](https://madewithml.com/courses/foundations/embeddings/), we have fixed length representations for the tokens in a text regardless of the number of tokens in the vocabulary. 
+✅ Vectorization is word embedding, which is converting the tokens into numbers. In [embeddings](https://madewithml.com/courses/foundations/embeddings/), we have fixed length representations for the tokens in a text regardless of the number of tokens in the vocabulary. 
+
+N-grams can be used when we want to preserve sequence information in the text data (what word is likely to follow a given one). Unigram (N=1) however does not contain any sequence information (a word is considered individually). 
+
+The classical approach of converting text into numeric vectors is to use the Bag-of-words (BoW) method. The principle of BoW is to take all the unique words/tokens from the text and create a text corpus called vocabulary. Using the vocabulary, each sentence/document can be represented as a vector consisting of ones and zeros, depending on whether a word from the vocabulary is present in the sentence or not. With one-hot encoding, each token is represented by an array of vocabulary size but with embeddings, each token now has the shape of an embedding dimension. 
+
+-----
+
+In transformer architecture which underlies large language models (LLMs), a positional encoding matrix is created to represent all the possible positions a word/token can take. 
+
+Positional encoding is used to provide a relative position for each token in a sequence. When reading a sentence, each word in the sentence is dependent on the words around it. For example, some words have different meanings in different contexts, so a model should understand these variations and the words that each word relies on for context. 
+In the architecture, the values in the representation are not fixed binary values but changing floating points allowing for fine-grained learned representations.
+
+-----
+
+Now coming back to the classical approach, tTwo sentences are said to be similar if they contain similar set of words. To add more context to the vocabulary, tokens may be grouped together. This method is called N-gram approach. An N-gram is a sequence of N tokens for example, a bigram is a sequence of two words. Once the vocabulary is chosen, occurrences of the grams must be counted. The downside of BoW approach is that popular or frequent words become too important.
+
+A better method called term frequency-inverse document frequency (TF-IDF) is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, and n is the number of documents containing the word, then IDF = log(N/n).
+
+
+
 
 ![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
