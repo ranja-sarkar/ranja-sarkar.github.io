@@ -54,7 +54,7 @@ The **classical approach** of converting text into numeric vectors is to use the
 
 -----
 
-In **transformer architecture** which underlies large language models (LLMs), a positional encoding matrix is created to represent all the possible positions a word/token can take. 
+In [**transformer architecture**](https://github.com/ranja-sarkar/LLM-RAG/blob/main/attention.pdf) which underlies large language models (LLMs), a positional encoding matrix is created to represent all the possible positions a word/token can take. 
 
 Positional encoding is used to provide a relative position for each token in a sequence. When reading a sentence, each word in the sentence is dependent on the words around it. For example, some words have different meanings in different contexts, so a model should understand these variations and the words that each word relies on for context. 
 In the architecture, the values in the representation are not fixed binary values but changing floating points allowing for fine-grained learned representations.
@@ -78,7 +78,7 @@ The journey from lexical search to semantic search to a more advanced hybrid sea
 
 Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One can enhance search experience by combining the precision of keyword search and the context understanding of semantic search by crafting hybrid search queries. 
 
-📌 Machine Learning
+📌 **Machine Learning**
 
 Post pre-processing and feature extraction, the data is ready to be comsumed that is, models can be trained with the data.
 
@@ -88,7 +88,19 @@ Unsupervised learning encompasses
 
 1. **clustering** algorithms like (agglomerative/bottom-up) [hierarchical clustering](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering) (connectivity-based), kmeans clustering (centroid-based), density-based clustering (DBSCAN, [OPTICS](https://scikit-learn.org/stable/auto_examples/cluster/plot_optics.html)) 
 
-2. automated **text summarization** and &&topic modeling**
+2. automated **text summarization** and **topic modeling**
+
+**Text summarization**, as the name suggests is creating summary of a corpus. Summarization algorithms perform best with big and long documents. 
+
+<img width="669" height="258" alt="11" src="https://github.com/user-attachments/assets/2f06f6fa-fc07-4833-bc89-b7eb7db52c1d" />
+
+
+**Topic modeling** focuses on extracting themes from a collection of text documents (when texts are diverse). Topic models are probabilistic models. They are developed using linear algebraic methods such as singular value decomposition (SVD) to uncover latent semantic structures from texts wherein matrix factorization divides a feature matrix into smaller components. 
+
+<img width="534" height="267" alt="22" src="https://github.com/user-attachments/assets/6cfd8f25-0735-4285-8eb7-7b9b05c288b2" />
+
+Algorithms such as [Latent Dirichlet Allocation (LDA)](), [Latent Semantic Analysis (LSA)]() take advantage of methods from linear algebra to divide a document into topics (clusters of words). The resulting vector contains all topics with weights. Similar content can be grouped by their topics (text classification).  
+
 
 
 
