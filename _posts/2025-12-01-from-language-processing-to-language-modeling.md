@@ -74,11 +74,15 @@ If N is the total number of documents, n is the number of documents containing t
 
 A word has a higher TF-IDF score if it occurs more (frequently) in a document but occurs less or infrequently in the corpus. The TF-IDF score determines how unique the word is in the corpus.
 
+-----
+
 A lexical (keyword) search result is scored by similarity methods like TF-IDF whose scales are usually unbounded, while a semantic (vector) search result is scored by distance methods like cosine similarity etc. whose scales are within a closed interval.
 
 The journey from lexical search to semantic search to a more advanced hybrid search is about how information retrieval can be improved. Hybrid search is sort of a ‘sum’ of lexical search and semantic search and when done right, can yield more relevant results than either. The methods used to merge the lexical and semantic search results to get to a hybrid search query have been well explained in the article by [Elastic Search service](https://www.elastic.co/search-labs/blog/hybrid-search-elasticsearch).
 
-Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One can enhance search experience by combining the precision of keyword search and the context understanding of semantic search by crafting hybrid search queries. 
+Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One can enhance search experience by combining the precision of lexical search and the context understanding of semantic search and crafting hybrid search queries. 
+
+-----
 
 📌 **Machine Learning**
 
@@ -131,7 +135,7 @@ A transformer processes input sequences in parallel, making it efficient for tra
 
 📌 **LLMs to Agents**
 
-If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [**RAG (retrieval augmented generation)**](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md).
+If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md).
 
 When LLMs dynamically direct their own processes and tools (accessible to them), maintaining control over how they accomplish tasks, they act as **agents**. Agents are different from workflows. Workflows are systems where LLMs and other tools are orchestrated through predefined code paths. We must be well-aware of business cases [when agents should be used](https://www.anthropic.com/engineering/building-effective-agents).
 
@@ -139,9 +143,27 @@ One can build an agent with the open-source [langchain framework](https://docs.l
 
 <img width="445" height="214" alt="ag" src="https://github.com/user-attachments/assets/355d1891-0324-41a5-8d08-0cd481b078a7" />
 
-LLMs can be made and behaviorally conscious and more responsible in their outputs by rewarding good decisions and punishing bad ones. Training a machine/model to make better decisions by rewarding is known as **reinforcement learning (RL)**. LLMs can be made better by RL from human feedback [(RLHF)](https://github.com/ranja-sarkar/LLM-RAG/tree/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/self-correction).
+LLMs can be made and behaviorally conscious and more responsible in their outputs by rewarding good decisions and punishing bad ones. Training a machine/model to make better decisions/outcome by rewarding is known as **reinforcement learning (RL)**. 
 
 <img width="743" height="301" alt="rl" src="https://github.com/user-attachments/assets/40b0a8b3-c3ad-4ddc-af88-becbc3a35cec" />
+
+LMs can be made better by RL from human feedback [(RLHF)](https://github.com/ranja-sarkar/LLM-RAG/tree/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/self-correction).
+
+-----
+
+📌 **Caveats**
+
+Yes! They follow.
+
+▶️ Longer input sequences mean more tokens which in turn means high memory usage and often overload (cache for storing tokens to be reused), leading to very slow processing. This forces costly memory allocation. 
+
+▶️ Older tokens lose relevance as the input grows, the model tends to forget older tokens and focus on recent ones, leading to factual inconsistencies with growing input size.
+
+▶️  The self-attention operation has O(n²) [time complexity](https://ranjas.substack.com/p/data-structures-and-algorithms), the mechanism with which LLMs analyse relations between tokens, killing efficiency
+
+It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
+
+
 
 
 
