@@ -18,7 +18,7 @@ Well, we humans create value with data and it is what we call Data Science that 
 
 Coming back to the Venn diagram, the [remaining space](https://open.substack.com/pub/ranjas/p/artificial-intelligence) in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization.
 
-With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data here.
+With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI.
 
 📌 **NLP**
 
@@ -113,7 +113,7 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 📌 **Neural networks or Deep learning**
 
-LLMs make use of the transformer architecture and Generative AI is backed by LLMs. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
+LLMs make use of the transformer architecture and **generative AI is backed by LLMs**. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
 
 ▶️ *LLMs split the text (input sequence/sentence) into tokens, convert them into vector embeddings.*
 
@@ -133,7 +133,7 @@ A transformer processes input sequences in parallel, making it efficient for tra
 
 💡 *A transformer is one of the most important sequence modeling improvements of the past decade.*
 
-📌 **LLMs to Agents**
+📌 **LLMs to Agents (generative AI)**
 
 If external databases are integrated with an LLM to cater to the specific domain or use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md). Factual inconsistencies can be mitigated to a good extent by use of RAG.
 
@@ -151,7 +151,7 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 
 -----
 
-📌 **Caveats**
+➡️ **Caveats**
 
 ▶️ Longer input sequences mean more tokens which in turn means high memory usage and often overload (cache for storing tokens to be reused), leading to very slow processing. This forces costly memory allocation. 
 
