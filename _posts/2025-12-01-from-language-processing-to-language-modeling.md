@@ -135,7 +135,7 @@ A transformer processes input sequences in parallel, making it efficient for tra
 
 📌 **LLMs to Agents**
 
-If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md).
+If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md). Factual inconsistencies can be mitigated to a good extent by use of RAG.
 
 When LLMs dynamically direct their own processes and tools (accessible to them), maintaining control over how they accomplish tasks, they act as **agents**. Agents are different from workflows. Workflows are systems where LLMs and other tools are orchestrated through predefined code paths. We must be well-aware of business cases [when agents should be used](https://www.anthropic.com/engineering/building-effective-agents).
 
@@ -153,19 +153,16 @@ LMs can be made better by RL from human feedback [(RLHF)](https://github.com/ran
 
 📌 **Caveats**
 
-Yes! They follow.
-
 ▶️ Longer input sequences mean more tokens which in turn means high memory usage and often overload (cache for storing tokens to be reused), leading to very slow processing. This forces costly memory allocation. 
 
 ▶️ Older tokens lose relevance as the input grows, the model tends to forget older tokens and focus on recent ones, leading to factual inconsistencies with growing input size.
 
-▶️  The self-attention operation has O(n²) [time complexity](https://ranjas.substack.com/p/data-structures-and-algorithms), the mechanism with which LLMs analyse relations between tokens, killing efficiency
+▶️  The self-attention operation has O(n²) [time complexity](https://ranjas.substack.com/p/data-structures-and-algorithms), the mechanism with which LLMs analyse relations between tokens kills efficiency
 
 It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
 
 
+💡 Memory-efficient hybrid systems are smarter solutions.
 
 
-
-
-![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
+<img width="83" height="164" alt="ll" src="https://github.com/user-attachments/assets/1da3bc13-af94-483d-b8fc-c88fa6e96a14" />
