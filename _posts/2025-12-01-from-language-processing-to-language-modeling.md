@@ -52,11 +52,11 @@ This is usually done for entity recognition from a corpus.
 
 N-grams can be used when we want to preserve sequence information in the text data (what word is likely to follow a given one). Unigram (N=1) however does not contain any sequence information (a word is considered individually). 
 
-The classical approach of converting text into numeric vectors is to use the Bag-of-words (BoW) method. The principle of BoW is to take all the unique words/tokens from the text and create a text corpus called vocabulary. Using the vocabulary, each sentence/document can be represented as a vector consisting of ones and zeros, depending on whether a word from the vocabulary is present in the sentence or not. With one-hot encoding, each token is represented by an array of vocabulary size but with embeddings, each token now has the shape of an embedding dimension. 
+The **classical approach** of converting text into numeric vectors is to use the **Bag-of-words (BoW)** method. The principle of BoW is to take all the unique words/tokens from the text and create a text corpus called vocabulary. Using the vocabulary, each sentence/document can be represented as a vector consisting of ones and zeros, depending on whether a word from the vocabulary is present in the sentence or not. With one-hot encoding, each token is represented by an array of vocabulary size but with embeddings, each token now has the shape of an embedding dimension. 
 
 -----
 
-In transformer architecture which underlies large language models (LLMs), a positional encoding matrix is created to represent all the possible positions a word/token can take. 
+In **transformer architecture** which underlies large language models (LLMs), a positional encoding matrix is created to represent all the possible positions a word/token can take. 
 
 Positional encoding is used to provide a relative position for each token in a sequence. When reading a sentence, each word in the sentence is dependent on the words around it. For example, some words have different meanings in different contexts, so a model should understand these variations and the words that each word relies on for context. 
 In the architecture, the values in the representation are not fixed binary values but changing floating points allowing for fine-grained learned representations.
@@ -65,7 +65,15 @@ In the architecture, the values in the representation are not fixed binary value
 
 Now coming back to the classical approach, tTwo sentences are said to be similar if they contain similar set of words. To add more context to the vocabulary, tokens may be grouped together. This method is called N-gram approach. An N-gram is a sequence of N tokens for example, a bigram is a sequence of two words. Once the vocabulary is chosen, occurrences of the grams must be counted. The downside of BoW approach is that popular or frequent words become too important.
 
-A better method called term frequency-inverse document frequency (TF-IDF) is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, and n is the number of documents containing the word, then IDF = log(N/n).
+<img width="473" height="233" alt="101" src="https://github.com/user-attachments/assets/4790dfc4-4ecb-4a7f-87f6-d593d5565c64" />
+
+
+A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, and n is the number of documents containing the word, then IDF = log(N/n).
+
+<img width="478" height="112" alt="102" src="https://github.com/user-attachments/assets/1e5e0dab-d462-4704-a0d0-a8454a8c9117" />
+
+
+a word has a higher TF-IDF score if it occurs more (frequently) in a document but occurs less or infrequently in the corpus. The TF-IDF score determines how unique the word is in the corpus.
 
 
 
