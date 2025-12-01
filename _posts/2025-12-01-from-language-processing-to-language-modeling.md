@@ -99,8 +99,11 @@ Unsupervised learning encompasses
 
 <img width="534" height="267" alt="22" src="https://github.com/user-attachments/assets/6cfd8f25-0735-4285-8eb7-7b9b05c288b2" />
 
-Algorithms such as [Latent Dirichlet Allocation (LDA)](), [Latent Semantic Analysis (LSA)]() take advantage of methods from linear algebra to divide a document into topics (clusters of words). The resulting vector contains all topics with weights. Similar content can be grouped by their topics (text classification).  
+Algorithms such as [Latent Dirichlet Allocation (LDA)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html#sklearn.decomposition.LatentDirichletAllocation), [Latent Semantic Analysis (LSA)](https://www.datacamp.com/tutorial/discovering-hidden-topics-python) take advantage of inear algebra to divide a document into topics (clusters of words). The resulting vector contains all topics with weights. Similar content can be grouped by their topics (text classification).  
 
+LDA is a conditional, probabilistic form of topic modeling which uncovers the latent topics (themes) characterizing a collection of documents.  If we have two topics, Topic 1 and Topic 2, the scores attached to each word are the probability of that keyword appearing under a topic across the whole corpus.
+
+<img width="155" height="96" alt="33" src="https://github.com/user-attachments/assets/9776af16-ef34-4a30-a69a-93c6b2e04861" />
 
 
 
