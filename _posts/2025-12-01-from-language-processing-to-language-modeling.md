@@ -28,10 +28,11 @@ NLP involves transforming raw text data into a format that the machine understan
 
    <img width="947" height="194" alt="00" src="https://github.com/user-attachments/assets/45699eed-cd58-4940-b6a3-de6ff6b67958" />
 
+Tokenization is the process of breaking text into individuals words or tokens. Normalizing the text would entail removing punctuations and stopwords, one may or may not utilize it depending on the use case.  Stemming means reducing a word to its stem (root word), it removes the morphological affixes from words, leaving only the root word. The stem in lemmatization belongs to a valid word in the language. 
 
    <img width="634" height="161" alt="01" src="https://github.com/user-attachments/assets/d0d1c718-4b73-4a01-b2a2-1ae45651ad28" />
 
-<img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/bc89421d-9c15-4297-a938-34a0afa752dd" />
+
 
 
 
