@@ -34,7 +34,7 @@ The stem in lemmatization belongs to a valid word in the language.
 
 <img width="761" height="184" alt="02" src="https://github.com/user-attachments/assets/6d2a9962-bd23-4722-b9ba-2b6ccf113710" />
 
-Good old **python libraries** like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
+Good old **python**](https://www.nltk.org/) libraries like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
 
 <img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/7040db22-9a07-4507-aa04-2d47c946ca4d" />
 
@@ -80,7 +80,7 @@ Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One
 
 📌 **Machine Learning**
 
-Post pre-processing and feature extraction, the data is ready to be comsumed that is, models can be trained with the data.
+Post pre-processing and feature extraction, the data is ready to be consumed that is, models can be trained with the data.
 
 A **supervised learning** model learns patterns from the features to predict the labels. We perform classification tasks with labelled data, for example detection of spam emails wherein the model is trained with emails that have labels (spam and no-spam). Typical supervised learning algorithms used for text classification are (multinomial) [Naive Bayes](https://colab.research.google.com/drive/1KP4h2GylP6bH9H0q_W0k6gQokWXasY9-) and logistic regression.  
 
@@ -90,7 +90,7 @@ A **supervised learning** model learns patterns from the features to predict the
 
 2. automated **text summarization** and **topic modeling**
 
-**Text summarization**, as the name suggests is creating summary of a corpus. Summarization algorithms perform best with big and long documents. 
+**Text summarization**, as the name suggests is creating summary of a corpus. Summarization algorithms like [Latent Semantic Analysis (LSA)](https://www.datacamp.com/tutorial/discovering-hidden-topics-python) perform best with big and long documents. 
 
 <img width="669" height="258" alt="11" src="https://github.com/user-attachments/assets/2f06f6fa-fc07-4833-bc89-b7eb7db52c1d" />
 
@@ -99,14 +99,38 @@ A **supervised learning** model learns patterns from the features to predict the
 
 <img width="534" height="267" alt="22" src="https://github.com/user-attachments/assets/6cfd8f25-0735-4285-8eb7-7b9b05c288b2" />
 
-Algorithms such as [Latent Dirichlet Allocation (LDA)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html#sklearn.decomposition.LatentDirichletAllocation), [Latent Semantic Analysis (LSA)](https://www.datacamp.com/tutorial/discovering-hidden-topics-python) take advantage of inear algebra to divide a document into topics (clusters of words). The resulting vector contains all topics with weights. Similar content can be grouped by their topics (text classification).  
+Algorithms such as [Latent Dirichlet Allocation (LDA)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html#sklearn.decomposition.LatentDirichletAllocation), LSA take advantage of inear algebra to divide a document into topics (clusters of words). The resulting vector contains all topics with weights. Similar content can be grouped by their topics (text classification).  
 
-LDA is a conditional, probabilistic form of topic modeling which uncovers the latent topics (themes) characterizing a collection of documents.  If we have two topics, Topic 1 and Topic 2, the scores attached to each word are the probability of that keyword appearing under a topic across the whole corpus.
+LDA is a conditional, probabilistic form of topic modeling which uncovers the latent topics (themes) characterizing a collection of documents. If we have two topics, Topic 1 and Topic 2, the scores attached to each word are the probability of that keyword appearing under a topic across the whole corpus.
 
 <img width="155" height="96" alt="33" src="https://github.com/user-attachments/assets/9776af16-ef34-4a30-a69a-93c6b2e04861" />
 
 📌 **Tokens to neural networks to LLMs**
 
-LLMs make use of the transformer architecture. 
+LLMs make use of the transformer architecture and Generative AI is backed by LLMs. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
+
+*LLMs split the text (input sequence/sentence) into tokens, convert them into vector embeddings.*
+
+*LLMs use positional embeddings to track token order.* 
+
+Positional encoding is typically introduced as a set of additional vectors that are added to the embeddings. A positional encoding vector is created for each position so each position has a unique representation, before being fed into the network. Feedforward neural networks apply non-linear transformations to the token representations, allowing capture of complex patterns and relationships. 
+
+*The self-attention mechanism in a transformer architecture allows each word to attend to every other word in the sequence, weighing the importance for the current token.
+The cross-attention mechanism on the other hand allows looking across a related sequence. Self-attention operates in multiple attention heads to capture different relationships between tokens. Cross-attention is also multi-headed. The activation function softmax is used to calculate attention weights in the multi-head attention mechanism.*
+
+-----
+
+The families of the transformer architecture are encoder-only, decoder-only, and [encoder-decoder](https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder). An encoder network looks across the input sequence and the decoder network looks across a sequence of representations from the encoder. The **GPT (generative pre-trained transformer)** series developed by OpenAI has a decoder-only architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
+
+-----
+
+A transformer processes input sequences in parallel, making it efficient for training and inference. It has better long-range interaactions and makes it deeper (in layers) than Recurrent Neural Networks (RNNs) in practice.  It needs less training time than that needed by RNNs which also run into limitations in retaining context when the “distance” or range between pieces of information in an input is long.
+
+💡 **A transformer is one of the most important sequence modeling improvements of the past decade.**
+
+📌 **GPTs to Agents**
+
+
+
 
 ![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
