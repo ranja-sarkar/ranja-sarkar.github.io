@@ -34,7 +34,7 @@ The stem in lemmatization belongs to a valid word in the language.
 
 <img width="761" height="184" alt="02" src="https://github.com/user-attachments/assets/6d2a9962-bd23-4722-b9ba-2b6ccf113710" />
 
-Good old [**python**](https://www.nltk.org/) libraries like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
+Good old [python](https://www.nltk.org/) libraries like **nltk**, spacy, gensim, textblob can be used to tokenize input text as well.
 
 <img width="477" height="110" alt="03" src="https://github.com/user-attachments/assets/7040db22-9a07-4507-aa04-2d47c946ca4d" />
 
@@ -66,7 +66,9 @@ Now coming back to the classical approach, two sentences are said to be similar 
 <img width="473" height="233" alt="101" src="https://github.com/user-attachments/assets/4790dfc4-4ecb-4a7f-87f6-d593d5565c64" />
 
 
-A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, n is the number of documents containing the word or keyword, IDF = log(N/n).
+A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. 
+
+If N is the total number of documents, n is the number of documents containing the word or keyword, then IDF = log(N/n).
 
 <img width="478" height="112" alt="102" src="https://github.com/user-attachments/assets/1e5e0dab-d462-4704-a0d0-a8454a8c9117" />
 
@@ -105,7 +107,7 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 <img width="155" height="96" alt="33" src="https://github.com/user-attachments/assets/9776af16-ef34-4a30-a69a-93c6b2e04861" />
 
-📌 **Tokens to neural networks to LLMs**
+📌 **Neural networks or deep learning**
 
 LLMs make use of the transformer architecture and Generative AI is backed by LLMs. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
 
@@ -127,15 +129,21 @@ A transformer processes input sequences in parallel, making it efficient for tra
 
 💡 *A transformer is one of the most important sequence modeling improvements of the past decade.*
 
-📌 **GPTs to Agents**
+📌 **LLMs to Agents**
 
 If external databases are integrated with an LLM to cater to the specific domain use-case, the LLM yields contextual output with [**RAG (retrieval augmented generation)**](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md).
 
 When LLMs dynamically direct their own processes and tools (accessible to them), maintaining control over how they accomplish tasks, they act as **agents**. Agents are different from workflows. Workflows are systems where LLMs and other tools are orchestrated through predefined code paths. We must be well-aware of business cases [when agents should be used](https://www.anthropic.com/engineering/building-effective-agents).
 
-One can build an agent with the [langchain framework](https://docs.langchain.com/oss/python/langchain/rag).
+One can build an agent with the open-source [langchain framework](https://docs.langchain.com/oss/python/langchain/rag).
 
 <img width="445" height="214" alt="ag" src="https://github.com/user-attachments/assets/355d1891-0324-41a5-8d08-0cd481b078a7" />
+
+LLMs can be made and behaviorally conscious and more responsible in their outputs by rewarding good decisions and punishing bad ones. Training a machine/model to make better decisions by rewarding is known as **reinforcement learning (RL)**. LLMs can be made better by RL from human feedback [(RLHF)](https://github.com/ranja-sarkar/LLM-RAG/tree/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/self-correction).
+
+<img width="743" height="301" alt="rl" src="https://github.com/user-attachments/assets/40b0a8b3-c3ad-4ddc-af88-becbc3a35cec" />
+
+
 
 
 ![llp](https://github.com/user-attachments/assets/547b6a55-b3b9-4385-bb13-430c9bf08667)
