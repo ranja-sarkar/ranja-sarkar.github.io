@@ -68,12 +68,18 @@ Now coming back to the classical approach, tTwo sentences are said to be similar
 <img width="473" height="233" alt="101" src="https://github.com/user-attachments/assets/4790dfc4-4ecb-4a7f-87f6-d593d5565c64" />
 
 
-A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, and n is the number of documents containing the word, then IDF = log(N/n).
+A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, n is the number of documents containing the word or keyword, then IDF = log(N/n).
 
 <img width="478" height="112" alt="102" src="https://github.com/user-attachments/assets/1e5e0dab-d462-4704-a0d0-a8454a8c9117" />
 
-
 a word has a higher TF-IDF score if it occurs more (frequently) in a document but occurs less or infrequently in the corpus. The TF-IDF score determines how unique the word is in the corpus.
+
+A lexical (keyword) search result is scored by similarity methods like TF-IDF whose scales are usually unbounded, while a semantic (vector) search result is scored by distance methods like cosine similarity etc. whose scales are within a closed interval.
+
+The journey from lexical search to semantic search to a more advanced hybrid search is about how information retrieval can be improved. Hybrid search is sort of a ‘sum’ of lexical search and semantic search and when done right, can yield more relevant results than either. The methods used to merge the lexical and semantic search results to get to a hybrid search query have been well explained in the article by [Elastic Search service](https://www.elastic.co/search-labs/blog/hybrid-search-elasticsearch).
+
+Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One can enhance search experience by combining the precision of keyword search and the context understanding of semantic search by crafting hybrid search queries. 
+
 
 
 
