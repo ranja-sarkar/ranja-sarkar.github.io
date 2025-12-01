@@ -24,9 +24,7 @@ With NLP, several tasks like topic classification, sentiment analysis, relations
 
 NLP involves transforming raw text data into a format that the machine understands. In NLP, each text sentence is called a document and collection of documents is referred to as text corpus.  
 
-✅ Data pre-processing or text cleaning comprises of tokenization, stemming & lemmatization
-
-<img width="947" height="194" alt="00" src="https://github.com/user-attachments/assets/45699eed-cd58-4940-b6a3-de6ff6b67958" />
+✅ Data pre-processing or text cleaning (by regular expressions) comprises of tokenization, stemming & lemmatization
 
 Tokenization is the process of breaking text into individuals words or tokens. Normalizing the text would entail removing punctuations and stopwords, one may or may not utilize it depending on the use case.  Stemming means reducing a word to its stem (root word), it removes the morphological affixes from words, leaving only the root word. 
 
@@ -63,16 +61,16 @@ In the architecture, the values in the representation are not fixed binary value
 
 -----
 
-Now coming back to the classical approach, tTwo sentences are said to be similar if they contain similar set of words. To add more context to the vocabulary, tokens may be grouped together. This method is called N-gram approach. An N-gram is a sequence of N tokens for example, a bigram is a sequence of two words. Once the vocabulary is chosen, occurrences of the grams must be counted. The downside of BoW approach is that popular or frequent words become too important.
+Now coming back to the classical approach, two sentences are said to be similar if they contain similar set of words. To add more context to the vocabulary, tokens may be grouped together. This method is called N-gram approach. An N-gram is a sequence of N tokens for example, a bigram is a sequence of two words. Once the vocabulary is chosen, occurrences of the grams must be counted. The downside of BoW approach is that popular or frequent words become too important.
 
 <img width="473" height="233" alt="101" src="https://github.com/user-attachments/assets/4790dfc4-4ecb-4a7f-87f6-d593d5565c64" />
 
 
-A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, n is the number of documents containing the word or keyword, then IDF = log(N/n).
+A better method called **term frequency-inverse document frequency (TF-IDF)** is used. TF-IDF consists of TF that captures the importance of the word wrt the length of the sentence and IDF which captures in how many sentences the gram occurs wrt the total number of sentences, thus highlighting the rarity of the word. If N is the total number of documents, n is the number of documents containing the word or keyword, IDF = log(N/n).
 
 <img width="478" height="112" alt="102" src="https://github.com/user-attachments/assets/1e5e0dab-d462-4704-a0d0-a8454a8c9117" />
 
-a word has a higher TF-IDF score if it occurs more (frequently) in a document but occurs less or infrequently in the corpus. The TF-IDF score determines how unique the word is in the corpus.
+A word has a higher TF-IDF score if it occurs more (frequently) in a document but occurs less or infrequently in the corpus. The TF-IDF score determines how unique the word is in the corpus.
 
 A lexical (keyword) search result is scored by similarity methods like TF-IDF whose scales are usually unbounded, while a semantic (vector) search result is scored by distance methods like cosine similarity etc. whose scales are within a closed interval.
 
@@ -80,7 +78,17 @@ The journey from lexical search to semantic search to a more advanced hybrid sea
 
 Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One can enhance search experience by combining the precision of keyword search and the context understanding of semantic search by crafting hybrid search queries. 
 
+📌 Machine Learning
 
+Post pre-processing and feature extraction, the data is ready to be comsumed that is, models can be trained with the data.
+
+A supervised learning model learns patterns from the features to predict the labels. We perform classification tasks with labelled data, for example detection of spam emails wherein the model is trained with emails that have labels (spam and no-spam). Typical supervised learning algorithms used for text classification are (multinomial) [Naive Bayes](https://colab.research.google.com/drive/1KP4h2GylP6bH9H0q_W0k6gQokWXasY9-) and logistic regression.  
+
+Unsupervised learning encompasses 
+
+1. **clustering** algorithms like (agglomerative/bottom-up) [hierarchical clustering](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering) (connectivity-based), kmeans clustering (centroid-based), density-based clustering (DBSCAN, [OPTICS](https://scikit-learn.org/stable/auto_examples/cluster/plot_optics.html)) 
+
+2. automated **text summarization** and &&topic modeling**
 
 
 
