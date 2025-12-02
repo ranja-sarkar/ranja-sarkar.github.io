@@ -31,5 +31,12 @@ Look at the whole data scatterplot and then look at the 3 groups of the dataset.
 <img width="479" height="323" alt="11" src="https://github.com/user-attachments/assets/db752c4e-9b56-4fdf-a9bb-44da61e659d6" />
 <img width="469" height="327" alt="22" src="https://github.com/user-attachments/assets/6a47e2f1-30b2-437c-b1dc-b8805b21a792" />
 
-This is the Sympson’s paradox - the trend between two different variables reverses when a third variable is included.
+The fact that the trend between two different variables reverses when a third variable is included is Simpson’s paradox. 
 
+We have Anscombe's quintet in 2025. Thanks to [Carl McBRIDE Ellis](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/05032475acb828274cfcbc1933bde4c8b00edd12/_posts/assets/Anscombe_quintet_paper.pdf). The new and fifth dataset serves as an illustration of the  Simpson’s paradox.
+
+<img width="424" height="194" alt="sp" src="https://github.com/user-attachments/assets/898a6c7c-ccc4-4971-8e69-e477fc4c9053" />
+<img width="386" height="149" alt="dat" src="https://github.com/user-attachments/assets/f88fb4ab-625a-4bc3-a4b9-8c55b0208ef6" />
+
+
+The new (#5) dataset is in complete concordance with the summary statistics of the original Anscombe’s quartet.
