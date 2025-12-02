@@ -16,4 +16,9 @@ The quartet has four datasets, four identical descriptive statistics, yet four d
 
 <img width="361" height="292" alt="aq" src="https://github.com/user-attachments/assets/c703278d-e9d6-4022-ab08-2c57a1c8920a" />
 
+When it comes to visualizing data, less is more. Keeping only what is necessary in the visual helps not only the developer to understand what important information the data yields, but also the business or audience to draw meaning from the visual.
+
+<img width="362" height="57" alt="graph" src="https://github.com/user-attachments/assets/01696333-a3f4-45d1-aa21-d6c01119071b" />
+
+There are caveats to data visualization as well. A collection of such caveats is nicely captured by [Yan Holtz](https://www.data-to-viz.com/caveats.html). Few of my favorites are "too many distributions in one chart", "annotate your chart", and the "Simpson paradox".
 
