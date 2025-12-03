@@ -41,10 +41,20 @@ SQL and pandas serve equally well for data exploration, the latter however is mo
 
 # RDBMS
 
-A **data warehouse** is a data management system that stores current and historical data from multiple sources in a business-friendly manner for insights and reporting. Data warehouses are typically used for data analysis, business intelligence (BI), reporting, and preparing data for machine learning (ML). Data warehouses make it possible to easily analyze business data uploaded from operational (or transactional) systems such as point-of-sale systems, sales databases, inventory management systems. Data may pass through an operational data store and require data cleansing to ensure data quality before it can be used for reporting.
+A **data warehouse** is a data management system that stores current and historical data from multiple sources in a business-friendly manner for insights and reporting. Data warehouses are typically used for data analysis, business intelligence (BI), reporting, and preparing data for machine learning (ML). 
+
+<img width="105" height="244" alt="dwh" src="https://github.com/user-attachments/assets/d2090e7a-0810-43bf-9a53-5a190cb124a0" />
+
+Data warehouses make it possible to easily analyze business data uploaded from operational (or transactional) systems such as point-of-sale systems, sales databases, inventory management systems. Data may pass through an operational data store and require data cleansing to ensure data quality before it can be used for reporting. Data is cleansed, transformed and integrated into a schema that is optimized for querying and analysis.
 
 <img width="582" height="296" alt="dwh" src="https://github.com/user-attachments/assets/70757533-cc7b-4add-b21b-514539503be7" />
 
+-----
 
+A data lake is an unstructured or semi-structured data repository that allows for the storage of vast amounts of raw data in its original format. Data lakes are designed to ingest and store all types of data — structured, semi-structured or unstructured — without any predefined schema. Data is often stored in its native format and is not cleansed, transformed or integrated, making it easier to store and access large amounts of data
+
+<img width="214" height="250" alt="dl" src="https://github.com/user-attachments/assets/15f33db1-38ac-4412-bcc4-f2277e5f6fba" />
+
+-----
 
 
