@@ -59,15 +59,15 @@ A data lake is an unstructured or semi-structured data repository that allows fo
 
 Data must be loaded into the data warehouse and the process of extracting data from source systems, transforming the data and then loading the data into the data warehouse is called ETL (extract, transform, load). ETL is typically used for integrating structured data from multiple sources into a predefined schema.
 
-Data modeling in a data warehouse organizes data into dimensions and facts. There are two schema kinds for data modeling - snowflake schema and star schema. 
+Data modeling in a data warehouse organizes data into dimensions and facts. There are two schema kinds for data modeling - snowflake schema and star schema. It requires the tables to be classified as either dimension or fact. 
 
-The entity-relationship graph looking like a star is a denormalized hashtag#data model with faster hashtag#query performance.
+Dimension tables describe business entities — the things we model. Entities can include products, people, places, and concepts including time itself. Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key that relate to dimension tables, and (numeric) measure columns. 
 
+Star schemas are efficient at storing data (and large data), maintaining history and updating data by reducing the duplication of repetitive business definitions, making it fast to aggregate (query) and filter data in the warehouse. The entity-relationship graph looks like a star hence, the schema name. 
 <img width="401" height="251" alt="st" src="https://github.com/user-attachments/assets/a7308c98-1332-4496-a18a-4e8d98258749" />
 
+Star schema is adopted in [Microsoft Power BI reports](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema).
 
-Star schemas due to their simplicity and better performance are widely used for hashtag#analytics with large datasets. This schema is adopted in Power BI reports.
-
-The entity-relationship graph looking like a snowflake offers more storage efficiency due to its tighter adherence to normalization (less hashtag#data redundancy/duplication)
+The entity-relationship graph looks like a snowflake in snowflake schema and this schema offers more storage efficiency due to its tighter adherence to less data redundancy or duplication. A snowflake schema is an extension of a star schema, where dimension tables are broken down into subdimensions. 
 
 <img width="401" height="209" alt="sf" src="https://github.com/user-attachments/assets/2c1d5281-b577-4572-b4f7-0d8e99e74dac" />
