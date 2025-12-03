@@ -42,4 +42,8 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 <img width="518" height="73" alt="prompt" src="https://github.com/user-attachments/assets/cf8fa63e-32c1-43d7-ba3f-59064c03d0a2" />
 
+▶️ [From Language Processing to Language Modeling](https://ranja-sarkar.github.io/2025/12/01/from-language-processing-to-language-modeling.html)
+
+▶️ [Data Visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html)
+
 
