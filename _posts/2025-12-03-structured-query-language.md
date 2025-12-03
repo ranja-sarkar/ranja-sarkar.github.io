@@ -57,4 +57,17 @@ A data lake is an unstructured or semi-structured data repository that allows fo
 
 -----
 
+Data must be loaded into the data warehouse and the process of extracting data from source systems, transforming the data and then loading the data into the data warehouse is called ETL (extract, transform, load). ETL is typically used for integrating structured data from multiple sources into a predefined schema.
 
+Data modeling in a data warehouse organizes data into dimensions and facts. There are two schema kinds for data modeling - snowflake schema and star schema. 
+
+The entity-relationship graph looking like a star is a denormalized hashtag#data model with faster hashtag#query performance.
+
+<img width="401" height="251" alt="st" src="https://github.com/user-attachments/assets/a7308c98-1332-4496-a18a-4e8d98258749" />
+
+
+Star schemas due to their simplicity and better performance are widely used for hashtag#analytics with large datasets. This schema is adopted in Power BI reports.
+
+The entity-relationship graph looking like a snowflake offers more storage efficiency due to its tighter adherence to normalization (less hashtag#data redundancy/duplication)
+
+<img width="401" height="209" alt="sf" src="https://github.com/user-attachments/assets/2c1d5281-b577-4572-b4f7-0d8e99e74dac" />
