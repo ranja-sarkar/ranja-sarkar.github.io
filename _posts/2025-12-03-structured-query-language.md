@@ -41,9 +41,10 @@ SQL and pandas serve equally well for data exploration, the latter however is mo
 
 # RDBMS
 
-A data warehouse is a data management system that stores current and historical data from multiple sources in a business-friendly manner for easier insights and reporting. Data warehouses are typically used for business intelligence (BI), analytics, reporting, data applications, preparing data for machine learning (ML) and data analysis.
+A **data warehouse** is a data management system that stores current and historical data from multiple sources in a business-friendly manner for insights and reporting. Data warehouses are typically used for data analysis, business intelligence (BI), reporting, and preparing data for machine learning (ML). Data warehouses make it possible to easily analyze business data uploaded from operational (or transactional) systems such as point-of-sale systems, sales databases, inventory management systems. Data may pass through an operational data store and require data cleansing to ensure data quality before it can be used for reporting.
 
-Data warehouses make it possible to quickly and easily analyze business data uploaded from operational systems such as point-of-sale systems, inventory management systems, or marketing or sales databases. Data may pass through an operational data store and require data cleansing to ensure data quality before it can be used in the data warehouse for reporting.
+<img width="582" height="296" alt="dwh" src="https://github.com/user-attachments/assets/70757533-cc7b-4add-b21b-514539503be7" />
+
 
 
 
