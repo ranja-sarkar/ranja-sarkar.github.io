@@ -4,6 +4,8 @@ tags: [database, sql, data warehouse]
 
 Ranja Sarkar
 
+![fl](https://github.com/user-attachments/assets/73e8d560-e5d2-4ddb-897e-fea575b3a035)
+
 
 Structured Query Language or SQL allows interaction with a database by writing queries to retrieve, manipulate, and manage data stored in the database tables. It is basically the language to communicate with data. 
 
