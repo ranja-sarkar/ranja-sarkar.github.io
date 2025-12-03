@@ -1,5 +1,5 @@
 ---
-tags: [database, sql, data]
+tags: [database, sql, data warehouse]
 ---
 
 Ranja Sarkar
@@ -9,9 +9,9 @@ Structured Query Language or SQL allows interaction with a database by writing q
 
 # RDB
 
-A relational database (RDB) uses SQL and its variants to access data. One can use SQL to create, read, update, and delete tables of data stored in the RDB.
+A relational database (RDB) uses SQL and its variants to access data. One can use SQL to create, read, update, and delete tables of data stored in the RDB. These are the so-called CRUD operations - [create is DDL, update and delete are DML](https://milvus.io/ai-quick-reference/what-is-the-difference-between-ddl-and-dml-in-sql).
 
-Examples of RDBMS:
+Examples of RDB management system (RDBMS):
 
 1. [MySQL](https://www.mysql.com/): It is an open-source RDBMS that is used for developing web applications, often accessed using PHP. It has been around since 1995 and has a large community. 
 
@@ -81,4 +81,8 @@ The entity-relationship diagram looks like a snowflake in snowflake schema and i
 Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handly big data although Amazon RDS existed since 2009. 
 
 One can migrate data warehouses to Google BigQuery (GBQ). [Here's](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview) how?!
-There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql)etc.
+There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc..
+
+SQL is integral to ETL/ELT. SQL is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
+
+In essence, SQL is necessary to define, populate, query, and manage the RDB structures that form the foundation of a data warehouse.
