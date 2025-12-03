@@ -5,7 +5,11 @@ tags: [database, sql, data]
 Ranja Sarkar
 
 
-Structured Query Language or SQL allows interaction with a database by writing queries to retrieve, manipulate, and manage data stored in the database tables. It is basically the language to communicate with data. A relational database management system (RDBMS) uses SQL and its variants to access data from a database. One can use SQL to create, read, update, and delete tables of data in RDB.
+Structured Query Language or SQL allows interaction with a database by writing queries to retrieve, manipulate, and manage data stored in the database tables. It is basically the language to communicate with data. 
+
+# RDB
+
+A relational database (RDB) uses SQL and its variants to access data. One can use SQL to create, read, update, and delete tables of data stored in the RDB.
 
 Examples of RDBMS:
 
@@ -29,9 +33,17 @@ Within an instance of MongoDB are collections. Collections are subsets of data. 
 
 -----
 
-Many potential SQL users are also [pandas](https://pandas.pydata.org/) users. A [comparison of pandas with SQL](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html) only makes us realize that operations such as LIMIT, DISTINCT, GROUP BY, WHERE, HAVING, ORDER BY, JOIN are routine work of a data professional. SQL and pandas serve equally well for data exploration, the latter however is more than a query engine. One can export a pandas dataframe (df) to a multitude of formats which [includes SQL[(https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html).
+Many potential SQL users are also [pandas](https://pandas.pydata.org/) users. A [comparison of pandas with SQL](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html) only makes us realize that operations such as LIMIT, DISTINCT, GROUP BY, WHERE, HAVING, ORDER BY, JOIN are routine work of a data professional. 
+
+SQL and pandas serve equally well for data exploration, the latter however is more than a query engine. One can export a pandas dataframe (df) to a multitude of formats which [includes SQL](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html).
 
 <img width="214" height="38" alt="pd" src="https://github.com/user-attachments/assets/6c163851-56d9-4bc5-8712-ca9b42c963f9" />
+
+# RDBMS
+
+A data warehouse is a data management system that stores current and historical data from multiple sources in a business-friendly manner for easier insights and reporting. Data warehouses are typically used for business intelligence (BI), analytics, reporting, data applications, preparing data for machine learning (ML) and data analysis.
+
+Data warehouses make it possible to quickly and easily analyze business data uploaded from operational systems such as point-of-sale systems, inventory management systems, or marketing or sales databases. Data may pass through an operational data store and require data cleansing to ensure data quality before it can be used in the data warehouse for reporting.
 
 
 
