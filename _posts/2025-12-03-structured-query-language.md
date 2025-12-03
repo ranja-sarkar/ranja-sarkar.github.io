@@ -29,5 +29,9 @@ Within an instance of MongoDB are collections. Collections are subsets of data. 
 
 -----
 
-Many potential SQL users are also [pandas](https://pandas.pydata.org/) users. A [comparison of pandas with SQL](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html) only makes us realize that operations such as LIMIT, DISTINCT, GROUP BY, WHERE, HAVING, ORDER BY, JOIN are routine work of a data professional. 
+Many potential SQL users are also [pandas](https://pandas.pydata.org/) users. A [comparison of pandas with SQL](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html) only makes us realize that operations such as LIMIT, DISTINCT, GROUP BY, WHERE, HAVING, ORDER BY, JOIN are routine work of a data professional. SQL and pandas serve equally well for data exploration, the latter however is more than a query engine. One can export a pandas dataframe (df) to a multitude of formats which [includes SQL[(https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html).
+
+<img width="214" height="38" alt="pd" src="https://github.com/user-attachments/assets/6c163851-56d9-4bc5-8712-ca9b42c963f9" />
+
+
 
