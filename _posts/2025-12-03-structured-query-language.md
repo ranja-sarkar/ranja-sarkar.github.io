@@ -51,13 +51,18 @@ Data warehouses make it possible to easily analyze business data uploaded from o
 
 -----
 
-A data lake is an unstructured or semi-structured data repository that allows for the storage of vast amounts of raw data in its original format. Data lakes are designed to ingest and store all types of data — structured, semi-structured or unstructured — without any predefined schema. Data is often stored in its native format and is not cleansed, transformed or integrated, making it easier to store and access large amounts of data
+A data lake is an unstructured or semi-structured data repository that allows for the storage of vast amounts of (raw) data in its original form. Data lakes are designed to ingest and store all types of data — structured, semi-structured or unstructured, without any predefined schema. 
 
 <img width="214" height="250" alt="dl" src="https://github.com/user-attachments/assets/15f33db1-38ac-4412-bcc4-f2277e5f6fba" />
 
+Data is often stored in its native format and is not cleansed, transformed or integrated, making it easier to store and access large datasets. Data warehouse can be created out of a data lake.
+
 -----
 
-Data must be loaded into the data warehouse. The process of extracting data from multiple sources, transforming the data (going from staging tables to consumable forms) and then loading the data into the warehouse is called ETL (extract, transform, load). ETL is typically used to integrate structured data from multiple sources into a predefined schema.
+Data must be loaded into the data warehouse. The process of extracting raw data from multiple sources, transforming the data and then loading transformed data into the warehouse is called ETL (extract, transform, load). ETL is typically used to integrate structured data from multiple sources into a predefined schema.
+
+<img width="131" height="143" alt="44" src="https://github.com/user-attachments/assets/2f0dbe3c-7293-4617-bde4-ec207298f440" />
+<img width="178" height="99" alt="33" src="https://github.com/user-attachments/assets/d035a896-299a-4d8b-9285-4e063bfef2f0" />
 
 **Data modeling** in a data warehouse organizes data into dimensions and facts. There are two schema kinds of data modeling - snowflake schema and star schema. It requires the tables to be classified as either dimension or fact. Dimension tables describe business entities — the things we model. Entities can include products, people, places, and concepts including time itself. Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key that relate to dimension tables, and (numeric) measure columns. 
 
@@ -70,5 +75,10 @@ Star schema is adopted in [Microsoft Power BI reports](https://learn.microsoft.c
 The entity-relationship diagram looks like a snowflake in snowflake schema and it offers more storage efficiency due to its tighter adherence to less data redundancy or duplication, but slower query performance. A snowflake schema is an extension of a star schema, where dimension tables are broken down to sub-dimensions. 
 
 <img width="401" height="209" alt="sf" src="https://github.com/user-attachments/assets/2c1d5281-b577-4572-b4f7-0d8e99e74dac" />
+
 -----
 
+Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handly big data although Amazon RDS existed since 2009. 
+
+One can migrate data warehouses to Google BigQuery (GBQ). [Here's](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview) how?!
+There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql)etc.
