@@ -6,7 +6,7 @@ Ranja Sarkar
 
 ![ben2](https://github.com/user-attachments/assets/a07ad6b0-3918-47d8-9e29-f87dcb4c80c4)
 
-In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted data visualization and how it is essential. However, a single post is not enough to state how much data visualization is crucial from data exploration until after a model (trained with the data) is in production.
+In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted *data visualization* and how it is essential to understand data. A single post however is not enough to state the criticality of data visualization from data exploration until after a model (trained with the data) is operational that is, in production.
 
 [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) outlines the importance of graphing data before analysing. 
 
