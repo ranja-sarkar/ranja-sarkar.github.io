@@ -87,4 +87,13 @@ There are similarities and differences in SQL syntax between GBQ and data wareho
 
 SQL is integral to ETL/ELT. SQL is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
 
+-----
+
+In relational databases, we sometimes need to combine rows from two or more tables based on a related column between them. This allows us to retrieve data spread across multiple tables and present as a single, unified result. This is where SQL JOINS are essential. Let's say, we have table A and table B, then following are the kinds of JOINs we can have.
+
+<img width="515" height="160" alt="1" src="https://github.com/user-attachments/assets/abb20526-12ac-404d-8b77-eb39c2dbd2df" />
+
+<img width="524" height="155" alt="2" src="https://github.com/user-attachments/assets/6446945e-6cec-4557-9b64-78afaa7e9818" />
+
+
 In essence, SQL is necessary to define, populate, query, and manage the RDB structures that form the foundation of a data warehouse.
