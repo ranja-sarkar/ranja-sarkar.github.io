@@ -25,3 +25,20 @@ Yes!  Writing is important - it not only makes you learn and understand, it help
 
 -----
 
+I am often asked by newbies with non-coding background about how to learn coding. 
+
+![chen](https://github.com/user-attachments/assets/4f5d36d3-fe11-4081-8e48-fca27bd8eab8)
+
+I have two answers to that. First, telling them NOT to resort to chatGPT or other conversational AI bots initially, after having learned coding one may use them as assistants. Second, telling them I do not exactly know the ONE path that would serve the purpose of every one. Why so?
+
+Everyone’s learning journey is different. The coding language one wants to learn and pursue further in their careers might be different from the language I have known and can guide them with. Deciding how one wants to learn - formal training from an online/offline instructor or self-paced training shows the path.  
+
+Then I tell them how I learned coding. I had started my journey with the language Fortran for credits in my Masters (degree). The course on Fortran began as a mandate, soon became an interest. 
+
+Having learned one programming language thoroughly, I could afterward pick other languages fast. Two online platforms I had benefitted from are [W3Schools](https://www.w3schools.com/) (first of its kind, founded in 1998) and [CodeAcademy](https://www.codecademy.com/) which came much later in 2011. I followed the former while in academia (before 2017) for learning R and python, followed the latter after stepping into the corporate (since 2017) for SQL and advanced python. 
+
+There is an online interactive [tutor](https://pythontutor.com/), a platform where you learn as you code. You can learn Java and JavaScript as well from the online tutor. 
+
+You could also find an online [mentor](https://www.codementor.io/) (mostly an experienced developer) to guide you as you learn and move to advanced stages. 
+
+Then there are platforms like [leetcode](https://leetcode.com/) and [hacker-rank](https://www.hackerrank.com/) that let you practice coding and prepare you for coding interviews. These are at your disposal, all you need to do is start. Choose one path that fits your goal and just begin! 
