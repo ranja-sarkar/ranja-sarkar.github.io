@@ -15,7 +15,7 @@ Well, before I started writing, there were loose ends of my concepts, there was 
 
 As a scientist, I wrote papers to highlight the novelty of my research because they were meant to get published in acclaimed journals. It is writing about how I’m taking the scientific community forward with my contribution. However, the writing style should not always be taken for granted for how a scientist thinks or speaks. 
 
-Blogging on the other hand, is a more open act. It was not much earlier that I began writing blogs. I figured keeping a blog is about maintaining write-ups to acknowledge what I know or do not know and work through my confusion. And the fact that an open community of people can read your blog is actually opening yourself up to feedback and criticism from all corners, not bounded by your reasearch area. It is designed to focus on learning, rather than novelty. Having published journal papers as a scientist, I could well appreciate the whole idea of blogging.
+Blogging on the other hand, is a more open act. It was not much earlier that I began writing blogs. I figured keeping a blog is about maintaining a write-up to acknowledge what I know or do not know and work through my confusion. And the fact that an open community of people can read your blog is actually opening yourself up to feedback and criticism from all corners, not bounded by your reasearch area. It is designed to focus on learning, rather than novelty. Having published journal papers as a scientist, I could well appreciate the whole idea of blogging.
 
 At times, it is difficult to know what you must know when you have a lot to learn. Passive reading does not give me confidence, I cannot be sure if I knew what I knew. But writing things down is the best way to ensure I learn, do the work, then explain it to others. Writing clearly is an active form of learning, understanding, and building confidence. As [Terry Tao](https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/) said, there is deep purpose behind writing. ⤵️
 
@@ -23,8 +23,7 @@ At times, it is difficult to know what you must know when you have a lot to lear
 
 Learning through writing may be a longer process, yet it is worthwhile as I end up creating a permanent store of personalized knowledge which can be recalled later, consulted, and improved too as is the case. Almost all of us have clear understanding of a few things and not-so-clear comprehension of many other things. The real contentment is in sharing learning with others and learn back from them. Contributing to the community thus has two-way benefits, it is useful to more than just myself. 
 
-Yes! **Writing is important**. 
-
+**Writing is important**. 
 I write as it makes me learn and understand something deeply, it helps me work through my confusion and build my confidence. 
 
 -----
@@ -53,7 +52,7 @@ The answer is - those who learned to code (before LLMs) will know how to instruc
 
 There's this question too - **is writing as important as coding?**
 
-Well, like [Eugene Yan](https://eugeneyan.com/writing/writing-and-coding/) said, "code is for machines, document is for people".
+Well, like [Eugene Yan](https://eugeneyan.com/writing/writing-and-coding/) said, "code is for machines, document is for people". Read more from his article on the topic.
 
 Writing becomes more important as we climb up the career ladder. 
 
@@ -61,6 +60,4 @@ Writing becomes more important as we climb up the career ladder.
 
 *Happy writing!*
 
-*Happy coding!*
-
-*Happy learning!*
+*Happy coding!*  *Happy learning!*
