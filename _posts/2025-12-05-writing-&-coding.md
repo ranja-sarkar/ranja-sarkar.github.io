@@ -41,4 +41,18 @@ There is an online interactive [tutor](https://pythontutor.com/), a platform whe
 
 You could also find an online [mentor](https://www.codementor.io/) (mostly an experienced developer) to guide you as you learn and move to advanced stages. 
 
-Then there are platforms like [leetcode](https://leetcode.com/) and [hacker-rank](https://www.hackerrank.com/) that let you practice coding and prepare you for coding interviews. These are at your disposal, all you need to do is start. Choose one path that fits your goal and just begin! 
+Then there are platforms like [leetcode](https://leetcode.com/) and [hacker-rank](https://www.hackerrank.com/) that let you practice coding and prepare you for coding interviews. These are at your disposal, all you need to do is start. 
+
+Choose one path that fits your goal and just begin! 
+
+-----
+
+The, there's this question - is writing as important as coding?
+
+Well, like [Eugene Yan](https://eugeneyan.com/writing/writing-and-coding/) said, "code is for machines; documents are for people".
+
+Writing becomes more important as we climb up the career ladder. 
+
+![ron](https://github.com/user-attachments/assets/2ad27d74-0fc5-45ee-995b-4a82d3734d24)
+
+
