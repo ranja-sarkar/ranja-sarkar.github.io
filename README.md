@@ -1,5 +1,6 @@
 
-<img width="289" height="157" alt="bb" src="https://github.com/user-attachments/assets/13b68948-b538-4622-ae1c-16a09dd63641" />
+<img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
+
 
 [*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
 
