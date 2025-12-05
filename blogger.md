@@ -36,6 +36,8 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 ▶️ [KnowHow](https://ranja-sarkar.github.io/2025/11/28/know-how.html)
 
+-----
+
 # Posts
 
 *December-2025*
@@ -46,4 +48,11 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 ▶️ [Data Visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html)
 
+-----
+
+# Posts
+
+*January-2026*
+
+<img width="303" height="146" alt="ml" src="https://github.com/user-attachments/assets/4a8f511a-68bd-448a-8e0e-5a92278bcf7e" />
 
