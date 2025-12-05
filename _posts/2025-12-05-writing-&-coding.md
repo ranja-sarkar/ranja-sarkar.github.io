@@ -46,7 +46,9 @@ One may ask now, in this age of vibe-coding (thanks to LLMs) who would want to r
 
 The answer is - those who learned to code (before LLMs) will know how to instruct them in generating good quality code, and those who build software with total assistance from LLMs will be limited by what they can explain to them verbally or in writing. Knowledge of coding will remove this limitation. **Coding is important**.
 
-*Learning to code is crucial to not being able to effectively code.* (by Andriy Burkov)
+*Learning to code is crucial to not being able to effectively code.* 
+
+- by Andriy Burkov
 
 -----
 
