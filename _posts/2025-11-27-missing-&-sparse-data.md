@@ -8,14 +8,13 @@ Ranja Sarkar
 
 Missing values in tabular data occur when information is either not available or difficult to find. Grasping the underlying reasons of the absence of data and scrutinizing the nature of missingness are crucial. Often, understanding the data-generating mechanism becomes important. 
 
-**Missingness** is absence. **Sparsity** is scantiness.
-
 ![11](https://github.com/user-attachments/assets/04f4a9ae-2a76-4cf1-8ff1-b3cef401bf7d)
 
 Sparse data is subtly different from missing data. Some values are not present in missing data whereas values are present but zero in sparse data. We often come across sparse datasets with many variables having zero values, presenting challenges in data preparation for training a model. 
 
 ![22](https://github.com/user-attachments/assets/7181383c-6ee5-46e9-9cb4-149fd24c3738)
 
+**Missingness** is absence. **Sparsity** is scantiness.
 
 Values are known in sparse data unlike missing data, but they're not useful. This makes it difficult to identify the relevant features in sparse tabular data. If all features are used for machine learning (violating maximum relevance-minimum redundancy), overfitting of model occurs. On the other hand, if too many features are removed (too much data compression), we are at a risk of losing valuable information. 
 
@@ -42,13 +41,13 @@ Out of these types, MNAR raises the level of difficulty of handling missing data
 
 The following scenarios arise while using a [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) dataframe function (python) to drop rows or columns in tabular data having missing values.
 
--> dropna(): drops all rows with missing values.
+▶️ dropna(): drops all rows with missing values.
 
--> dropna(how = ‘all’): drops the rows where all column values are missing.
+▶️ dropna(how = ‘all’): drops the rows where all column values are missing.
 
--> dropna(thresh = minimum_value): drops rows based on a threshold/minimum 
+▶️ dropna(thresh = minimum_value): drops rows based on a threshold/minimum 
 
--> dropna(axis = 1): drops all columns with missing values. 
+▶️ dropna(axis = 1): drops all columns with missing values. 
 
 The fillna() pandas function is used to impute with mean or median of the feature or column for continuous or discrete numeric data. Mean and median imputation can provide a good estimate of the missing values for normally distributed and skewed data respectively. However, mean imputation is sensitive to outliers, and median imputation essentially makes the assumption that the data is MCAR which might be not be true in every case. For categorical/qualitative data (nominal or ordinal), the best measures of central tendency are mode and median. 
 
@@ -57,15 +56,13 @@ The fillna() pandas function is used to impute with mean or median of the featur
 
 This is a method wherein the missing information in a feature/column is filled by considering the information from other features in the dataset. This method can however be computationally expensive for large datasets. 
 
-The reliance of random forest algorithm on bootstrapping and feature randomness inherently mitigates missing data issues, for example when a feature has missing values, splits on that feature are avoided during model training. It uses a straightforward approach of "surrogate split”, where missing values are substituted using correlated features or majority-class decisions. This retains the implicit simplicity and robustness of the algorithm.
-
-The XGBoost algorithm can also handle missing data, an example is in [this article](https://link.springer.com/article/10.1007/s42452-020-3128-y)
+The reliance of **random forest** algorithm (ensemble learner) on bootstrapping and feature randomness inherently mitigates missing data issues, for example when a feature has missing values, splits on that feature are avoided during model training. It uses a straightforward approach of "surrogate split”, where missing values are substituted using correlated features or majority-class decisions. This retains the implicit simplicity and robustness of the algorithm. One of the other ensemble learning algorithms, **XGBoost** can handle missing data in a [way](https://link.springer.com/article/10.1007/s42452-020-3128-y).
 
 Multiple Imputation by Chained Equations (MICE) and Fully Conditional Specification (FCS) find use in some cases. MICE, for example performs imputation for features with missing data within a separate model which makes it possible to capture complex interactions between them. FCS imputes missing values one at a time, conditional on observations, it then repeats the process multiple times to create several complete datasets. 
 
 💡 **Maximum Likelihood Estimation (MLE)**
 
-The assumption that the observed data are a sample drawn from a multivariate normal distribution helps to estimate the missing data, and it is done ny using conditional distributions of other (relatively complete) features. Expectation Maximization is a type of MLE that can be used to generate a new dataset in which the missing values have been imputed with values estimated by MLE.
+The assumption that the observed data are a sample drawn from a multivariate normal distribution helps to estimate the missing data, and it is done ny using conditional distributions of other (relatively complete) features. Expectation Maximization is a method of MLE that can be used to generate a new dataset in which the missing values have been imputed with values estimated by MLE.
 
 -----
 
@@ -74,7 +71,7 @@ The assumption that the observed data are a sample drawn from a multivariate nor
 
 ![hash](https://github.com/user-attachments/assets/2993d0ee-86c2-4fef-80ff-6ff9e1903981)
 
-💡 Setting a threshold to the percentage of non-zero values in a feature also helps decide which feature to drop from the data. The one falling below this threshold if removed reduces sparsity of the dataset. There are other methods to do the attain the objective for example, PCA, t-SNE. 
+💡 Setting a threshold to the percentage of non-zero values in a feature also helps decide which feature to drop from the data. The one falling below this threshold if removed reduces sparsity of the dataset. There are other methods to handle data sparsity for example, PCA, t-SNE. 
 
 💡 **PCA** is an unsupervised learning algorithm that identifies principal components (PCs) of the data along principal axes, the directions in which the data varies most. PCs represent the data in a lower-dimensional space with most variability, and preserve maximum information. PCA thus helps identy the top features to train a model, ensuring the model is reliable.  
 
@@ -90,5 +87,5 @@ When working with **text data** and [natural language processing (NLP)](https://
 
 -----
 
-Finally, **sensitivity analysis** which is defined as studying how the uncertainty in model output can be allocated to its inputs, the sources of uncertainty is important. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (missing & sparse) data. 
+Finally, **sensitivity analysis** which is defined as studying how the uncertainty in model output can be allocated to its inputs, the sources of uncertainty is important. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (for missing & sparse) data. 
 
