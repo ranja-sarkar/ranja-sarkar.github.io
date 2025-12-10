@@ -17,7 +17,9 @@ I too took a break and visited the Himalayas during the autumn of 2023. The thou
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
-After coming back from my short vacation, during the winter of 2024 (Jan) I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. I'm migrating my Substack posts since Oct-2025 to GitHub pages, it is work-in-progress. And I choose a theme for each month or monthly collection of posts - how do I choose it? It is completely at random - sometimes dashboards, sometimes prompts etc. etc.. 
+After coming back from my short vacation, during the winter of 2024 (Jan) I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. 
+
+I am migrating my Substack posts since Oct-2025 to GitHub pages, it is work-in-progress. And I choose a theme to display for each month or monthly collection of posts - how do I choose it? It is random - sometimes dashboards, sometimes prompts etc. etc.. 
 
 There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and clouded, not-so-clear concepts of many other things. Real contentment and joy comes from sharing your knowledge and learning with others and learn back from them. Contributing to the community has two-way benefits, it's useful to more than just myself.
 
