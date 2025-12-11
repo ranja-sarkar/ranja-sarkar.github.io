@@ -6,19 +6,19 @@ Ranja Sarkar
 
 ![ben2](https://github.com/user-attachments/assets/a07ad6b0-3918-47d8-9e29-f87dcb4c80c4)
 
-In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted the power of *data visualization*. It is so essential to understand data. A single post however is not enough to state the criticality of data visualization, from data exploration until after a model trained with the data is operational (in production).
+In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted the power of *data visualization*, it's is so essential to understand data. A single post however is not enough to state the criticality of data visualization, from data exploration to analysis till a model trained with the data is operational and post production as well.
 
 Quoted from that post -
 
 *For example, a **scatter plot** helps us understand which measure to utilize for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation.*
 
-*While a box plot visually represents inter-quartile range of data, a **violin plot** shows the shape (density distribution) of data. A violin plot must be used to explore skewed data.*
+*While a box plot visually represents inter-quartile range of data, a **violin plot** shows the shape (density distribution) of data. A violin plot must be used to explore skewed data.* 
 
-[Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) outlines the importance of graphing data before analysing. 
+[Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) outlines the importance of graphing data before analysing. A visual explanation is mightier than explaining data through statistics, implying the importance of looking at a [dataset graphically](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html) and not only relying on its basic statistics.
 
 <img width="272" height="284" alt="add" src="https://github.com/user-attachments/assets/9470c271-14f5-41a9-87ca-ba978314f0f6" />
 
-The quartet data - four identical descriptive statistics, yet four different distributions when plotted and visualized. It only reinstates how powerful exploratory data analysis by visualization is. A visual explanation is mightier than explaining data through statistics, implying the importance of looking at a [dataset graphically](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html) and not only relying on its basic statistics.
+The quartet data - four identical descriptive statistics, yet four different distributions when plotted and visualized. It only reinstates how powerful exploratory data analysis by visualization is. 
 
 <img width="361" height="292" alt="aq" src="https://github.com/user-attachments/assets/c703278d-e9d6-4022-ab08-2c57a1c8920a" />
 
@@ -53,7 +53,7 @@ The new (#5) dataset is in complete concordance with the summary statistics of t
 
 -----
 
-It is not good-to-have, or nice-to-have, it's a must have - *data visualization*. It is a core, analytical skill required for problem-solving. 
+*Data visualization* is a core, analytical skill required for problem-solving, it's a must-have skillset. 
 
 
 
