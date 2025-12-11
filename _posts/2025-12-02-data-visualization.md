@@ -6,7 +6,7 @@ Ranja Sarkar
 
 ![ben2](https://github.com/user-attachments/assets/a07ad6b0-3918-47d8-9e29-f87dcb4c80c4)
 
-In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted the power of *data visualization*, it is so essential to understand data. A single post is not enough to state the criticality of data visualization, from data exploration to analysis till a model trained with the data is operational and post production as well.
+In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted the power of *data visualization*, it is so essential to understand data. A single post is not enough to state the necessity of data visualization, from data exploration to analysis till a model trained with the data is operational and post production as well.
 
 Quoted from that post -
 
@@ -26,7 +26,7 @@ The quartet data - four identical descriptive statistics, yet four different dis
 
 -----
 
-When it comes to visualizing data, less is more. Keeping only what is necessary in the visual not only helps the developer understand what important information the data yields, but also helps the business or audience draw meaning from the visual.
+When it comes to visualizing data, less is more. Keeping only what is necessary in the visual not only helps the developer understand what information the data yields, but also helps the business (audience) user draw meaning from the visual.
 
 <img width="362" height="57" alt="graph" src="https://github.com/user-attachments/assets/01696333-a3f4-45d1-aa21-d6c01119071b" />
 
@@ -55,7 +55,7 @@ The new (#5) dataset is in complete concordance with the summary statistics of t
 
 -----
 
-Data visualization is a core, analytical skill required for problem-solving, As long as the visuals are clean and effectivem, it does not really matter if data is graphed with python or R, Power BI or Tableau. Data visualization is a must-have skillset. 
+Data visualization is a core, analytical skill required for problem-solving, As long as the visuals are clean and effective, it does not really matter if data is graphed with python or R, Power BI or Tableau. Data visualization is a must-have skillset. 
 
 
 
