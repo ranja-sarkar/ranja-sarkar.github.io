@@ -1,12 +1,12 @@
 ---
-tags: [data, exploration, visualization]
+tags: [data, exploration, visualization, basic skill]
 ---
 
 Ranja Sarkar
 
 ![ben2](https://github.com/user-attachments/assets/a07ad6b0-3918-47d8-9e29-f87dcb4c80c4)
 
-In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted the power of *data visualization*, it is so essential to understand data. A single post however is not enough to state the criticality of data visualization, from data exploration to analysis till a model trained with the data is operational and post production as well.
+In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/know-how.html), I have highlighted the power of *data visualization*, it is so essential to understand data. A single post is not enough to state the criticality of data visualization, from data exploration to analysis till a model trained with the data is operational and post production as well.
 
 Quoted from that post -
 
@@ -14,7 +14,9 @@ Quoted from that post -
 
 *While a box plot visually represents inter-quartile range of data, a **violin plot** shows the shape (density distribution) of data. A violin plot must be used to explore skewed data.* 
 
-[Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) outlines the importance of graphing data before analysing. A visual explanation is mightier than explaining data through statistics, implying the importance of looking at a [dataset graphically](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html) and not only relying on its basic statistics.
+-----
+
+[Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) outlines the importance of graphing data before analysing. A visual explanation is mightier than explaining data through statistics, implying the importance of looking at a [dataset graphically](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html) and not relying solely on its summary statistics.
 
 <img width="272" height="284" alt="add" src="https://github.com/user-attachments/assets/9470c271-14f5-41a9-87ca-ba978314f0f6" />
 
