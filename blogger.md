@@ -23,10 +23,18 @@ I took a break and visited the Himalayas during the autumn of 2023. The thought 
 
 After coming back from my short vacation, during the winter of 2024 (Jan) I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. 
 
-I am migrating my Substack posts since Oct-2025 to GitHub pages, it is work-in-progress. And I choose a theme to display for each month or monthly collection of posts - how do I choose it? It is random - dashboards, prompts etc. etc.. Each blog post of mine has pictures clicked by me. I do not have technical knowledge about photography, I capture whatever's appealing to my eyes - mostly Nature.  
+-----
+
+I am migrating my Substack posts since Oct-2025 to GitHub pages, it is work-in-progress. 
+
+I choose a theme to display for each month or monthly collection of posts - how do I choose it? It is random - dashboards, prompts etc. etc.. 
+Each blog post of mine has pictures clicked by me. I do not have technical knowledge about photography, I capture whatever's appealing to my eyes - mostly Nature.  
+
+<img width="512" height="368" alt="fp" src="https://github.com/user-attachments/assets/38381f05-98d9-4c72-9eb6-328514fa854a" />
 
 There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and clouded, not-so-clear concepts of many other things. Real contentment and joy comes from sharing your knowledge and learning with others and learn back from them. Contributing to the community has two-way benefits, it's useful to more than just myself. 
 
+-----
 
 # Posts 
 
@@ -55,11 +63,15 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 ▶️ [Data Visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html)
 
-▶️ [Writing & Coding]()
+▶️ [Writing & Coding](https://ranja-sarkar.github.io/2025/12/05/writing-&-coding.html)
 
-▶️ [StructuredQuery Language]()
+▶️ [Structured Query Language]()
 
+▶️ [Ensemble Learning]()
 
+▶️ [Metrics in Machine Learning]()
+
+▶️ []()
 
 -----
 
