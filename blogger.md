@@ -8,7 +8,7 @@ permalink: /myblog
 
 *Writing is my way of living in the world - I write to strengthen myself, I write for sheer joy.*
 
-*I recreate myself as I write.*
+*I recreate myself as I write. Yes! Writing is cathartic.*
 
 ![topo](https://github.com/user-attachments/assets/d956214f-c45a-4765-91dc-4fa485a5639f)
 
