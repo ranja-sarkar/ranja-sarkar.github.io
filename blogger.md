@@ -71,7 +71,7 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 ▶️ [Metrics in Machine Learning]()
 
-▶️ []()
+▶️ [Bias & Variance]()
 
 -----
 
