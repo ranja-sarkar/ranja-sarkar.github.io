@@ -6,6 +6,10 @@ title: Blogger
 permalink: /myblog
 ---
 
+*Writing is my way of living in the world - I write to strengthen myself, I write for sheer joy.*
+
+*I recreate myself as I write.*
+
 ![topo](https://github.com/user-attachments/assets/d956214f-c45a-4765-91dc-4fa485a5639f)
 
 The onset of Autumn is marked by festivals in India. Autumn's
@@ -13,7 +17,7 @@ The onset of Autumn is marked by festivals in India. Autumn's
 - a time to break out for a while and rejuvenate oneself, return refreshed to the inevitable hustle-bustle of life
 - a time to destress, celebrate small wins, and revitalize to keep moving onward and upward.
 
-I too took a break and visited the Himalayas during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. A pause and introspection is of paramount importance. Maybe in some ways it enables foreseeing the possibilities in store for us. 
+I took a break and visited the Himalayas during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. A pause and introspection is of paramount importance. Maybe in some ways it enables foreseeing the possibilities in store for us. 
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
