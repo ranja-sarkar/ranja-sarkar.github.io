@@ -6,9 +6,7 @@ title: Blogger
 permalink: /myblog
 ---
 
-*Writing is my way of living in the world - I write to strengthen myself, I write for sheer joy.*
-
-*I recreate myself as I write. Yes! Writing is cathartic.*
+*Writing is cathartic.*
 
 ![topo](https://github.com/user-attachments/assets/d956214f-c45a-4765-91dc-4fa485a5639f)
 
@@ -17,7 +15,9 @@ The onset of Autumn is marked by festivals in India. Autumn's
 - a time to break out for a while and rejuvenate oneself, return refreshed to the inevitable hustle-bustle of life
 - a time to destress, celebrate small wins, and revitalize to keep moving onward and upward.
 
-I took a break and visited the Himalayas during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. A pause and introspection is of paramount importance. Maybe in some ways it enables foreseeing the possibilities in store for us. 
+I took a break and visited the Himalayas during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. 
+
+A pause and introspection is of paramount importance, maybe in some ways it enables foreseeing the possibilities in store for us. 
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
@@ -25,14 +25,18 @@ After coming back from my short vacation, during the winter of 2024 (Jan) I deci
 
 -----
 
-I am migrating my Substack posts since Oct-2025 to GitHub pages, it is work-in-progress. 
+I am migrating my Substack posts (since Oct-2025) to GitHub pages, it is work-in-progress. 
 
-I choose a theme to display for each month or monthly collection of posts - how do I choose it? It is random - dashboards, prompts etc. etc.. 
+I choose a theme each month for my collection of posts - how do I choose the theme? 
+
+Well, it is random. Sometimes dashboards, at other times prompts, etc.  
 Each blog post of mine has pictures clicked by me. I do not have technical knowledge about photography, I capture whatever's appealing to my eyes - mostly Nature.  
 
 <img width="512" height="368" alt="fp" src="https://github.com/user-attachments/assets/38381f05-98d9-4c72-9eb6-328514fa854a" />
 
-There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and clouded, not-so-clear concepts of many other things. Real contentment and joy comes from sharing your knowledge and learning with others and learn back from them. Contributing to the community has two-way benefits, it's useful to more than just myself. 
+There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our learning & understanding, our experiences with others and learn back from them, get to know about their experiences. 
+
+Contributing to the community has two-way benefits, it's useful to more than just myself. 
 
 -----
 
@@ -67,18 +71,10 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 ▶️ [Structured Query Language]()
 
-▶️ [Ensemble Learning]()
-
 ▶️ [Metrics in Machine Learning]()
-
-▶️ [Bias & Variance]()
 
 -----
 
-# Posts
 
-*January-2026*
-
-
-**To be continued...**
+**See you next year...**
 
