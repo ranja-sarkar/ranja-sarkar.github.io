@@ -1,15 +1,22 @@
 ---
-tags: [machine-learning, metrics, functions]
+tags: [machine-learning, supervised-unsupervised, metrics]
 ---
 
 Ranja Sarkar
 
 ![pc](https://github.com/user-attachments/assets/facda9c1-e8aa-4711-86e6-09bf555ad31a)
 
-Metrics are measures of quantitative assessment. They are used for tracking performances in businesses as well as evaluating statistical models. The difference between evaluating a model and making a decision from the model output gets blurry in practice. 
-Business decisions are made through hypothesis tests. A metric or loss function is used for assessment of model performance. A metric is a loss function, viceversa is not necessarily true. A test statistic (typically p-value) is used for the decision of action and inaction of the predictive model, which essentially means deciding if the model can be launched into production or not. A operationalized model needs monitoring, so we know if it’s making useful predictions with new data. 
-📌Metrics are how humans draw meaning (information) from data and are typically designed for business users/end-users. 
-📌Loss functions are designed for machines, although they may be identical to metrics for some problems. 
+Metrics are measures of quantitative assessment. They assess or track business performance as well as statistical model performance. A model (learning from data) is built from buiness data, so the metrics here are intertwined. The difference between assessing a machine learning model and making a business decision from the model output gets blurry in practice.
+
+Business decisions are made through hypothesis tests. A metric or loss function is used for assessment of model performance. A metric is a loss function but viceversa is not necessarily true. A test statistic (typically p-value) is used for the decision of action and inaction on the model, which essentially means deciding if the model can be launched into production or not. A operationalized model needs monitoring, so we know if it’s making meaningful and useful predictions with new data. 
+
+📌Metrics are how humans draw meaning (information) from data and are typically designed for business users. 
+
+📌Loss functions are designed for machines, although they may be identical to metrics for some business problems. 
+
+-----
+
+**SUPERVISED MACHINE LEARNING**
 
 Supervised models where we have a target variable, the metrics to quantify their performance are well-defined, however, devising metrics to evaluate unsupervised models (there’s no target) becomes a tad difficult. 
 Predictive models are framed as optimization problems, for instance optimizing the training of machine learning models with model parameters, then optimizing the model predictions to make a decision. 
@@ -25,9 +32,13 @@ For some business problems, a metric is enough while for some other, one might h
 
 -----
 
+**UNSUPERVISED MACHINE LEARNING**
+
 In unsupervised machine learning, models learn patterns from unlabeled data. Unsupervised learners are comparatively difficult to evaluate as opposed to supervised learners, because there is no ground truth label and such models cannot be tested like supervised ones. However, there are some known measures to assess the quality of results produced by unsupervised algorithms in clustering or segmentation, data  dimensionality reduction, and anomaly detection. 
 
 Here I list the measures or metrics for evaluation of the performance of clustering models, for example kmeans clustering which is centroid-based, DBSCAN which is density-based. These clustering algorithms learn patterns from data to segment/group the datapoints. 
+
+# Clustering
 
 The elbow method to choose optimal ‘k’ in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. But instead a different method should be used to find the optimal number of clusters for a dataset. Here’s why and how. 
 
@@ -43,11 +54,11 @@ Variance-based and distance-based criteria (discussed below) seem to work better
 
 There’s another metric known as adjusted Rand Index. It is capped between values 0 and 1, this index close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing (did not learn data pattern) algorithm.  
 
------
+# Dimensionality Reduction
 
 It is in general difficult to design metrics for evaluating unsupervised ML models, owing to the nature of input data. Unlike clustering, the metrics in data dimensionality reduction algorithms like principal component analysis (PCA) are about information preservation or explaining maximum variance in the dataset; the proportion of variance explained (PVE),  cumulative PVE by the principal components are two such metrics. 
 
------
+# Anomaly Detection
 
 Some well-known unsupervised machine learning algorithms for anomaly (outlier) detection in data have metrics driven by the minor percentage of contamination (abnormality) in input data, majority of the data being considered normal. ⬇️
 
