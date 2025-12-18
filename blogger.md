@@ -25,7 +25,7 @@ After coming back from my short vacation, I decided to start blogging during the
 
 -----
 
-I am migrating my Substack posts (since Oct-2025) to GitHub pages - WIP. I choose a theme each month for my collection of posts 👇
+I am migrating some of my Substack posts (since Oct-2025) to GitHub pages - WIP. I choose a theme each month for my collection of posts. 👇
 
 How do I choose the theme? 
 
@@ -74,5 +74,5 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 
 
-**See you next year.**
+*See you next year.*
 
