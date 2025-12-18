@@ -28,7 +28,14 @@ An evaluation metric must reflect whatever it is we actually care about or desir
 
 We may output the error in squared units (MSE) or square-rooted units (RMSE) or, we may want the error to reflect the linear distance between what we predicted and what’s correct, or we want our data to be minimized by the median. We could try mean absolute error (MAE) in that case which is robust to outliers. 
 
-MSE is known as L2 loss, and MAE is known as L1 loss. Whatever the case, we should be thinking of the metric as integral part of the modeling process, and select the best metric based on the specific concerns of the use-case. 
+MSE is known as L2 loss, and MAE is known as L1 loss. 
+
+<img width="212" height="61" alt="mse" src="https://github.com/user-attachments/assets/18c47025-943c-4b9d-902c-fd5ac3f8d0f3" />
+
+Whatever the case, we should be thinking of the metric as integral part of the modeling process, and select the best metric based on the specific concerns of the use-case.
+
+<img width="233" height="48" alt="mae" src="https://github.com/user-attachments/assets/08687404-3ea5-4495-ba5a-9e1ea93f9b99" />
+
 
 As in kNN classifier algorithm, L1 (Manhattan distance) and L2 (Euclidean distance) metrics are used to measure distances and gauge the proximity between two data points, however the choice of metric depends on the nature of data and specific problem. 
 
@@ -46,7 +53,7 @@ In unsupervised machine learning, models learn patterns from unlabeled data. Uns
 
 [kMeans clustering](https://github.com/ranja-sarkar/DecisionTree/blob/main/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. But a different method should be used to find k. Here’s [why and how](https://arxiv.org/pdf/2212.12189). 
 
-Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion for choosing number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. There's [DBSCAN](https://colab.research.google.com/drive/1TYPoAXE46EPDdkrKhLYzS-C54MxaUxVr) which is a density-based alforithm to cluster data.
+Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion for choosing number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. There's [DBSCAN](https://colab.research.google.com/drive/1TYPoAXE46EPDdkrKhLYzS-C54MxaUxVr) which is a density-based algorithm to cluster data.
 
 📌 [Calinski Harabasz](https://www.tandfonline.com/doi/abs/10.1080/03610927408827101) Score → The CH index is also known as variance ratio criterion. A higher CH index means better defined clusters. [CH score](https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index) is the ratio of the sum of between-clusters (inter) dispersion and of within-cluster (intra) dispersion for all clusters, where dispersion is defined as the sum of distances squared.
 
