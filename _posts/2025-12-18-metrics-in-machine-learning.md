@@ -18,7 +18,7 @@ Business decisions are made through hypothesis tests. A metric or loss function 
 
 **SUPERVISED MACHINE LEARNING**
 
-The metrics to quantify the performance of supervised machine learning models are well-defined, as these models are trained with data having a target variable. These models are formulated as optimization problems, for instance optimizing the training of models with hyper-parameters, then optimizing the model predictions to make a decision. 
+The metrics to quantify the performance of supervised machine learning models are well-defined, as these models are trained with data having target variable or labels. These models are formulated as optimization problems, for instance optimizing the training of models with hyper-parameters, then optimizing the model predictions to make a decision. 
 
 A standard loss function (e.g. AIC) correlates well in general with a performance metric (e.g. RMSE), considered typically in forecasting models built with time-series data where, AIC is Akaike Information Criterion, and BIC is Bayesian Information Criterion. Every optimization problem seeks to minimize a loss function, like AIC or BIC.
 
@@ -38,15 +38,15 @@ For some business problems, a metric is enough while for some other, one might h
 
 -----
 
-**UNSUPERVISED MACHINE LEARNING**
+**[UNSUPERVISED MACHINE LEARNING](https://scikit-learn.org/stable/unsupervised_learning.html)**
 
-In unsupervised machine learning, models learn patterns from unlabeled data. Unsupervised learners are comparatively difficult to evaluate as opposed to supervised learners, because there is no ground truth label and such models cannot be tested like supervised ones. However, there are some known measures to assess the quality of results produced by unsupervised algorithms in clustering or segmentation, data  dimensionality reduction, and anomaly detection. 
+In unsupervised machine learning, models learn patterns from unlabeled data. Unsupervised learners are comparatively difficult to evaluate as opposed to supervised learners, because there is no ground truth label. However, there are some known measures to assess the quality of results produced by unsupervised algorithms in clustering, data dimensionality reduction, and anomaly detection. 
 
-Here I list the measures or metrics for evaluation of the performance of clustering models, for example kmeans clustering which is centroid-based, DBSCAN which is density-based. These clustering algorithms learn patterns from data to segment/group the datapoints. 
+kmeans clustering which is centroid-based, DBSCAN which is density-based. These clustering algorithms learn patterns from data to segment/group the datapoints. 
 
 # Clustering
 
-The elbow method to choose optimal ‘k’ in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. But instead a different method should be used to find the optimal number of clusters for a dataset. Here’s why and how. 
+kMeans clustering is a centroid-based algorithm to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. But a different method should be used to find k. Here’s [why and how](https://arxiv.org/pdf/2212.12189). 
 
 Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion for choosing number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature.
 
