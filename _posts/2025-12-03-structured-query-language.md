@@ -19,7 +19,7 @@ Examples of RDB management system (RDBMS):
 
 2. [Microsoft SQL Server](https://www.microsoft.com/en-in/sql-server/): It is a server-based RDBMS from Microsoft, typically used as a backend for applications running on a network. 
    
-3. [PostgreSQL](https://www.postgresql.org/): It is an open-source RDBMS that emphasizes extensibility and compliance to the ANSI SQL standards. Postgres is also typically used for wenApp development.
+3. [PostgreSQL](https://www.postgresql.org/): It is an open-source RDBMS that emphasizes extensibility and compliance to the ANSI SQL standards. Postgres is typically used for webApp development.
 
 4. [SQLite](https://www.sqlite.org/): It stores a database in a single file (.db). One of the most significant advantages with SQLite is that all data can be stored locally without having to connect the database to a server. It works seamlessly with python. 
 
@@ -53,11 +53,13 @@ Data warehouses make it possible to easily analyze business data uploaded from o
 
 -----
 
-A data lake is an unstructured or semi-structured data repository that allows for the storage of vast amounts of (raw) data in its original form. Data lakes are designed to ingest and store all types of data — structured, semi-structured or unstructured, without any predefined schema. 
+A **data lake** is an unstructured or semi-structured data repository that allows for the storage of vast amounts of (raw) data in its original form. Data lakes are designed to ingest and store all types of data — structured, semi-structured or unstructured, without any predefined schema. 
 
 <img width="214" height="250" alt="dl" src="https://github.com/user-attachments/assets/15f33db1-38ac-4412-bcc4-f2277e5f6fba" />
 
-Data is often stored in its native format and is not cleansed, transformed or integrated, making it easier to store and access large datasets. Data warehouse can be created out of a data lake.
+Data is often stored in its native format and is not cleansed, transformed or integrated, making it easier to store and access large datasets in a data lake. 
+
+📌 A data warehouse can be created out of a data lake.
 
 -----
 
