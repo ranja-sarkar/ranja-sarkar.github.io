@@ -70,28 +70,27 @@ Data must be loaded into the data warehouse. The process of extracting raw data 
 
 **Data modeling** in a data warehouse organizes data into dimensions and facts. There are two schema kinds of data modeling - snowflake schema and star schema. It requires the tables to be classified as either dimension or fact. Dimension tables describe business entities — the things we model. Entities can include products, people, places, and concepts including time itself. Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key that relate to dimension tables, and (numeric) measure columns. 
 
-Star schemas perform efficiently with large data, maintaining history and updating data by reducing the duplication of repetitive business definitions, making it fast to aggregate (query) and filter data in the warehouse. The entity-relationship diagram looks like a star hence, the schema name. 
+A **star schema** performs efficiently with large data, maintaining history and updating data by reducing the duplication of repetitive business definitions, making it fast to aggregate (query) and filter data in the warehouse. The entity-relationship diagram looks like a star hence, the schema name. 
 
 <img width="401" height="251" alt="st" src="https://github.com/user-attachments/assets/a7308c98-1332-4496-a18a-4e8d98258749" />
 
 Star schema is adopted in [Microsoft Power BI reports](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema).
 
-The entity-relationship diagram looks like a snowflake in snowflake schema and it offers more storage efficiency due to its tighter adherence to less data redundancy or duplication, but slower query performance. A snowflake schema is an extension of a star schema, where dimension tables are broken down to sub-dimensions. 
+The entity-relationship diagram looks like a snowflake in **snowflake schema** and it offers more storage efficiency due to its tighter adherence to less data redundancy or duplication, but slower query performance. A snowflake schema is an extension of a star schema, where dimension tables are broken down to sub-dimensions. 
 
 <img width="401" height="209" alt="sf" src="https://github.com/user-attachments/assets/2c1d5281-b577-4572-b4f7-0d8e99e74dac" />
 
 -----
 
-Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handly big data although Amazon RDS existed since 2009. 
+Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handle big data, although Amazon RDS existed since 2009. 
 
-One can migrate data warehouses to Google BigQuery (GBQ). [Here's](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview) how?!
-There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc..
+One can [migrate data warehouses to Google BigQuery (GBQ)](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview). There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc..
 
-SQL is integral to ETL/ELT. SQL is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
+SQL is integral to ETL/ELT. It is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
 
 -----
 
-In relational databases, we sometimes need to combine rows from two or more tables based on a related column between them. This allows us to retrieve data spread across multiple tables and present as a single, unified result. This is where SQL JOINS are essential. Let's say, we have table A and table B, then following are the kinds of JOINs we can have.
+In relational databases, we sometimes need to combine rows from two or more tables based on a related column between them. This allows us to retrieve data spread across multiple tables and present as a single, unified result. This is where **SQL JOINS** are essential. Let's say, we have table A and table B, then following are the kinds of JOINs we can have.
 
 <img width="515" height="160" alt="1" src="https://github.com/user-attachments/assets/abb20526-12ac-404d-8b77-eb39c2dbd2df" />
 
