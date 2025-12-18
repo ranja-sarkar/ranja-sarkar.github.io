@@ -68,7 +68,7 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 ▶️ [Writing & Coding](https://ranja-sarkar.github.io/2025/12/05/writing-&-coding.html)
 
-▶️ [Structured Query Language]()
+▶️ [Structured Query Language](https://ranja-sarkar.github.io/2025/12/03/structured-query-language.html)
 
 ▶️ [Metrics in Machine Learning]()
 
