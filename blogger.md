@@ -25,11 +25,11 @@ After coming back from my short vacation, I decided to start blogging during the
 
 -----
 
-I am migrating my Substack posts (since Oct-2025) to GitHub pages, it is work-in-progress. I choose a theme each month for my collection of posts 👇
+I am migrating my Substack posts (since Oct-2025) to GitHub pages - WIP. I choose a theme each month for my collection of posts 👇
 
 How do I choose the theme? 
 
-Well, it is random. Sometimes dashboards, at other times prompts, etc. Each blog post has pictures clicked by me. I do not have technical knowledge about photography, I capture whatever's appealing to my eyes - mostly Nature.  
+Well, it is random. Sometimes dashboards, at other times prompts, etc. Each blog post has pictures clicked by me. I'm not versed with the technical nuances of photography, I capture whatever appeals to my eyes.  
 
 <img width="512" height="368" alt="fp" src="https://github.com/user-attachments/assets/38381f05-98d9-4c72-9eb6-328514fa854a" />
 
@@ -70,9 +70,8 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 ▶️ [Structured Query Language](https://ranja-sarkar.github.io/2025/12/03/structured-query-language.html)
 
-▶️ [Metrics in Machine Learning]()
+▶️ [Metrics in Machine Learning](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html)
 
------
 
 
 **See you next year...**
