@@ -12,8 +12,8 @@ permalink: /myblog
 
 The onset of Autumn is marked by festivals in India. Autumn's
 
-- a time to break out for a while and rejuvenate oneself, return refreshed to the inevitable hustle-bustle of life
-- a time to destress, celebrate small wins, and revitalize to keep moving onward and upward.
+- a time to rest and relax for a while and rejuvenate oneself, then return refreshed to the inevitable hustle-bustle of life
+- a time to destress, celebrate small wins, revitalize for moving onward and upward.
 
 I took a break and visited the Himalayas during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. 
 
@@ -21,16 +21,15 @@ A pause and introspection is of paramount importance, maybe in some ways it enab
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
-After coming back from my short vacation, during the winter of 2024 (Jan) I decided to start blogging. My blog posts are about *Data Science and stuff*, and everything I feel like writing. 
+After coming back from my short vacation, I decided to start blogging during the winter of 2024 (Jan). My blog posts are about *Data Science and stuff*, and everything I feel like writing. 
 
 -----
 
-I am migrating my Substack posts (since Oct-2025) to GitHub pages, it is work-in-progress. 
+I am migrating my Substack posts (since Oct-2025) to GitHub pages, it is work-in-progress. I choose a theme each month for my collection of posts 👇
 
-I choose a theme each month for my collection of posts - how do I choose the theme? 
+How do I choose the theme? 
 
-Well, it is random. Sometimes dashboards, at other times prompts, etc.  
-Each blog post of mine has pictures clicked by me. I do not have technical knowledge about photography, I capture whatever's appealing to my eyes - mostly Nature.  
+Well, it is random. Sometimes dashboards, at other times prompts, etc. Each blog post has pictures clicked by me. I do not have technical knowledge about photography, I capture whatever's appealing to my eyes - mostly Nature.  
 
 <img width="512" height="368" alt="fp" src="https://github.com/user-attachments/assets/38381f05-98d9-4c72-9eb6-328514fa854a" />
 
