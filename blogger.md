@@ -74,5 +74,5 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 
 
-**See you next year...**
+**See you next year.**
 
