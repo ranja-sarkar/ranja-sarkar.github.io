@@ -100,8 +100,6 @@ In relational databases, we sometimes need to combine rows from two or more tabl
 
 Understanding how different tables relate to each other is the cornerstone of effective database querying.
 
-<img width="227" height="197" alt="6" src="https://github.com/user-attachments/assets/5d0b231c-5d63-49b6-b005-5663022d2ae9" />
-
 -----
 
 In essence, SQL is necessary to define, populate, query, and manage the RDB structures that form the foundation of a data warehouse.
