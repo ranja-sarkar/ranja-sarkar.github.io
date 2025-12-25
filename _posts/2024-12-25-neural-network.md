@@ -17,3 +17,7 @@ Forward propagation is when data moves from left to right in the network, and ba
 Prominent NN architectures are GNNs, RNNs, CNNs, GANs, and transformers.
 
 Graph neural networks [(GNNs)](https://distill.pub/2021/gnn-intro/) on graphs with translational symmetry in all dimensions are CNNs ([convolutional neural networks](https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns)).
+
+GNNs on one-dimemsional directed line graph are RNNs ([recurrent neural networks](https://keras.io/guides/sequential_model/)).
+
+The self-attention mechanism in a decoder in the transformer architecture can be viewed as GNN that is, a neural network on a fully connected graph on all tokens of the context window.it can be thought of as a (special) directed graph where one token is connected to all previous tokens in the context window. 
