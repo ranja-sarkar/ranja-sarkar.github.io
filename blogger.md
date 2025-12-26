@@ -25,7 +25,7 @@ A pause and introspection is of paramount importance, maybe in some ways it enab
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
-After coming back from my short vacation, I decided to start blogging during the winter of 2024 (Jan). My blog posts are about *Data Science and stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as all. 
+After coming back from my short vacation during the winter of 2024 (Jan), I decided to start blogging. My blog posts are about *Data Science & stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as well. 
 
 -----
 
