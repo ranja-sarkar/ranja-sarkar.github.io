@@ -6,7 +6,11 @@ title: Blogger
 permalink: /myblog
 ---
 
-*Writing is cathartic.*
+
+"If a story is in you, it has to come out.”
+
+— William Faulkner
+
 
 ![topo](https://github.com/user-attachments/assets/d956214f-c45a-4765-91dc-4fa485a5639f)
 
@@ -21,7 +25,7 @@ A pause and introspection is of paramount importance, maybe in some ways it enab
 
 ![mm](https://github.com/user-attachments/assets/b3442307-7f2e-4bee-879e-01837e92f87f)
 
-After coming back from my short vacation, I decided to start blogging during the winter of 2024 (Jan). My blog posts are about *Data Science and stuff*, and everything I feel like writing. 
+After coming back from my short vacation, I decided to start blogging during the winter of 2024 (Jan). My blog posts are about *Data Science and stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as all. 
 
 -----
 
@@ -74,5 +78,5 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 
 
-*See you next year.*
+*To be continued..*
 
