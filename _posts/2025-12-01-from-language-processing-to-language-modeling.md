@@ -18,7 +18,9 @@ Well, we humans create value with data and it is what we call Data Science that 
 
 Coming back to the Venn diagram, the [remaining space](https://open.substack.com/pub/ranjas/p/artificial-intelligence) in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization.
 
-With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI.
+With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI. 
+
+-----
 
 📌 **NLP**
 
@@ -56,7 +58,7 @@ The **classical approach** of converting text into numeric vectors is to use the
 
 In [transformer architecture](https://github.com/ranja-sarkar/LLM-RAG/blob/main/attention.pdf) which underlies **large language models (LLMs)**, a positional encoding matrix is created to represent all the possible positions a word/token can take. 
 
-Positional encoding is used to provide a relative position for each token in a sequence. When reading a sentence, each word in the sentence is dependent on the words around it. For example, some words have different meanings in different contexts, so a model should understand these variations and the words that each word relies on for context. 
+**Positional encoding** is used to provide a relative position for each token in a sequence. When reading a sentence, each word in the sentence is dependent on the words around it. For example, some words have different meanings in different contexts, so a model should understand these variations and the words that each word relies on for context. 
 In the architecture, the values in the representation are not fixed binary values but changing floating points allowing for fine-grained learned representations.
 
 -----
@@ -125,7 +127,11 @@ Positional encoding is typically introduced as a set of additional vectors that 
 
 -----
 
-The families of the transformer architecture are encoder-only, decoder-only, and [encoder-decoder](https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder). An encoder network looks across the input sequence and the decoder network looks across a sequence of representations from the encoder. The **GPT (generative pre-trained transformer)** series developed by OpenAI has a decoder-only architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
+The families of the transformer architecture are encoder-only, decoder-only, and [encoder-decoder](https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder). An encoder network looks across the input sequence and the decoder network looks across a sequence of representations from the encoder. 
+
+The **GPT (generative pre-trained transformer)** series developed by OpenAI has a decoder-only architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
+
+BERT (Bidirectional Encoder Representations from Transformers) developed by Google has encoder-only architecture, and is and used primarily for text classification and sentiment analysis. Gemini has encoder-decoder architecture. It is multimodal and good for content generation and complex reasoning.
 
 -----
 
