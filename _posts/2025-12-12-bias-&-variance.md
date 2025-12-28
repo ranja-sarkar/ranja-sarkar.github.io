@@ -18,14 +18,15 @@ A learning curve helps diagnose bias and variance in an ML model. It is a plot o
 
 **Where does the error in predictions from the model come from?** 
 
-Either from variance (too much capacity) that is, not enough information in the dataset 
-
-Or from bias (too little capacity) that is, not enough representation of the true function. 
+It either arises from variance (too much capacity) that is, not enough information in the dataset, or from bias (too little capacity) that is, not enough representation of the true function. 
 
 
 # Validation curve
 
-A validation curve helps find the sweet spot between underfitting and overfitting and build a model that generalizes well. It is a plot of the model's error as a function of a model hyperparameter. 
+A validation curve helps find the sweet spot between underfitting and overfitting and build a model that generalizes well. It is a plot of the model's error as a function of the hyperparameter.
+
+<img width="638" height="432" alt="02" src="https://github.com/user-attachments/assets/9dac74be-151b-492e-8763-b4d25df967d1" />
+
 
 In the region where both the training error and validation error are high, we have a model with high bias. In the region with the training error staying low and validation error increasing, we begin to see the effects of high variance. The validation error remains high as the model is not able to generalize from training data to new data. 
 
