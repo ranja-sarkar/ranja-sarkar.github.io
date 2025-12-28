@@ -4,15 +4,19 @@ tags: []
 
 Ranja Sarkar
 
-Let’s first talk about underfitting and overfitting of a model to data in other words, about a model’s bias and variance.
+A model's vias and variance manifest in how the model underfits and overfits to data. A graphical illustration of bias and variance, accuracy and precision of a model gives us an idea of an optimal model.
 
-Above is the graphical illustration of bias and variance, which illustrates bias, variance, accuracy and precision of a model at one go.
+<img width="447" height="422" alt="01" src="https://github.com/user-attachments/assets/b20c2667-8f26-4c68-b24e-75a7fd8a4b62" />
 
+ 
 # Learning curve
 
 A learning curve helps diagnose bias and variance in an ML model. It is a plot of model’s error as a function of the data (training) size. 
 
-Where does the error in model predictions come from? 
+![03](https://github.com/user-attachments/assets/937d6de6-1d65-461d-b6a8-462f65866e9c)
+
+
+**Where does the error in predictions from the model come from?** 
 
 Either from variance (too much capacity) that is, not enough information in the dataset 
 
