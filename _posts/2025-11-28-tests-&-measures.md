@@ -72,9 +72,12 @@ Parametric models have some assumptions in place, like the normality of residual
 Non-parametric models like kNN, decision tree do not have the assummption of normality of input variables. A variable transformation is usually not required while training non-linear models. Yet, predictions from such models often become reliable when the independent variables are normal.
 
 Normality helps by offering better properties due to the CLT.
------
 
-[Data visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html) is a very essential element of data exploration. For example, a [scatter plot](https://seaborn.pydata.org/generated/seaborn.scatterplot.html) helps us understand which measure (correlation coefficient etc.) to use for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation. 
+---
+
+Asking the right question is the same as using the right measure to infer from data.
+
+[Data visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html) is an essential element of data exploration and understanding. For example, a [scatter plot](https://seaborn.pydata.org/generated/seaborn.scatterplot.html) helps us understand which measure (correlation coefficient etc.) to use for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation. 
 
 While a box plot visually represents inter-quartile range (twice of quartile deviation), a [violin plot](https://plotly.com/python/violin/) shows the shape or density distribution of data. A violin plot must be used to explore skewed data. 
 
