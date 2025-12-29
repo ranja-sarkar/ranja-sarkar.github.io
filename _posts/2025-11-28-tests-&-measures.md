@@ -13,29 +13,34 @@ Let me start with an acronym iid, widely used in the world of statistics.
 
 The **law of large numbers** states that when this collection is a large sample, the sample mean converges to the true mean if it exists. The law applies to the average obtained from a large number of repeated trials and claims that this average converges to the expected (or mean) value. 
 
+---
+
 The **central limit theorem (CLT)** states that, given a sufficiently large sample size, the sampling distribution of the mean for a random variable approximates a normal distribution regardless of it’s distribution in the population. Below is the Wikipedia defnition.
 
 <img width="446" height="82" alt="stats" src="https://github.com/user-attachments/assets/b39b31d9-170b-4487-8050-fc806e7fb43d" />
 
+CLT is vital for two reasons, the normality assumption and the precision of estimates. The normality assumption is vital for parametric hypothesis tests of the mean. One might think that these tests are not valid when the data are non-normally distributed. However, if our sample size is large enough, CLT kicks in and produces sampling distributions that approximate a normal distribution. This fact allows us to use these hypothesis tests even when our data are non-normally distributed as long as the sample size is large enough. 
 
-CLT is vital for two reasons, the normality assumption and the precision of estimates. The normality assumption is vital for parametric hypothesis tests of the mean. One might think that these tests are not valid when the data are non-normally distributed. However, if our sample size is large enough, CLT kicks in and produces sampling distributions that approximate a normal distribution. This fact allows us to use these hypothesis tests even when our data are non-normally distributed as long as the sample size is large enough. The 'precision of estimates' property of CLT becomes relevant when we use a sample to estimate the mean of an entire population. With a larger sample size, the sample mean is more likely to be close to the real population mean. In other words, the estimate becomes precise. 
+The 'precision of estimates' property of CLT becomes relevant when we use a sample to estimate the mean of an entire population. With a larger sample size, the sample mean is more likely to be close to the real population mean. In other words, the estimate becomes precise. It's mentionworthy here that **accuracy** and **precision** cannot be used interchangeably. Accuracy is being true to intention (degree of closeness of measured value to true value) while precision is true to itself (degree of closeness of repeated measured values).
 
-**Accuracy** and **precision** cannot be used interchangeably. Accuracy is being true to intention (degree of closeness of measured value to true value) while precision is true to itself (degree of closeness of repeated measured values).
+---
 
 Descriptive statistics only helps draw inference about a sample. Inferential statistics helps infer about the population. If the sample is representative of the population, both stats yield same results.
 
 **Probability** and **likelihood** are different terms. Probability is finding the chance of outcomes given a data distribution, and likelihood is finding the most likely distribution given the outcomes. Since likelihood is not probability, one can obtain likelihood greater than 1. 
 Having stated this, it may be helpful to conceptually think of likelihood as "probability of the data given the parameters".
 
+---
+
 # Tests & measures
 
-Depending on our objective, we perform a **statistical test** which is typically a design-based approach. What do we measure with the test? 
+Depending on our objective, we perform a **statistical test** which is typically a design-based approach. The test has a hypothesis to start with, so there's a measure. 
 
  📌 **Parametric tests**
 
-If the objective is to find the correlation or linear relationship between two continuous variables, we check the Pearson correlation coefficient only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data.
+If the objective is to find the correlation or linear relationship between two continuous variables, the Pearson correlation coefficient measures that only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data.
 
-A T-test is a parametric test that measures whether a given cofficient/weight of a variable is significantly different than zero. 
+A T-test is a parametric test which measures whether a given cofficient/weight of a variable is significantly different than zero. 
 
 📌 **Non-parametric tests**
 
@@ -51,7 +56,7 @@ Association between two variables is measured by correlation. Interation between
 
 If the objecctive is to predict a target from one or more variables in the data, we perform regression (parametric model). 
 
-Parametric models have some assumptions in place, like the normality of residuals (errors which are the differences between predictions and actuals), the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation while training linear models like regression, ANOVA so the conclusions drawn from these models or tests are more reliable. 
+Parametric models have some assumptions in place, like the normality of residuals (errors which are the differences between predictions and actuals) for inference, the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the conclusions drawn from these models or tests are more reliable. 
 
 [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
@@ -61,6 +66,7 @@ Parametric models have some assumptions in place, like the normality of residual
 
 Non-parametric models like kNN, decision tree do not have the assummption of normality of input variables. A variable transformation is usually not required while training non-linear models. Yet, predictions from such models often become reliable when the independent variables are normal.
 
+Normality helps by offering better properties due to the CLT.
 -----
 
 [Data visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html) is a very essential element of data exploration. For example, a [scatter plot](https://seaborn.pydata.org/generated/seaborn.scatterplot.html) helps us understand which measure (correlation coefficient etc.) to use for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation. 
