@@ -49,11 +49,13 @@ A T-test is a parametric test which measures whether a given cofficient/weight o
 
 📌 **Non-parametric tests**
 
-If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a maeasure of the monotonic (linear or nonlinear) relationshop between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks.
+If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a measure of the monotonic (linear or nonlinear) relationshop between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks.
 
 If we have to compare unpaired or independent groups, we perform unpaired T-test, or a non-parametric test like Mann-Whitney test depending on the data.
 
 The selection of a test depends on the objective and the type of data used in the test. 
+
+<img width="628" height="245" alt="222" src="https://github.com/user-attachments/assets/e108713e-7ee0-4c7f-bb93-85f962176127" />
 
 Association between two variables is measured by correlation. Interation between two variables is different; if two variables interact, they may or may not be [associated](https://www.theanalysisfactor.com/interaction-association/).
 
