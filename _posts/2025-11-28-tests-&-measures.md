@@ -37,7 +37,7 @@ Having stated this, it may be helpful to conceptually think of likelihood as "pr
 
 # Tests & measures
 
-The question we ask totally drives a statisctical analysis. And asking the right question improves the [inference](https://lakens.github.io/statistical_inferences/).
+The question we ask totally drives a statistical analysis. And asking the right question improves the [inference](https://lakens.github.io/statistical_inferences/).
 
 Depending on our objective, we perform a **statistical test** which is typically a design-based approach. The test has a hypothesis to start with, and there's a measure. 
 
@@ -114,6 +114,8 @@ A simple measure of **data dispersion** is its range. However, **variance** and 
 <img width="457" height="162" alt="sd" src="https://github.com/user-attachments/assets/cc9e5a65-5ff3-4cde-916f-fe01d16ac3ad" />
 
 The standard deviation (s) of a data sample is the degree to which individuals (records/observations) within the sample differ from the mean of the sample. The **standard error** of the sample (size n) is an estimate of how far its mean is likely to be away from the population mean. It is defined as s/sqrt(n).
+
+---
 
 **Covariance** is another measure. It measures how two variables in a dataset move wrt each other. 
 
