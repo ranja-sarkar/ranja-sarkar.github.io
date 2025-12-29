@@ -29,23 +29,37 @@ Having stated this, it may be helpful to conceptually think of likelihood as "pr
 
 # Tests & measures
 
-Depending on our objective, we perform a **statistical test**. What do we measure with the test? 
+Depending on our objective, we perform a **statistical test** which is typically a design-based approach. What do we measure with the test? 
 
-<img width="818" height="348" alt="111" src="https://github.com/user-attachments/assets/d32c1d69-c99b-4f16-a6e7-2ca1ac27f026" />
+ 📌 **Parametric tests**
 
+If the objective is to find the correlation or linear relationship between two continuous variables, we check the Pearson correlation coefficient only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data.
 
-If the objective is to find the correlation between two variables or groups, we check the Pearson correlation coefficient only if the data is normally distributed. Due to this assumption, it's a **parametric test**. 
+A T-test is a parametric test that measures whether a given cofficient/weight of a variable is significantly different than zero. 
 
-If there's no assumption, we perform a **non-parametric test** and usually a Spearman correlation coefficient is checked. So the selection of a test depends on the objective and the type of data. 
+📌 **Non-parametric tests**
 
-Now, association between two variables is measured by correlation. Interation between two variables is different; if two variables interact, they may or may not be [associated](https://www.theanalysisfactor.com/interaction-association/).
+If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a maeasure of the monotonic (linear or nonlinear) relationshop between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks.
 
-Another example is if the goal is to predict a target from one or more variables, we perform regression which is a parametric test. A T-test (parametric) measures whether a given cofficient/weight is significantly different than zero. 
+If we have to compare unpaired or independent groups, we perform unpaired T-test, or a non-parametric test like Mann-Whitney test depending on the data.
 
-If we have to compare unpaired or independent groups, we perform unpaired T-test, or a non-parametric test like Mann-Whitney test depending on the data. [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
+The selection of a test depends on the objective and the type of data used in the test. 
+
+Association between two variables is measured by correlation. Interation between two variables is different; if two variables interact, they may or may not be [associated](https://www.theanalysisfactor.com/interaction-association/).
+
+📌 **Parametric models**
+
+If the objecctive is to predict a target from one or more variables in the data, we perform regression (parametric model). 
+
+Parametric models have some assumptions in place, like the normality of residuals (errors which are the differences between predictions and actuals), the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation while training linear models like regression, ANOVA so the conclusions drawn from these models or tests are more reliable. 
+
+[Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
 <img width="812" height="375" alt="222" src="https://github.com/user-attachments/assets/de415971-b216-48de-9bc3-0117141c878f" />
 
+📌 **Non-parametric models**
+
+Non-parametric models like kNN, decision tree do not have the assummption of normality of input variables. A variable transformation is usually not required while training non-linear models. Yet, predictions from such models often become reliable when the independent variables are normal.
 
 -----
 
