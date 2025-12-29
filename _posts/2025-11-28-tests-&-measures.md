@@ -28,7 +28,7 @@ Having stated this, it may be helpful to conceptually think of likelihood as "pr
 
 Depending on our objective, we perform a **statistical test**. What do we measure with the test? 
 
-<img width="1261" height="314" alt="tt" src="https://github.com/user-attachments/assets/49a52318-91c5-4405-853f-4d14af1a17b9" />
+<img width="818" height="348" alt="111" src="https://github.com/user-attachments/assets/d32c1d69-c99b-4f16-a6e7-2ca1ac27f026" />
 
 
 For example, if the objective is to find the correlation between two variables or groups, we check the Pearson correlation coefficient only if the data is normally distributed. Due to this assumption, it's a parametric test. If there's no assumption, the test becomes non-parametric and usually a Spearman correlation coefficient is checked. So the selection of a test depends on the objective and the type of data. 
