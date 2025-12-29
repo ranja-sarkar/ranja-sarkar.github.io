@@ -92,6 +92,12 @@ For example, **mode** is the best measure of central tendency for nominal qualit
 
 <img width="489" height="214" alt="sk" src="https://github.com/user-attachments/assets/1bd51666-8008-4c78-ac02-22fd023df229" />
 
+While linear regression estimates conditional mean by minimizing squared residuals (OLS method), [quantile regression](https://www.aeaweb.org/articles?id=10.1257/jep.15.4.143) estimates quantile functions. Quantile regression estimates the quantiles which include the median by modeling entire conditional distribution of the response (dependent variable), making it robust to outliers and useful for skewed data. The mean/average does not tell the whole story, linear regression gives one "best fit" mean line; quantile regression provides multiple lines, showing how predictors affect lower, middle, and upper parts of the response's distribution. 
+
+<img width="544" height="211" alt="333" src="https://github.com/user-attachments/assets/d909a9f8-d566-410a-b66a-d885610448bd" />
+
+---
+
 The first 4 [moments](https://gregorygundersen.com/blog/2020/04/11/moments/) of a distribution are mean, variance, skewness, kurtosis. While a symmetric distribution always has zero skewness of zero, the opposite claim is not always true that is, a distribution with zero skewness may be asymmetric.
 
 <img width="283" height="248" alt="ks" src="https://github.com/user-attachments/assets/83041fd3-9568-4dd9-a712-4245bb293b26" />
