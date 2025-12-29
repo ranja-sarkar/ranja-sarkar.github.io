@@ -6,12 +6,15 @@ Ranja Sarkar
 
 ![med1](https://github.com/user-attachments/assets/1478937b-a23f-4842-8a6f-f99d2856b973)
 
+There are two schools of thought or approaches in statistical tests. One is frequentist, another is Bayesian. 
 
-Let me start with an acronym iid, widely used in the world of statistics. 
+The frequentist approach is how often an outcome happens over repeated runs of the experiment/test. It’s an objective view of whether an experiment is repeatable. 
 
-**iid** is **independent & identically distributed**, which implies a collection of random variables where each variable has a probability distribution same as others in the collection and all of them are mutually independent. 
+The Bayesian approach is a subjective view of the same. [Bayesian](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3dab2be104f4905452c182d3e1d53218b277e8ad/_posts/assets/Springer%20Nature_2020.pdf) takes into account how much faith we have in our results. It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability.
 
-The **law of large numbers** states that when this collection is a large sample, the sample mean converges to the true mean if it exists. The law applies to the average obtained from a large number of repeated trials and claims that this average converges to the expected (or mean) value. 
+---
+
+The **law of large numbers** states that when a collection of random variables is a large sample, the sample mean converges to the true mean if it exists. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the expected value. 
 
 ---
 
@@ -25,7 +28,7 @@ The 'precision of estimates' property of CLT becomes relevant when we use a samp
 
 ---
 
-Descriptive statistics only helps draw inference about a sample. Inferential statistics helps infer about the population. If the sample is representative of the population, both stats yield same results.
+Descriptive statistics helps draw inference about a sample. Inferential statistics helps infer about the population. If the sample is representative of the population, both stats yield same results.
 
 **Probability** and **likelihood** are different terms. Probability is finding the chance of outcomes given a data distribution, and likelihood is finding the most likely distribution given the outcomes. Since likelihood is not probability, one can obtain likelihood greater than 1. 
 Having stated this, it may be helpful to conceptually think of likelihood as "probability of the data given the parameters".
@@ -76,8 +79,6 @@ While a box plot visually represents inter-quartile range (twice of quartile dev
 <img width="357" height="284" alt="vp" src="https://github.com/user-attachments/assets/314d9b9b-0fd9-4c9c-9428-3cd4405f8516" />
 
 -----
-
-There are two schools of thought or approaches in statistical testing. One is frequentist, another is Bayesian. The former framework is how often an outcome happens over repeated runs of the experiment/test. It’s an objective view of whether an experiment is repeatable. The latter is a subjective view of the same. [Bayesian](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3dab2be104f4905452c182d3e1d53218b277e8ad/_posts/assets/Springer%20Nature_2020.pdf) takes into account how much faith we have in our results. It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability.
 
 Tests also measure **central tendency** and **dispersion** of data. 
 
