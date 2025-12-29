@@ -56,7 +56,7 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 ▶️ [Distributions](https://ranja-sarkar.github.io/2025/11/26/Distributions.html)
 
-▶️ [KnowHow](https://ranja-sarkar.github.io/2025/11/28/know-how.html)
+▶️ [Tests & Measures](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html)
 
 -----
 
