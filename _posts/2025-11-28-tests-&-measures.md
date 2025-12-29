@@ -14,7 +14,7 @@ The Bayesian approach is a subjective view of the same. [Bayesian](https://githu
 
 ---
 
-The **law of large numbers** states that when a collection of random variables is a large sample, the sample mean converges to the true mean if it exists. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the expected value. 
+The **law of large numbers** states that when a collection of random variables is a large sample, the sample mean converges to the true mean if it exists. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the expected value. For a small sample, there's a difference berween these values called the error.
 
 ---
 
@@ -37,7 +37,9 @@ Having stated this, it may be helpful to conceptually think of likelihood as "pr
 
 # Tests & measures
 
-Depending on our objective, we perform a **statistical test** which is typically a design-based approach. The test has a hypothesis to start with, so there's a measure. 
+The question we ask totally drives a statisctical analysis. And asking the right question improves the [inference](https://lakens.github.io/statistical_inferences/).
+
+Depending on our objective, we perform a **statistical test** which is typically a design-based approach. The test has a hypothesis to start with, and there's a measure. 
 
  📌 **Parametric tests**
 
@@ -59,7 +61,7 @@ Association between two variables is measured by correlation. Interation between
 
 If the objecctive is to predict a target from one or more variables in the data, we perform regression (parametric model). 
 
-Parametric models have some assumptions in place, like the normality of residuals (errors which are the differences between predictions and actuals) for inference, the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the conclusions drawn from these models or tests are more reliable. 
+Parametric models have some assumptions in place, like the normality of residuals which are the differences between predictions (fitted response) and actuals (observed response), the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the inference or conclusions drawn from these models or tests are more reliable. 
 
 [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
@@ -93,11 +95,15 @@ The first 4 [moments](https://gregorygundersen.com/blog/2020/04/11/moments/) of 
 
 While skewness is a measure of the relative size of the two tails of a distribution, it is positive or negative depending on which tail is larger, kurtosis is a measure of the size of two tails together relative to the distribution.
 
-There are **power transformations** that variables in a dataset need to undergo if they follow right-skewed or left-skewed distributions. Power transforms refer to a class of techniques utilizing a power function (logarithm or exponent) to make the probability distribution of the variable Gaussian (normal). 
+---
+
+There are **power transformations** that variables in a dataset usually undergo if they follow right-skewed or left-skewed distributions. Power transforms refer to a class of techniques utilizing a power function (logarithm or exponent) to make the probability distribution of the variable Gaussian (normal). Such transformations helps stabilize the variance in the dataset.
 
 The [Box-Cox transformation](https://feature-engine.trainindata.com/en/latest/user_guide/transformation/index.html) is a generalization of the power transformations family. They find a parameter 'lambda' that best transforms the variable, for example lambda = -1 is a reciprocal transform, lambda = 0 is a log transform, lambda = 0.5 is a square root transform.
 
 <img width="225" height="41" alt="bc" src="https://github.com/user-attachments/assets/e5f64f82-e372-4410-a45d-2e038912351c" />
+
+---
 
 A simple measure of **data dispersion** is its range. However, **variance** and standard deviation best serve the purpose.
 
