@@ -39,7 +39,8 @@ Another example is if the goal is to predict a target from one or more variables
 
 If we have to compare unpaired or independent groups, we perform unpaired T-test, or a non-parametric test like Mann-Whitney test depending on the data. [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
-<img width="1513" height="361" alt="tests" src="https://github.com/user-attachments/assets/d7979854-3976-4fd3-9343-f98947d7e1eb" />
+<img width="812" height="375" alt="222" src="https://github.com/user-attachments/assets/de415971-b216-48de-9bc3-0117141c878f" />
+
 
 -----
 
@@ -98,9 +99,9 @@ In a [covariance matrix](https://www.theanalysisfactor.com/covariance-matrices/)
 
 -----
 
-I would like to wrap this post up by stating the two cultures of statistical modeling according to [Leo Breiman](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0bfc923a56cca1a92c2c782be8d08d6aa47a6326/_posts/assets/breiman.pdf).
+I shall wrap this post up by stating the two cultures of statistical modeling according to [Leo Breiman](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0bfc923a56cca1a92c2c782be8d08d6aa47a6326/_posts/assets/breiman.pdf).
 
-1. **Data Model**, wherein the data-generating mechanism is assumed to be known and model parameters are estimated from the data for example, linear regression.
+1. **Data Model**, wherein the data-generating mechanism is assumed to be known and model parameters are estimated from the data. Example: linear regression.
 
-2. **Algorithmic Model**, where the data-generating mechanism is unknown (may be stochastic/non-deterministic) and uses an algorithm to find a function f(x) that operates on variables x in the data to estimate a response y for example, neural nets.
+2. **Algorithmic Model**, where the data-generating mechanism is unknown (may be stochastic/non-deterministic) and uses an algorithm to find a function f(x) that operates on variables x in the data to estimate a response y. Example: neural network.
 
