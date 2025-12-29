@@ -65,7 +65,6 @@ Parametric models have some assumptions in place, like the normality of residual
 
 [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
-<img width="812" height="375" alt="222" src="https://github.com/user-attachments/assets/de415971-b216-48de-9bc3-0117141c878f" />
 
 📌 **Non-parametric models**
 
@@ -100,7 +99,7 @@ While skewness is a measure of the relative size of the two tails of a distribut
 
 ---
 
-There are **power transformations** that variables in a dataset usually undergo if they follow right-skewed or left-skewed distributions. Power transforms refer to a class of techniques utilizing a power function (logarithm or exponent) to make the probability distribution of the variable Gaussian (normal). Such transformations helps stabilize the variance in the dataset.
+There are **power transformations** that independent variables in a dataset usually undergo if they follow right-skewed or left-skewed distributions. Power transforms refer to a class of techniques utilizing a power function (logarithm or exponent) to make the probability distribution of the variable Gaussian (normal). Such transformations helps stabilize the variance of independent variables in the dataset.
 
 The [Box-Cox transformation](https://feature-engine.trainindata.com/en/latest/user_guide/transformation/index.html) is a generalization of the power transformations family. They find a parameter 'lambda' that best transforms the variable, for example lambda = -1 is a reciprocal transform, lambda = 0 is a log transform, lambda = 0.5 is a square root transform.
 
