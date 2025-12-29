@@ -7,8 +7,11 @@ Ranja Sarkar
 ![med1](https://github.com/user-attachments/assets/1478937b-a23f-4842-8a6f-f99d2856b973)
 
 
-Let me start with an acronym iid, widely used in the world of statistics.
-**iid** is **independent & identically distributed**, which implies a collection of random variables where each variable has a probability distribution same as others in the collection and all of them are mutually independent. The **law of large numbers** states that when this collection is a large sample, the sample mean converges to the true mean if it exists. The law applies to the average obtained from a large number of repeated trials and claims that this average converges to the expected (or mean) value. 
+Let me start with an acronym iid, widely used in the world of statistics. 
+
+**iid** is **independent & identically distributed**, which implies a collection of random variables where each variable has a probability distribution same as others in the collection and all of them are mutually independent. 
+
+The **law of large numbers** states that when this collection is a large sample, the sample mean converges to the true mean if it exists. The law applies to the average obtained from a large number of repeated trials and claims that this average converges to the expected (or mean) value. 
 
 The **central limit theorem (CLT)** states that, given a sufficiently large sample size, the sampling distribution of the mean for a random variable approximates a normal distribution regardless of it’s distribution in the population. Below is the Wikipedia defnition.
 
@@ -31,7 +34,9 @@ Depending on our objective, we perform a **statistical test**. What do we measur
 <img width="818" height="348" alt="111" src="https://github.com/user-attachments/assets/d32c1d69-c99b-4f16-a6e7-2ca1ac27f026" />
 
 
-For example, if the objective is to find the correlation between two variables or groups, we check the Pearson correlation coefficient only if the data is normally distributed. Due to this assumption, it's a parametric test. If there's no assumption, the test becomes non-parametric and usually a Spearman correlation coefficient is checked. So the selection of a test depends on the objective and the type of data. 
+If the objective is to find the correlation between two variables or groups, we check the Pearson correlation coefficient only if the data is normally distributed. Due to this assumption, it's a **parametric test**. 
+
+If there's no assumption, we perform a **non-parametric test** and usually a Spearman correlation coefficient is checked. So the selection of a test depends on the objective and the type of data. 
 
 Now, association between two variables is measured by correlation. Interation between two variables is different; if two variables interact, they may or may not be [associated](https://www.theanalysisfactor.com/interaction-association/).
 
