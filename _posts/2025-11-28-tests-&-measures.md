@@ -86,9 +86,11 @@ While a box plot visually represents inter-quartile range (twice of quartile dev
 
 -----
 
-Tests also measure **central tendency** and **dispersion** of data. 
+Tests also measure central tendency and dispersion of data. 
 
-For example, **mode** is the best measure of central tendency for nominal qualitative (categorical) data and **median** is the best for ordinal qualitative data. For interval/ratio types of quantitative (numeric) data, median is the best for a skewed distribution amd mean for a not skewed distribution.
+📌 **Central tendency**
+
+**Mode** is the best measure of central tendency for nominal qualitative (categorical) data, and **median** is the best for ordinal qualitative data. For interval/ratio types of quantitative (numeric) data, median is the best for a skewed distribution amd mean for a not skewed distribution.
 
 <img width="489" height="214" alt="sk" src="https://github.com/user-attachments/assets/1bd51666-8008-4c78-ac02-22fd023df229" />
 
@@ -96,7 +98,7 @@ While linear regression estimates conditional mean by minimizing squared residua
 
 <img width="544" height="211" alt="333" src="https://github.com/user-attachments/assets/d909a9f8-d566-410a-b66a-d885610448bd" />
 
----
+📌 **Dispersion**
 
 The first 4 [moments](https://gregorygundersen.com/blog/2020/04/11/moments/) of a distribution are mean, variance, skewness, kurtosis. While a symmetric distribution always has zero skewness of zero, the opposite claim is not always true that is, a distribution with zero skewness may be asymmetric.
 
