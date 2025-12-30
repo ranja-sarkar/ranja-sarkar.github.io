@@ -64,7 +64,7 @@ Association between two variables is measured by correlation. Interation between
 
 📌 **Parametric models**
 
-If the objecctive is to predict a target from one or more variables in the data, we perform regression (parametric model). 
+If the objective is to predict a target from one or more variables in the data, we perform regression (parametric model). 
 
 Parametric models have some assumptions in place, like the normality of residuals which are the differences between predictions (fitted response) and actuals (observed response), the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the inference or conclusions drawn from these models or tests are more reliable. 
 
@@ -79,7 +79,7 @@ Normality helps by offering better properties due to the CLT.
 
 ---
 
-Asking the right question is the same as using the right measure to infer from data.
+Asking the right question is similar to using the right measure as a test statistic.
 
 [Data visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html) is an essential element of data exploration and understanding. For example, a [scatter plot](https://seaborn.pydata.org/generated/seaborn.scatterplot.html) helps us understand which measure (correlation coefficient etc.) to use for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation. 
 
