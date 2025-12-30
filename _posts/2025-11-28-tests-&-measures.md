@@ -43,9 +43,11 @@ Depending on our objective, we perform a **statistical test** which is typically
 
  📌 **Parametric tests**
 
-If the objective is to find the correlation or linear relationship between two continuous variables, the Pearson correlation coefficient measures that only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data, a large sample is in general used in this test for reliable results. 
+If the objective is to find the correlation or linear relationship between two continuous variables, the Pearson correlation coefficient measures that only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data, a large sample is typically used in this test for reliable results. 
 
 A T-test is a parametric test which measures whether a given cofficient/weight of a variable is significantly different than zero. 
+
+
 
 📌 **Non-parametric tests**
 
@@ -126,7 +128,7 @@ The standard deviation (s) of a data sample is the degree to which individuals (
 
 ---
 
-**Covariance** is another measure. It measures how two variables in a dataset move wrt each other. 
+**Covariance** is another measure, which depicts how two variables in a dataset move wrt each other. 
 
 <img width="502" height="182" alt="cov" src="https://github.com/user-attachments/assets/b53b3e0c-f3b1-4ff5-8a49-f865cfdcac45" />
 
@@ -138,13 +140,12 @@ We shall see how correlation and covariance (cov) are different. Well, covarianc
 
 <img width="529" height="203" alt="corr" src="https://github.com/user-attachments/assets/8176e107-80c9-4ddc-b5c0-a51a30e2b0b3" />
 
-Covariance provides the direction of relationship and has dimension (as the variable scale/unit), while correlation provides the direction and strength of relationship and is dimensionless. 
+💡 Covariance provides the direction of relationship and has dimension (as the variable scale/unit). In a [covariance matrix](https://www.theanalysisfactor.com/covariance-matrices/), each diagonal element is the variance of a variable and the off-diagonals are covariances between two variables.
+
+💡 Correlation provides the direction and strength of relationship and is dimensionless.  In a correlation matrix, the diagonals are unity. 
 
 <img width="443" height="112" alt="co0" src="https://github.com/user-attachments/assets/1d652478-aa2f-46c0-b73e-528173132df4" />
 
-In a [covariance matrix](https://www.theanalysisfactor.com/covariance-matrices/), each diagonal element is the variance of a variable and the off-diagonals are covariances between two variables. In a correlation matrix, the diagonals are unity.
-
------
 
 I shall wrap this post up by stating the two cultures of statistical modeling according to [Leo Breiman](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0bfc923a56cca1a92c2c782be8d08d6aa47a6326/_posts/assets/breiman.pdf).
 
