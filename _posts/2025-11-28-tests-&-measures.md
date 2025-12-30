@@ -47,7 +47,8 @@ If the objective is to find the correlation or linear relationship between two c
 
 A T-test is a parametric test which measures whether a given cofficient/weight of a variable is significantly different than zero. 
 
-
+While the correlation coefficient (Pearson) is easy to calculate and provides a measure of the strength of linear association in the data, it also has its limitations.
+In a [research study](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0df2e673d8a8a1b63e7b24e1313264e9abfdfed5/_posts/assets/corr.pdf), it has been found the range of observed data has an impact on the coefficient value.  If necessary, one should look into alternatives to the correlation coefficient.
 
 📌 **Non-parametric tests**
 
@@ -132,11 +133,15 @@ The standard deviation (s) of a data sample is the degree to which individuals (
 
 <img width="502" height="182" alt="cov" src="https://github.com/user-attachments/assets/b53b3e0c-f3b1-4ff5-8a49-f865cfdcac45" />
 
-Yes! covariance is related to correlation. So we are back to correlation (corr), the measure with which we started the topic here.
+Covariance is related to correlation. So we are back to correlation (cor), the measure with which we started the topic.
 
 <img width="293" height="78" alt="corr" src="https://github.com/user-attachments/assets/b4f054c1-e0b3-4dd3-bd4e-338f71bbb482" />
 
-We shall see how correlation and covariance (cov) are different. Well, covariance is unstandardized version of correlation. Correlation is a measure of not only how two variables move wrt each other, but also how strongly those two are related and its value lies between -1 and +1.
+We shall see how correlation and covariance (cov) are different. Well, covariance is unstandardized version of correlation.
+
+<img width="443" height="112" alt="co0" src="https://github.com/user-attachments/assets/1d652478-aa2f-46c0-b73e-528173132df4" />
+
+Correlation is a measure of not only how two variables move wrt each other, but also how strongly those two are related and its value lies between -1 and +1.
 
 <img width="529" height="203" alt="corr" src="https://github.com/user-attachments/assets/8176e107-80c9-4ddc-b5c0-a51a30e2b0b3" />
 
@@ -144,8 +149,7 @@ We shall see how correlation and covariance (cov) are different. Well, covarianc
 
 💡 Correlation provides the direction and strength of relationship and is dimensionless.  In a correlation matrix, the diagonals are unity. 
 
-<img width="443" height="112" alt="co0" src="https://github.com/user-attachments/assets/1d652478-aa2f-46c0-b73e-528173132df4" />
-
+---
 
 I shall wrap this post up by stating the two cultures of statistical modeling according to [Leo Breiman](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0bfc923a56cca1a92c2c782be8d08d6aa47a6326/_posts/assets/breiman.pdf).
 
