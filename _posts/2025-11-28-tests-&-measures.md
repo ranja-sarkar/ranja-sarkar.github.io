@@ -43,13 +43,13 @@ Depending on our objective, we perform a **statistical test** which is typically
 
  📌 **Parametric tests**
 
-If the objective is to find the correlation or linear relationship between two continuous variables, the Pearson correlation coefficient measures that only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data.
+If the objective is to find the correlation or linear relationship between two continuous variables, the Pearson correlation coefficient measures that only if the data is normally distributed. Due to this assumption, it's a parametric test. Pearson correlation is sensitive to outliers in data, a large sample is in general used in this test for reliable results. 
 
 A T-test is a parametric test which measures whether a given cofficient/weight of a variable is significantly different than zero. 
 
 📌 **Non-parametric tests**
 
-If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a measure of the monotonic (linear or nonlinear) relationshop between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks.
+If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a measure of the monotonic (linear or nonlinear) relationshop between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks, and a small sample would suffice for this test.
 
 If we have to compare unpaired or independent groups, we perform unpaired T-test, or a non-parametric test like Mann-Whitney test depending on the data.
 
@@ -98,7 +98,6 @@ While linear regression estimates conditional mean by minimizing squared residua
 
 <img width="544" height="211" alt="333" src="https://github.com/user-attachments/assets/d909a9f8-d566-410a-b66a-d885610448bd" />
 
-📌 **Dispersion**
 
 The first 4 [moments](https://gregorygundersen.com/blog/2020/04/11/moments/) of a distribution are mean, variance, skewness, kurtosis. While a symmetric distribution always has zero skewness of zero, the opposite claim is not always true that is, a distribution with zero skewness may be asymmetric.
 
@@ -116,6 +115,8 @@ The [Box-Cox transformation](https://feature-engine.trainindata.com/en/latest/us
 <img width="225" height="41" alt="bc" src="https://github.com/user-attachments/assets/e5f64f82-e372-4410-a45d-2e038912351c" />
 
 ---
+
+📌 **Dispersion**
 
 A simple measure of **data dispersion** is its range. However, **variance** and standard deviation best serve the purpose.
 
