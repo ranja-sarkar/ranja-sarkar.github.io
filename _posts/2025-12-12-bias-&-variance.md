@@ -43,7 +43,7 @@ Feeding more data during training of the model can help improve model performanc
 
 <img width="193" height="259" alt="332" src="https://github.com/user-attachments/assets/d5939684-94e6-4e41-b334-75eaf0c629de" />
 
-
+[Learning curves](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html) help check the scalability of ML models by providing an estimate of the cost to scale the models. 
 
 # Validation curve
 
