@@ -4,16 +4,18 @@ tags: [data, bias, variance, machine-learning]
 
 Ranja Sarkar
 
-![IMG_2900](https://github.com/user-attachments/assets/03a82f42-e0cb-4581-b3f4-2107ade1f5cd)
 
-A model's vias and variance manifest in how the model underfits and overfits to data. A graphical illustration of bias and variance, accuracy and precision of a model gives us an idea of an optimal model.
+
+A model's bias and variance manifest in how the model underfits and overfits to data. 
+
+A graphical illustration of bias and variance, accuracy and precision gives us an idea about what an optimal model is.
 
 <img width="447" height="422" alt="01" src="https://github.com/user-attachments/assets/b20c2667-8f26-4c68-b24e-75a7fd8a4b62" />
 
  
 # Learning curve
 
-A learning curve helps diagnose bias and variance in an ML model. It is a plot of model’s error as a function of the data (training) size. 
+A learning curve helps diagnose bias and variance in a machine learning (ML) model. It is a plot of the model’s error as a function of the data, the datasize with which the model is trained. 
 
 ![03](https://github.com/user-attachments/assets/937d6de6-1d65-461d-b6a8-462f65866e9c)
 
@@ -21,6 +23,13 @@ A learning curve helps diagnose bias and variance in an ML model. It is a plot o
 **Where does the error in predictions from the model come from?** 
 
 It either arises from variance (too much capacity) that is, not enough information in the dataset, or from bias (too little capacity) that is, not enough representation of the true function. 
+
+For a highly **biased or underfitted** model, there will be fairly quick convergence to high errors with the validation and training subsets of data. This is when training on more data will not help improve model performance. 
+
+<img width="217" height="260" alt="111" src="https://github.com/user-attachments/assets/8246b9de-1624-46a2-94ff-cbd60bb1ade4" />
+
+Considering additional features in the dataset (horizontal expansion of data) may solve for underfitting, as then the model is more equipped to learn proper relationships in the data.
+
 
 
 # Validation curve
