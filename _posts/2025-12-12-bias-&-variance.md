@@ -1,8 +1,10 @@
 ---
-tags: []
+tags: [data, bias, variance, machine-learning]
 ---
 
 Ranja Sarkar
+
+![IMG_2900](https://github.com/user-attachments/assets/03a82f42-e0cb-4581-b3f4-2107ade1f5cd)
 
 A model's vias and variance manifest in how the model underfits and overfits to data. A graphical illustration of bias and variance, accuracy and precision of a model gives us an idea of an optimal model.
 
