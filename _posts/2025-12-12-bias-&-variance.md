@@ -15,12 +15,15 @@ A graphical illustration of bias and variance, accuracy and precision gives us a
  
 # Learning curve
 
-A learning curve helps diagnose bias and variance in a machine learning (ML) model. It is a plot of the model’s error as a function of the data, the datasize with which the model is trained. 
+A learning curve helps diagnose bias and variance in a machine learning (ML) model. 
 
 ![03](https://github.com/user-attachments/assets/937d6de6-1d65-461d-b6a8-462f65866e9c)
 
+It is a plot of the model’s error as a function of the data, the datasize with which the model is trained. [Learning curves](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html) help check the scalability of ML models by providing an estimate of the cost to scale the models. 
 
-**Where does the error in predictions from the model come from?** 
+-----
+
+📌 Where does the error in predictions from the model come from? 
 
 It either arises **from variance (too much capacity)** that is, not enough information in the dataset, or **from bias (too little capacity)** that is, not enough representation of the true function. 
 
@@ -34,6 +37,10 @@ Considering additional features in the dataset (horizontal expansion of data) ma
 
 <img width="508" height="174" alt="221" src="https://github.com/user-attachments/assets/928439d5-c186-4e50-8870-289a4200b217" />
 
+Increasing model capacity addresses underfitting. With increased capacity, the model learns and memorizes the data and generalizes well to new data.
+
+-----
+
 For a **high-variance or overfitted** model, there will be a fairly large gap between the errors produced by the validation or test and train sets of data as the model performs well for the train set but poorly for the validation or test set. What happens is the model captures noise too from the data, so having more model parameters than necessary leads to poor generalization. Generalization isn’t just about quantity, it’s also about quality of data and the right level of model complexity.
 
 
@@ -43,7 +50,9 @@ Feeding more data during training of the model can help improve model performanc
 
 <img width="193" height="259" alt="332" src="https://github.com/user-attachments/assets/d5939684-94e6-4e41-b334-75eaf0c629de" />
 
-[Learning curves](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html) help check the scalability of ML models by providing an estimate of the cost to scale the models. 
+Explicit regularization means adding terms to the error, which prevents overfitting as the variance is reduced.
+
+In a world with imperfections and finite data, there is a [tradeoff](https://scott.fortmann-roe.com/docs/BiasVariance.html) between minimizing the bias and minimizing the variance of a model.
 
 # Validation curve
 
