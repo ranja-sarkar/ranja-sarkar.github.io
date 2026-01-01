@@ -41,7 +41,9 @@ Increasing model capacity addresses underfitting. With increased capacity, the m
 
 -----
 
-For a **high-variance or overfitted** model, there will be a fairly large gap between the errors produced by the validation or test and train sets of data as the model performs well for the train set but poorly for the validation or test set. What happens is the model captures noise too from the data, so having more model parameters than necessary leads to poor generalization. Generalization isn’t just about quantity, it’s also about quality of data and the right level of model complexity.
+For a **high-variance or overfitted** model, there will be a fairly large gap between the errors produced by the validation or test and train sets of data as the model performs well for the train set but poorly for the validation or test set. 
+
+What happens is the model captures noise too from the data, so having more model parameters than necessary leads to poor generalization. Generalization isn’t just about quantity, it’s also about quality of data and the right level of model complexity. For example, neural networks owing to over-parameterization tend to over-learn in general. So early stopping which is tuning the hyper-parameter 'epochs' helps prevents prevent overfitting of neural nets to data.
 
 
 <img width="212" height="254" alt="333" src="https://github.com/user-attachments/assets/23759bce-ff3b-46d7-a108-63c74fd42801" />
