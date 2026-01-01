@@ -24,13 +24,25 @@ A learning curve helps diagnose bias and variance in a machine learning (ML) mod
 
 It either arises **from variance (too much capacity)** that is, not enough information in the dataset, or **from bias (too little capacity)** that is, not enough representation of the true function. 
 
-For a highly **biased or underfitted** model, there will be fairly quick convergence to high errors with the validation and training subsets of data. This is when training on more data will not help improve model performance. 
+-----
+
+For a highly **biased or underfitted** model, there will be fairly quick convergence to high errors with the validation or test and train subsets of data. This is when training on more data will not help improve model performance. 
 
 <img width="217" height="260" alt="111" src="https://github.com/user-attachments/assets/8246b9de-1624-46a2-94ff-cbd60bb1ade4" />
 
-Considering additional features in the dataset (horizontal expansion of data) may solve for underfitting, as then the model is more equipped to learn proper relationships in the data.
+Considering additional features in the dataset (horizontal expansion of data) may solve for underfitting, as then the model is more equipped to learn proper relationships in the dataset.
 
 <img width="508" height="174" alt="221" src="https://github.com/user-attachments/assets/928439d5-c186-4e50-8870-289a4200b217" />
+
+For a **high-variance or overfitted** model, there will be a fairly large gap between the errors produced by the validation or test and train sets of data as the model performs well for the train set but poorly for the validation or test set. What happens is the model captures noise too from the data, so having more model parameters than necessary leads to poor generalization. Generalization isn’t just about quantity, it’s also about quality of data and the right level of model complexity.
+
+
+<img width="212" height="254" alt="333" src="https://github.com/user-attachments/assets/23759bce-ff3b-46d7-a108-63c74fd42801" />
+
+Feeding more data during training of the model can help improve model performance, as then the model is able to generalize the relationships in the dataset.
+
+<img width="193" height="259" alt="332" src="https://github.com/user-attachments/assets/d5939684-94e6-4e41-b334-75eaf0c629de" />
+
 
 
 # Validation curve
