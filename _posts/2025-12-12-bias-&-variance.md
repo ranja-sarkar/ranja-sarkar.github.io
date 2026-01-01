@@ -8,7 +8,7 @@ Ranja Sarkar
 
 A model's bias and variance manifest in how the model underfits and overfits to data. 
 
-A graphical illustration of bias and variance, accuracy and precision gives us an idea about what an optimal model is.
+A graphical illustration of bias and variance, accuracy and precision gives us an idea about what an optimal model is - the one with low bias and low variance.
 
 <img width="447" height="422" alt="01" src="https://github.com/user-attachments/assets/b20c2667-8f26-4c68-b24e-75a7fd8a4b62" />
 
@@ -22,7 +22,7 @@ A learning curve helps diagnose bias and variance in a machine learning (ML) mod
 
 **Where does the error in predictions from the model come from?** 
 
-It either arises from variance (too much capacity) that is, not enough information in the dataset, or from bias (too little capacity) that is, not enough representation of the true function. 
+It either arises **from variance (too much capacity)** that is, not enough information in the dataset, or **from bias (too little capacity)** that is, not enough representation of the true function. 
 
 For a highly **biased or underfitted** model, there will be fairly quick convergence to high errors with the validation and training subsets of data. This is when training on more data will not help improve model performance. 
 
@@ -30,6 +30,7 @@ For a highly **biased or underfitted** model, there will be fairly quick converg
 
 Considering additional features in the dataset (horizontal expansion of data) may solve for underfitting, as then the model is more equipped to learn proper relationships in the data.
 
+<img width="508" height="174" alt="221" src="https://github.com/user-attachments/assets/928439d5-c186-4e50-8870-289a4200b217" />
 
 
 # Validation curve
