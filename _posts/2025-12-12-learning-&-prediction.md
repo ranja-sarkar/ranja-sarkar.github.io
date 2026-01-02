@@ -6,7 +6,7 @@ Ranja Sarkar
 
 ![IMG_2900](https://github.com/user-attachments/assets/0e1b6eac-94fd-40df-a668-93df933f4505)
 
-A model's bias and variance manifest in how the model underfits and overfits to data. A graphical illustration of bias and variance, accuracy and precision gives us an idea about what an optimal model is - the one with low bias and low variance.
+A model's bias and variance manifest in how the model either underfits or overfits to data. A graphical illustration (below) of bias and variance, accuracy and precision shows what an optimal model's like - it's the one with low bias and low variance.
 
 <img width="447" height="422" alt="01" src="https://github.com/user-attachments/assets/b20c2667-8f26-4c68-b24e-75a7fd8a4b62" />
 
