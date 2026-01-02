@@ -6,26 +6,24 @@ Ranja Sarkar
 
 ![IMG_2900](https://github.com/user-attachments/assets/0e1b6eac-94fd-40df-a668-93df933f4505)
 
-A model's bias and variance manifest in how the model underfits and overfits to data. 
-
-A graphical illustration of bias and variance, accuracy and precision gives us an idea about what an optimal model is - the one with low bias and low variance.
+A model's bias and variance manifest in how the model underfits and overfits to data. A graphical illustration of bias and variance, accuracy and precision gives us an idea about what an optimal model is - the one with low bias and low variance.
 
 <img width="447" height="422" alt="01" src="https://github.com/user-attachments/assets/b20c2667-8f26-4c68-b24e-75a7fd8a4b62" />
 
+Low bias implicits more accurate, and low variance implies highly precise. 
  
 # Learning curve
 
-A learning curve helps diagnose bias and variance in a machine learning (ML) model. 
+A learning curve helps diagnose bias and variance in a machine learning (ML) model. It is a plot of the model’s error as a function of the data, the datasize with which the model is trained.
 
 ![03](https://github.com/user-attachments/assets/937d6de6-1d65-461d-b6a8-462f65866e9c)
 
-It is a plot of the model’s error as a function of the data, the datasize with which the model is trained. [Learning curves](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html) help check the scalability of ML models by providing an estimate of the cost to scale the models. 
+ [Learning curves](https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html) help check the scalability of ML models by providing an estimate of the cost to scale the models. 
 
------
 
-📌 Where does the error in predictions from the model come from? 
+# Prediction Error  
 
-It either arises **from variance (too much capacity)** that is, not enough information in the dataset, or **from bias (too little capacity)** that is, not enough representation of the true function. 
+The error in model predictions either arises **from variance (too much capacity)** that is, not enough information in the dataset, or **from bias (too little capacity)** that is, not enough representation of the true function. 
 
 The prediction or test error is defined as:
 
