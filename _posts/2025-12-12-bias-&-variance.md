@@ -66,6 +66,8 @@ In a world with imperfections and finite data, there is a [tradeoff](https://sco
 
 -----
 
+The error is also a function of the model complexity.
+
 📌 What does it mean by underfitting & low model complexity?
 
 Our model’s so simple, it fails to adequately capture the relationships in the data. The high error is a direct result of the lack of complexity in the model.
@@ -79,11 +81,8 @@ Our model’s so specific to the (train) data that it’s no longer applicable t
 
 For example, if more polynomial terms are added to a linear regression model, the resulting model complexity increases. This means bias has a negative first-order derivative or slope in response to model complexity while variance has a positive slope. In effect, the sweet spot for any model is the level of complexity at which the increase in bias is equivalent to the decrease in variance. If the model complexity exceeds this sweet spot, we are over-fitting while if the complexity falls short of the sweet spot, we are under-fitting. In practice, there is no analytical way to find this spot. We must explore differing levels of model complexity, then choose the complexity (level) that minimizes the error.  
 
------
 
-📌 **Validation curve**
-
-A validation curve helps find the sweet spot between underfitting and overfitting and build a model that generalizes well. It is a plot of the model's error as a function of the hyperparameter.
+📌 A **validation curve** helps find the sweet spot between underfitting and overfitting, to build a model that generalizes well. It is a plot of the model's error as a function of the hyperparameter.
 
 <img width="638" height="432" alt="02" src="https://github.com/user-attachments/assets/9dac74be-151b-492e-8763-b4d25df967d1" />
 
