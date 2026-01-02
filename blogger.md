@@ -76,7 +76,7 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 ▶️ [Structured Query Language](https://ranja-sarkar.github.io/2025/12/03/structured-query-language.html)
 
-▶️ [Learning & prediction](https://ranja-sarkar.github.io/2025/12/12/bias-variance-and-the-tradeoff.html)
+▶️ [Learning & prediction](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html)
 
 # Posts
 
