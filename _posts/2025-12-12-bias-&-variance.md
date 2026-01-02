@@ -89,3 +89,15 @@ For example, if more polynomial terms are added to a linear regression model, th
 
 In the region where both the training error and validation error are high, we have a model with high bias. In the region with the training error staying low and validation error increasing, we begin to see the effects of high variance. The validation error remains high as the model is not able to generalize from training data to new data. 
 
+An optimal model aims to minimize bias as well as variance. It lays in the sweet spot - not too simple, not too complex. Hyperparameters may be used to control the the bias-variance tradeoff in models. For example, kNN is a classic one. We can observe the tradeoff in kNN directly by playing with the hyperparameter k which is the number of nearest neighbours. 
+
+When k is small, only a small number of neighbors is considered during the classification vote. The resulting islands and jagged boundaries are a result of high variance, as classifications are determined by very localized neighborhoods. For medium k, we see smooth the regions that follow along the true decision boundary.
+
+<img width="873" height="203" alt="10" src="https://github.com/user-attachments/assets/78ffbe12-dc84-4abd-8938-f14145f51f00" />
+
+<img width="860" height="182" alt="110" src="https://github.com/user-attachments/assets/67a34c17-066f-4092-b92c-6aea8ecebfe5" />
+
+For large k, we see very smoothed regions that deviate sharply from the true decision boundary, If we go too high, we’ll obtain a majority vote which is high bias. 
+
+<img width="854" height="187" alt="111" src="https://github.com/user-attachments/assets/64d0a885-2a65-457d-9074-2b20a7e7a513" />
+
