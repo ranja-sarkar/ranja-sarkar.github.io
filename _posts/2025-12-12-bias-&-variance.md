@@ -27,6 +27,10 @@ It is a plot of the model’s error as a function of the data, the datasize with
 
 It either arises **from variance (too much capacity)** that is, not enough information in the dataset, or **from bias (too little capacity)** that is, not enough representation of the true function. 
 
+The prediction or test error is defined as:
+
+Error = Variance + Bias^2 + Noise
+
 -----
 
 For a highly **biased or underfitted** model, there will be fairly quick convergence to high errors with the validation or test and train subsets of data. This is when training on more data will not help improve model performance. 
@@ -55,6 +59,8 @@ Feeding more data during training of the model can help improve model performanc
 Explicit regularization means adding terms to the error, which prevents overfitting as the variance is reduced.
 
 In a world with imperfections and finite data, there is a [tradeoff](https://scott.fortmann-roe.com/docs/BiasVariance.html) between minimizing the bias and minimizing the variance of a model.
+
+
 
 # Validation curve
 
