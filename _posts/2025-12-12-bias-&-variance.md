@@ -29,7 +29,11 @@ It either arises **from variance (too much capacity)** that is, not enough infor
 
 The prediction or test error is defined as:
 
-Error = Variance + Bias^2 + Noise
+**Error = Variance + Bias^2 + Noise**
+
+Noise is the irreducible error term that cannot fundamentally be reduced by any model. The variance is a function of the irreducible error, variance measures how much on an average predictions vary for a given datapoint. 
+
+The bias term is about how rough the model space is - how quickly in reality do values change as we move through the variable/feature space. The rougher the space, faster the bias term increases. We can think of bias as measuring a systematic error in prediction. 
 
 -----
 
