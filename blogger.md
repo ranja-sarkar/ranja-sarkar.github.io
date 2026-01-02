@@ -70,6 +70,8 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 ▶️ [Data Visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html)
 
+▶️ [Metrics in Machine Learning](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html)
+
 ▶️ [Writing & Coding](https://ranja-sarkar.github.io/2025/12/05/writing-&-coding.html)
 
 ▶️ [Structured Query Language](https://ranja-sarkar.github.io/2025/12/03/structured-query-language.html)
@@ -80,7 +82,7 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 *January-2026*
 
-▶️ [Metrics in Machine Learning](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html)
+
 
 
 
