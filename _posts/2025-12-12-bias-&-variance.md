@@ -77,9 +77,9 @@ Our model’s so specific to the (train) data that it’s no longer applicable t
 
 <img width="280" height="163" alt="mc" src="https://github.com/user-attachments/assets/598ff1e3-b292-4674-92e2-9121268cbf46" />
 
-For example, if more polynomial terms are added to a linear regression model, the resulting model complexity increases. This means bias has a negative first-order derivative or slope in response to model complexity while variance has a positive slope. In effect, the sweet spot for any model is the level of complexity at which the increase in bias is equivalent to the decrease in variance. f the model complexity exceeds this sweet spot, we are over-fitting while if the complexity falls short of the sweet spot, we are under-fitting. 
+For example, if more polynomial terms are added to a linear regression model, the resulting model complexity increases. This means bias has a negative first-order derivative or slope in response to model complexity while variance has a positive slope. In effect, the sweet spot for any model is the level of complexity at which the increase in bias is equivalent to the decrease in variance. If the model complexity exceeds this sweet spot, we are over-fitting while if the complexity falls short of the sweet spot, we are under-fitting. In practice, there is no analytical way to find this spot. We must explore differing levels of model complexity, then choose the complexity (level) that minimizes the error.  
 
-
+-----
 
 📌 **Validation curve**
 
