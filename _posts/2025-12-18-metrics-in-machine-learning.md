@@ -24,6 +24,9 @@ A standard loss function (e.g. AIC) correlates well in general with a performanc
 
 An evaluation metric must reflect whatever it is we actually care about or desire when making predictions. For example, when we use mean squared error (MSE), we are implicitly saying that we think the cost of our prediction error should reflect the squared distance between what we predicted and what is correct. This may work well if we want to punish outliers or if our data is minimized by the mean. 
 
+<img width="770" height="343" alt="11" src="https://github.com/user-attachments/assets/f33bb1e8-417c-445c-a15e-d93f177c1e15" />
+
+
 📌 MSE is utilized as both loss function and metric.
 
 We may output the error in squared units (MSE) or square-rooted units (RMSE) or, we may want the error to reflect the linear distance between what we predicted and what’s correct, or we want our data to be minimized by the median. We could try mean absolute error (MAE) in that case which is robust to outliers. 
@@ -51,7 +54,12 @@ In unsupervised machine learning, models learn patterns from unlabeled data. Uns
 
 # Clustering
 
-[kMeans clustering](https://github.com/ranja-sarkar/DecisionTree/blob/main/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. But a different method should be used to find k. Here’s [why and how](https://arxiv.org/pdf/2212.12189). 
+[kMeans clustering](https://github.com/ranja-sarkar/DecisionTree/blob/main/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. 
+
+<img width="516" height="393" alt="aic" src="https://github.com/user-attachments/assets/aae680e3-5473-4955-a8bd-23c4de84fb3e" />
+
+
+However, a different method must be used to find k. Here’s [why and how](https://arxiv.org/pdf/2212.12189). 
 
 Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion for choosing number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. There's [DBSCAN](https://colab.research.google.com/drive/1TYPoAXE46EPDdkrKhLYzS-C54MxaUxVr) which is a density-based algorithm to cluster data.
 
