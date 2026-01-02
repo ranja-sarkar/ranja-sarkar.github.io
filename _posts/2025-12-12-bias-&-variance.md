@@ -64,9 +64,22 @@ Explicit regularization means adding terms to the error, which prevents overfitt
 
 In a world with imperfections and finite data, there is a [tradeoff](https://scott.fortmann-roe.com/docs/BiasVariance.html) between minimizing the bias and minimizing the variance of a model.
 
+-----
+
+📌 What does it mean by underfitting & low model complexity?
+
+Our model’s so simple, it fails to adequately capture the relationships in the data. The high error is a direct result of the lack of complexity in the model.
+
+📌 What does it mean by overfitting & high model complexity?
+
+Our model’s so specific to the (train) data that it’s no longer applicable to new data samples. In other words, our model’s so complex that instead of learning true trend underlying the dataset, it memorizes noise. As a result of this, the model is not generalizable to unseen data that is, beyond data with which the model is trained.
 
 
-# Validation curve
+<img width="280" height="163" alt="mc" src="https://github.com/user-attachments/assets/598ff1e3-b292-4674-92e2-9121268cbf46" />
+
+
+
+📌 **Validation curve**
 
 A validation curve helps find the sweet spot between underfitting and overfitting and build a model that generalizes well. It is a plot of the model's error as a function of the hyperparameter.
 
