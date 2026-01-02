@@ -82,6 +82,10 @@ Contributing to the community has two-way benefits, it's useful to more than jus
 
 *January-2026*
 
+<img width="334" height="250" alt="df" src="https://github.com/user-attachments/assets/92c40d1d-b3dc-4ab8-adba-f05845bc198c" />
+
+**coming soon.. **
+
 
 
 
