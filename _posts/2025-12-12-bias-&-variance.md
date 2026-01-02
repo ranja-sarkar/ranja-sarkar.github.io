@@ -64,7 +64,7 @@ Explicit regularization means adding terms to the error, which prevents overfitt
 
 In a world with imperfections and finite data, there is a [tradeoff](https://scott.fortmann-roe.com/docs/BiasVariance.html) between minimizing the bias and minimizing the variance of a model.
 
------
+# Model complexity
 
 The error is also a function of the model complexity.
 
