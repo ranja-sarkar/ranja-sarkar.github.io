@@ -1,4 +1,4 @@
-![FlagGIF](https://github.com/user-attachments/assets/73acdc2e-dddf-4642-a06f-52a0201244c0)---
+---
 tags: [machine-learning, supervised-unsupervised, metrics]
 ---
 
