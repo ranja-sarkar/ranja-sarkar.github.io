@@ -14,7 +14,7 @@ Business decisions are made through hypothesis tests. A metric or loss function 
 
 📌Loss functions are designed for machines, although they may be identical to metrics for some business problems. 
 
-An [article](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/aa08a152bcaa5187861f02ce9b969788078888d5/_posts/assets/DL.pdf) on metrics and loss functions in ML and deep learning serves as a reference, helping us to mmake informed decisions when selecting the most appropriate loss function and performance metric for our use cases.
+An [article](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/aa08a152bcaa5187861f02ce9b969788078888d5/_posts/assets/DL.pdf) on metrics and loss functions in ML and deep learning serves as a reference, helping us to make informed decisions when selecting the most appropriate loss function and performance metric for our use cases.
 
 -----
 
