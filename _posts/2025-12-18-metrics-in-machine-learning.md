@@ -6,13 +6,15 @@ Ranja Sarkar
 
 ![pc](https://github.com/user-attachments/assets/facda9c1-e8aa-4711-86e6-09bf555ad31a)
 
-Metrics are measures of quantitative assessment. They assess or track business performance as well as statistical model performance. A model (learning from data) is built from buiness data, so the metrics here are intertwined. The difference between assessing a machine learning model and making a business decision from the model output gets blurry in practice.
+Metrics are measures of quantitative assessment of performance. We track business performance as well as statistical model performance using metrics. A model learns from old data and predicts on new data, so the metrics and error (loss) functions for machine learning (ML) models are closey connected. The difference between assessing an ML model and making a business decision from the model output gets blurry in practice.
 
 Business decisions are made through hypothesis tests. A metric or loss function is used for assessment of model performance. A metric is a loss function but viceversa is not necessarily true. A test statistic (typically p-value) is used for the decision of action and inaction on the model, which essentially means deciding if the model can be launched into production or not. A operationalized model needs monitoring, so we know if it’s making meaningful and useful predictions with new data. 
 
 📌Metrics are how humans draw meaning (information) from data and are typically designed for business users. 
 
 📌Loss functions are designed for machines, although they may be identical to metrics for some business problems. 
+
+An [article](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/aa08a152bcaa5187861f02ce9b969788078888d5/_posts/assets/DL.pdf) on metrics and loss functions in ML and deep learning serves as a reference, helping us to mmake informed decisions when selecting the most appropriate loss function and performance metric for our use cases.
 
 -----
 
