@@ -56,7 +56,6 @@ For some business problems, a metric is enough while for some other, one might h
 
 In unsupervised machine learning, models learn patterns from unlabeled data. Unsupervised learners are comparatively difficult to evaluate as opposed to supervised learners, because there is no ground truth label. However, there are some known measures to assess the quality of results produced by unsupervised algorithms in clustering, data dimensionality reduction, and anomaly detection. 
 
----
 
 💡 **Clustering**
 
