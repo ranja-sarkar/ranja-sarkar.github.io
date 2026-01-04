@@ -6,7 +6,7 @@ Ranja Sarkar
 
 ![pc](https://github.com/user-attachments/assets/facda9c1-e8aa-4711-86e6-09bf555ad31a)
 
-Metrics are measures of quantitative assessment of performance. We track business performance as well as statistical model performance using metrics. A model learns from old data and predicts on new data, so the metrics and error (loss) functions for machine learning (ML) models are closey connected. The difference between assessing an ML model and making a business decision from the model output gets blurry in practice.
+Metrics are measures of quantitative assessment of performance. We track business performance as well as statistical model performance using metrics. A model learns from old data and predicts on new data, so the metrics and error (loss) functions for machine learning (ML) models are closely connected. The difference between assessing an ML model and making a business decision from the model output gets blurry in practice.
 
 Business decisions are made through hypothesis tests. A metric or loss function is used for assessment of model performance. A metric is a loss function but viceversa is not necessarily true. A test statistic (typically p-value) is used for the decision of action and inaction on the model, which essentially means deciding if the model can be launched into production or not. A operationalized model needs monitoring, so we know if it’s making meaningful and useful predictions with new data. 
 
@@ -18,7 +18,7 @@ An [article](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/aa08a15
 
 -----
 
-**SUPERVISED MACHINE LEARNING**
+🎆 **SUPERVISED MACHINE LEARNING**
 
 The metrics to quantify the performance of supervised machine learning models are well-defined, as these models are trained with data having target variable or labels. These models are formulated as optimization problems, for instance optimizing the training of models with hyper-parameters, then optimizing the model predictions to make a decision. 
 
@@ -50,7 +50,7 @@ For some business problems, a metric is enough while for some other, one might h
 
 -----
 
-**[UNSUPERVISED MACHINE LEARNING](https://scikit-learn.org/stable/unsupervised_learning.html)**
+🎆 **[UNSUPERVISED MACHINE LEARNING](https://scikit-learn.org/stable/unsupervised_learning)
 
 In unsupervised machine learning, models learn patterns from unlabeled data. Unsupervised learners are comparatively difficult to evaluate as opposed to supervised learners, because there is no ground truth label. However, there are some known measures to assess the quality of results produced by unsupervised algorithms in clustering, data dimensionality reduction, and anomaly detection. 
 
