@@ -1,4 +1,4 @@
----
+![FlagGIF](https://github.com/user-attachments/assets/73acdc2e-dddf-4642-a06f-52a0201244c0)---
 tags: [machine-learning, supervised-unsupervised, metrics]
 ---
 
@@ -54,7 +54,9 @@ For some business problems, a metric is enough while for some other, one might h
 
 In unsupervised machine learning, models learn patterns from unlabeled data. Unsupervised learners are comparatively difficult to evaluate as opposed to supervised learners, because there is no ground truth label. However, there are some known measures to assess the quality of results produced by unsupervised algorithms in clustering, data dimensionality reduction, and anomaly detection. 
 
-# Clustering
+---
+
+💡 **Clustering**
 
 [kMeans clustering](https://github.com/ranja-sarkar/DecisionTree/blob/main/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. 
 
@@ -75,11 +77,15 @@ Variance-based and distance-based criteria (discussed below) seem to work better
 
 There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm.  
 
-# Dimensionality Reduction
+---
+
+💡 **Dimensionality Reduction**
 
 It is in general difficult to design metrics for assessing unsupervised models, owing to the nature of input data. Unlike clustering algorithms, the metrics in data dimensionality reduction algorithms like [principal component analysis (PCA)](https://ranja-sarkar.github.io/pca/) are about information preservation or explaining maximum variance in the dataset. The proportion of variance explained (PVE) and cumulative PVE by the principal components are two such metrics. 
 
-# Anomaly Detection
+---
+
+💡 **Anomaly Detection**
 
 Some well-known unsupervised machine learning algorithms for anomaly (outlier) detection in datasets have metrics driven by the minor percentage of contamination (abnormality) in input data, majority of the data being considered normal. They are [Isolation Forest](https://github.com/ranja-sarkar/DecisionTree/blob/main/Anomaly_Detection_IF_LOF.ipynb), [One-class SVM](https://github.com/ranja-sarkar/SVM/blob/main/1c_svm.ipynb), [Local Outlier Factor (LOF)](https://github.com/ranja-sarkar/DecisionTree/blob/main/Anomaly_Detection_IF_LOF.ipynb). Few other algorithms like PCA use a cluster method to determine what constitutes a ‘normal’ cluster, anomalies belong to either sparse and smaller clusters or none.
 
