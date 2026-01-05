@@ -30,7 +30,9 @@ Also, opting for fancy architectures without understanding the problem context m
 
 ✔️ **Model Parameters** 
 
-Adopting arbitrary or default values of hyperparameters may result in suboptimal model even if the chosen algorithm is the most suitable for the problem at hand. The model cannot necessarily learn the relationships in a dataset if it cannot discover while training how some functions do a better job of minimizing the loss function, or if regularization of features in the dataset forbids these functions. Tuning or adjusting the hyperparameters appropriately ensures the model correctly represents the data.
+Adopting arbitrary or default values of hyperparameters may result in suboptimal model even if the chosen algorithm is the most suitable for the problem at hand. The model cannot necessarily learn the relationships in a dataset if it cannot discover while training how some functions do a better job of minimizing the loss or error, or if regularization of features in the dataset forbids these functions. 
+
+Tuning or adjusting the hyperparameters to optimal values appropriately ensures the model correctly represents the data.
 
 ✔️ **Model Transparency**
 
