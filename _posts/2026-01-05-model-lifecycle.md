@@ -14,7 +14,7 @@ The term MDLC is inspired from SDLC (software developemnt lifecycle). Well, ther
 
 ✔️ **Goal** 
 
-Objectives should be well-defined with measurable goals, without which evaluating success of the project becomes difficult. Misaligned (to stakeholders) goals lead to infeasibility. Model evaluation as well as business metrics should be clear, hence end users must be involved in the early design phase of the project.
+Objectives should be well-defined with measurable goals, without which evaluating success of the project becomes difficult. Thorough and regular discussion with stakeholders is required, misaligned goals lead to infeasibility. Model evaluation as well as business metrics should be clear, hence end users must be involved in the early design phase of the project.
 
 ✔️ **Data** 
 
