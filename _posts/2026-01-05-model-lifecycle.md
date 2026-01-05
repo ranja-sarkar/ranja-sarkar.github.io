@@ -38,26 +38,24 @@ It is important that the mechanism of evaluating the model is robust. More than 
 
 The value of a model lies in the understanding shared between the developer and the end-user. In this regard, artifacts like [model cards](https://modelcards.withgoogle.com/) introduced by Google are useful.
 
-✔️ Production Framework 
+✔️ **Production Framework** 
 
 This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Integration is an engineering process that requires not only technical expertise but careful planning to make the model a functional part of the system. Throughput, memory efficiency, model retraining are aspects of the plan. 
 
 Even high-performance models could be rendered useless in production environment if deployment is not well conducted. 
 
+✔️ **Monitoring & Feedback**
 
-✔️ Monitoring & Feedback
+Once the model is served to end users, they have to understand the model predictions and trust them, else usage would eventually go down. Making the model outcomes actionable is a key indicator of success and user feedback helps in continuous improvement and detecting areas needing revision. 
 
-Once the model is served to end users, they have to understand the model predictions and trust them, else usage would eventually go down. 
 Also, the essential measures to track with the model under production are as follows.
 1. **Latency**, which is the delay of the model to perform a specific task 
 2. **Throughput**, which is the amount of data processed in a given time
 3. **Memory**, which is the space allocated for model storage
 
-Although the production framework is selected keeping the above in mind, and as required by the particular solution, these need to be tracked once the model is operational to realize true value.
+Although the production framework is selected keeping the above in mind, and as required by the particular solution, these need to be tracked once the model is operational to realize true value. Models need to be maintained. Real-world data evolves, and since the models feed on data, their performances often decay over time due to data drift or concept drift or changes in the environment. Most importantly, it is essential to diagnose if a defect arises from the data or the framework or pipeline used so it can be fixed or debugged accordingly.
 
-Making the model outcomes actionable is a key indicator of success and user feedback helps continuous improvement and detect areas needing revision. Models need to be maintained. Real-world data evolves, and since the models feed on data, their performances often decay over time due to data drift or concept drift or changes in the environment. Most importantly, it is essential to diagnose if a defect arises from the data or the framework or pipeline used so it can be fixed or debugged accordingly.
-
-Monitoring models, setting threshold for alerts, and establishing retraining strategy are essential to combat performance degradation. Otherwise, the damage may have been done by the time something wrong is noticed.  
+Monitoring models, setting threshold for alerts, and establishing retraining strategy are planned and included in the process to combat performance degradation. Otherwise, the damage may have been done by the time something wrong is noticed.  
 
 
 
