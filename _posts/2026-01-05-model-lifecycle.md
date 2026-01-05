@@ -40,7 +40,7 @@ The value of a model lies in the understanding shared between the developer and 
 
 ✔️ Production Framework 
 
-This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Integration is an engineering process that requires not only technical expertise but careful planning to make the model a functional part of the system. Latency, throughput, memory efficiency, model retraining are aspects of the plan. 
+This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Integration is an engineering process that requires not only technical expertise but careful planning to make the model a functional part of the system. Throughput, memory efficiency, model retraining are aspects of the plan. 
 
 Even high-performance models could be rendered useless in production environment if deployment is not well conducted. 
 
@@ -49,9 +49,9 @@ Even high-performance models could be rendered useless in production environment
 
 Once the model is served to end users, they have to understand the model predictions and trust them, else usage would eventually go down. 
 Also, the essential measures to track with the model under production are as follows.
-1. Latency, which is the delay of the model to perform a specific task 
-2. Throughput, which is the amount of data processed in a given time
-3. Memory, which is the space allocated for model storage
+1. **Latency**, which is the delay of the model to perform a specific task 
+2. **Throughput**, which is the amount of data processed in a given time
+3. **Memory**, which is the space allocated for model storage
 
 Although the production framework is selected keeping the above in mind, and as required by the particular solution, these need to be tracked once the model is operational to realize true value.
 
