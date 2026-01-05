@@ -6,7 +6,7 @@ Ranja Sarkar
 
 <img width="288" height="415" alt="tabo" src="https://github.com/user-attachments/assets/25d9f85e-c065-44fa-adc9-68065fa240d7" />
 
-The critical points in model development lifecycle (MDLC) require careful consideration, to avoid setbacks and wastage in terms of expenses and resources. 
+The many stages in model development lifecycle (MDLC) require very careful consideration, to avoid setbacks and wastage in terms of expenses and resources. 
 Mistakes identified in the lifecycle phases, from design to deployment must be addressed in time to prevent derailment. The model can be a decision tree 
 and other machine learning ones, or neural networks and any deep learning model.
 
