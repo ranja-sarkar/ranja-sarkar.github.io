@@ -10,7 +10,7 @@ The critical points in model development lifecycle (MDLC) require careful consid
 Mistakes identified in the lifecycle phases, from design to deployment must be addressed in time to prevent derailment. The model can be a decision tree 
 and other machine learning ones, or neural networks and any deep learning model.
 
-The term MDLC is inspired from SDLC (software developemnt lifecycle). Well, there are 7 critical points according to me.
+The term MDLC is inspired from SDLC (software developemnt lifecycle). Well, there are **7 critical points** in MDLC according to me.
 
 ✔️ **Goal** 
 
@@ -57,5 +57,5 @@ Although the production framework is selected keeping the above in mind, and as 
 
 Monitoring models, setting threshold for alerts, and establishing retraining strategy are planned and included in the process to combat performance degradation. Otherwise, the damage may have been done by the time something wrong is noticed.  
 
-
+-----
 
