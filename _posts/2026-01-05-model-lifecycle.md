@@ -18,7 +18,9 @@ Objectives should be well-defined with measurable goals, without which evaluatin
 
 ✔️ **Data** 
 
-A model is only as good as the sample data it is trained with. Training a model on bad quality data would yield unreliable outcomes. Appropriate data preprocessing for missing values, category encoding etc. is crucial. Data quality can be good which means it is representative and consistent or can be bad which means it is biased, noisy, and inconsistent. Using information from the test dataset during model training which is **data leakage** could go unnoticed but would impact the model outcome severely. 
+A model is only as good as the sample data it is trained with. Training a model on bad quality data would yield unreliable outcomes. Appropriate data preprocessing for missing values, category encoding etc. is crucial. Data quality can be good which means it is representative and consistent or can be bad which means it is biased, noisy, and inconsistent. 
+
+Using information from the test dataset during model training which is **data leakage** could go unnoticed but would impact the model outcome severely. 
 
 ✔️ **Model Selection**
 
@@ -38,20 +40,24 @@ The value of a model lies in the understanding shared between the developer and 
 
 ✔️ Production Framework 
 
-This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Integration is an engineering process that requires not only technical expertise but careful planning to make the model a functional part of the system. Latency, throughput, memory efficiency, model retraining are aspects of the plan. Even high-performance models could be rendered useless in production environment if deployment is not well conducted. 
+This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Integration is an engineering process that requires not only technical expertise but careful planning to make the model a functional part of the system. Latency, throughput, memory efficiency, model retraining are aspects of the plan. 
+
+Even high-performance models could be rendered useless in production environment if deployment is not well conducted. 
 
 
 ✔️ Monitoring & Feedback
 
 Once the model is served to end users, they have to understand the model predictions and trust them, else usage would eventually go down. 
-Also, the essential measures to monitor with the model under production are as follows.
+Also, the essential measures to track with the model under production are as follows.
 1. Latency, which is the delay of the model to perform a specific task 
 2. Throughput, which is the amount of data processed in a given time
 3. Memory, which is the space allocated for model storage
 
 Although the production framework is selected keeping the above in mind, and as required by the particular solution, these need to be tracked once the model is operational to realize true value.
 
-Making the model outcomes actionable is a key indicator of success and user feedback helps continuous improvement and detect areas needing revision. Models need to be maintained. Real-world data evolves, and since the models feed on data, their performances often decay over time due to data drift or concept drift or changes in the environment. Tracking models, setting threshold for alerts and establishing retraining strategy are essential to combat performance degradation. Otherwise, the damage may have been done by the time something wrong is noticed.  
+Making the model outcomes actionable is a key indicator of success and user feedback helps continuous improvement and detect areas needing revision. Models need to be maintained. Real-world data evolves, and since the models feed on data, their performances often decay over time due to data drift or concept drift or changes in the environment. Most importantly, it is essential to diagnose if a defect arises from the data or the framework or pipeline used so it can be fixed or debugged accordingly.
+
+Monitoring models, setting threshold for alerts, and establishing retraining strategy are essential to combat performance degradation. Otherwise, the damage may have been done by the time something wrong is noticed.  
 
 
 
