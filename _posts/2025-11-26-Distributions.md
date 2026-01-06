@@ -30,7 +30,14 @@ I dug up the web deeper and found an [illustration](https://www.math.wm.edu/~lee
 
 Uniform distribution, wherein outcomes are equally likely and standard normal distribution are **continuous probability distributions**. In the [latter](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/bfff302d9d74c8e00c0557045ce44960d4c97d0d/_posts/assets/nd.png), mean, median, and mode of the distribution coincide. The curve of the distribution is bell-shaped and symmetrical about the line x=μ (mean). The total area under the curve is 1. 
 
-<img width="317" height="252" alt="iqr" src="https://github.com/user-attachments/assets/5039f80b-0ead-4809-ba87-85fe820148a6" />
+A normal distribution has the 68-95-99.7 rule.
+
+![pr](https://github.com/user-attachments/assets/0dc70339-594a-44cf-b414-93acdf5a6955)
+
+A box-plot shows the median and quartiles of numerical data.
+
+![iqr](https://github.com/user-attachments/assets/c62e86c4-677c-4bd3-83a7-5b752ec46afe)
+
 
 Exponential (1-parameter) and Weibull (2-parameter) distributions are also continuous probability distributions. To know more about them, please refer to [the page](https://reliability.readthedocs.io/en/latest/Equations%20of%20supported%20distributions.html) of reliability engineering.
 
