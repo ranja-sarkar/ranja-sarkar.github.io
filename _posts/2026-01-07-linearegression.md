@@ -1,11 +1,9 @@
 ---
-tags: []
+tags: [data, regression, machine-learning]
 ---
 
 Ranja Sarkar
 
-
----
 
 A linear model assumes that the effect of each independent variable/feature on the dependent variable/target does not depend upon the rest of the independent variables. Linear regression assumes a linearity in (beta-) coefficients of the variables. 
 
@@ -80,8 +78,6 @@ References
 
 
 
-
-
 https://rinterested.github.io/statistics/lm_interactions_output_interpretation.html
 
 
@@ -101,3 +97,4 @@ https://www.theanalysisfactor.com/using-marginal-means-to-explain-an-interaction
 
 Interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable.
 
+-----
