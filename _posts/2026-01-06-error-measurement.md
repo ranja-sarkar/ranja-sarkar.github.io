@@ -40,4 +40,15 @@ Non-parametric approaches like cross-validation resampling are computationally i
 
 2. Cross-validation (cv): k-fold cv, leave-one-out cv
 
-   
+-----
+
+# Adjusted R^2
+
+R^2 under-penalizes model complexity that is, it fails to decrease the error as much as required with the addition of complexity in the model. This can lead to misleading conclusions. However, it is fast to compute and easy to interpret.
+
+![rr](https://github.com/user-attachments/assets/94702b1f-86ff-4301-a1b8-6233eb0ffe41)
+
+Adjusted R^2 is more accurate as it considers only significant features or independent variables in the dataset to predict the target (dependent variable). It properly penalizes the insignificant ones. 
+
+![rr0](https://github.com/user-attachments/assets/e1589523-2e9f-401e-a988-f4644570a55e)
+
