@@ -99,3 +99,4 @@ For large k, we see very smoothed regions that deviate sharply from the true dec
 
 <img width="854" height="187" alt="111" src="https://github.com/user-attachments/assets/64d0a885-2a65-457d-9074-2b20a7e7a513" />
 
+In general, while measuring the prediction error of a predictive model, the average estimated error with higher number of folds (k-fold cross-validation) is lower than that estimated from lower number of folds. This is a consequence of the bias-variance tradeoff. The fitted regression lines in each fold and estimated error vary more for lower values of k than for higher values. 
