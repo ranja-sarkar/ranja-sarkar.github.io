@@ -28,17 +28,20 @@ Beyond this point, it is overfitting. Preventing overfitting is key to building 
 
 With higher optimism, the prediction error is higher. This is based on whether we want to rely on assumptions to adjust for the optimism, or we want to use the data for estimating the optimism. 
 
-Assumption-based or parametric approaches to measure error are faster to apply, but come at a high cost.  How much of the assumptions skews the results varies on a case-by-case basis. The error might be negligible in many cases, but fundamentally results derived from such techniques require a great deal of trust on the evaluator’s part.
+Assumption-based or **parametric approaches** to measure error are faster to apply, but come at a high cost.  How much of the assumptions skews the results varies on a case-by-case basis. The error might be negligible in many cases, but fundamentally results derived from such techniques require a great deal of trust on the evaluator’s part.
 
 1. Adjusted R^2
 
 2. Information Theory
 
-Non-parametric approaches like cross-validation resampling are computationally intense but provide more confidence and security in the outcome.
+**Non-parametric approaches** like cross-validation resampling are computationally intense but provide more confidence and security in the outcome.
 
 1. Holdout set
 
-2. Cross-validation (cv): k-fold cv, leave-one-out cv
+2. Cross-validation (CV): K-fold CV, leave-one-out CV 
+
+<img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
+
 
 -----
 
@@ -73,6 +76,10 @@ BIC = −2ln(likelihood) + mln(n)
 The first term in the equation can be thought of as the training error and the second term can be thought of as the penalty to adjust for the optimism. The goal is to minimize AIC.  These measures/metrics hence require a model that can generate likelihoods, thereby needing a leap of faith that the specific equation used is theoretically suitable to the problem and associated data.
 
 # Holdout Set
+
+By holding out a test dataset from the beginning, we can directly measure how well the model will predict for new data. 
+
+A common mistake is to create a holdout set, train a model, test it on the holdout set, and then adjust the model in an iterative process. If the holdout set is repeatedly used to test a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the (true) prediction error. Given enough data, this metric is highly accurate, it is furthermore conceptually simple and easy to implement. It has a potential conservative bias, it’s useful in practice nonetheless compared to overly optimistic predictions.
 
 # K-fold CV
 
