@@ -42,6 +42,13 @@ Assumption-based or **parametric approaches** to measure error are faster to app
 
 <img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
 
+The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable, depending on which particular observations are included in the training subset and which are included in the validation set. That is, how do we know what’s best way (or percent) to split the data? 
+
+Another issue with the approach is that it tends to overestimate the test error for models fit on our entire dataset. More training data usually means better accuracy, but the validation set approach reserves a decent-sized chunk of data for validation and testing. 
+
+We should come up with a way to use more of our data for training while also simultaneously evaluating the performance across all the variance in our data. And that’s a resampling approach. 
+
+CV works by splitting the data into folds of equal size, then the model training and testing is repeated. CV helps ensure the model generalizes well to new data.
 
 -----
 
