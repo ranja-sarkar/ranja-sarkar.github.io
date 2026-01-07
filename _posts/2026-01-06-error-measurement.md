@@ -56,3 +56,7 @@ Adjusted R^2 is more accurate as it considers only significant features or indep
 
 n =  number of rows in the dataset, m = number of the columns in the dataset. 
 
+Use of adjusted R^2 however is less generalizable and may still overfit the data.
+
+# Information Theory
+
