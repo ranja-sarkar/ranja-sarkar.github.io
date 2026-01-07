@@ -90,6 +90,16 @@ A common mistake is to create a holdout set, train a model, test it on the holdo
 
 # K-fold CV
 
+For a 5-fold CV, there’re 5 groups of data used to train the model and 5 groups that was not used to train the model each time, but used to estimate the prediction error, ending up with 5 error estimates that are averaged to obtain a robust estimate of the error. 
+
+
+![5cv](https://github.com/user-attachments/assets/3f02ea24-44cc-4df2-bdb0-61662ac59b3d)
+
+Each data point is used both to train and test model, but never at the same time. When data is limited, CV is preferred to the holdout set method. CV also gives estimates of variability of the prediction error which is a useful feature. 
+
+Smaller the number of folds, more biased are the error estimates (conservative indicating higher error than there is, in reality). Hence, another factor to consider is computational time which increases with the number of folds and when it seems prudent to use a small number of folds. 
+
+Choosing the fold size (or number of folds) may be a con of the CV approach, it nevertheless provides good error estimates with minimal assumptions. 
 # Leave-one-out CV
 
 
