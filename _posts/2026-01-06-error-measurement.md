@@ -48,7 +48,7 @@ R^2 under-penalizes model complexity that is, it fails to decrease the error as 
 
 ![rr](https://github.com/user-attachments/assets/94702b1f-86ff-4301-a1b8-6233eb0ffe41)
 
-A variation in the independent (x) variable explains a variation in the dependent (y) variable. Zero linear relationship between x and y yields adj. R^2 = 0 and adj. R^2 = 1 means 100% variation in y is explained by variation in x.  A negative R^2 means that our model is doing worse (capturing less variance in y) than a flat line through the mean of our data would. 
+A variation in the independent (x) variable explains a variation in the dependent (y) variable. Zero linear relationship between x and y yields R^2 = 0 and R^2 = 1 means 100% variation in y is explained by variation in x. A negative R^2 means that our model is doing worse (capturing less variance in y) than a flat line through the mean of our data would. 
 
 Adjusted R^2 is more accurate as it considers only significant features or independent variables in the dataset to predict the target (dependent variable). It properly penalizes the insignificant ones. 
 
@@ -59,4 +59,23 @@ n =  number of rows in the dataset, m = number of the columns in the dataset.
 Use of adjusted R^2 however is less generalizable and may still overfit the data.
 
 # Information Theory
+
+Information theoretic approaches assume a parametric model wherein, we can define the likelihood of a dataset and its parameters. If we adjust the parameters in order to maximize this likelihood we obtain the maximum likelihood estimate of the parameters for a given model and dataset. In other words, these approaches attempt to measure model error as how much information is lost between a candidate model and the true model. The true model (what was used to generate the data) is unknown, but given certain assumptions we can obtain an estimate of the difference between it and and our proposed models. More this difference is, higher the error and worse the candidate (tested) model.
+
+Akaike's Information Criterion (AIC) is defined as a function of the likelihood of a model and the number of parameters (m) in that model.
+
+AIC = −2ln(likelihood) + 2m
+
+Then there is Bayesian Information Criterion (BIC) for sample size n.
+
+BIC = −2ln(likelihood) + mln(n)
+
+The first term in the equation can be thought of as the training error and the second term can be thought of as the penalty to adjust for the optimism. The goal is to minimize AIC.  These measures/metrics hence require a model that can generate likelihoods, thereby needing a leap of faith that the specific equation used is theoretically suitable to the problem and associated data.
+
+# Holdout Set
+
+# K-fold CV
+
+# Leave-one-out CV
+
 
