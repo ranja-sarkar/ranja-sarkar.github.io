@@ -26,4 +26,18 @@ Beyond this point, it is overfitting. Preventing overfitting is key to building 
 
 # Methods for accurate measurement of error
 
+With higher optimism, the prediction error is higher. This is based on whether we want to rely on assumptions to adjust for the optimism, or we want to use the data for estimating the optimism. 
 
+Assumption-based or parametric approaches to measure error are faster to apply, but come at a high cost.  How much of the assumptions skews the results varies on a case-by-case basis. The error might be negligible in many cases, but fundamentally results derived from such techniques require a great deal of trust on the evaluator’s part.
+
+1. Adjusted R^2
+
+2. Information Theory
+
+Non-parametric approaches like cross-validation resampling are computationally intense but provide more confidence and security in the outcome.
+
+1. Holdout set
+
+2. Cross-validation (cv): k-fold cv, leave-one-out cv
+
+   
