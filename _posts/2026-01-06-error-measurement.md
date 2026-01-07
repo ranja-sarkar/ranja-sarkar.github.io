@@ -100,6 +100,14 @@ Each data point is used both to train and test model, but never at the same time
 Smaller the number of folds, more biased are the error estimates (conservative indicating higher error than there is, in reality). Hence, another factor to consider is computational time which increases with the number of folds and when it seems prudent to use a small number of folds. 
 
 Choosing the fold size (or number of folds) may be a con of the CV approach, it nevertheless provides good error estimates with minimal assumptions. 
+
 # Leave-one-out CV
 
+There are k training subsets and the validation sets used for evaluation of the trained model. Each time or at each iteration a different fold is used for training and validating. Note that the test subset remains untouched as it’s the final hold-out set (used only once), but the distribution of training and validation sets differs at every fold. 
 
+<img width="640" height="465" alt="loocv" src="https://github.com/user-attachments/assets/5a9eee44-f5ed-4c2d-9eb0-88b1ee82b3eb" />
+
+
+At the end of the procedure, we'll take the average of the validation sets' scores and use it as our model's estimated performance at training.
+
+The CV approach typically does not overestimate the prediction error as much as the validation set approach could for small training datasets.   
