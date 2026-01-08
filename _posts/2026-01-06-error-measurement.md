@@ -26,7 +26,7 @@ Beyond this point, it is overfitting. Preventing overfitting is key to building 
 
 # Methods for accurate measurement of error
 
-With higher optimism, the prediction error is higher. This is based on whether we want to rely on assumptions to adjust for the optimism, or we want to use the data for estimating the optimism. 
+With higher optimism, the prediction error is higher beyond a certain model complexity. This is based on whether we want to rely on assumptions to adjust for the optimism, or we want to use the data for estimating the optimism. 
 
 Assumption-based or **parametric approaches** to measure error are faster to apply, but come at a high cost.  How much of the assumptions skews the results varies on a case-by-case basis. The error might be negligible in many cases, but fundamentally results derived from such techniques require a great deal of trust on the evaluator’s part.
 
