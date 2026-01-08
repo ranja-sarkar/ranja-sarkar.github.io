@@ -76,8 +76,8 @@ Variance-based and distance-based criteria (discussed below) seem to work better
 
 📌 [Silhouette](https://www.sciencedirect.com/science/article/pii/0377042787901257?via%3Dihub) Score → Capped between values -1 and 1, the Silhouette coefficient determines the compactness or density of clusters, a score close to 1 indicating data points completely within a cluster well-separated from other clusters. A score close to zero indicates that clusters overlap. It is an internal cluster validation scheme and is expensive to compute. 
 
-There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm.  There's also this a density-based algorithm to cluster data called 
-[DBSCAN](https://github.com/ranja-sarkar/DecisionTree/blob/5c16acf461d0c2c2714d85b3ae68836bde6d5292/DBSCAN.ipynb), wherein the adjusted Rand index has been computed.
+There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm. There's also a density-based algorithm to cluster data, called 
+[DBSCAN](https://github.com/ranja-sarkar/DecisionTree/blob/5c16acf461d0c2c2714d85b3ae68836bde6d5292/DBSCAN.ipynb). 
 
 ---
 
