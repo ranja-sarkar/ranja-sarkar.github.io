@@ -66,7 +66,7 @@ In unsupervised machine learning, models learn patterns from unlabeled data. Uns
 
 However, a different method must be used to find k. Here’s [why and how](https://arxiv.org/pdf/2212.12189). 
 
-Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion for choosing number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. There's [DBSCAN](https://colab.research.google.com/drive/1TYPoAXE46EPDdkrKhLYzS-C54MxaUxVr) which is a density-based algorithm to cluster data.
+Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion to choose number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. 
 
 📌 [Calinski Harabasz](https://www.tandfonline.com/doi/abs/10.1080/03610927408827101) Score → The CH index is also known as variance ratio criterion. A higher CH index means better defined clusters. [CH score](https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index) is the ratio of the sum of between-clusters (inter) dispersion and of within-cluster (intra) dispersion for all clusters, where dispersion is defined as the sum of distances squared.
 
@@ -76,7 +76,8 @@ Variance-based and distance-based criteria (discussed below) seem to work better
 
 📌 [Silhouette](https://www.sciencedirect.com/science/article/pii/0377042787901257?via%3Dihub) Score → Capped between values -1 and 1, the Silhouette coefficient determines the compactness or density of clusters, a score close to 1 indicating data points completely within a cluster well-separated from other clusters. A score close to zero indicates that clusters overlap. It is an internal cluster validation scheme and is expensive to compute. 
 
-There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm.  
+There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm.  There's also this a density-based algorithm to cluster data called 
+[DBSCAN](https://github.com/ranja-sarkar/DecisionTree/blob/5c16acf461d0c2c2714d85b3ae68836bde6d5292/DBSCAN.ipynb), wherein the adjusted Rand index has been computed.
 
 ---
 
