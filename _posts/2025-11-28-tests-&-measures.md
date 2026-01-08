@@ -153,7 +153,7 @@ Correlation is a measure of not only how two variables move wrt each other, but 
 
 I shall wrap this post up by stating the two cultures of statistical modeling according to [Leo Breiman](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0bfc923a56cca1a92c2c782be8d08d6aa47a6326/_posts/assets/breiman.pdf).
 
-1. **Data Model**, wherein the data-generating mechanism is assumed to be known and model parameters are estimated from the data. Example: linear regression.
+1. **Data Model**, wherein the data-generating mechanism (some stochastic model) is assumed to be known and model parameters are estimated from the data. Example: linear regression.
 
-2. **Algorithmic Model**, where the data-generating mechanism is unknown (may be stochastic/non-deterministic) and uses an algorithm to find a function f(x) that operates on variables x in the data to estimate a response y. Example: neural network.
+2. **Algorithmic Model**, where the data-generating mechanism is unknown and uses an algorithm to find a function f(x) that operates on variables x in the data to estimate a response y. Example: neural network.
 
