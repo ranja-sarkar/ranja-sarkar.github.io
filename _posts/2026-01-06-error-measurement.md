@@ -40,15 +40,12 @@ Assumption-based or **parametric approaches** to measure error are faster to app
 
 2. Cross-validation (CV): K-fold CV, leave-one-out CV 
 
+The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable. **How do we know what is best way (or percentage) to split the data?**
+
 <img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
 
-The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable, depending on which particular observations are included in the training subset and which are included in the validation set. That is, how do we know what’s best way (or percent) to split the data? 
-
-Another issue with the approach is that it tends to overestimate the test error for models fit on our entire dataset. More training data usually means better accuracy, but the validation set approach reserves a decent-sized chunk of data for validation and testing. 
-
-We should come up with a way to use more of our data for training while also simultaneously evaluating the performance across all the variance in our data. And that’s a resampling approach. 
-
-CV works by splitting the data into folds of equal size, then the model training and testing is repeated. CV helps ensure the model generalizes well to new data.
+ 
+An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on our entire dataset. The 'validation set' approach reserves a decent-sized chunk of data for validation and testing.  
 
 -----
 
@@ -92,7 +89,7 @@ Adjusting a model in an iterative process by using a holdout dataset to test is 
 
 # K-fold CV
 
-For a 5-fold CV, there are 5 groups of data used to train the model and 5 groups that was not used to train the model but used to estimate the prediction error, ending up with 5 error estimates that are averaged to obtain a robust estimate of the error. 
+For a 5-fold CV, there are 5 groups of data (of equal size) used to train the model and 5 groups that was not used to train the model but used to estimate the prediction error, ending up with 5 error estimates that are averaged to obtain a robust estimate of the error. 
 
 ![5cv](https://github.com/user-attachments/assets/3f02ea24-44cc-4df2-bdb0-61662ac59b3d)
 
