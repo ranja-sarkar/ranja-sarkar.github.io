@@ -70,36 +70,36 @@ Use of adjusted R^2 however is less generalizable and may still overfit the data
 
 # Information Theory
 
-Information theoretic approaches assume a parametric model wherein, we can define the likelihood of a dataset and its parameters. If we adjust the parameters in order to maximize this likelihood we obtain the maximum likelihood estimate of the parameters for a given model and dataset. In other words, these approaches attempt to measure model error as how much information is lost between a candidate model and the true model. The true model (what was used to generate the data) is unknown, but given certain assumptions we can obtain an estimate of the difference between it and and our proposed models. More this difference is, higher the error and worse the candidate (tested) model.
+Information theoretic approaches assume a parametric model. If we adjust the parameters of a dataset in order to maximize its (distribution) likelihood we obtain the maximum likelihood estimate (MLE) of the model parameters. In other words, these approaches attempt to measure model error as how much information is lost between a candidate model and the true model. The true model (what was used to generate the data) is unknown, but given certain assumptions we can obtain an estimate of the difference between it and and proposed models. More this difference is, higher the error and worse the candidate model.
 
 Akaike's Information Criterion (AIC) is defined as a function of the likelihood of a model and the number of parameters (m) in that model.
 
 AIC = −2ln(likelihood) + 2m
 
-Then there is Bayesian Information Criterion (BIC) for sample size n.
+Bayesian Information Criterion (BIC) for sample size n is given by,
 
 BIC = −2ln(likelihood) + mln(n)
 
-The first term in the equation can be thought of as the training error and the second term can be thought of as the penalty to adjust for the optimism. The goal is to minimize AIC.  These measures/metrics hence require a model that can generate likelihoods, thereby needing a leap of faith that the specific equation used is theoretically suitable to the problem and associated data.
+The first term in the equations can be thought of as the training error and the second term can be thought of as the penalty to adjust for the optimism. The goal is to minimize AIC/BIC. These measures or metrics require a model that can generate likelihoods, thereby needing a leap of faith that the specific equation used is theoretically suitable to the problem and associated data.
+
+-----
 
 # Holdout Set
 
-By holding out a test dataset from the beginning, we can directly measure how well the model will predict for new data. 
+We can directly measure how well a model predicts on new data by holding out a test dataset from the beginning.  
 
-A common mistake is to create a holdout set, train a model, test it on the holdout set, and then adjust the model in an iterative process. If the holdout set is repeatedly used to test a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the (true) prediction error. Given enough data, this metric is highly accurate, it is furthermore conceptually simple and easy to implement. It has a potential conservative bias, it’s useful in practice nonetheless compared to overly optimistic predictions.
+Adjusting a model in an iterative process by using a holdout dataset to test is a common mistake. If the holdout set is repeatedly used for testing a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the prediction error. Given enough data, this metric is highly accurate, it is conceptually simple and easy to implement. It has a potential conservative bias, it is useful in practice nonetheless, as compared to overly optimistic predictions.
 
 # K-fold CV
 
-For a 5-fold CV, there’re 5 groups of data used to train the model and 5 groups that was not used to train the model each time, but used to estimate the prediction error, ending up with 5 error estimates that are averaged to obtain a robust estimate of the error. 
-
+For a 5-fold CV, there are 5 groups of data used to train the model and 5 groups that was not used to train the model but used to estimate the prediction error, ending up with 5 error estimates that are averaged to obtain a robust estimate of the error. 
 
 ![5cv](https://github.com/user-attachments/assets/3f02ea24-44cc-4df2-bdb0-61662ac59b3d)
 
-Each data point is used both to train and test model, but never at the same time. When data is limited, CV is preferred to the holdout set method. CV also gives estimates of variability of the prediction error which is a useful feature. 
+When data is limited, CV is preferred to the holdout set method. CV gives estimates of variability of the prediction error. 
+Smaller the number of folds, more biased are the error estimates (conservative indicating higher error than there is in reality). Another factor to consider is computational time which increases with the number of folds, when it seems prudent to use a smaller number of folds. 
 
-Smaller the number of folds, more biased are the error estimates (conservative indicating higher error than there is, in reality). Hence, another factor to consider is computational time which increases with the number of folds and when it seems prudent to use a small number of folds. 
-
-Choosing the fold size (or number of folds) may be a con of the CV approach, it nevertheless provides good error estimates with minimal assumptions. 
+Choosing the fold size (or number of folds) may be a con of the CV approach, it nevertheless provides good estimates of the model error. 
 
 # Leave-one-out CV
 
@@ -111,3 +111,6 @@ There are k training subsets and the validation sets used for evaluation of the 
 At the end of the procedure, we'll take the average of the validation sets' scores and use it as our model's estimated performance at training.
 
 The CV approach typically does not overestimate the prediction error as much as the validation set approach could for small training datasets.   
+
+-----
+
