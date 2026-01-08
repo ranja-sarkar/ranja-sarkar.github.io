@@ -40,7 +40,7 @@ Assumption-based or **parametric approaches** to measure error are faster to app
 
 2. Cross-validation (CV): K-fold CV, leave-one-out CV 
 
-The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable. **How do we know what is best way (or percentage) to split the data?**
+The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable. 
 
 <img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
 
@@ -67,7 +67,7 @@ Use of adjusted R^2 however is less generalizable and may still overfit the data
 
 # Information Theory
 
-Information theoretic approaches assume a parametric model. If we adjust the parameters of a dataset in order to maximize its (distribution) likelihood we obtain the maximum likelihood estimate (MLE) of the model parameters. In other words, these approaches attempt to measure model error as how much information is lost between a candidate model and the true model. The true model (what was used to generate the data) is unknown, but given certain assumptions we can obtain an estimate of the difference between it and and proposed models. More this difference is, higher the error and worse the candidate model.
+Information theoretic approaches assume a parametric model. If we adjust the parameters of a dataset in order to maximize its (distribution) likelihood we obtain the maximum likelihood estimate (MLE) of the model parameters. In other words, these approaches attempt to measure model error as how much information is lost between a candidate model and the true model. The true model is unknown, but given certain assumptions we can obtain an estimate of the difference between it and and proposed models. More this difference is, higher the error and worse the candidate model.
 
 Akaike's Information Criterion (AIC) is defined as a function of the likelihood of a model and the number of parameters (m) in that model.
 
@@ -100,14 +100,20 @@ Choosing the fold size (or number of folds) may be a con of the CV approach, it 
 
 # Leave-one-out CV
 
-There are k training subsets and the validation sets used for evaluation of the trained model. Each time or at each iteration a different fold is used for training and validating. Note that the test subset remains untouched as it’s the final hold-out set (used only once), but the distribution of training and validation sets differs at every fold. 
+For 4-fold, there are 4 training sets and 4 validation sets. Each time (each iteration) a different fold is used for training and validating the model. The test set remains untouched as it is the one final set (used only once), but the distributions of training and validation sets differ at every fold. 
 
 <img width="640" height="465" alt="loocv" src="https://github.com/user-attachments/assets/5a9eee44-f5ed-4c2d-9eb0-88b1ee82b3eb" />
 
 
-At the end of the procedure, we'll take the average of the validation sets' scores and use it as our model's estimated performance at training.
-
-The CV approach typically does not overestimate the prediction error as much as the validation set approach could for small training datasets.   
+At the end of the procedure, we take the average of the validation sets' scores and use it as the model's estimated (training) performance. And finally, the test (prediction) error is estimated. With CV, the model generalizes well. The CV approach typically does not overestimate the prediction error.   
 
 -----
+
+There are [two goals](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/de0b3818af489bb76b20b5268e1b0419d0c91d65/_posts/assets/breiman.pdf) of analysing data - *information* and *prediction*. And there are two approaches toward these goals - *data model* and *algorithmic model*.
+
+The methods to measure model error must also be picked and utilized accordingly. For example, linear regression is an interpolation model by construct and the adjusted R^2 (goodness of fit) parametric approach is suitable for it. 
+
+When it comes to prediction with algorithmic models like neural nets, model error is measured utilizing non-parametric resampling approaches like CV. 
+
+Therefore, we use either assumptions or data in order to adjust for the optimism and estimate model error as accurately as possible.
 
