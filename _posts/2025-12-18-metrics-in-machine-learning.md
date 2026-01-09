@@ -59,7 +59,7 @@ In unsupervised machine learning, models learn patterns from unlabeled data. Uns
 
 💡 **Clustering**
 
-[kMeans clustering](https://github.com/ranja-sarkar/DecisionTree/blob/main/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. 
+[kMeans clustering](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3c289735c4fc79dfb503d2fea96667cb8fb50f7e/_posts/codes/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. 
 
 <img width="516" height="393" alt="aic" src="https://github.com/user-attachments/assets/aae680e3-5473-4955-a8bd-23c4de84fb3e" />
 
@@ -77,7 +77,7 @@ Variance-based and distance-based criteria (discussed below) seem to work better
 📌 [Silhouette](https://www.sciencedirect.com/science/article/pii/0377042787901257?via%3Dihub) Score → Capped between values -1 and 1, the Silhouette coefficient determines the compactness or density of clusters, a score close to 1 indicating data points completely within a cluster well-separated from other clusters. A score close to zero indicates that clusters overlap. It is an internal cluster validation scheme and is expensive to compute. 
 
 There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm. There's also a density-based algorithm to cluster data, called 
-[DBSCAN](https://github.com/ranja-sarkar/DecisionTree/blob/5c16acf461d0c2c2714d85b3ae68836bde6d5292/DBSCAN.ipynb). 
+[DBSCAN](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3c289735c4fc79dfb503d2fea96667cb8fb50f7e/_posts/codes/DBSCAN.ipynb). 
 
 ---
 
