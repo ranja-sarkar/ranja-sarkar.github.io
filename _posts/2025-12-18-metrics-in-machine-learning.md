@@ -28,8 +28,6 @@ A standard loss function (e.g. AIC) correlates well in general with a performanc
 
 An evaluation metric must reflect whatever it is we actually care about or desire when making predictions. For example, when we use mean squared error (MSE), we are implicitly saying that we think the cost of our prediction error should reflect the squared distance between what we predicted and what is correct. This may work well if we want to punish outliers or if our data is minimized by the mean. 
 
-<img width="770" height="343" alt="11" src="https://github.com/user-attachments/assets/f33bb1e8-417c-445c-a15e-d93f177c1e15" />
-
 
 📌 MSE is utilized as both loss function and metric.
 
@@ -87,7 +85,9 @@ There’s another metric known as [adjusted Rand score](https://scikit-learn.org
 
 💡 **Dimensionality Reduction**
 
-It is in general difficult to design metrics for assessing unsupervised models, owing to the nature of input data. Unlike clustering algorithms, the metrics in data dimensionality reduction algorithms like [principal component analysis (PCA)](https://ranja-sarkar.github.io/pca/) are about information preservation or explaining maximum variance in the dataset. The proportion of variance explained (PVE) and cumulative PVE by the principal components are two such metrics. 
+It is in general difficult to devise metrics for assessing unsupervised models, owing to the nature of input data. Unlike clustering algorithms, the metrics in data dimensionality reduction algorithms like [principal component analysis (PCA)](https://ranja-sarkar.github.io/pca/) are about information preservation or explaining maximum variance in the dataset. The proportion of variance explained (PVE) and cumulative PVE by the principal components are two such metrics. 
+
+<img width="465" height="374" alt="pve" src="https://github.com/user-attachments/assets/8176825f-706d-4af3-8e38-e105c7055752" />
 
 ---
 
