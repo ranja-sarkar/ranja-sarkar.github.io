@@ -66,7 +66,7 @@ Association between two variables is measured by correlation. Interation between
 
 If the objective is to predict a target from one or more variables in the data, we perform regression (parametric model). 
 
-Parametric models have some assumptions in place, like the normality of residuals which are the differences between predictions (fitted response) and actuals (observed response), the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the inference or conclusions drawn from these models or tests are more reliable. 
+Parametric models have some assumptions in place, like the normality of **residuals** which are the **differences between prediction (fitted response) and actual (observed response)**, the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the inference or conclusions drawn from these models or tests are more reliable. 
 
 [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
