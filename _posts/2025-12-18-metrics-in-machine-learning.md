@@ -59,14 +59,16 @@ In unsupervised machine learning, models learn patterns from unlabeled data. Uns
 
 💡 **Clustering**
 
-[kMeans clustering](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3c289735c4fc79dfb503d2fea96667cb8fb50f7e/_posts/codes/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. 
+[kMeans clustering](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3c289735c4fc79dfb503d2fea96667cb8fb50f7e/_posts/codes/kMeans.ipynb) is a centroid-based algorithm that learns data pattern to cluster or segment data. The elbow method to choose optimal number of clusters ‘k’ for a given dataset in kMeans clustering is based on within cluster sum of squares (WCSS) which decreases as the number of clusters increase. WCSS is the total squared distance of each data point to the centroid (mean) of its assigned cluster.
 
 <img width="516" height="393" alt="aic" src="https://github.com/user-attachments/assets/aae680e3-5473-4955-a8bd-23c4de84fb3e" />
 
 
 However, a different method must be used to find k. Here’s [why and how](https://arxiv.org/pdf/2212.12189). 
 
-Variance-based and distance-based criteria (discussed below) seem to work better than the elbow criterion to choose number of clusters for a given dataset in kMeans clustering. There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. 
+Other distance-based and variance-based criteria (discussed below) seem to work better than the elbow criterion to choose number of optimal clusters for a given dataset in kMeans clustering. 
+
+There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. 
 
 📌 [Calinski Harabasz](https://www.tandfonline.com/doi/abs/10.1080/03610927408827101) Score → The CH index is also known as variance ratio criterion. A higher CH index means better defined clusters. [CH score](https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index) is the ratio of the sum of between-clusters (inter) dispersion and of within-cluster (intra) dispersion for all clusters, where dispersion is defined as the sum of distances squared.
 
