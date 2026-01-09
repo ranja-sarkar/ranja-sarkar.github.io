@@ -14,7 +14,7 @@ The Bayesian approach is a subjective view of the same. [Bayesian](https://githu
 
 ---
 
-The **law of large numbers** states that when a collection of random variables is a large sample, the sample mean converges to the true mean if it exists. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the expected value. For a small sample, there's a difference berween these values called the error.
+The **law of large numbers** states that when a collection of random variables is a large sample, the **sample mean converges to true mean if it exists**. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the **expected value**. For a small sample, **there's a difference between these values called the error**.
 
 ---
 
