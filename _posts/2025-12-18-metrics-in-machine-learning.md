@@ -68,7 +68,7 @@ Other distance-based and variance-based criteria (discussed below) seem to work 
 
 There’s no one optimal solution to a problem in clustering analysis. There are multiple interesting (and subjective) solutions and hence, kMeans clustering (least squares optimization problem) is essentially exploratory in nature. 
 
-📌 [Calinski Harabasz](https://www.tandfonline.com/doi/abs/10.1080/03610927408827101) Score → The CH index is also known as variance ratio criterion. A higher CH index means better defined clusters. [CH score](https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index) is the ratio of the sum of between-clusters (inter) dispersion and of within-cluster (intra) dispersion for all clusters, where dispersion is defined as the sum of distances squared.
+📌 [Calinski Harabasz](https://www.tandfonline.com/doi/abs/10.1080/03610927408827101) Score → The CH index is also known as variance ratio criterion. A higher CH index means better defined clusters. [CH score](https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index) is the ratio of the sum of between-clusters (inter) dispersion and within-cluster (intra) dispersion for all clusters, where dispersion is defined as the sum of distances squared.
 
 📌 [Dunn Index](https://www.tandfonline.com/doi/abs/10.1080/01969727408546059) → An evaluation metric (an internal cluster validation) that identifies sets of clusters which are compact with a smaller variance within cluster and well separated, where the means of different clusters are sufficiently far apart. Higher the Dunn index value, better is the clustering. The number of clusters that maximizes Dunn index is taken as the optimal number of clusters. 
 
