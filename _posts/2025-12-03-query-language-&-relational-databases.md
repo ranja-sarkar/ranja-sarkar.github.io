@@ -84,10 +84,17 @@ Apache Hive is an example of data warehouse which has been around since 2010. Bi
 
 One can [migrate data warehouses to Google BigQuery (GBQ)](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview). There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc.. 
 
+-----
+
+A lakehouse is a new, open architecture that combines the best elements of data lakes and data warehouses.
+
+<img width="164" height="242" alt="rs3" src="https://github.com/user-attachments/assets/580fb00a-61f1-4277-887d-453cc9fa0377" />
+
+SQL is integral to ETL or ELT. 
 
 <img width="302" height="152" alt="rs2" src="https://github.com/user-attachments/assets/784fc21b-f106-4082-b9b7-3d5f9f7d555c" />
 
-SQL is integral to ETL/ELT. It is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
+SQL is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
 
 -----
 
