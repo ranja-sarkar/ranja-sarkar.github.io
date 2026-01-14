@@ -98,7 +98,7 @@ SQL is used for data manipulation and transformation, and for retrieving data fr
 
 -----
 
-In relational databases, we sometimes need to combine rows from two or more tables based on a related column between them. This allows us to retrieve data spread across multiple tables and present as a single, unified result. This is where **SQL JOINS** are essential. Let's say, we have table A and table B, then following are the kinds of JOINs we can have.
+In RDBs, we sometimes need to combine rows from two or more tables based on a related column between them. This allows us to retrieve data spread across multiple tables and present as a single, unified result. This is where **SQL JOINS** are essential. Let's say, we have table A and table B, then following are the kinds of JOINs we can have.
 
 <img width="515" height="160" alt="1" src="https://github.com/user-attachments/assets/abb20526-12ac-404d-8b77-eb39c2dbd2df" />
 
