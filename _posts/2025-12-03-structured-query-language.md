@@ -49,8 +49,6 @@ A **data warehouse** is a data management system that stores current and histori
 
 Data warehouses make it possible to easily analyze business data uploaded from operational (or transactional) systems such as point-of-sale systems, sales databases, inventory management systems. Data may pass through an operational data store and require data cleansing to ensure data quality before it can be used for reporting. Data is cleansed, transformed and integrated into a schema that is optimized for querying and analysis.
 
-<img width="582" height="296" alt="dwh" src="https://github.com/user-attachments/assets/70757533-cc7b-4add-b21b-514539503be7" />
-
 -----
 
 A **data lake** is an unstructured or semi-structured data repository that allows for the storage of vast amounts of (raw) data in its original form. Data lakes are designed to ingest and store all types of data — structured, semi-structured or unstructured, without any predefined schema. 
@@ -65,8 +63,8 @@ Data is often stored in its native format and is not cleansed, transformed or in
 
 Data must be loaded into the data warehouse. The process of extracting raw data from multiple sources, transforming the data and then loading transformed data into the warehouse is called ETL (extract, transform, load). ETL is typically used to integrate structured data from multiple sources into a predefined schema.
 
-<img width="131" height="143" alt="44" src="https://github.com/user-attachments/assets/2f0dbe3c-7293-4617-bde4-ec207298f440" />
-<img width="178" height="99" alt="33" src="https://github.com/user-attachments/assets/d035a896-299a-4d8b-9285-4e063bfef2f0" />
+<img width="335" height="109" alt="rs1" src="https://github.com/user-attachments/assets/7bde3210-6456-42df-9f44-36acd638a584" />
+
 
 **Data modeling** in a data warehouse organizes data into dimensions and facts. There are two schema kinds of data modeling - snowflake schema and star schema. It requires the tables to be classified as either dimension or fact. Dimension tables describe business entities — the things we model. Entities can include products, people, places, and concepts including time itself. Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key that relate to dimension tables, and (numeric) measure columns. 
 
