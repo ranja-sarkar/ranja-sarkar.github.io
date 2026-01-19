@@ -64,6 +64,12 @@ There are three notable boosting libraies.
 
 [Categorical boosting](https://github.com/catboost/catboost) is a fast, scalable, high-performance gradient boosting algorithm, supporting computation on CPU as well as GPU. It is good for large datasets with multiple categorical variables (encoded), and has proved to be faster than lighGBM and XGBoost on a couple of occasions atleast.
 
+Time to fit [500k samples with 28 features](https://openreview.net/pdf?id=ryexWdLRtm) is shown below:
+
+<img width="326" height="61" alt="1" src="https://github.com/user-attachments/assets/5a9bf4fc-06e7-41d4-ace8-c9104c2bb769" />
+
+CatBoost aims to reduce the need for extensive tuning, as compared to XGBoost.
+
 📌 XGBoost
 
 [Extreme gradient boosting](https://github.com/dmlc/xgboost) is a scalable, portable, and distributed framework. It has proven to be a highly efficient, parallel tree boosting algorithm. According to [NVIDIA](https://www.nvidia.com/en-us/glossary/xgboost/), it is the most appealing algorithm to Data Scientists owing to its processing time as well as inference time.
