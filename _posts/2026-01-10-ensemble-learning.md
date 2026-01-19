@@ -44,6 +44,8 @@ Depending on the performance, we can also put a weight on each learner.
 
 A boosting algorithm works in a sequential manner. The output from a model is fed as input to the next model in a sequential way. Each model tries to correct the errors in the previous model. Models are added sequentially until a stopping condition is met in the boosting method. Owing to the employment of additive combination there is reduction in bias in the boosting ensemble. 
 
+![boost](https://github.com/user-attachments/assets/afc63f1c-e59f-4cd7-afc5-3ee48b22bbba)
+
 
 # Stacking ensemble
 
