@@ -51,7 +51,7 @@ There's a stack of different individual models like SVM, kNN etc. and they are b
 
 In stacking, the training data is split into several equal parts (say 12 parts). Out of these 12 parts, a learner is built on 11 parts using a classifier or regression algorithm, for instance we use SVM and preserve one part for validation. In the next iteration, another part is preserved for validation and another classifier like kNN or decision tree regression algorithm is used to fit the training data. This strategy is repeated until the entire dataset is covered. The features extracted from predictions on each iteration are the features used to build a new learner. 
 
-
+Stacking ensembles are not as widely used or not popular as the bagging and boosting ensembles. 
 
 
 
