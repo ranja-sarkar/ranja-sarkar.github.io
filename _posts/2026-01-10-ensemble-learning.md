@@ -43,9 +43,13 @@ A boosting algorithm works in a sequential manner. The output from a model is fe
 
 ![boost](https://github.com/user-attachments/assets/afc63f1c-e59f-4cd7-afc5-3ee48b22bbba)
 
+---
+
 **Adaptive Boosting**
 
 In AdaBoost, weights of the samples are adjusted (focussing on misclassified examples) at each iteration - final prediction is a weighted sum of predictions of trees, the algorithm is easily influenced by outliers in the sample. 
+
+---
 
 **Gradient Boosting**
 
@@ -53,14 +57,14 @@ In gradient boosting, final prediction is an equal-weighted sum of predictions o
 
 There are three notable boosting libraies.
 
-📌 LightGBM
+📌 **LightGBM**
 
 [Light gradient boosting machine](https://github.com/microsoft/LightGBM) by Microsoft is a fast, distributed, high-performance framework. It is memory efficient, its techniques like exclusive feature bundling (EFB) help reduce memory usage during training.
 
 Find a [detailed comparison](https://xgboosting.com/xgboost-vs-lightgbm/) of lightGBM and XGBoost.
 
 
-📌 CatBoost
+📌 **CatBoost**
 
 [Categorical boosting](https://github.com/catboost/catboost) is a fast, scalable, high-performance gradient boosting algorithm, supporting computation on CPU as well as GPU. It is good for large datasets with multiple categorical variables (encoded), and has proved to be faster than lighGBM and XGBoost on a couple of occasions atleast.
 
@@ -73,8 +77,7 @@ CatBoost aims to reduce the need for extensive tuning, as compared to XGBoost. F
 Results of [benchmarking & optimization of gradient boosting decision tree algorithms](https://arxiv.org/pdf/1809.04559) have been reported by many including [NVIDIA](https://github.com/NVIDIA/gbm-bench).
 
 
-
-📌 XGBoost
+📌 **XGBoost**
 
 [Extreme gradient boosting](https://github.com/dmlc/xgboost) is a scalable, portable, and distributed framework. It has proven to be a highly efficient, parallel tree boosting algorithm. According to [NVIDIA](https://www.nvidia.com/en-us/glossary/xgboost/), it is the most appealing algorithm to Data Scientists owing to its processing time as well as inference time.
 
@@ -91,7 +94,7 @@ There's a stack of different individual models like SVM, kNN etc. and they are b
 
 In stacking, the training data is split into several equal parts (say 12 parts). Out of these 12 parts, a learner is built on 11 parts using a classifier or regression algorithm, for instance we use SVM and preserve one part for validation. In the next iteration, another part is preserved for validation and another classifier like kNN or decision tree regression algorithm is used to fit the training data. This strategy is repeated until the entire dataset is covered. The features extracted from predictions on each iteration are the features used to build a new learner. 
 
-Stacking ensembles are not as widely used or not popular as the bagging and boosting ensembles. 
+Stacking ensembles are not as widely used or not popular as the bagging and boosting ensembles, especially the gradient boosting learners. 
 
 
 
