@@ -10,8 +10,10 @@ Ensembles execute multiple models, then combine their outputs to make the final 
 
 # Bagging ensmeble
 
-Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating, and enables reduction of variance in the ensemble.
-An example of a bagging ensemble is random forest.
+Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating, and enables reduction of variance in the ensemble. An example of a bagging ensemble is random forest. 
+
+![bagg](https://github.com/user-attachments/assets/cf67376a-809c-4c08-b4b9-772a39261228)
+
 
 ootstrapping involves creating multiple subsets of training data. Each subset is of equal size and training is carried out in a parallel manner. Aggregation combines the outputs of each learner/model.  In a regression task, typically the average (or weighted average) of predictions from each model is considered to make the final prediction. 
 
@@ -42,7 +44,12 @@ Depending on the performance, we can also put a weight on each learner.
 
 # Stacking ensemble
 
+There's a stack of different individual models like SVM, kNN etc. and they are built using same training dataset. The features extracted from the output of these individual learners are called meta features. 
 
+![stack](https://github.com/user-attachments/assets/67665c13-26ca-4a8b-8d78-90cb27a2e1e5)
+
+
+In stacking, the training data is split into several equal parts (say 12 parts). Out of these 12 parts, a learner is built on 11 parts using a classifier or regression algorithm, for instance we use SVM and preserve one part for validation. In the next iteration, another part is preserved for validation and another classifier like kNN or decision tree regression algorithm is used to fit the training data. This strategy is repeated until the entire dataset is covered. The features extracted from predictions on each iteration are the features used to build a new learner. 
 
 
 
