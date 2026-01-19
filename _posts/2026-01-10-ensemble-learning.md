@@ -15,7 +15,9 @@ Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating,
 ![bagg](https://github.com/user-attachments/assets/cf67376a-809c-4c08-b4b9-772a39261228)
 
 
-ootstrapping involves creating multiple subsets of training data. Each subset is of equal size and training is carried out in a parallel manner. Aggregation combines the outputs of each learner/model.  In a regression task, typically the average (or weighted average) of predictions from each model is considered to make the final prediction. 
+ootstrapping involves creating multiple subsets of training data. Each subset is of equal size and training is carried out in a parallel manner. Aggregation combines the outputs of each learner/model.  
+
+In a regression task, typically the average (or weighted average) of predictions from each model is considered to make the final prediction. 
 
 ---
 
@@ -40,6 +42,7 @@ Depending on the performance, we can also put a weight on each learner.
 
 # Boosting ensemble
 
+A boosting algorithm works in a sequential manner. The output from a model is fed as input to the next model in a sequential way. Each model tries to correct the errors in the previous model. Models are added sequentially until a stopping condition is met in the boosting method. Owing to the employment of additive combination there is reduction in bias in the boosting ensemble. 
 
 
 # Stacking ensemble
