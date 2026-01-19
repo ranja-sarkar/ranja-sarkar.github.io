@@ -70,6 +70,8 @@ Time to fit [500k samples with 28 features](https://openreview.net/pdf?id=ryexWd
 
 CatBoost aims to reduce the need for extensive tuning, as compared to XGBoost.
 
+Results of [benchmarking & optimization of gradient boosting decision tree algorithms](https://arxiv.org/pdf/1809.04559) have been reported by many including [NVIDIA](https://github.com/NVIDIA/gbm-bench).
+
 📌 XGBoost
 
 [Extreme gradient boosting](https://github.com/dmlc/xgboost) is a scalable, portable, and distributed framework. It has proven to be a highly efficient, parallel tree boosting algorithm. According to [NVIDIA](https://www.nvidia.com/en-us/glossary/xgboost/), it is the most appealing algorithm to Data Scientists owing to its processing time as well as inference time.
