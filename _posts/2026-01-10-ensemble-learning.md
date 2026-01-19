@@ -58,9 +58,13 @@ There are three notable boosting libraies.
 
 📌 LightGBM
 
+[Light gradient boosting machine](https://github.com/microsoft/LightGBM) by Microsoft is a fast, distributed, high-performance framework. 
+
 📌 CatBoost
 
 📌 XHBoost
+
+[Extreme gradient boosting](https://github.com/dmlc/xgboost) is a scalable, portable, and distributed framework. It has proven to be a highly efficient, parallel tree boosting algorithm. According to [NVIDIA](https://www.nvidia.com/en-us/glossary/xgboost/), it is the most appealing algorithm to Data Scientists owing to its processing time as well as inference time.
 
 
 ---
