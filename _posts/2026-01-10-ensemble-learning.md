@@ -6,7 +6,7 @@ Ranja Sarkar
 
 ![title](https://github.com/user-attachments/assets/78520f1a-430f-4fb9-bf0e-05cfc57dbb67)
 
-Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting, etc..
+Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting.
 
 # Bagging ensemble
 
@@ -32,9 +32,9 @@ There’s another rule - **soft voting**. Learner 1 predicts Class 0 with prob
 
 <img width="193" height="113" alt="vote2" src="https://github.com/user-attachments/assets/3e955155-7629-497f-ad67-a9d355cde6c8" />
 
+---
 
-Depending on the performance, we can also put a weight on each learner. 
-
+Depending on the performance, we can also put a weight on each learner of the ensemble. 
 
 
 # Boosting ensemble
@@ -55,7 +55,7 @@ In AdaBoost, weights of the samples are adjusted (focussing on misclassified exa
 
 In gradient boosting, final prediction is an equal-weighted sum of predictions of trees that is, no re-weighting of samples occurs like in adaptive boosting. The algorithm works on the principle of gradient descent (minimize loss function with learning rate) and is less influenced by outliers and noise in the training sample. 
 
-There are three notable boosting libraies.
+There are three notable boosting libraries.
 
 📌 **LightGBM**
 
@@ -83,7 +83,7 @@ Results of [benchmarking & optimization of gradient boosting decision tree algor
 
 As an example, see how an XGBoost regressor is faster than vanilla gradient boosting regressor [here](https://xgboosting.com/xgbregressor-faster-than-gradientboostingregressor/).
 
-XGBoost has a strong [community](https://xgboost.ai/community), teh discussion forums are really useful for developers.
+XGBoost has a strong [community](https://xgboost.ai/community), the discussion forums are really useful for developers.
 
 # Stacking ensemble
 
