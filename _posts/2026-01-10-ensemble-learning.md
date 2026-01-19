@@ -6,11 +6,11 @@ Ranja Sarkar
 
 ![title](https://github.com/user-attachments/assets/78520f1a-430f-4fb9-bf0e-05cfc57dbb67)
 
-Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting.
+Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting. In one of my previous [posts](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html), I mentioned how underfitted or biased and overfitted (high-variance) models can be handled. Ensembling is another way to obtain a low bias or low variance predictive model, depending on the use-case or problem at hand. 
 
 # Bagging ensemble
 
-Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating, and enables reduction of variance in the ensemble. An example of a bagging ensemble is random forest. 
+Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating, and enables **reduction of variance** in the ensemble. An example of a bagging ensemble is random forest. 
 
 ![bagg](https://github.com/user-attachments/assets/cf67376a-809c-4c08-b4b9-772a39261228)
 
@@ -39,7 +39,7 @@ Depending on the performance, we can also put a weight on each learner of the en
 
 # Boosting ensemble
 
-A boosting algorithm works in a sequential manner. The output from a model is fed as input to the next model in a sequential way. Each model tries to correct the errors in the previous model. Models are added sequentially until a stopping condition is met in the boosting method. Owing to the employment of additive combination there is reduction in bias in the boosting ensemble. 
+A boosting algorithm works in a sequential manner. The output from a model is fed as input to the next model in a sequential way. Each model tries to correct the errors in the previous model. Models are added sequentially until a stopping condition is met in the boosting method. Owing to the employment of additive combination there is **reduction of bias** in the ensemble. 
 
 ![boost](https://github.com/user-attachments/assets/afc63f1c-e59f-4cd7-afc5-3ee48b22bbba)
 
