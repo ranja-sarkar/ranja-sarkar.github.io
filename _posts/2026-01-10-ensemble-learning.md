@@ -53,6 +53,16 @@ In AdaBoost, weights of the samples are adjusted (focussing on misclassified exa
 **Gradient Boosting**
 
 In gradient boosting, final prediction is an equal-weighted sum of predictions of trees that is, no re-weighting of samples occurs like in adaptive boosting. The algorithm works on the principle of gradient descent (minimize loss function with learning rate) and is less influenced by outliers and noise in the training sample. 
+
+There are three notable boosting libraies.
+
+📌 LightGBM
+
+📌 CatBoost
+
+📌 XHBoost
+
+
 ---
 
 # Stacking ensemble
