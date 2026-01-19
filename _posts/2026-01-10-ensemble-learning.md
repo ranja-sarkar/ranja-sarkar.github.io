@@ -36,9 +36,6 @@ There’s another rule - **soft voting**. Learner 1 predicts Class 0 with prob
 Depending on the performance, we can also put a weight on each learner. 
 
 
----
-
-
 
 # Boosting ensemble
 
@@ -83,7 +80,7 @@ Results of [benchmarking & optimization of gradient boosting decision tree algor
 
 As an example, see how an XGBoost regressor is faster than vanilla gradient boosting regressor [here](https://xgboosting.com/xgbregressor-faster-than-gradientboostingregressor/).
 
----
+XGBoost has a strong [community](https://xgboost.ai/community), teh discussion forums are really useful for developers.
 
 # Stacking ensemble
 
