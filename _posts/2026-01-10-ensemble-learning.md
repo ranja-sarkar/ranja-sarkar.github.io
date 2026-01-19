@@ -8,7 +8,7 @@ Ranja Sarkar
 
 Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting, etc..
 
-# Bagging ensmeble
+# Bagging ensemble
 
 Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating, and enables reduction of variance in the ensemble. An example of a bagging ensemble is random forest. 
 
@@ -46,6 +46,14 @@ A boosting algorithm works in a sequential manner. The output from a model is fe
 
 ![boost](https://github.com/user-attachments/assets/afc63f1c-e59f-4cd7-afc5-3ee48b22bbba)
 
+**Adaptive Boosting**
+
+In AdaBoost, weights of the samples are adjusted (focussing on misclassified examples) at each iteration - final prediction is a weighted sum of predictions of trees, the algorithm is easily influenced by outliers in the sample. 
+
+**Gradient Boosting**
+
+In gradient boosting, final prediction is an equal-weighted sum of predictions of trees that is, no re-weighting of samples occurs like in adaptive boosting. The algorithm works on the principle of gradient descent (minimize loss function with learning rate) and is less influenced by outliers and noise in the training sample. 
+---
 
 # Stacking ensemble
 
