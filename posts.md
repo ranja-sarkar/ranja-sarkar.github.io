@@ -8,7 +8,6 @@ permalink: /myposts
 
 I choose a theme each month for my collection of posts. How do I choose the theme? 
 Well, it is random - dashboards, prompts, etc.. 
-
 Each blog post has pictures clicked by me. I'm not versed with the technical nuances of photography, I capture whatever appeals to my eyes. 
 
 -----
