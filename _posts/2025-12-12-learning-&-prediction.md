@@ -2,8 +2,6 @@
 tags: [data, bias, variance, machine-learning]
 ---
 
-Ranja Sarkar
-
 ![IMG_2900](https://github.com/user-attachments/assets/0e1b6eac-94fd-40df-a668-93df933f4505)
 
 A model's bias and variance manifest in how the model either underfits or overfits to data. An illustration (below) of bias and variance, accuracy and precision shows what an optimal model's like - it's the one with low bias and low variance.
