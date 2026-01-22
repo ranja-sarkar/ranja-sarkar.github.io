@@ -4,8 +4,6 @@ tags: [code, program, content, write]
 
 ---
 
-Ranja Sarkar
-
 
 <img width="383" height="139" alt="book" src="https://github.com/user-attachments/assets/fe13d87e-defd-4807-bc46-0de05960e9d8" />
 
