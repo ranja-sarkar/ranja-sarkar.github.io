@@ -2,7 +2,6 @@
 tags: [database, sql, data warehouse]
 ---
 
-Ranja Sarkar
 
 ![fl1](https://github.com/user-attachments/assets/70fdb8bc-68d0-4851-be40-b20f7c456520)
 
