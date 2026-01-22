@@ -2,7 +2,6 @@
 tags: [nlp, llm]
 ---
 
-Ranja Sarkar
 
 <img width="554" height="155" alt="22" src="https://github.com/user-attachments/assets/6f3aa923-5473-429c-b73f-497a6344ffac" />
 
