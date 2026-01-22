@@ -2,8 +2,6 @@
 tags: [machine-learning, model, data, operations]
 ---
 
-Ranja Sarkar
-
 <img width="288" height="415" alt="tabo" src="https://github.com/user-attachments/assets/25d9f85e-c065-44fa-adc9-68065fa240d7" />
 
 The many stages in model development lifecycle (MDLC) require very careful consideration, to avoid setbacks and wastage in terms of expenses and resources. 
@@ -61,5 +59,4 @@ Although the production framework is selected keeping the above in mind, and as 
 
 Monitoring models, setting threshold for alerts, and establishing retraining strategy are planned and included in the process to combat performance degradation. Otherwise, the damage may have been done by the time something wrong is noticed.  
 
------
 
