@@ -32,7 +32,7 @@ After coming back from my short vacation during the winter of 2024 (Jan), I deci
 
 There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our learning & understanding, our experiences with others and learn back from them, get to know about their experiences. 
 
-Contributing to the community has two-way benefits, it's useful to more than just myself. 
+Contributing to the community has two-way benefits - it's useful to more than just myself. 
 
 -----
 
