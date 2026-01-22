@@ -2,7 +2,6 @@
 tags: [data-handling, exploration, analysis]
 ---
 
-Ranja Sarkar
 
 ![named](https://github.com/user-attachments/assets/b35c1f2a-d7c9-4cca-8c4e-e7f1d9af34a8)
 
