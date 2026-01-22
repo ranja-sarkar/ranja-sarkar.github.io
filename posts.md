@@ -26,7 +26,7 @@ Each blog post has pictures clicked by me. I'm not versed with the technical nua
 ▶️ [Tests & Measures](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html)
 
 
-# *December-2025*
+# *December 2025*
 
 <img width="518" height="73" alt="prompt" src="https://github.com/user-attachments/assets/cf8fa63e-32c1-43d7-ba3f-59064c03d0a2" />
 
@@ -43,7 +43,7 @@ Each blog post has pictures clicked by me. I'm not versed with the technical nua
 ▶️ [Learning & prediction](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html)
 
 
-# *January-2026*
+# *January 2026*
 
 <img width="334" height="250" alt="df" src="https://github.com/user-attachments/assets/92c40d1d-b3dc-4ab8-adba-f05845bc198c" />
 
