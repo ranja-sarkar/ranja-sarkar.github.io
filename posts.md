@@ -6,7 +6,7 @@ title: Articles
 permalink: /myposts
 ---
 
-I am migrating some of my Substack posts (since Oct-2025) to GitHub pages - WIP. I choose a theme each month for my collection of posts. 👇
+I am migrating some of my Substack posts (since Oct-2025) to GitHub pages - WIP. I choose a theme each month for my collection of posts. 
 
 How do I choose the theme? 
 
@@ -14,7 +14,6 @@ Well, it is random - dashboards, prompts, etc..
 
 Each blog post has pictures clicked by me. I'm not versed with the technical nuances of photography, I capture whatever appeals to my eyes. 
 
----
 
 # Posts  *November 2025*
 
