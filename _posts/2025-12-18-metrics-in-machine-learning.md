@@ -2,7 +2,6 @@
 tags: [machine-learning, supervised-unsupervised, metrics]
 ---
 
-Ranja Sarkar
 
 ![pc](https://github.com/user-attachments/assets/facda9c1-e8aa-4711-86e6-09bf555ad31a)
 
