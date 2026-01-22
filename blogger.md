@@ -27,13 +27,6 @@ A pause and introspection is of paramount importance, maybe in some ways it enab
 
 After coming back from my short vacation during the winter of 2024 (Jan), I decided to start blogging. My blog posts are about *Data Science & stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as well. 
 
------
-
-I am migrating some of my Substack posts (since Oct-2025) to GitHub pages - WIP. I choose a theme each month for my collection of posts. 👇
-
-How do I choose the theme? 
-
-Well, it is random. Sometimes dashboards, at other times prompts, etc. Each blog post has pictures clicked by me. I'm not versed with the technical nuances of photography, I capture whatever appeals to my eyes.  
 
 <img width="512" height="368" alt="fp" src="https://github.com/user-attachments/assets/38381f05-98d9-4c72-9eb6-328514fa854a" />
 
