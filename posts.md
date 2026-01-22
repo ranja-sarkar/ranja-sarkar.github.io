@@ -11,6 +11,8 @@ Well, it is random - dashboards, prompts, etc..
 
 Each blog post has pictures clicked by me. I'm not versed with the technical nuances of photography, I capture whatever appeals to my eyes. 
 
+-----
+
 # *November 2025*
 
 <img width="495" height="293" alt="db" src="https://github.com/user-attachments/assets/4fbc9cd9-2149-4f07-833c-8d123d0c88f7" />
@@ -24,7 +26,6 @@ Each blog post has pictures clicked by me. I'm not versed with the technical nua
 
 ▶️ [Tests & Measures](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html)
 
------
 
 # *December-2025*
 
@@ -42,7 +43,6 @@ Each blog post has pictures clicked by me. I'm not versed with the technical nua
 
 ▶️ [Learning & prediction](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html)
 
------
 
 # *January-2026*
 
