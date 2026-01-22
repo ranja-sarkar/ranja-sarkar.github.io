@@ -2,7 +2,6 @@
 tags: [statistics, data]
 ---
 
-Ranja Sarkar
 
 ![med1](https://github.com/user-attachments/assets/1478937b-a23f-4842-8a6f-f99d2856b973)
 
