@@ -2,7 +2,6 @@
 tags: [probability, statistics]  
 ---
 
-Ranja Sarkar
 
 ![ben1](https://github.com/user-attachments/assets/de3ef8f5-36c9-4f4d-ba95-1efa71e7077d)
 
