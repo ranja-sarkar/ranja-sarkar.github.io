@@ -63,7 +63,7 @@ Statistical models can be broadly categorized into two, based on the **probabili
 
 1. **Discriminative models** - utilize conditional probability
 
-2. **Generative models** - utilize joint probability distribution
+2. **Generative models** - utilize joint probability 
 
    Generative algorithms estimate parameters from the data (given a likelihood) and use the Bayes’ theorem to calculate the posterior probability. Examples of generative models are Generative Adversarial Network (GAN0, Bayesian Network, Naive Bayes, hidden Markov Model (HMM), LDA (latent Dirichlet allocation). These models understand how data is embedded in space. Autoencoder, Boltzmann machine, and self-organizing maps are some (unsupervised) deep learning models which make use of generative algorithm for tasks like analysis of high-dimensional datasets, image denoising, image compression, image generation, and anomaly detection.
 
