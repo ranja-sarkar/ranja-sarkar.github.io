@@ -6,12 +6,6 @@ title: Articles
 permalink: /myposts
 ---
 
-I choose a theme each month for my collection of posts. How do I choose the theme? 
-Well, it is random - dashboards, prompts, etc.. 
-Each blog post has pictures clicked by me. I'm not versed with the technical nuances of photography, I capture whatever appeals to my eyes. 
-
------
-
 # *November 2025*
 
 <img width="495" height="293" alt="db" src="https://github.com/user-attachments/assets/4fbc9cd9-2149-4f07-833c-8d123d0c88f7" />
@@ -48,8 +42,6 @@ Each blog post has pictures clicked by me. I'm not versed with the technical nua
 <img width="334" height="250" alt="df" src="https://github.com/user-attachments/assets/92c40d1d-b3dc-4ab8-adba-f05845bc198c" />
 
 ▶️ [Model Lifecycle](https://ranja-sarkar.github.io/2026/01/05/model-lifecycle.html)
-
-▶️ [Error Measurement](https://ranja-sarkar.github.io/2026/01/06/error-measurement.html)
 
 ▶️ [Ensemble learning](https://ranja-sarkar.github.io/2026/01/10/ensemble-learning.html)
 
