@@ -23,11 +23,11 @@ Governing equations are known for many physical systems but direct numerical sol
 
 📌  *Uncertainty quantification*
 
-This is of great importance as it makes it possible to characterize the quantiles and skews in distributions and allows for examining how close predictions are to being acceptable or for sensitivity analysis of input features. Variants of neural networks have exhibited success here, as a surrogate for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the integration of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
+This is of great importance as it makes it possible to characterize the quantiles and skews in distributions and allows for examining how close predictions are to being acceptable or how sensitive the outcome is wrt change in input features. Variants of neural networks have exhibited success here, as a surrogate for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the integration of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
 
 📌 *Data generation*
 
-Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like [GAN](https://ranjas.substack.com/p/generative-and-discriminative-models), [VAE](https://ranjas.substack.com/p/encoder-decoder-in-a-neural-network), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. 
+Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like generative adverserial network (GAN), variational autoecoder (VAE), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. GAN is a generative model which uses two sub-models, the generative subnetwork generates datapoints (new probability distribution) and the discriminator subnetwork classifies them into coming from the training (real) data or newly (fake) generated. 
 
 ------
 
