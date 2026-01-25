@@ -5,6 +5,8 @@ tags: [statistics, data]
 
 ![med1](https://github.com/user-attachments/assets/1478937b-a23f-4842-8a6f-f99d2856b973)
 
+<ins>**Tests & Measures**</ins>
+
 There are two schools of thought or approaches in statistical tests. One is frequentist, another is Bayesian. 
 
 The frequentist approach is how often an outcome happens over repeated runs of the experiment/test. It’s an objective view of whether an experiment is repeatable. 
@@ -34,7 +36,7 @@ Having stated this, it may be helpful to conceptually think of likelihood as "pr
 
 ---
 
-# Tests & measures
+# Test typess 
 
 The question we ask totally drives a statistical analysis. And asking the right question improves the [inference](https://lakens.github.io/statistical_inferences/).
 
