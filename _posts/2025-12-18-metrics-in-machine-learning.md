@@ -5,6 +5,8 @@ tags: [machine-learning, supervised-unsupervised, metrics]
 
 ![pc](https://github.com/user-attachments/assets/facda9c1-e8aa-4711-86e6-09bf555ad31a)
 
+<ins>**Metrics in Machine Learning**</ins>
+
 Metrics are measures of quantitative assessment of performance. We track business performance as well as statistical model performance using metrics. A model learns from old data and predicts on new data, so the metrics and error (loss) functions for machine learning (ML) models are closely connected. The difference between assessing an ML model and making a business decision from the model output gets blurry in practice.
 
 Business decisions are made through hypothesis tests. A test statistic (typically p-value) is used for the decision of action and inaction on the model, which essentially means deciding if the model can be launched into production or not. 
