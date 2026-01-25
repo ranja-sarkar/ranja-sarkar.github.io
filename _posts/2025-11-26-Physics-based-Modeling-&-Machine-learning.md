@@ -9,23 +9,23 @@ tags: [physics, models, machinelearning]
 
 The [paper by Jared Willard et al (2020)](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/bd0e97bb7a75469e16be738cf528f040927ed0d7/_posts/assets/Phys-ml.pdf) about the integration of Physics with machine learning makes for an insightful read. The paper provides the objectives of such integration, *a brief summary of which* is as follows. 
  
- 1. *Finding representations of complex Physics-based models*
+📌   *Finding representations of complex Physics-based models*
     
 Reduced-order models (ROMs) are the computationally inexpensive representations. Constructing ROMs involves dimensionality reduction that attempts to capture most important dynamical characteristics of often large, high-fidelity simulations and models of physical systems.
 
-2. *Discovering governing equations*
+📌 *Discovering governing equations*
    
 Many dynamical systems (e.g. finance) have no formal analytic descriptions and often data are abundant in such cases, but the underlying governing equations remain elusive. There are some data-driven techniques for identification of unknown, potential governing equations of nonlinear systems and are based on the [Occam’s razor principle](https://www.newscientist.com/definition/occams-razor/), where the goal is to use only a few equation terms to describe the given system. 
 
-3. *Solving PDEs*
+ 📌 *Solving PDEs*
 
 Governing equations are known for many physical systems but direct numerical solutions of PDEs using common traditional methods prove to be expensive. Neural networks have shown success in approximating solutions across different kinds of Physics-based PDEs. 
 
-4. *Uncertainty quantification*
+📌  *Uncertainty quantification*
 
 This is of great importance as it makes it possible to characterize the quantiles and skews in distributions and allows for examining how close predictions are to being acceptable or for sensitivity analysis of input features. Variants of neural networks have exhibited success here, as a surrogate for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the integration of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
 
-5. *Data generation*
+📌 *Data generation*
 
 Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like [GAN](https://ranjas.substack.com/p/generative-and-discriminative-models), [VAE](https://ranjas.substack.com/p/encoder-decoder-in-a-neural-network), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. 
 
