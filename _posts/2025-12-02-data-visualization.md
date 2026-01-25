@@ -5,6 +5,8 @@ tags: [data, exploration, visualization, basic skill]
 
 ![ben2](https://github.com/user-attachments/assets/a07ad6b0-3918-47d8-9e29-f87dcb4c80c4)
 
+<ins>**Data Visualization**</ins>
+
 In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html), I have highlighted the power of *data visualization*, it is so essential to understand data. A single post is not enough to state the necessity of data visualization, from data exploration to analysis till a model trained with the data is operational and post production as well.
 
 Quoted from that post -
