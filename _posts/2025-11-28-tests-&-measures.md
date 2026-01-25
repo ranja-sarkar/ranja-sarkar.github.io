@@ -36,7 +36,7 @@ Having stated this, it may be helpful to conceptually think of likelihood as "pr
 
 ---
 
-# Test typess 
+# Test types
 
 The question we ask totally drives a statistical analysis. And asking the right question improves the [inference](https://lakens.github.io/statistical_inferences/).
 
