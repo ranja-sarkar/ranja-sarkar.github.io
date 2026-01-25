@@ -31,6 +31,9 @@ Physics-based approaches for data generation often rely on running simulations o
 
 ------
 
+<img width="511" height="98" alt="11" src="https://github.com/user-attachments/assets/ede22a91-faf8-43a8-8ef0-1ef48f090551" />
+
+
 Along similar line is **Ben Moseley's** [thesis](https://ora.ox.ac.uk/objects/uuid:b790477c-771f-4926-99c6-d2f9d248cb23/files/d8p58pd35h) (2022).
 His doctoral research thesis is about Physics-informed machine learning. One of the thesis chapters talks about scalable [Physics-informed neural network (pinn)](https://benmoseley.blog/my-research/so-what-is-a-physics-informed-neural-network/).
 
@@ -38,7 +41,7 @@ His doctoral research thesis is about Physics-informed machine learning. One of 
 
 This broadly come under [Scientific Machine Learning (SciML)](https://github.com/SciML), the open-source software for which is available [here](https://sciml.ai/).
 
-![sciml](https://github.com/user-attachments/assets/cc5ba07e-61cf-4d52-ab56-d31708b208f3)
+<img width="512" height="209" alt="22" src="https://github.com/user-attachments/assets/5f17a0cf-48bd-4402-9c8a-ee98048083be" />
 
 
 # References
