@@ -31,6 +31,8 @@ Physics-based approaches for data generation often rely on running simulations o
 
 ------
 
+**Machine learning** is making the machine learn from data, and helps accelerate and enhance traditional modeeling. 
+
 <img width="511" height="98" alt="11" src="https://github.com/user-attachments/assets/ede22a91-faf8-43a8-8ef0-1ef48f090551" />
 
 
