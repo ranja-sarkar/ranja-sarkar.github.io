@@ -16,7 +16,7 @@ One would ask, where is Data Science?
 
 Well, we humans create value with data and it is what we call Data Science that takes many forms. We start with a business problem and work toward an appropriate data-backed solution. AI is part of Data Science. 
 
-Coming back to the Venn diagram, the remaining space in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization, etc., systems that are directly or indirectly influenced by MLDL models as well as LLMs.
+Coming back to the Venn diagram, the remaining space in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization, etc., systems that are directly or indirectly influenced by ML/DL models as well as LLMs.
 
 With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI. 
 
@@ -157,7 +157,7 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 
 -----
 
-➡️ **Caveats**
+💡 **Caveats**
 
 ▶️ Longer input sequences mean more tokens which in turn means high memory usage and often overload (cache for storing tokens to be reused), leading to very slow processing. This forces costly memory allocation. 
 
@@ -168,6 +168,6 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations in the output. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
 
 
-💡*Memory-efficient hybrid systems are smarter solutions.*
+*Memory-efficient hybrid systems are smarter solutions.*
 
 
