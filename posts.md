@@ -43,6 +43,8 @@ permalink: /myposts
 
 ▶️ [Model Lifecycle](https://ranja-sarkar.github.io/2026/01/05/model-lifecycle.html)
 
+▶️ [Error Measurement](https://ranja-sarkar.github.io/2026/01/06/error-measurement.html)
+
 ▶️ [Ensemble learning](https://ranja-sarkar.github.io/2026/01/10/ensemble-learning.html)
 
 ---
