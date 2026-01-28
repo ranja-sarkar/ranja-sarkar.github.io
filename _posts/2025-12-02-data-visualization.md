@@ -17,11 +17,11 @@ Quoted from that post -
 
 <img width="512" height="230" alt="plot" src="https://github.com/user-attachments/assets/7581a90d-5353-4993-808f-50994b4dfa99" />
 
-A [histogram](https://gist.github.com/ranja-sarkar/77aaca472f8254db7136178dcf30b346) shows frequency with bars (binned data), It is useful for detailed view of a single distribution.
+A [histogram](https://gist.github.com/ranja-sarkar/77aaca472f8254db7136178dcf30b346) shows frequency with bars (binned data), It is useful for detailed view of a single distribution. A hostogram with a fitted kernel density estimate (KDE) is shown above. 
 
 A boxplot summarizes data with quartiles (median, IQR) in a box and outliers outside it. It is useful for simple, clear comparisons of central tendencies across multiple group samples. 
 
-A violin plot uses a kernel density estimate (KDE) to show probability density (reveals underlying data density and shape), essentially a smoothed histogram, making it excellent for comparing distributions across multiple groups and showing nuances missed by histogram or box plot.  
+A violin plot uses a KDE (smoothed histogram) to show probability density revealing underlying data density and shape, making it excellent for comparing distributions across multiple groups and showing nuances missed by histogram or box plot.  
 
 -----
 
