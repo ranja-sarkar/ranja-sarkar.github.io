@@ -80,7 +80,8 @@ There’s no one optimal solution to a problem in clustering analysis. There are
 For further mathematical details on above metrics, please read [this article.](https://ruivieira.dev/dunn-index.html)
 
 There’s another metric known as [adjusted Rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html). It is capped between values 0 and 1, this index when close to 1 indicates the clustering algorithm did a good job at assigning similar data points to same cluster, and an index value close to 0 indicates random assignment of data points, hence poorly performing algorithm. There's also a density-based algorithm to cluster data, called 
-[DBSCAN](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3c289735c4fc79dfb503d2fea96667cb8fb50f7e/_posts/codes/DBSCAN.ipynb). 
+[DBSCAN](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3c289735c4fc79dfb503d2fea96667cb8fb50f7e/_posts/codes/DBSCAN.ipynb). Density-based clustering algorithms extract dense regions of the data space, leaving behind noise in the sparse regions. In these algorithms, choice of the distance metric (Euclidean, cosine, etc.) is crucial, that shows how similar two datapoints are.
+
 
 ---
 
