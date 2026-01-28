@@ -16,7 +16,7 @@ One would ask, where is Data Science?
 
 Well, we humans create value with data and it is what we call Data Science that takes many forms. We start with a business problem and work toward an appropriate data-backed solution. AI is part of Data Science. 
 
-Coming back to the Venn diagram, the [remaining space](https://open.substack.com/pub/ranjas/p/artificial-intelligence) in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization.
+Coming back to the Venn diagram, the remaining space in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization, etc., systems that are directly or indirectly influenced by MLDL models as well as LLMs.
 
 With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI. 
 
