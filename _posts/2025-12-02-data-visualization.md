@@ -11,9 +11,9 @@ In one of my previous [posts](https://ranja-sarkar.github.io/2025/11/28/tests-&-
 
 Quoted from that post -
 
-*For example, a **scatter plot** helps us understand which measure to utilize for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation.*
+"*.. a **scatter plot** helps us understand which measure to utilize for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation.*
 
-*While a box plot visually represents inter-quartile range of data, a **violin plot** shows the shape (density distribution) of data. A violin plot must be used to explore skewed data.*
+*While a box plot visually represents inter-quartile range of data, a **violin plot** shows the shape (density distribution) of data. A violin plot must be used to explore skewed data.*"
 
 <img width="512" height="230" alt="plot" src="https://github.com/user-attachments/assets/7581a90d-5353-4993-808f-50994b4dfa99" />
 
