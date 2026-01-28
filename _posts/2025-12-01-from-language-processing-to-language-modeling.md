@@ -163,7 +163,7 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 
 ▶️ Older tokens lose relevance as the input grows, the model tends to forget older tokens and focus on recent ones, leading to factual inconsistencies with growing input size.
 
-▶️  The self-attention operation has O(n²) [time complexity](https://ranjas.substack.com/p/data-structures-and-algorithms), the mechanism with which LLMs analyse relations between tokens kills efficiency
+▶️  The self-attention operation has O(n²) [time complexity](https://github.com/ranja-sarkar/Optimization-NOGD/blob/443c4fe051343b33fe8c16aa878c5b9b97f2b9d3/code_optimize/time_complexity.pdf), the mechanism with which LLMs analyse relations between tokens kills efficiency
 
 It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations in the output. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
 
