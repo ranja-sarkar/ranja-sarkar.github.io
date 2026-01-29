@@ -32,7 +32,7 @@ permalink: /myposts
 
 ▶️ [Writing & Coding](https://ranja-sarkar.github.io/2025/12/05/writing-&-coding.html)
 
-▶️ [Structured Query Language](https://ranja-sarkar.github.io/2025/12/03/query-language-&-relational-databases.html)
+▶️ [SQL Databases](https://ranja-sarkar.github.io/2025/12/03/querying-databases.html)
 
 ▶️ [Learning & prediction](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html)
 
