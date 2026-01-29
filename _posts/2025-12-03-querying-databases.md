@@ -94,6 +94,10 @@ A **star schema** performs efficiently with large data, maintaining history and 
 <img width="401" height="251" alt="st" src="https://github.com/user-attachments/assets/a7308c98-1332-4496-a18a-4e8d98258749" />
 
 Star schema is adopted in [Microsoft Power BI reports](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema).
+For visualization & analytics, Microsoft cloud (Azure) provides Power BI and Google Cloud provides Looker.
+
+<img width="462" height="304" alt="av" src="https://github.com/user-attachments/assets/52d59a78-ddb7-49bc-8cda-e7e5c2a40e0e" />
+
 
 The entity-relationship diagram looks like a snowflake in **snowflake schema** and it offers more storage efficiency due to its tighter adherence to less data redundancy or duplication, but slower query performance. A snowflake schema is an extension of a star schema, where dimension tables are broken down to sub-dimensions. 
 
