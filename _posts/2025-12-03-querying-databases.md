@@ -56,6 +56,10 @@ Data is often stored in its native format and is not cleansed, transformed or in
 
 📌 A data warehouse can be created out of a data lake. 
 
+A lakehouse is a new, open architecture that combines the best elements of data lakes and data warehouses. The Databricks Lakehouse is designed to handle all data types (structured, semi-structured, unstructured) and powers diverse use cases. 
+
+<img width="164" height="242" alt="rs3" src="https://github.com/user-attachments/assets/580fb00a-61f1-4277-887d-453cc9fa0377" />
+
 For big data processing and analytics, Azure provides Databricks and Google Cloud provides Dataproc.
 
 <img width="269" height="247" alt="dd" src="https://github.com/user-attachments/assets/78340272-9404-4aa0-a8db-6c84527a90a6" />
@@ -103,13 +107,6 @@ The entity-relationship diagram looks like a snowflake in **snowflake schema** a
 
 <img width="401" height="209" alt="sf" src="https://github.com/user-attachments/assets/2c1d5281-b577-4572-b4f7-0d8e99e74dac" />
 
------
-
-A lakehouse is a new, open architecture that combines the best elements of data lakes and data warehouses.
-
-<img width="164" height="242" alt="rs3" src="https://github.com/user-attachments/assets/580fb00a-61f1-4277-887d-453cc9fa0377" />
-
-The Databricks Lakehouse is designed to handle all data types (structured, semi-structured, unstructured) and powers diverse use cases. 
 
 # SQL
 
