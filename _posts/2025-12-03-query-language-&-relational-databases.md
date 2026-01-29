@@ -63,6 +63,10 @@ Apache Hive is an example of data warehouse which has been around since 2010. Bi
 
 One can [migrate data warehouses to Google BigQuery (GBQ)](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview). There are similarities and differences in the syntax of SQL used in GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc.. 
 
+Also, cloud service providers have different storage types - object storage, file storage, etc..
+
+<img width="858" height="56" alt="2" src="https://github.com/user-attachments/assets/4a2898b0-be18-4e12-8e8c-54a90726cb8f" />
+
 
 -----
 
