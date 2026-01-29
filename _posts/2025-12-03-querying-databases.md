@@ -56,7 +56,7 @@ Data is often stored in its native format and is not cleansed, transformed or in
 
 📌 A data warehouse can be created out of a data lake. 
 
-A lakehouse is a new, open architecture that combines the best elements of data lakes and data warehouses. The Databricks Lakehouse is designed to handle all data types (structured, semi-structured, unstructured) and powers diverse use cases. 
+A lakehouse is a new, open architecture that combines the best elements of data lakes and data warehouses. The [Databricks](https://www.databricks.com/product/azure) Lakehouse is designed to handle all data types (structured, semi-structured, unstructured) and powers diverse use cases. 
 
 <img width="164" height="242" alt="rs3" src="https://github.com/user-attachments/assets/580fb00a-61f1-4277-887d-453cc9fa0377" />
 
