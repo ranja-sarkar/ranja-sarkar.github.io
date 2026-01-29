@@ -51,13 +51,18 @@ A **data lake** is an unstructured or semi-structured data repository that allow
 
 <img width="214" height="250" alt="dl" src="https://github.com/user-attachments/assets/15f33db1-38ac-4412-bcc4-f2277e5f6fba" />
 
+
 Data is often stored in its native format and is not cleansed, transformed or integrated, making it easier to store and access large datasets in a data lake. 
 
-📌 A data warehouse can be created out of a data lake.
+📌 A data warehouse can be created out of a data lake. 
+
+<img width="269" height="247" alt="dd" src="https://github.com/user-attachments/assets/78340272-9404-4aa0-a8db-6c84527a90a6" />
+
 
 Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handle big data, although Amazon RDS existed since 2009. 
 
 One can [migrate data warehouses to Google BigQuery (GBQ)](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview). There are similarities and differences in the syntax of SQL used in GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc.. 
+
 
 -----
 
