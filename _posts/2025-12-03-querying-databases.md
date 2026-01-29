@@ -92,9 +92,15 @@ Cloud services move data between different compute and storage services, as well
 
 While the cloud data warehouses like Google BigQuery, Snowflake, and Databricks offer orchestration capabilities within them, they often do not provide the full range of features and flexibility offered by dedicated data orchestration tools like [Prefect](https://docs.prefect.io/v3/get-started), [Dagster](https://github.com/dagster-io/dagster), [Airflow](https://github.com/apache/airflow). 
 
-The features of hashtag#data orchestrators include dependency management, resource utilization for different stages of the hashtag#data pipeline, control and alerts, hashtag#data governance. The orchestration tools are important as they manage the complex workflows and execution of hashtag#data pipelines that feed in and out of data warehouses. 
+The features of hashtag#data orchestrators include dependency management, resource utilization for different stages of the data pipeline, control and alerts, hashtag#data governance. The orchestration tools are important as they manage the complex workflows and execution of hashtag#data pipelines that feed in and out of data warehouses. 
 
+Dagster and Airflow have different approaches to interfacing with users which have critical implications for dependency and deployment management. Dagster enables thinking in terms of tables, files, models that data pipelines create and maintain. It has been designed to facilitate local development of pipelines, staging environment, unit testing, and code review. So, Dagster orchestrates data assets, not just tasks in a workflow. 
 
+- [Dagster vs. Airflow](https://dagster.io/vs/dagster-vs-airflow)
+
+[Prefect](https://github.com/haythemtellili/ml-workflow-orchestration) too is good for machine learning workflow orchestration. 
+
+- [Dagster vs. Prefect](https://dagster.io/vs/dagster-vs-prefect)
 
 # Data Model
 
@@ -110,10 +116,11 @@ For visualization & analytics, Microsoft cloud (Azure) provides Power BI and Goo
 <img width="462" height="304" alt="av" src="https://github.com/user-attachments/assets/52d59a78-ddb7-49bc-8cda-e7e5c2a40e0e" />
 
 
-The entity-relationship diagram looks like a snowflake in **snowflake schema** and it offers more storage efficiency due to its tighter adherence to less data redundancy or duplication, but slower query performance. A snowflake schema is an extension of a star schema, where dimension tables are broken down to sub-dimensions. 
+The entity-relationship diagram looks like a snowflake in **snowflake schema** and it offers more storage efficiency due to its tighter adherence to less data redundancy or duplication, but slower query performance. 
 
 <img width="401" height="209" alt="sf" src="https://github.com/user-attachments/assets/2c1d5281-b577-4572-b4f7-0d8e99e74dac" />
 
+A snowflake schema is an extension of a star schema, where dimension tables are broken down to sub-dimensions. 
 
 # SQL
 
