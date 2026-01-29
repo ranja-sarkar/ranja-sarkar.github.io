@@ -111,6 +111,4 @@ In RDBs, we sometimes need to combine rows from two or more tables based on a re
 
 Understanding how different tables relate to each other is the cornerstone of effective database querying.
 
------
 
-In essence, SQL is necessary to define, populate, query, and manage the RDB structures that form the foundation of a data warehouse.
