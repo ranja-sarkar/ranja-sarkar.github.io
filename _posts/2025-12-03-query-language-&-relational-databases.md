@@ -64,7 +64,7 @@ Data is often stored in its native format and is not cleansed, transformed or in
 
 Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handle big data, although Amazon RDS existed since 2009. 
 
-One can [migrate data warehouses to Google BigQuery (GBQ)](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview). There are similarities and differences in SQL syntax between GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc.. 
+One can [migrate data warehouses to Google BigQuery (GBQ)](https://docs.cloud.google.com/bigquery/docs/migration/migration-overview). There are similarities and differences in the syntax of SQL used in GBQ and data warehouses like [Amazon Redshift](https://docs.cloud.google.com/bigquery/docs/migration/redshift-sql), [Snowflake](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql), [Hive](https://docs.cloud.google.com/bigquery/docs/migration/hive-sql) etc.. 
 
 -----
 
@@ -93,13 +93,13 @@ A lakehouse is a new, open architecture that combines the best elements of data 
 
 <img width="164" height="242" alt="rs3" src="https://github.com/user-attachments/assets/580fb00a-61f1-4277-887d-453cc9fa0377" />
 
+# SQL
+
 SQL is integral to ETL or ELT. 
 
 <img width="302" height="152" alt="rs2" src="https://github.com/user-attachments/assets/784fc21b-f106-4082-b9b7-3d5f9f7d555c" />
 
 SQL is used for data manipulation and transformation, and for retrieving data from the data warehouse for reporting and analytical purposes. It is used for management tasks, including data archiving, indexing, performance tuning, and security management.
-
------
 
 In RDBs, we sometimes need to combine rows from two or more tables based on a related column between them. This allows us to retrieve data spread across multiple tables and present as a single, unified result. This is where **SQL JOINS** are essential. Let's say, we have table A and table B, then following are the kinds of JOINs we can have.
 
