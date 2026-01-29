@@ -78,6 +78,11 @@ Data must be loaded into the data warehouse. The process of extracting raw data 
 <img width="335" height="109" alt="rs1" src="https://github.com/user-attachments/assets/7bde3210-6456-42df-9f44-36acd638a584" />
 
 
+Cloud services move data between different compute and storage services, as well as on-premises data sources at specified intervals.
+
+<img width="461" height="215" alt="etl" src="https://github.com/user-attachments/assets/cb2da134-b58c-4e1f-a2db-18b8b5cd63e0" />
+
+
 # Data Model
 
 **Data modeling** in a data warehouse organizes data into dimensions and facts. There are two schema kinds of data modeling - snowflake schema and star schema. It requires the tables to be classified as either dimension or fact. Dimension tables describe business entities — the things we model. Entities can include products, people, places, and concepts including time itself. Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key that relate to dimension tables, and (numeric) measure columns. 
