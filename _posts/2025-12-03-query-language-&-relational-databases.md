@@ -56,6 +56,8 @@ Data is often stored in its native format and is not cleansed, transformed or in
 
 📌 A data warehouse can be created out of a data lake. 
 
+For big data processing and analytics, Azure provides Databricks and Google Cloud provides Dataproc.
+
 <img width="269" height="247" alt="dd" src="https://github.com/user-attachments/assets/78340272-9404-4aa0-a8db-6c84527a90a6" />
 
 
