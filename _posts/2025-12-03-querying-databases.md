@@ -88,6 +88,13 @@ Cloud services move data between different compute and storage services, as well
 
 <img width="461" height="215" alt="etl" src="https://github.com/user-attachments/assets/cb2da134-b58c-4e1f-a2db-18b8b5cd63e0" />
 
+# Data Orchestration
+
+While the cloud data warehouses like Google BigQuery, Snowflake, and Databricks offer orchestration capabilities within them, they often do not provide the full range of features and flexibility offered by dedicated data orchestration tools like [Prefect](https://docs.prefect.io/v3/get-started), [Dagster](https://github.com/dagster-io/dagster), [Airflow](https://github.com/apache/airflow). 
+
+The features of hashtag#data orchestrators include dependency management, resource utilization for different stages of the hashtag#data pipeline, control and alerts, hashtag#data governance. The orchestration tools are important as they manage the complex workflows and execution of hashtag#data pipelines that feed in and out of data warehouses. 
+
+
 
 # Data Model
 
