@@ -34,8 +34,11 @@ Within an instance of MongoDB are collections. Collections are subsets of data. 
 
 <img width="328" height="194" alt="mdb" src="https://github.com/user-attachments/assets/99ee73f1-45ae-4fa3-82be-d43f0c5900ac" />
 
-Azure CosmosDB is another non-relational database by Microsoft, designed for high-performance and low-latency applications.
+Google Cloud provides BigTable for NoSQL data warehousing;
 
+<img width="457" height="86" alt="nosql" src="https://github.com/user-attachments/assets/b234d8d1-9f23-4af4-8f2d-31e8d02eda56" />
+
+Azure CosmosDB is another non-relational database by Microsoft, designed for high-performance and low-latency applications.
 
 # Data Warehouse
 
