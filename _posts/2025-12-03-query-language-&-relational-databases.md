@@ -67,6 +67,9 @@ Also, cloud service providers have different storage types - object storage, fil
 
 <img width="858" height="56" alt="2" src="https://github.com/user-attachments/assets/4a2898b0-be18-4e12-8e8c-54a90726cb8f" />
 
+Cloud-based Enterprise Data Warehouse (EDW) uses massive parallel processing (MPP) to quickly run complex queries across petabytes of data.
+
+<img width="461" height="216" alt="edw" src="https://github.com/user-attachments/assets/b2831c57-cb55-483a-a8de-cfef306f70a3" />
 
 -----
 
