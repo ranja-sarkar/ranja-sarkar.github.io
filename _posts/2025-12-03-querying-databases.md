@@ -65,7 +65,7 @@ A lakehouse is a new, open architecture that combines the best elements of data 
 
 For big data processing and analytics, Azure provides Databricks and Google Cloud provides Dataproc.
 
-<img width="269" height="247" alt="dd" src="https://github.com/user-attachments/assets/78340272-9404-4aa0-a8db-6c84527a90a6" />
+<img width="531" height="227" alt="csp" src="https://github.com/user-attachments/assets/9525704d-045a-417a-8734-b4a7d7176164" />
 
 
 Apache Hive is an example of data warehouse which has been around since 2010. BigQuery by Google is another example releasing around the same time around, Redshift by Amazon arrived a couple of years later to handle big data, although Amazon RDS existed since 2009. 
