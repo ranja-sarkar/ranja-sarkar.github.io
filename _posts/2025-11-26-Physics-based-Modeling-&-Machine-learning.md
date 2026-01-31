@@ -31,7 +31,7 @@ Physics-based approaches for data generation often rely on running simulations o
 
 ------
 
-**Machine learning** is making the machine learn from data, and helps accelerate and enhance traditional modeeling. 
+**Machine learning** is making the machine learn from data, which helps accelerate and enhance traditional modeling. 
 
 <img width="511" height="98" alt="11" src="https://github.com/user-attachments/assets/ede22a91-faf8-43a8-8ef0-1ef48f090551" />
 
@@ -41,7 +41,7 @@ His doctoral research thesis is about Physics-informed machine learning. One of 
 
 <img width="484" height="194" alt="pinn" src="https://github.com/user-attachments/assets/acef87ff-dad7-41c4-9f17-96493ae947dc" />
 
-This broadly come under [Scientific Machine Learning (SciML)](https://github.com/SciML), the open-source software for which is available [here](https://sciml.ai/).
+This broadly come under [Scientific Machine Learning (SciML)](https://github.com/SciML). SciML is the [open-source software](https://sciml.ai/) or ecosystem.
 
 <img width="512" height="209" alt="22" src="https://github.com/user-attachments/assets/5f17a0cf-48bd-4402-9c8a-ee98048083be" />
 
