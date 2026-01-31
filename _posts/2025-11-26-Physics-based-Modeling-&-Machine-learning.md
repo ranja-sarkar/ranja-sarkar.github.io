@@ -29,7 +29,7 @@ This is of great importance as it makes it possible to characterize the quantile
 
 Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like generative adverserial network (GAN), variational autoecoder (VAE), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. GAN is a generative model which uses two sub-models, the generative subnetwork generates datapoints (new probability distribution) and the discriminator subnetwork classifies them into coming from the training (real) data or newly (fake) generated. 
 
-There's unreasonable effectiveness of data in deep learning, especially computer [vision](https://arxiv.org/pdf/1707.02968). 
+There's unreasonable effectiveness of data in deep learning, especially computer [vision](https://arxiv.org/pdf/1707.02968). And there's unreasonable effectiveness of [deep learning in AI.](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/fc7884ad15bf94ea2e66f625d9bde7b951388ba7/_posts/assets/unreasonable-effectiveness-of-deep-learning-in-AI.pdf)
 
 ------
 
@@ -56,9 +56,7 @@ This broadly comes under [Scientific Machine Learning (SciML)](https://github.co
 
 3. [Physics-informed Deep Learning](https://github.com/maziarraissi/PINNs)
 
-4. [Unreasonable effectiveness of deep learning in AI](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/fc7884ad15bf94ea2e66f625d9bde7b951388ba7/_posts/assets/unreasonable-effectiveness-of-deep-learning-in-AI.pdf)
+4. [Why is AI hard and Physics simple?](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/15b3d94ed12fdde4485b7d84898f737545f0ed62/_posts/assets/Physics%20simple-AI%20hard.pdf)
 
-5. [Why is AI hard and Physics simple?](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/15b3d94ed12fdde4485b7d84898f737545f0ed62/_posts/assets/Physics%20simple-AI%20hard.pdf)
-
-6. [PINNs for solving nonlinear PDEs](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/efdc65b9cd38d980cacb603186727f0c3805db6f/_posts/assets/PINN-solving-nonlinear-PDEs.pdf)
+5. [PINNs for solving nonlinear PDEs](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/efdc65b9cd38d980cacb603186727f0c3805db6f/_posts/assets/PINN-solving-nonlinear-PDEs.pdf)
 
