@@ -29,6 +29,8 @@ This is of great importance as it makes it possible to characterize the quantile
 
 Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like generative adverserial network (GAN), variational autoecoder (VAE), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. GAN is a generative model which uses two sub-models, the generative subnetwork generates datapoints (new probability distribution) and the discriminator subnetwork classifies them into coming from the training (real) data or newly (fake) generated. 
 
+There's unreasonable effectiveness of data in deep learning, especially computer [vision](https://arxiv.org/pdf/1707.02968). 
+
 ------
 
 **Machine learning** is making the machine learn from data, which helps accelerate and enhance traditional modeling. 
