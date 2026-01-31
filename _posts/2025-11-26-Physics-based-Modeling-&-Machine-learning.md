@@ -41,7 +41,7 @@ His doctoral research thesis is about Physics-informed machine learning. One of 
 
 <img width="484" height="194" alt="pinn" src="https://github.com/user-attachments/assets/acef87ff-dad7-41c4-9f17-96493ae947dc" />
 
-This broadly come under [Scientific Machine Learning (SciML)](https://github.com/SciML). SciML is the [open-source software](https://sciml.ai/) or ecosystem.
+This broadly comes under [Scientific Machine Learning (SciML)](https://github.com/SciML). SciML is the [open-source software](https://sciml.ai/) or ecosystem.
 
 <img width="512" height="209" alt="22" src="https://github.com/user-attachments/assets/5f17a0cf-48bd-4402-9c8a-ee98048083be" />
 
