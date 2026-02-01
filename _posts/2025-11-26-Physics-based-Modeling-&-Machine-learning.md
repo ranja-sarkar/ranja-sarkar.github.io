@@ -19,7 +19,7 @@ Many dynamical systems (e.g. finance) have no formal analytic descriptions and o
 
  📌 *Solving PDEs*
 
-Governing equations are known for many physical systems but direct numerical solutions of PDEs using common traditional methods prove to be expensive. Neural networks have shown success in approximating solutions across different kinds of Physics-based PDEs. 
+Governing equations are known for many physical systems but direct numerical solutions of partial differential equations (PDEs) using common traditional methods prove to be expensive. Neural networks have shown success in approximating solutions across different kinds of Physics-based PDEs. 
 
 📌  *Uncertainty quantification*
 
