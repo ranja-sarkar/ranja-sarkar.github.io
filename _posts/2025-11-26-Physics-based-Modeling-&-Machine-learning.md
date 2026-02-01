@@ -47,6 +47,7 @@ This broadly comes under [Scientific Machine Learning (SciML)](https://github.co
 
 <img width="512" height="209" alt="22" src="https://github.com/user-attachments/assets/5f17a0cf-48bd-4402-9c8a-ee98048083be" />
 
+[SciANN](https://arxiv.org/abs/2005.08803) is a python package for scientific computing and physics-informed deep learning using artificial neural networks (ANN). [SciANN](https://www.sciann.com/) uses the widely used deep learning packages Tensorflow and Keras to build deep neural networks and optimization models.
 
 # References
 
