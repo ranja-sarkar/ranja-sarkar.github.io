@@ -93,7 +93,7 @@ Adjusting a model in an iterative process by using a holdout dataset to test is 
 <img width="320" height="50" alt="01" src="https://github.com/user-attachments/assets/62ddef49-5508-41b4-919b-e686dc01e809" />
 
 
-**It has a potential conservative bias, it is useful in practice nonetheless, as compared to overly optimistic predictions.**
+**It has a potential conservative bias, nonetheless it is useful in practice as compared to overly optimistic predictions.**
 
 # K-fold CV
 
@@ -113,7 +113,9 @@ For 4-fold, there are 4 training sets and 4 validation sets. Each time (each ite
 <img width="640" height="465" alt="loocv" src="https://github.com/user-attachments/assets/5a9eee44-f5ed-4c2d-9eb0-88b1ee82b3eb" />
 
 
-At the end of the procedure, we take the average of the validation sets' scores and use it as the model's estimated (training) performance. And finally, the test (prediction) error is estimated. With CV, the model generalizes well. The CV approach typically does not overestimate the prediction error.   
+At the end of the procedure, we take the average of the validation sets' scores and use it as the model's estimated (training) performance. And finally, the test (prediction) error is estimated. With CV, the model generalizes well. 
+
+**The CV approach typically does not overestimate the prediction error.**   
 
 -----
 
@@ -125,3 +127,4 @@ When it comes to prediction with algorithmic models like neural nets, model erro
 
 We use either assumptions or data in order to adjust for the optimism, and estimate model error as accurately as possible.
 
+<img width="436" height="236" alt="02" src="https://github.com/user-attachments/assets/82e5a119-608c-4af2-8ad1-f60d872582a6" />
