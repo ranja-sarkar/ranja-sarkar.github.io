@@ -62,19 +62,19 @@ The **train set** is used to learn the model parameters (or hyperparameters).
 
 # Adjusted R^2
 
-R^2 under-penalizes model complexity that is, it fails to decrease the error as much as required with the addition of complexity in the model. This can lead to misleading conclusions. However, it is fast to compute and easy to interpret.
+The goodness of fit, R^2 under-penalizes model complexity that is, it fails to decrease the prediction error as much as required with the addition of complexity in the model. This can lead to misleading conclusions. However, it is fast to compute and easy to interpret.
 
 ![rr](https://github.com/user-attachments/assets/94702b1f-86ff-4301-a1b8-6233eb0ffe41)
 
 A variation in the independent (x) variable explains a variation in the dependent (y) variable. Zero linear relationship between x and y yields R^2 = 0 and R^2 = 1 means 100% variation in y is explained by variation in x. A negative R^2 means that our model is doing worse (capturing less variance in y) than a flat line through the mean of our data would. 
 
-Adjusted R^2 is more accurate as it considers only significant features or independent variables in the dataset to predict the target (dependent variable). It properly penalizes the insignificant ones. 
+Adjusted R^2 is more accurate as it considers only significant features or independent variables in the dataset to predict the target or dependent variable. It properly penalizes the insignificant ones. 
 
 ![rr0](https://github.com/user-attachments/assets/e1589523-2e9f-401e-a988-f4644570a55e)
 
 n =  number of rows in the dataset, m = number of the columns in the dataset. 
 
-Use of adjusted R^2 however is less generalizable and may still overfit the data.
+Use of adjusted R^2 however is less generalizable and may still overfit the (tabular) data.
 
 # Information Theory
 
