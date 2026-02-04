@@ -134,6 +134,6 @@ The methods to measure model error must also be picked and utilized accordingly.
 
 When it comes to prediction with algorithmic models like neural nets, model error is measured utilizing non-parametric resampling approaches like CV. 
 
-We use either assumptions or data in order to adjust for the optimism, and estimate model error as accurately as possible.
+We use either data or assumptions or both to adjust for the optimism, and estimate model error as accurately as possible.
 
 <img width="436" height="236" alt="02" src="https://github.com/user-attachments/assets/82e5a119-608c-4af2-8ad1-f60d872582a6" />
