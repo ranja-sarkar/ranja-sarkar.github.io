@@ -130,9 +130,8 @@ At the end of the procedure, we take the average of the validation sets' scores 
 
 There are [two goals](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/de0b3818af489bb76b20b5268e1b0419d0c91d65/_posts/assets/breiman.pdf) of analysing data - *information* and *prediction*. And there are two approaches toward these goals - *data model* and *algorithmic model*.
 
-The methods to measure model error must also be picked and utilized accordingly. For example, linear regression is an interpolation model by construct and the adjusted R^2 parametric approach is suitable for it. 
-
-When it comes to prediction with algorithmic models like neural nets, model error is measured utilizing non-parametric resampling approaches like CV. 
+The methods to measure model error must also be picked accordingly. 
+For example, linear regression is an interpolation model by construct and the adjusted R^2 parametric approach is suitable for it. When it comes to prediction with algorithmic models like neural nets, model error is measured utilizing non-parametric resampling approaches like CV. 
 
 We use either data or assumptions or both to adjust for the optimism, and estimate model error as accurately as possible.
 
