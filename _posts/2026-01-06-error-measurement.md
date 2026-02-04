@@ -47,7 +47,8 @@ The obvious issue in having a validation subset of data is that our estimate of 
 <img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
 
  
-An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on the entire dataset. The 'validation set' approach reserves a decent-sized chunk of data for validation and testing.  
+
+**An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on the entire dataset. The 'validation set' approach reserves  decent-sized chunk of data for validation and testing.**  
 
 -----
 
@@ -88,6 +89,9 @@ The first term in the equations can be thought of as the training error and the 
 We can directly measure how well a model predicts on new data by holding out a test dataset from the beginning.  
 
 Adjusting a model in an iterative process by using a holdout dataset to test is a common mistake. If the holdout set is repeatedly used for testing a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the prediction error. Given enough data, this metric is highly accurate, it is conceptually simple and easy to implement. 
+
+<img width="320" height="50" alt="01" src="https://github.com/user-attachments/assets/62ddef49-5508-41b4-919b-e686dc01e809" />
+
 
 **It has a potential conservative bias, it is useful in practice nonetheless, as compared to overly optimistic predictions.**
 
