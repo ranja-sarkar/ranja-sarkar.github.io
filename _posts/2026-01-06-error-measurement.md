@@ -44,9 +44,11 @@ Assumption-based or **parametric approaches** to measure error are faster to app
 
 The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable. 
 
-<img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
+The  **test set** is used to evaluate how the model will perform on unseen data.
 
- 
+The **validation set** is used to select which model (hyperparameter set) should be chosen.
+
+The **train set** is used to learn the model parameters (or hyperparameters).
 
 **An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on the entire dataset. The 'validation set' approach reserves  decent-sized chunk of data for validation and testing.**  
 
