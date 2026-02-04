@@ -93,6 +93,8 @@ We can directly measure how well a model predicts on new data by holding out a t
 Adjusting a model in an iterative process by using a holdout dataset to test is a common mistake. If the holdout set is repeatedly used for testing a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the prediction error. Given enough data, this metric is highly accurate, it is conceptually simple and easy to implement. 
 
 <img width="295" height="103" alt="03" src="https://github.com/user-attachments/assets/6efa92e7-ec63-40e9-9d47-4f23e09aea19" />
+
+
 <img width="320" height="50" alt="01" src="https://github.com/user-attachments/assets/62ddef49-5508-41b4-919b-e686dc01e809" />
 
 
