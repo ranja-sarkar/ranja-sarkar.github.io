@@ -47,7 +47,7 @@ The obvious issue in having a validation subset of data is that our estimate of 
 <img width="1008" height="471" alt="tvt" src="https://github.com/user-attachments/assets/991cddd5-f9a9-4d56-ae23-881334c6a670" />
 
  
-An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on our entire dataset. The 'validation set' approach reserves a decent-sized chunk of data for validation and testing.  
+An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on the entire dataset. The 'validation set' approach reserves a decent-sized chunk of data for validation and testing.  
 
 -----
 
