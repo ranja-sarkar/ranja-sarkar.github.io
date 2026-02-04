@@ -6,7 +6,7 @@ tags: [data, error, machine-learning]
 
 <ins>**Measurement of model error**</ins>
 
-The primary goal while building a predictive model must be to make it predictive of the desired target value. The closer the predicted value to the target, more accurate the model. Model error based on training data is misleading, the error the model exhibits on ‘new’ and unseen data yields actual results. In this contecxt, error essentially means [residual](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html).
+The primary goal while building a predictive model must be to make it predictive of the desired target value. The closer the predicted value to the target, more accurate the model. Model error based on training data is misleading, the error the model exhibits on ‘new’ and unseen data yields actual results. In this context, error implies [residual](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html).
 
 When assessing the quality of a model, it is essential to accurately measure its **prediction error**. A model may fit the training data well, but may do a poor job of prediction on ‘new’ data. 
 
@@ -40,7 +40,7 @@ Assumption-based or **parametric approaches** to measure error are faster to app
 
 1. Holdout set
 
-2. Cross-validation (CV): K-fold CV, leave-one-out CV 
+2. Cross-validation (CV) -> K-fold CV, leave-one-out CV 
 
 The obvious issue in having a validation subset of data is that our estimate of the test error can be highly variable. 
 
@@ -117,5 +117,5 @@ The methods to measure model error must also be picked and utilized accordingly.
 
 When it comes to prediction with algorithmic models like neural nets, model error is measured utilizing non-parametric resampling approaches like CV. 
 
-Therefore, we use either assumptions or data in order to adjust for the optimism and estimate model error as accurately as possible.
+We use either assumptions or data in order to adjust for the optimism, and estimate model error as accurately as possible.
 
