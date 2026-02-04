@@ -87,7 +87,9 @@ The first term in the equations can be thought of as the training error and the 
 
 We can directly measure how well a model predicts on new data by holding out a test dataset from the beginning.  
 
-Adjusting a model in an iterative process by using a holdout dataset to test is a common mistake. If the holdout set is repeatedly used for testing a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the prediction error. Given enough data, this metric is highly accurate, it is conceptually simple and easy to implement. It has a potential conservative bias, it is useful in practice nonetheless, as compared to overly optimistic predictions.
+Adjusting a model in an iterative process by using a holdout dataset to test is a common mistake. If the holdout set is repeatedly used for testing a model during development, the holdout set becomes contaminated. It has been used as part of the model selection process and no longer yields unbiased estimates of the prediction error. Given enough data, this metric is highly accurate, it is conceptually simple and easy to implement. 
+
+**It has a potential conservative bias, it is useful in practice nonetheless, as compared to overly optimistic predictions.**
 
 # K-fold CV
 
