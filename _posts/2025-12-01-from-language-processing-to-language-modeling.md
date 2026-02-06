@@ -21,7 +21,7 @@ Coming back to the Venn diagram, the remaining space in the AI superset would ha
 With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI. 
 
 
-# Natural Language Processing (NLP)
+# Natural Language Processing
 
 NLP involves transforming raw text data into a format that the machine understands. In NLP, each text sentence is called a document and collection of documents is referred to as text corpus.  
 
@@ -113,7 +113,7 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 # Neural Networks or Deep Learning
 
-LLMs make use of the transformer architecture and **generative AI is backed by LLMs**. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
+LLMs make use of the transformer architecture and learn from a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
 
 ▶️ *LLMs split the text (input sequence/sentence) into tokens, convert them into vector embeddings.*
 
