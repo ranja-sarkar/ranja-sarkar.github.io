@@ -20,9 +20,8 @@ Coming back to the Venn diagram, the remaining space in the AI superset would ha
 
 With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI. 
 
------
 
-📌 **NLP**
+# Natural Language Processing (NLP)
 
 NLP involves transforming raw text data into a format that the machine understands. In NLP, each text sentence is called a document and collection of documents is referred to as text corpus.  
 
@@ -84,9 +83,8 @@ The journey from lexical search to semantic search to a more advanced hybrid sea
 
 Other hybrid search engines are Snowflake Cortex Search and Azure AI Search. One can enhance search experience by combining the precision of lexical search and the context understanding of semantic search and crafting hybrid search queries. 
 
------
 
-📌 **Machine Learning**
+# Machine Learning
 
 Post pre-processing and feature extraction, the data is ready to be consumed that is, models can be trained with the data.
 
@@ -113,7 +111,7 @@ LDA is a conditional, probabilistic form of topic modeling which uncovers the la
 
 <img width="155" height="96" alt="33" src="https://github.com/user-attachments/assets/9776af16-ef34-4a30-a69a-93c6b2e04861" />
 
-📌 **Neural networks or Deep learning**
+# Neural Networks or Deep Learning
 
 LLMs make use of the transformer architecture and **generative AI is backed by LLMs**. LLMs are trained on a vast amount of text data. The input is a huge number of tokens with which massive neural networks are trained. 
 
@@ -139,7 +137,7 @@ A transformer processes input sequences in parallel, making it efficient for tra
 
 💡 *A transformer is one of the most important sequence modeling improvements of the past decade.*
 
-📌 **LLMs to Agents (generative AI)**
+# LLMs to Agents 
 
 If external databases are integrated with an LLM to cater to the specific domain or use-case, the LLM yields contextual output with [RAG (retrieval augmented generation)](https://github.com/ranja-sarkar/LLM-RAG/blob/fcf3c45b79c8cf1aeb2185ed6011b34b882ab53f/RAG/readme.md). Factual inconsistencies can be mitigated to a good extent by use of RAG.
 
@@ -157,7 +155,7 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 
 -----
 
-💡 **Caveats**
+# Caveats
 
 ▶️ Longer input sequences mean more tokens which in turn means high memory usage and often overload (cache for storing tokens to be reused), leading to very slow processing. This forces costly memory allocation. 
 
