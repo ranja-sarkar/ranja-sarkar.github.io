@@ -166,6 +166,6 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations in the output. From a pragmatic point of view, higher number of tokens only lead to high costs (LLM service providers charge per token). 
 
 
-*Memory-efficient hybrid systems are smarter solutions.*
+💡💡*Memory-efficient hybrid systems are smarter solutions.*
 
 
