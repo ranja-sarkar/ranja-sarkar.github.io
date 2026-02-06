@@ -18,7 +18,7 @@ Well, we humans create value with data and it is what we call Data Science that 
 
 Coming back to the Venn diagram, the remaining space in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization, etc., systems that are directly or indirectly influenced by ML/DL models as well as LLMs.
 
-With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can multimodal like  text, audio, video. I will write about text data in the NLP, ML, DL, and genAI subsets of AI. 
+With NLP, several tasks like topic classification, sentiment analysis, relationship extraction, and entity recognition can be accomplished. The input data for NLP can be multimodal like  text, audio, video. I will write about text data here.  
 
 
 # Natural Language Processing
@@ -157,11 +157,11 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 
 # Caveats
 
-▶️ Longer input sequences mean more tokens which in turn means high memory usage and often overload (cache for storing tokens to be reused), leading to very slow processing. This forces costly memory allocation. 
+▶️ Longer input sequences mean more tokens, which in turn means high memory usage and often overload (cache for storing tokens to be reused). KY cache (K for key and V for value) leads to slow processing and forces higher memoru allocation, making it expensive. 
 
 ▶️ Older tokens lose relevance as the input grows, the model tends to forget older tokens and focus on recent ones, leading to factual inconsistencies with growing input size.
 
-▶️  The self-attention operation has O(n²) [time complexity](https://github.com/ranja-sarkar/Optimization-NOGD/blob/443c4fe051343b33fe8c16aa878c5b9b97f2b9d3/code_optimize/time_complexity.pdf), the mechanism with which LLMs analyse relations between tokens kills efficiency
+▶️  The self-attention operation in LLMs has O(n²) [time complexity](https://github.com/ranja-sarkar/Optimization-NOGD/blob/443c4fe051343b33fe8c16aa878c5b9b97f2b9d3/code_optimize/time_complexity.pdf), which kills efficiency
 
 It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations in the output. From a pragmatic point of view, higher number of tokens only lead to high expenses as the LLM service providers charge per token. 
 
