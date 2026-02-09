@@ -24,7 +24,7 @@ Chapter 5: [Support Vector Machine](https://github.com/ranja-sarkar/SVM)
 
 Chapter 6: [Graphs](https://ranja-sarkar.github.io/networks-graphs/) (link in chapter page 67)
 
-Chapter 7: [Kalman Filter](https://github.com/ranja-sarkar/Kalman)
+Chapter 7: [Kalman Filter](https://ranja-sarkar.github.io/Kalman/)
 
 Chapter 8: [Markov Chain](https://github.com/ranja-sarkar/Markov)
 
