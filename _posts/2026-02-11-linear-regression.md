@@ -2,8 +2,7 @@
 tags: [data, regression, machine-learning]
 ---
 
-Ranja Sarkar
-
+![viet](https://github.com/user-attachments/assets/2de96c5c-9ea3-4623-97ad-f85de4d6d77f)
 
 A linear model assumes that the effect of each independent variable/feature on the dependent variable/target does not depend upon the rest of the independent variables. Linear regression assumes a linearity in (beta-) coefficients of the variables. 
 
