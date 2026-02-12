@@ -17,7 +17,7 @@ Forward propagation is when data moves from left (input layer) to right (output 
 
 📌 Convolutional Neural Networks (CNNs) are specifically designed for processing spatial data, such as images. They use special convolutional layers to scan and identify local patterns within the input. This makes them more efficient for object detection and computer vision tasks. 
 
-📌 Graph Neural Networks (GNNs) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in teh form of scalars or embeddings can be stored at each graph node or edge.
+📌 Graph Neural Networks (GNNs) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in the form of scalars or embeddings can be stored at each graph node or edge.
 
 <img width="230" height="224" alt="gnn" src="https://github.com/user-attachments/assets/4b22096c-94e4-4255-b3a5-40c895c253b5" />
 
@@ -36,7 +36,12 @@ The self-attention mechanism in a decoder in the transformer architecture can be
 
 📌 Generative Adversarial Networks (GANs) consist of two distinct neural networks, a generator and a discriminator that compete against each other. The generator creates a data sample and the discriminator determines if that data sample came from the captured training/observed data or the generator. By optimizing against each other, GANs learn to generate new samples. GAN extracts representative latent embeddings of observed data distributions, and is known to approximate distributions very well. 
 
------
+# Hyper-parameters of a neural network
+
+A network is a structure of interconnected nodes, in other words it is a structure of connected neurons arranged in layers, has one or more input nodes, a function node (activation function) and an output node. Typically, the NN parameters are activation function, dropout, epoch, early stopping, batch-size, learning rate. 
+
+
+
 
 📌 The Goal
 
