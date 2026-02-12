@@ -40,7 +40,19 @@ The self-attention mechanism in a decoder in the transformer architecture can be
 
 A network is a structure of interconnected nodes, in other words it is a structure of connected neurons arranged in layers, has one or more input nodes, a function node (activation function) and an output node. Typically, the NN parameters are activation function, dropout, epoch, early stopping, batch-size, learning rate. 
 
+📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
+![do](https://github.com/user-attachments/assets/988ca913-0c04-4660-b4b3-85208e4ecf09)
+
+📌 **Epoch** → It is one full-cycle (complete pass) of learning from the (training) data, in other words an epoch is an iteration. Too many epochs may lead to overfitting of the model. There needs to be just the right number of iterations to arrive at an optimally fitted model. 
+
+<img width="506" height="208" alt="es" src="https://github.com/user-attachments/assets/396e44d7-926f-432f-ba8f-17e7852f0c56" />
+
+The algorithm updates the weights after each epoch while moving toward the minimum error (loss function). These updates are then tested, reversed through the network to identify errors, and repeated to produce optimal results. 
+
+📌 **Early stopping** → It’s an implicit form of regularization that provides guidance to how many iterations can be run before the learner network begins to overfit. Beyond a certain point, improving the learner's fit to the training data comes at the expense of increased generalization error (also known as out-of-sample error). 
+
+<img width="289" height="226" alt="epoch" src="https://github.com/user-attachments/assets/4b345f3f-9c4d-4c5a-aa72-97ee9e4c3843" />
 
 
 📌 The Goal
