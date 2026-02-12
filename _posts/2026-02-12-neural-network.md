@@ -54,6 +54,12 @@ The algorithm updates the weights after each epoch while moving toward the minim
 
 <img width="289" height="226" alt="epoch" src="https://github.com/user-attachments/assets/4b345f3f-9c4d-4c5a-aa72-97ee9e4c3843" />
 
+The validatiom curve (error vs. epoch) shows that early stopping is just the right point to stop training the learner, so it doesn’t overfit. The datasize is also a crucial aspect while the model is trained. 
+
+📌 **Batch** → It is either a subset of the training data (mini-batch), or each example in the training data, or the entire training data (batch) used in an epoch while training a model. The weight updates happen in these batches. For details on how to choose batch-size, refer to the [article](https://sebastianraschka.com/blog/2022/batch-size-2.html) by Sebastian Raschka.
+
+![bs](https://github.com/user-attachments/assets/b03798e9-2e67-4eef-af56-77fcc444b430)
+
 
 📌 The Goal
 
