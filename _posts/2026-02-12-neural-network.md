@@ -60,6 +60,13 @@ The validatiom curve (error vs. epoch) shows that early stopping is just the rig
 
 ![bs](https://github.com/user-attachments/assets/b03798e9-2e67-4eef-af56-77fcc444b430)
 
+Gradient descent is the iterative method used to train NNs, the algorithm has to take just the right step (step-size neither too small nor too large) until convergence. This step-size is called the [learning rate](https://www.jeremyjordan.me/nn-learning-rate/).  
+
+📌 **Learning rate** → It indicates the step-size that the gradient descent optimization method takes to move towards the local optimum. If the learning rate is too small, it will take more time to reach the optimum and if it is too large, it might start to diverge and never reach the optimal point. 
+
+<img width="859" height="424" alt="lr" src="https://github.com/user-attachments/assets/28c4b78d-4e8a-4653-807a-753cff90d88e" />
+
+Reaching convergence while training NNs can be difficult, nonetheless there’re ways to control it like picking an [optimizer](https://www.bdhammel.com/learning-rates/). A popular optimizer is the Adam optimizer wherein the learning rate is not set manually. [Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) uses an adaptive learning rate. 
 
 📌 The Goal
 
