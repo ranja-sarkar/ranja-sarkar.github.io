@@ -102,8 +102,10 @@ A neural network with higher number of layers and hidden units per layer has hig
 
 <img width="1102" height="478" alt="nn2" src="https://github.com/user-attachments/assets/6f1adfeb-bb49-4824-b549-9f0e2e8b27af" />
 
-Hyper-parameters other than the learning rate requires monitoring of both train and test errors to diagnose if the model is overﬁtting, then adjusting the network’s capacity appropriately. The learning rate is perhaps the most important hyperparameter during optimization as it controls the eﬀective model capacity in a more complicated way than others, and the capacity is highest when the learning rate is correct given the problem. 
+Hyper-parameters other than the learning rate requires monitoring of both train and test errors to diagnose if the model is overﬁtting, then adjusting the network’s capacity appropriately. The learning rate is perhaps the most important hyperparameter during optimization as it controls the eﬀective model capacity in a more complicated way than others, and given a problem the capacity is highest when the learning rate is correct. 
 
 📌 **Framework**
 
-Practitioners turn typically to exisiting frameworks to solve problems with deep learning. The widely used and popular deep learning frameworks are tensorflow and pytorch. For details, please read this article.  
+Practitioners turn typically to exisiting frameworks to solve problems with deep learning. The widely used and popular deep learning frameworks are [tensorflow and pytorch](https://www.datacamp.com/tutorial/pytorch-vs-tensorflow-vs-keras).   
+
+
