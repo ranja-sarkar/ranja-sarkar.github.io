@@ -81,19 +81,16 @@ Reaching convergence while training NNs can be difficult, nonetheless there’re
 
 # Important points while building a neural network
 
-📌 The Goal
+📌 **Goal**
 
-An important consideration besides the target value or performance benchmark is the choice of the metric. Several performance metrics may be used to measure the effectiveness of the application and they are usually diﬀerent from the loss functions used while training the neural network. 
+An important consideration besides the target value or performance benchmark is the choice of the [performance metric](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html). Several metrics may be used to measure the effectiveness of the application backed by neural networks and they are usually diﬀerent from the loss functions (while training NN). The metrics have to align with the business goal.
 
-“Metrics are how humans draw meaning from data and are typically designed for end users of the application. Loss functions are designed for machines, they may or may not be identical to metrics.”
 
-📌 Data
+📌 **Data**
 
-When deciding if more data is required, it is necessary to decide how much more to gather. It is helpful to plot curves showing the relationship between training data size and model error. By extrapolating such curves, one can estimate how much additional training data would be needed to achieve a certain level of performance. Usually, adding a small fraction of the entire datatset will not have a noticeable eﬀect on generalization error. It is therefore recommended to experiment with training dataset sizes on a logarithmic scale. If gathering more data is not feasible, the only other way to improve generalization error is to improve the learning algorithm itself. This becomes the domain of researchers and not that of applied practitioners much. 
+When deciding if more data is required, it is necessary to decide how much more to gather. It is helpful to plot (learning) curves showing the relationship between training data size and model error. By extrapolating such curves, one can estimate how much additional training data would be needed to achieve a certain level of performance. Usually, adding a small fraction of the entire datatset will not have a noticeable eﬀect on generalization error. It is therefore recommended to experiment with training dataset sizes on a logarithmic scale. If gathering more data is not feasible, the only other way to improve generalization error is to improve the learning algorithm itself. This becomes the domain of researchers and not that of applied practitioners much. 
 
-Please read this paper on the effectiveness of data in deep learning. 
-
-📌 Model Capacity
+📌 **Model Capacity**
 
 When deciding on adjusting hyperparameters for model improvement, there are two basic approaches - manual and automatic. Manual hyperparameter tuning can work very well when there’s a good starting point. For many applications however, these starting points are not available and in those cases, automated hyperparameter tuning helps ﬁnd the optimal configuration. 
 
@@ -105,6 +102,6 @@ Hyper-parameters other than the learning rate requires monitoring of both train 
 
 The learning rate is perhaps the most important hyperparameter during optimization as it controls the eﬀective model capacity in a more complicated way than others, and the capacity is highest when the learning rate is correct given the problem. 
 
-Framework
+📌 **Framework**
 
 Practitioners turn typically to exisiting frameworks to solve problems with deep learning. The widely used and popular deep learning frameworks are tensorflow and pytorch. For details, please read this article.  
