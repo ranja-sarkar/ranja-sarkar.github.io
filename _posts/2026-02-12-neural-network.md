@@ -2,7 +2,8 @@
 tags: [networks, neuralnets, data, deep learning]  
 ---
 
-![ff](https://github.com/user-attachments/assets/fb9c5064-62f3-424d-9924-409e70c48f2a)
+
+![chrchgt](https://github.com/user-attachments/assets/ccc5cbb5-63f1-4bd0-84a0-6e2b4b07aef5)
 
 
 The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. 
@@ -29,8 +30,10 @@ Forward propagation is when data moves from left (input layer) to right (output 
 
 📌 Transformers are architectures that rely on a self-attention mechanism to process input data, allowing them to handle long-range dependencies effectively. Self-attention allows for capturing relationships within input sequences and weigh the importance of different parts of the sequence. For details of this mechanism, refer to the [article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) by Sebastian Raschka. Transformers incorporate in their architectures feed-forward NNs in parts. 
 
+<img width="299" height="144" alt="nns" src="https://github.com/user-attachments/assets/3a48419c-2d1c-489f-92ae-4a0fe283446a" />
 
-The self-attention mechanism in a decoder in the transformer architecture can be viewed as GNN that is, a neural network on a fully connected graph on all tokens of the context window.it can be thought of as a (special) directed graph where one token is connected to all previous tokens in the context window. 
+
+The self-attention mechanism in a decoder in the transformer architecture can be viewed as GNN that is, a neural network on a fully connected graph on all tokens of the context window. It can be thought of as a (special) directed graph where one token is connected to all previous tokens in the context window. Transformers have been especially successful in tasks such as language translation and text summarization due to their ability to capture contextual information across large sequences. 
 
 -----
 
