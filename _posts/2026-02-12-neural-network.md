@@ -11,7 +11,7 @@ The earliest **neural networks (NNs)** are the feed-forward neural networksor mu
 
 Forward propagation is when data moves from left (input layer) to right (output layer) in the network, and backward propagation is when the gradient moves from right to left  in the network. Prominent NN architectures are GNNs, RNNs, CNNs, GANs, and transformers.
 
----
+# Architectures of a neural network
 
 📌 Recurrent Neural Networks (RNNs) process sequential data. Unlike feedforward NNs which process data in a single pass, RNNs process data across multiple time steps. This makes them well-suited for tasks like natural language processing (NLP) and time-series forecasting. They can learn patterns in sequences by connecting the output from one time step to the input of the next, remembering previous information. 
 
@@ -78,6 +78,8 @@ Gradient descent is the iterative method used to train NNs, the algorithm has to
 <img width="859" height="424" alt="lr" src="https://github.com/user-attachments/assets/28c4b78d-4e8a-4653-807a-753cff90d88e" />
 
 Reaching convergence while training NNs can be difficult, nonetheless there’re ways to control it like picking an [optimizer](https://www.bdhammel.com/learning-rates/). A popular optimizer is the Adam optimizer wherein the learning rate is not set manually. [Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) uses an adaptive learning rate. 
+
+# Important points while building a neural network
 
 📌 The Goal
 
