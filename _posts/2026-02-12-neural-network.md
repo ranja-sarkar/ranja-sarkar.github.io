@@ -40,6 +40,14 @@ The self-attention mechanism in a decoder in the transformer architecture can be
 
 A network is a structure of interconnected nodes, in other words it is a structure of connected neurons arranged in layers, has one or more input nodes, a function node (activation function) and an output node. Typically, the NN parameters are activation function, dropout, epoch, early stopping, batch-size, learning rate. 
 
+📌 **Activation function** → The function nodes taken together in a neural network form a hidden layer (or layers as there can be multiple)  that we change in accordance with the mathematical operation. It performs a weighted operation on the input layer that receives inputs and passes the result to the output layer. The mathematical operation is the activation function and must be non-linear in order to learn the underlying complex pattern in data and generalize from complex data.
+
+An activation function decides how much signal to pass onto the next layer based on the input it receives. This idea of chaining many weighted signals together is what allows NNs to learn complex relationships in the dataset. Non-linear activation functions help solve intricate problems by adding layers of abstraction. More than two layers of perceptrons feeding one into another gives us MLPs. These layers are hidden and may be arbitrary in number. If we want to model a perceptron, we need a step function as the activation function. 
+
+<img width="214" height="110" alt="pp" src="https://github.com/user-attachments/assets/be40c9aa-8995-489c-b6d9-46442bd1be9b" />
+
+
+
 📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
 ![do](https://github.com/user-attachments/assets/988ca913-0c04-4660-b4b3-85208e4ecf09)
