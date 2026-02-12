@@ -156,5 +156,15 @@ I shall wrap this post up by stating the two cultures of statistical modeling ac
 
 1. **Data Model**, wherein the data-generating mechanism (some stochastic model) is assumed to be known and model parameters are estimated from the data. Example: linear regression.
 
-2. **Algorithmic Model**, where the data-generating mechanism is unknown and uses an algorithm to find a function f(x) that operates on variables x in the data to estimate a response y. Example: neural network.
+2. **Algorithmic Model**, where the data-generating mechanism is unknown and uses an algorithm to find a function f(x) that operates on variables x in the data to estimate a response y. Example: Deep [neural network](https://ranja-sarkar.github.io/2026/02/12/neural-network.html).
+
+Linear regression is also a neural network though, with a linear activation function. Therefore it's wise to use the term deep neural network or deep learning as an example of an algorithmic model.
+
+<img width="164" height="64" alt="ll" src="https://github.com/user-attachments/assets/0c967c03-2de9-4315-a57b-099827b5f0c2" />
+
+<img width="218" height="68" alt="ll1" src="https://github.com/user-attachments/assets/bc844b1f-8a2e-4744-91fe-a2dbface2bfb" />
+
+
+If we use a linear activation function, no matter how many layers we stacked, neural networks would behave like a single-layer perceptron because the combination of linear functions is still a linear function. 
+
 
