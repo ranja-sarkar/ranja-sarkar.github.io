@@ -27,7 +27,7 @@ Forward propagation is when data moves from left (input layer) to right (output 
 <img width="281" height="103" alt="rnn" src="https://github.com/user-attachments/assets/6b38bcca-abc4-4048-8e03-c78bb6b5c5e9" />
 <img width="337" height="136" alt="cnn" src="https://github.com/user-attachments/assets/84be81b0-ed98-4a69-8d15-2c8cbdfb22e5" />
 
-📌 Transformers are architectures that rely on a self-attention mechanism to process input data, allowing them to handle long-range dependencies effectively. Self-attention allows for capturing relationships within input sequences and weigh the importance of different parts of the sequence. For details of this mechanism, refer to the [article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) by Sebastian Raschka. Transformers incorporate in their architectures feed-forward NNs in parts. 
+📌 Transformers are architectures that rely on a self-attention mechanism to process input data, allowing them to handle long-range dependencies effectively. Self-attention allows for capturing relationships within input sequences and weigh the importance of different words/tokens of the sequence. For details of this mechanism, refer to the [article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) by Sebastian Raschka. Transformers incorporate in their architectures feed-forward NNs in parts. 
 
 <img width="299" height="144" alt="nns" src="https://github.com/user-attachments/assets/3a48419c-2d1c-489f-92ae-4a0fe283446a" />
 
@@ -96,11 +96,13 @@ When deciding on adjusting hyperparameters for model improvement, there are two 
 
 When there are fewer hyperparameters to tune, the common practice is to perform a grid search. There is an alternative to grid search - random search, which is lesser exhaustive and converges faster to good values of the hyperparameters. The main reason that random search ﬁnds good configuration faster than grid search is that it has no wasted experimental runs.
 
+![nn1](https://github.com/user-attachments/assets/27b02ec8-7342-44db-b589-556164967924)
+
 A neural network with higher number of layers and hidden units per layer has higher representational capacity that is, it’s capable of representing more complicated functions. The neural network cannot necessarily learn the complex relationships if the algorithm cannot discover while training how some functions do a better job of minimizing the cost function, or if regularization terms such as weight decay forbid some of these functions. 
 
-Hyper-parameters other than the learning rate requires monitoring of both train and test error to diagnose if the model is overﬁtting, then adjusting the network’s capacity appropriately. 
+<img width="1102" height="478" alt="nn2" src="https://github.com/user-attachments/assets/6f1adfeb-bb49-4824-b549-9f0e2e8b27af" />
 
-The learning rate is perhaps the most important hyperparameter during optimization as it controls the eﬀective model capacity in a more complicated way than others, and the capacity is highest when the learning rate is correct given the problem. 
+Hyper-parameters other than the learning rate requires monitoring of both train and test errors to diagnose if the model is overﬁtting, then adjusting the network’s capacity appropriately. The learning rate is perhaps the most important hyperparameter during optimization as it controls the eﬀective model capacity in a more complicated way than others, and the capacity is highest when the learning rate is correct given the problem. 
 
 📌 **Framework**
 
