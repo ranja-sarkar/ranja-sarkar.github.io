@@ -5,11 +5,11 @@ tags: [networks, neuralnets, data, deep learning]
 ![chrchgt](https://github.com/user-attachments/assets/1ffba787-8e90-43ce-9467-c6d1a70e3953)
 
 
-The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. 
+The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
 
 <img width="289" height="116" alt="nn" src="https://github.com/user-attachments/assets/01cc8002-6f5d-4728-b883-cc6976ab6d9c" />
 
-Forward propagation is when data moves from left (input layer) to right (output layer) in the network, and backward propagation is when the gradient moves from right  to left  in the network. Prominent NN architectures are GNNs, RNNs, CNNs, GANs, and transformers.
+Forward propagation is when data moves from left (input layer) to right (output layer) in the network, and backward propagation is when the gradient moves from right to left  in the network. Prominent NN architectures are GNNs, RNNs, CNNs, GANs, and transformers.
 
 ---
 
@@ -50,7 +50,6 @@ For simplicity, bias terms are not shown in the perceptron. Weights refer to the
 
 ![af](https://github.com/user-attachments/assets/283b00a6-b4d7-4d65-88c3-bf55dcba885f)
 
-Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
 
 📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
