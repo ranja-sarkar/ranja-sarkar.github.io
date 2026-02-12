@@ -46,7 +46,11 @@ An activation function decides how much signal to pass onto the next layer based
 
 <img width="214" height="110" alt="pp" src="https://github.com/user-attachments/assets/be40c9aa-8995-489c-b6d9-46442bd1be9b" />
 
+For simplicity, bias terms are not shown in the perceptron. Weights refer to the connections between two input nodes, to move forward in the network, weights of input signals must be adjusted. There are different types of activation functions, of which ReLu reduces computational cost and mitigates the vanishing gradient problem, but it can lead to dead units or neurons (where some of them never activate). The sigmoid or logistic function can suffer from the vanishing gradient problem during backpropagation.
 
+![af](https://github.com/user-attachments/assets/283b00a6-b4d7-4d65-88c3-bf55dcba885f)
+
+Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
 
 📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
