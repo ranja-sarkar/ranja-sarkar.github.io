@@ -46,7 +46,7 @@ An activation function decides how much signal to pass onto the next layer based
 
 <img width="214" height="110" alt="pp" src="https://github.com/user-attachments/assets/be40c9aa-8995-489c-b6d9-46442bd1be9b" />
 
-For simplicity, bias terms are not shown in the perceptron. Weights refer to the connections between two input nodes, to move forward in the network, weights of input signals must be adjusted. There are different types of activation functions, of which ReLu reduces computational cost and mitigates the vanishing gradient problem, but it can lead to dead units or neurons (where some of them never activate). The sigmoid or logistic function can suffer from the vanishing gradient problem during backpropagation.
+For simplicity, bias terms are not shown in the perceptron. Weights refer to the connections (edges) of the input nodes to the function nodes, to move forward in the network, weights of input signals must be adjusted. There are different types of activation functions, of which ReLu reduces computational cost and mitigates the vanishing gradient problem, but it can lead to dead units or neurons (where some of them never activate). The sigmoid or logistic function can suffer from the vanishing gradient problem during backpropagation.
 
 ![af](https://github.com/user-attachments/assets/283b00a6-b4d7-4d65-88c3-bf55dcba885f)
 
