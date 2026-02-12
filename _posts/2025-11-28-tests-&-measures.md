@@ -61,7 +61,7 @@ The selection of a test depends on the objective and the type of data used in th
 
 <img width="628" height="245" alt="222" src="https://github.com/user-attachments/assets/e108713e-7ee0-4c7f-bb93-85f962176127" />
 
-Association between two variables is measured by correlation. Interation between two variables is different; if two variables interact, they may or may not be [associated](https://www.theanalysisfactor.com/interaction-association/).
+💡 Association between two variables is measured by correlation. Interation between two variables is different; if two variables interact, they may or may not be [associated](https://www.theanalysisfactor.com/interaction-association/).
 
 📌 **Parametric models**
 
@@ -69,7 +69,7 @@ If the objective is to predict a target from one or more variables in the data, 
 
 Parametric models have some assumptions in place, like the normality of **residuals** which are the **differences between prediction (fitted response) and actual (observed response)**, the equation being linear in the coefficients/parameters of predictor variables. Independent or predictor variables if skewed in their distributions usually undergo transformation to normal (Gaussian) distributions while training linear models like regression, ANOVA so the inference or conclusions drawn from these models or tests are more reliable. 
 
-[Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
+💡 [Analysis of variance (ANOVA) and linear regression](https://www.linkedin.com/pulse/why-anova-linear-regression-same-analysis-the-analysis-factor-llc-tn8ff) are the same, just the results of the analyses are presented in different ways. 
 
 
 📌 **Non-parametric models**
@@ -80,7 +80,7 @@ Normality helps by offering better properties due to the CLT.
 
 ---
 
-Asking the right question is similar to using the right measure as a test statistic.
+Asking the right question to solve a problem is similar to using the right measure as a test statistic.
 
 [Data visualization](https://ranja-sarkar.github.io/2025/12/02/data-visualization.html) is an essential element of data exploration and understanding. For example, a [scatter plot](https://seaborn.pydata.org/generated/seaborn.scatterplot.html) helps us understand which measure (correlation coefficient etc.) to use for the data. The plot helps identify linear, nonlinear relationships between variables and spot outliers (if any) which may influence the correlation. 
 
@@ -108,7 +108,7 @@ The first 4 [moments](https://gregorygundersen.com/blog/2020/04/11/moments/) of 
 <img width="283" height="248" alt="ks" src="https://github.com/user-attachments/assets/83041fd3-9568-4dd9-a712-4245bb293b26" />
 
 
-While skewness is a measure of the relative size of the two tails of a distribution, it is positive or negative depending on which tail is larger, kurtosis is a measure of the size of two tails together relative to the distribution.
+💡 While skewness is a measure of the relative size of the two tails of a distribution, it is positive or negative depending on which tail is larger, kurtosis is a measure of the size of two tails together relative to the distribution.
 
 ---
 
