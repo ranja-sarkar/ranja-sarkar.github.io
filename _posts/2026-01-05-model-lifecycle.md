@@ -42,7 +42,7 @@ The value of a model lies in the understanding shared between the developer and 
 
 ✔️ **Production Framework** 
 
-This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Widely used by practitioners are cloud frameworks & services like [Azure](https://azure.microsoft.com/), [AWS](https://aws.amazon.com/), and [GCP](https://cloud.google.com/).
+This one implies the model deployment strategy - practitioners turn to established frameworks once the model is trained, evaluated, validated, and has the desired level of interpretability. Widely used by practitioners are cloud services like [Azure](https://azure.microsoft.com/), [AWS](https://aws.amazon.com/), and [GCP](https://cloud.google.com/).
 
 Integration is an engineering process needing not only technical expertise but also careful planning, to make the ML/DL model a functional part of the system. Throughput, memory efficiency, model retraining are aspects of the plan. 
 
