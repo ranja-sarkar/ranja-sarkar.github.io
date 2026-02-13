@@ -108,4 +108,6 @@ Hyper-parameters other than the learning rate requires monitoring of both train 
 
 Practitioners turn typically to exisiting frameworks to solve problems with deep learning. The widely used and popular deep learning frameworks are [tensorflow and pytorch](https://www.datacamp.com/tutorial/pytorch-vs-tensorflow-vs-keras).   
 
+In general, for development and deployment of any predictive model these [points](https://ranja-sarkar.github.io/2026/01/05/model-lifecycle.html) remain valid.
+
 
