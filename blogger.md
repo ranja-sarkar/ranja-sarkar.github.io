@@ -36,8 +36,8 @@ Contributing to the community has two-way benefits - it's useful to more than ju
 
 -----
 
-Persuasion is an art and according to Aristotle it has three main elements viz., *ethos*, *logos*, and *pathos* . What Aristotle stated is remarkably relevant in modern times too.
-
+Persuasion is an art and according to Aristotle it has three main elements viz., *ethos*, *logos*, and *pathos*. 
+What Aristotle stated is remarkably relevant in modern times too.
 
 ![rhetoric](https://github.com/user-attachments/assets/6395227a-9000-46e9-aff9-d87d027240fb)
 
