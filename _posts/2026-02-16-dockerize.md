@@ -21,15 +21,17 @@ The process encompasses containerizng the code, and shipping the container.
   The use of [*setup.py*](https://packaging.python.org/en/latest/discussions/setup-py-deprecated/) as a command line tool is deprecated. And create txt file of requirements 
 (used libraries and their versions)
   
-3. Add unit test files - use unittest or pytest libraries. Create a directory containing these files.
+2. Add unit test files - use unittest or pytest libraries. Create a directory containing these files.
 
    <img width="491" height="233" alt="01" src="https://github.com/user-attachments/assets/71f4fee3-3597-40c5-bd48-4cde95e102c4" />
 
-4. Containerize your code for deployment - create Dockerfile (you may label your container with a tag).
+3. Containerize your code for deployment - create Dockerfile (you may label your container with a tag).
+   
+   <img width="310" height="188" alt="df" src="https://github.com/user-attachments/assets/b47f353e-a0e2-47af-9566-bc2154170c42" />
 
    <img width="462" height="157" alt="02" src="https://github.com/user-attachments/assets/82a4fa0f-1fa5-445d-b191-143c2f7da7b0" />
 
-5. Check if the Docker container works everywhere - **portability**
+4. Check if the Docker container works everywhere - **portability**
 
 <img width="389" height="173" alt="03" src="https://github.com/user-attachments/assets/35b8ddf9-b7eb-4759-b8e2-10d073842113" />
 
