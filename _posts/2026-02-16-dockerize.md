@@ -25,10 +25,9 @@ The process encompasses containerizng the code, and shipping the container.
 
    <img width="491" height="233" alt="01" src="https://github.com/user-attachments/assets/71f4fee3-3597-40c5-bd48-4cde95e102c4" />
 
-3. Containerize your code for deployment - create Dockerfile (you may label your container with a tag).
+3. Containerize your code for deployment - create Dockerfile (you may label your container with a tag). And FROM is what every dockerfile begins with.
    
    <img width="310" height="188" alt="df" src="https://github.com/user-attachments/assets/b47f353e-a0e2-47af-9566-bc2154170c42" />
-
    <img width="462" height="157" alt="02" src="https://github.com/user-attachments/assets/82a4fa0f-1fa5-445d-b191-143c2f7da7b0" />
 
 4. Check if the Docker container works everywhere - **portability**
