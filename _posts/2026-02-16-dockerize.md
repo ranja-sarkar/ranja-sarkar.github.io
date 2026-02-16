@@ -7,7 +7,9 @@ Notebooks are good to test out an idea, for quick data exploration & visualizati
 
 For the code to be production-ready, it must be versioned, reproducible, organised, and tested.
 
-📌 Steps to be followed for the aformentioned:
+✔️ **Containerize code**
+
+📌 Steps to follow:
 
 1. Package your code - create setup.py
 
@@ -21,6 +23,17 @@ For the code to be production-ready, it must be versioned, reproducible, organis
 
    <img width="462" height="157" alt="02" src="https://github.com/user-attachments/assets/82a4fa0f-1fa5-445d-b191-143c2f7da7b0" />
 
+5. Check if the Docker container works everywhere - portability
 
+<img width="389" height="173" alt="03" src="https://github.com/user-attachments/assets/35b8ddf9-b7eb-4759-b8e2-10d073842113" />
 
+✔️ **Ship the container** 
+
+📌 Main ingredients for container runtime:
+
+1. Build - use a tool to let us declare what we need in the container to run our application. *Buildkit* is probably the most well-known (used by Docker too).
+
+2. Store - need a place to host the images so our runtime is able to fetch the images and run them as containers. This is typically called a *container registry*. *Docker Hub* is by and large the most popular for this. Other examples are Azure Container Registry, AWS Elastic Container Registry (ECR).
+
+3. Run - need a container runtime to let us run our freshly built images, [*containerd*](https://containerd.io/) is probably the most widely used. 
     
