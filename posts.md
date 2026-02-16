@@ -54,6 +54,9 @@ permalink: /myposts
 
 ▶️ [Neural Networks](https://ranja-sarkar.github.io/2026/02/12/neural-network.html)
 
+▶️ [Dockerize for deployment]()
+
+
 -----
 
 *Stay tuned for more*
