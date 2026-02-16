@@ -18,8 +18,7 @@ The process encompasses containerizng the code, and shipping the container.
 1. Package your code - create setup.py
 
   It is however the traditional method. Developrs have moved towards declarative configuration using [*pyproject.toml*](https://packaging.python.org/en/latest/guides/modernize-setup-py-project/#modernize-setup-py-project).
-  The use of [*setup.py*](https://packaging.python.org/en/latest/discussions/setup-py-deprecated/) as a command line tool is deprecated. And create txt file of requirements 
-(used libraries and their versions)
+  The use of [*setup.py*](https://packaging.python.org/en/latest/discussions/setup-py-deprecated/) as a command line tool is deprecated. And create txt file of requirements (used libraries and their versions). The modern way of packaging is [via uv](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/7e8d0b39de0c56b69a36bf33a55f379eb9706945/_posts/assets/Now.pdf).
   
 2. Add unit test files - use unittest or pytest libraries. Create a directory containing these files.
 
