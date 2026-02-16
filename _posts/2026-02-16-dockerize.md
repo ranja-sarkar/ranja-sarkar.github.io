@@ -38,9 +38,9 @@ The process encompasses containerizng the code, and shipping the container.
 
 📌 Main ingredients for container runtime:
 
-1. **Build** - use a tool to let us declare what we need in the container to run our application. *Buildkit* is probably the most well-known (used by Docker too).
+1. **Build** - use a tool to let us declare what we need in the container to run our application. [Buildkit](https://docs.docker.com/build/buildkit/) is probably the most well-known.
 
-2. **Store** - need a place to host the images so our runtime is able to fetch the images and run them as containers. This is typically called a *container registry*. *Docker Hub* is by and large the most popular for this. Other cloud service examples are Azure Container Registry, AWS Elastic Container Registry (ECR).
+2. **Store** - need a place to host the images so our runtime is able to fetch the images and run them as containers. This is typically called a *container registry*. [Docker Hub](https://hub.docker.com/) is by and large the most popular for this. Other cloud service examples are Azure Container Registry, AWS Elastic Container Registry (ECR).
 
 3. **Run** - need a container runtime to let us run our freshly built images, [*containerd*](https://containerd.io/) is probably the most widely used. 
     
