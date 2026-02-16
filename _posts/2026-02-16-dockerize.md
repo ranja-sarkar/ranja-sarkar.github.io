@@ -2,10 +2,12 @@
 tags: [production, deployment,docker]  
 ---
 
+<img width="224" height="168" alt="ship" src="https://github.com/user-attachments/assets/e5ba7380-9692-490b-baa2-a51122b7497a" />
 
-Notebooks are good to test out an idea, for quick data exploration & visualization, and code to check out an ML model. However, they are bad at modularization (reusability), testability, reproducability, versioning, and collaboration. Notebook codes do not specify versions of libraries imported, have hard-coded paths, and untested logic.
 
-For the code to be production-ready, it must be versioned, reproducible, organised, and tested.
+Notebooks are good to test out an idea, for quick data exploration & visualization, and code to check out an ML model. However, they are bad at modularization (reusability), testability, reproducability, versioning, and collaboration. Notebook codes do not specify versions of libraries imported, have hard-coded paths, and untested logic. For the code to be production-ready, it must be versioned, reproducible, organised, and tested. And finally shipped!
+
+---
 
 ✔️ **Containerize code**
 
@@ -33,14 +35,14 @@ For the code to be production-ready, it must be versioned, reproducible, organis
 
 1. Build - use a tool to let us declare what we need in the container to run our application. *Buildkit* is probably the most well-known (used by Docker too).
 
-2. Store - need a place to host the images so our runtime is able to fetch the images and run them as containers. This is typically called a *container registry*. *Docker Hub* is by and large the most popular for this. Other examples are Azure Container Registry, AWS Elastic Container Registry (ECR).
+2. Store - need a place to host the images so our runtime is able to fetch the images and run them as containers. This is typically called a *container registry*. *Docker Hub* is by and large the most popular for this. Other cloud service examples are Azure Container Registry, AWS Elastic Container Registry (ECR).
 
 3. Run - need a container runtime to let us run our freshly built images, [*containerd*](https://containerd.io/) is probably the most widely used. 
     
-After running your container, you get the output in the form of loga and results.
+After running your container, you get the output in the form of logs and results.
 
 ---
 
-[Here's](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e14d878047908d69e24654e829f168bf1c08f7ad/_posts/assets/dockerize%20for%20deployment.pdf) an example of how to ship a container to Azure using GitHub Actions. It also shows the CI/CD components of the process. 
+[Here's](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e14d878047908d69e24654e829f168bf1c08f7ad/_posts/assets/dockerize%20for%20deployment.pdf) an example of how to ship a container to Azure using GitHub Actions. It also shows the CI/CD components in the entire process. 
 
 
