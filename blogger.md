@@ -30,7 +30,7 @@ After coming back from my short vacation, I decided to start blogging and actual
 
 <img width="512" height="368" alt="fp" src="https://github.com/user-attachments/assets/38381f05-98d9-4c72-9eb6-328514fa854a" />
 
-There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our learning & understanding, our experiences with others and learn back from them, get to know about their experiences. 
+There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our experiences, learning & understanding with others, learning back from them and getting to know about their experiences. 
 
 Contributing to the community has two-way benefits - it's useful to more than just myself. 
 
