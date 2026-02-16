@@ -41,5 +41,7 @@ Persuasion is an art and according to Aristotle it has three main elements viz.,
 
 ![rhetoric](https://github.com/user-attachments/assets/6395227a-9000-46e9-aff9-d87d027240fb)
 
+Alongwith the three, brevity and metaphor are crucial for beautiful storytelling. 
+
 
 
