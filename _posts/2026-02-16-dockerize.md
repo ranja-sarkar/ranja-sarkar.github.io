@@ -48,6 +48,6 @@ After running your container, you get the output in the form of logs and results
 
 ---
 
-[Here's](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e14d878047908d69e24654e829f168bf1c08f7ad/_posts/assets/dockerize%20for%20deployment.pdf) an example of how to ship a container to Azure using GitHub Actions. It also shows the CI/CD components in the entire process. 
+[Here's](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e14d878047908d69e24654e829f168bf1c08f7ad/_posts/assets/dockerize%20for%20deployment.pdf) an example of how to ship a container to Azure using GitHub Actions, also showing the CI/CD components of the process. 
 
 
