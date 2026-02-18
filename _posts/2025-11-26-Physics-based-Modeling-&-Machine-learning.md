@@ -15,7 +15,9 @@ Reduced-order models (ROMs) are the computationally inexpensive representations.
 
 📌 *Discovering governing equations*
    
-Many dynamical systems (e.g. finance) have no formal analytic descriptions and often data are abundant in such cases, but the underlying governing equations remain elusive. There are some data-driven techniques for identification of unknown, potential governing equations of nonlinear systems and are based on the [Occam’s razor principle](https://www.newscientist.com/definition/occams-razor/), where the goal is to use only a few equation terms to describe the given system. 
+Many dynamical systems (e.g. finance) have no formal analytic descriptions and often data are abundant in such cases, but the underlying governing equations remain elusive. There are some data-driven techniques for identification of unknown, potential governing equations of nonlinear systems and are based on the [Occam’s razor principle](https://www.newscientist.com/definition/occams-razor/), where the goal is to use only a few equation terms or parameters to describe the given system. 
+
+The Occam curve in machine learning is a plot of (model) error *versus* parameter (hyper-parameter) for train and test datasets which simply shows if the model is underfitted or overfitted to data. 
 
  📌 *Solving PDEs*
 
@@ -27,7 +29,9 @@ This is of great importance as it makes it possible to characterize the quantile
 
 📌 *Data generation*
 
-Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like generative adverserial network (GAN), variational autoecoder (VAE), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. GAN is a generative model which uses two sub-models, the generative subnetwork generates datapoints (new probability distribution) and the discriminator subnetwork classifies them into coming from the training (real) data or newly (fake) generated. 
+Physics-based approaches for data generation often rely on running simulations or conducting physical experiments, which tend to be very time-consuming. Also, they are restricted by what can be produced by only Physics-based models. Hence, there's an increasing interest in deep learning approaches like generative adverserial network (GAN), variational autoecoder (VAE), that learn data distributions in an unsupervised setting and have the potential to generate new data beyond what could be produced by traditional approaches. 
+
+GAN is a generative model which uses two sub-models, the generative subnetwork generates datapoints (new probability distribution) and the discriminator subnetwork classifies them into coming from the training (real) data or newly (fake) generated. 
 
 There's unreasonable effectiveness of data in deep learning, especially computer [vision](https://arxiv.org/pdf/1707.02968). And there's unreasonable effectiveness of [deep learning in AI.](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/fc7884ad15bf94ea2e66f625d9bde7b951388ba7/_posts/assets/unreasonable-effectiveness-of-deep-learning-in-AI.pdf)
 
