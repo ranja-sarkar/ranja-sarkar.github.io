@@ -17,7 +17,7 @@ Reduced-order models (ROMs) are the computationally inexpensive representations.
    
 Many dynamical systems (e.g. finance) have no formal analytic descriptions and often data are abundant in such cases, but the underlying governing equations remain elusive. There are some data-driven techniques for identification of unknown, potential governing equations of nonlinear systems and are based on the [Occam’s razor principle](https://www.newscientist.com/definition/occams-razor/), where the goal is to use only a few equation terms or parameters to describe the given system. 
 
-The Occam curve in machine learning is a plot of (model) error *versus* parameter (hyper-parameter) for train and test datasets which simply shows if the model is underfitted or overfitted to data. 
+The Occam curve in machine learning is a plot of error (e.g. RMSD) *versus* parameter (hyperparameter) of the model for both train and test datasets, which simply shows if the model is underfitted (not enough parameters) or overfitted (more parameters than required) to the data. 
 
  📌 *Solving PDEs*
 
