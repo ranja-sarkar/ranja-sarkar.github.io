@@ -12,7 +12,7 @@ Low bias implies high accuracy, and low variance implies highly precise.
  
 # Learning curve
 
-A learning curve helps diagnose bias and variance in a machine learning (ML) model. It is a plot of the model’s error as a function of the data, the datasize with which the model is trained.
+A learning curve helps diagnose bias and variance in a machine learning (ML) model. It is a plot of the model’s error (e.g. MSE) as a function of the data, the size or number of training examples with which the model is trained.
 
 ![03](https://github.com/user-attachments/assets/937d6de6-1d65-461d-b6a8-462f65866e9c)
 
@@ -78,7 +78,7 @@ Our model’s so specific to the (train) data that it’s no longer applicable t
 For example, if more polynomial terms are added to a linear regression model, the resulting model complexity increases. This means bias has a negative first-order derivative or slope in response to model complexity while variance has a positive slope. In effect, the sweet spot for any model is the level of complexity at which the increase in bias is equivalent to the decrease in variance. If the model complexity exceeds this sweet spot, we are over-fitting while if the complexity falls short of the sweet spot, we are under-fitting. In practice, there is no analytical way to find this spot. We must explore differing levels of model complexity, then choose the complexity (level) that minimizes the error.  
 
 
-📌 A **validation curve** helps find the sweet spot between underfitting and overfitting, to build a model that generalizes well. It is a plot of the model's error as a function of the hyperparameter.
+📌 A **validation curve** helps find the sweet spot between underfitting and overfitting, to build a model that generalizes well. It is a plot of the model's error (cost) as a function of hyperparameter (e.g. epoch). A validation curve is also called the training curve.
 
 <img width="638" height="432" alt="02" src="https://github.com/user-attachments/assets/9dac74be-151b-492e-8763-b4d25df967d1" />
 
