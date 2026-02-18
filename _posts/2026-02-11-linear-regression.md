@@ -4,7 +4,9 @@ tags: [data, regression, machine-learning]
 
 ![viet](https://github.com/user-attachments/assets/2de96c5c-9ea3-4623-97ad-f85de4d6d77f)
 
-A linear model assumes that the effect of each independent variable/feature on the dependent variable/target does not depend upon the rest of the independent variables. Linear regression assumes a linearity in (beta-) coefficients of the variables. 
+Linear regression is a supervised learning algorithm, aiming to explain the relationship between one (or more) independent variable (s) and a dependent variable (response/target). The coefficients or weights on the independent variables are what the model learns during training and optimization. A linear regression model is trained by either ordinary least squares (OLS) fitting or gradient descent method.
+
+A linear model assumes that the effect of each independent variable/feature on the dependent variable does not depend upon the rest of the independent variables. Linear regression assumes a linearity in (beta-) coefficients of the variables. 
 
 If two variables interact, they may or may not be associated. Whether two variables are associated says nothing about whether they interact in their impact on a third variable. Association between two variables means the values of one variable relate in some way to the values of the other, and is measured by correlation. Interaction between two variables means the effect of one of those variables on a third variable differs at different values of the other. 
 
@@ -97,8 +99,6 @@ https://www.theanalysisfactor.com/using-marginal-means-to-explain-an-interaction
 Interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable.
 
 -----
-
-Linear regression is a supervised learning algorithm, aims to explain the relationship between one (or more) independent variable (s) and a dependent variable (response/target).  The coefficients (weights) on the independent variables are what the model learns during optimization. A linear regression model is trained by either ordinary least squares (OLS) fitting/optimization method or gradient descent. 
 
 A measure to assess the goodness of fit to data is called the coefficient of determination, as it determines how well the numeric predictions approximate the true data points. There’s an irreducible error term in the regression equation that collects all the unmodeled parts of the data.
 
