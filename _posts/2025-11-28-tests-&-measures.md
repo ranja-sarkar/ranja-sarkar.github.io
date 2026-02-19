@@ -55,7 +55,7 @@ In a [research study](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blo
 
 📌 **Non-parametric tests**
 
-If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a measure of the monotonic (linear or nonlinear) relationshop between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks, and a small sample would suffice for this test.
+If there's no assumption, we perform a non-parametric test and usually a Spearman correlation coefficient is checked. Spearman correlation coefficient is a measure of the monotonic (linear or nonlinear) relationship between two continuous or categorical variables and it's typically not sensitive to outliers. Kendall's tau is another coefficient that measures the association between categorical variables based on their ranks, and a small sample would suffice for this test.
 
 If we have to compare unpaired or independent groups, we perform unpaired T-test, or a non-parametric test like Mann-Whitney test depending on the data.
 
