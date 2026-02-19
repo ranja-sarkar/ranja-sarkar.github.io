@@ -15,8 +15,9 @@ The Bayesian approach is a subjective view of the same. [Bayesian](https://githu
 
 ---
 
-The **law of large numbers** states that when a collection of random variables is a large sample, the **sample mean converges to true mean if it exists**. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the **expected value**. For a small sample, **there's a difference between these values called the error**.
+The **law of large numbers** states that when a collection of random variables is a large sample, the **sample mean converges to true or expected mean if it exists**. The law applies to the mean obtained from a large number of repeated trials and claims that this value converges to the **expected value**. For a small sample, **there's a difference between these values called the error**.
 
+Mean value is the observed (empirical) value, the one calculated from experiemntal measurements on collected data. Expected (likely) value is the theoretical value, calculated from probability distributions. 
 ---
 
 The **central limit theorem (CLT)** states that, given a sufficiently large sample size, the sampling distribution of the mean for a random variable approximates a normal distribution regardless of it’s distribution in the population. Below is the Wikipedia defnition.
