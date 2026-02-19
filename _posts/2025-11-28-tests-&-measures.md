@@ -96,7 +96,7 @@ Tests also measure central tendency and dispersion of data.
 
 📌 **Central tendency**
 
-**Mode** is the best measure of central tendency for nominal qualitative (categorical) data, and **median** is the best for ordinal qualitative data. For interval/ratio types of quantitative (numeric) data, median is the best for a skewed distribution amd mean for a not skewed distribution.
+**Mode** is the best measure of central tendency for nominal qualitative (categorical) data, and **median** is the best for ordinal qualitative data. For interval/ratio types of quantitative (numeric) data, median is the best for a skewed distribution and mean for a normal distribution.
 
 <img width="489" height="214" alt="sk" src="https://github.com/user-attachments/assets/1bd51666-8008-4c78-ac02-22fd023df229" />
 
