@@ -15,7 +15,7 @@ Maybe I was too distracted back then to have not noticed, or I was too much into
 
 The French Mathematician, A. de Moivre developed 'normal distribution' as an approximation to [binomial distribution](https://mathworld.wolfram.com/BinomialDistribution.html). 
 
-The [normal distribution](https://mathworld.wolfram.com/NormalDistribution.html) becomes a 'standard normal distribution' of a variate with zero mean & unity variance.  
+The [normal distribution](https://mathworld.wolfram.com/NormalDistribution.html) becomes a 'standard normal distribution' of a variate with zero mean & unity variance, also called the Gaussian.
  
 The ratio of two standard normal variates gets us a [Cauchy](https://mathworld.wolfram.com/CauchyDistribution.html) variate.   
 The square of a standard normal variate gets us a [Chi-squared](https://mathworld.wolfram.com/Chi-SquaredDistribution.html) variate.  
@@ -42,12 +42,12 @@ A box-plot shows the median and quartiles of numerical data.
 
 Exponential (1-parameter) and Weibull (2-parameter) distributions are also continuous probability distributions. To know more about them, please refer to [the page](https://reliability.readthedocs.io/en/latest/Equations%20of%20supported%20distributions.html) of reliability engineering.
 
-On the other hand, Bernoulli distribution is a **discrete probability distribution**, wherein a single trial has 2 possible outcomes. If X defines the outcome of the trial and P (y-axis) is the probability of success of 1 outcome, it follows a Bernoulli distribution.
+On the other hand, **Bernoulli distribution** is a **discrete probability distribution**, wherein a single trial has 2 possible outcomes. If X defines the outcome of the trial and P (y-axis) is the probability of success of 1 outcome, it follows a Bernoulli distribution.
 
 <img width="255" height="184" alt="px" src="https://github.com/user-attachments/assets/a3393118-25e2-40d6-99b4-a5b5fd1bdbf3" />
 
 
-In a binomial distribution, **n** identical trials have 2 possible outcomes in each and can be thought of as multiple independent Bernoulli trials. In a [Poisson distribution](https://mathworld.wolfram.com/PoissonDistribution.html), there are large number of rare events or occurences with unlimited outcomes. 
+In a **binomial distribution**, *n* identical trials have 2 possible outcomes in each, and can be thought of as multiple independent Bernoulli trials. In a [Poisson distribution](https://mathworld.wolfram.com/PoissonDistribution.html), there are large number of rare events or occurrences with unlimited outcomes. 
 
 ----
 
