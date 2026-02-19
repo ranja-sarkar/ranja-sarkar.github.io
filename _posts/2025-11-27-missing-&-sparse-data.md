@@ -52,14 +52,14 @@ The following scenarios arise while using a [pandas](https://pandas.pydata.org/d
 
 The fillna() pandas function is used to impute with mean or median of the feature or column for continuous or discrete numeric data. Mean imputation and median imputation provide a good estimate of the missing values for normally distributed and skewed data respectively. 
 
-Mean imputation however is sensitive to outliers, and median imputation essentially makes the assumption that the data is MCAR which might not be true in every case. For categorical/qualitative data (nominal or ordinal), the best measures of central tendency are mode and median. 
+Mean imputation however is sensitive to outliers, and median imputation essentially assumes that the data is MCAR which might not be true in every case. For categorical/qualitative data (nominal or ordinal), the best measures of central tendency are mode and median. 
 
 
 💡 **Multiple Imputation**
 
 This is a method wherein the missing information in a feature/column is filled by considering the information from other features in the dataset. This method can however be computationally expensive for large datasets. 
 
-The reliance of **random forest** algorithm (ensemble learner) on bootstrapping and feature randomness inherently mitigates missing data issues, for example when a feature has missing values, splits on that feature are avoided during model training. It uses a straightforward approach of "surrogate split”, where missing values are substituted using correlated features or majority-class decisions. This retains the implicit simplicity and robustness of the algorithm. One of the other ensemble learning algorithms, **XGBoost** can handle missing data in a [way](https://link.springer.com/article/10.1007/s42452-020-3128-y).
+The reliance of **random forest** algorithm (ensemble learner) on bootstrapping and feature randomness inherently mitigates missing data issues, for example when a feature has missing values, splits on that feature are avoided during model training. It uses a straightforward approach of "surrogate split”, where missing values are substituted using correlated features or majority-class decisions. This retains the implicit simplicity and robustness of the algorithm. One of the other ensemble learning algorithms, [XGBoost](https://link.springer.com/article/10.1007/s42452-020-3128-y) can also handle missing data.
 
 Multiple Imputation by Chained Equations (MICE) and Fully Conditional Specification (FCS) find use in some cases. MICE, for example performs imputation for features with missing data within a separate model which makes it possible to capture complex interactions between them. FCS imputes missing values one at a time, conditional on observations, it then repeats the process multiple times to create several complete datasets. 
 
