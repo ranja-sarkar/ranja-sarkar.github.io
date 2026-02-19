@@ -76,7 +76,7 @@ Parametric models have some assumptions in place, like the normality of **residu
 
 📌 **Non-parametric models**
 
-Non-parametric models like kNN, decision tree do not have the assummption of normality of input variables. A variable transformation is usually not required while training non-linear models. Yet, predictions from such models often become reliable when the independent variables are normal.
+Non-parametric models like kNN, decision tree do not have the normality assumption. A variable transformation is usually not required while training non-linear models. Yet, predictions from such models often become reliable when the independent variables are normal.
 
 Normality helps by offering better properties due to the CLT.
 
