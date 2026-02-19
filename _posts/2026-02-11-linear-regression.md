@@ -125,6 +125,11 @@ For an algorithm that involves non-convex optimizations (ones with local minima 
 
 Explicit regularization is where one explicitly adds a term to the (often ill-posed) optimization problem. These terms could be priors, or constraints. The regularization or penalty term imposes a cost on the optimization function to make the optimal solution unique. Explicit regularization of regression models almost always ensures optimal model complexity. Implicit regularization includes early stopping which is prevalent in stochastic gradient descent algorithm used for training/optimizing deep neural networks. 
 
+A regression model is represented by a number of columns (m), a number of rows (n) in the dataset and regression coefficients or weights (w) on the independent variables. The loss function J in a vanilla (basic) linear model is a squared term - square of the deviation of predicted value from actual value.
+
+![jbasic](https://github.com/user-attachments/assets/af784587-252c-41f6-a0d5-3a5fc36dc109)
+
+
 Regularized regression models, Lasso (L1) and Ridge (L2) are used for feature selection and reducing complexity of the model thereby enhancing model interpretability. There's a third type - ElasticNet that allows a balance of both L1 & L2 penalty terms, leading to better model performance in some cases. 
 
 
@@ -134,7 +139,7 @@ Regularized regression models, Lasso (L1) and Ridge (L2) are used for feature se
 
 <img width="514" height="75" alt="en" src="https://github.com/user-attachments/assets/95f30573-e9aa-4656-8c4a-5f5313e0800f" />
 
-A regression model is represented by a number of columns (m), a number of rows (n) in the dataset and regression coefficients or weights (w) on the independent variables. The loss function J in a vanilla (basic) linear model is a squared term. It is the square of the deviation of predicted value from actual value.
+
 
 
 
