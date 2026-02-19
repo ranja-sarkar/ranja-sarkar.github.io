@@ -67,11 +67,12 @@ Statistical models can be broadly categorized into two, based on the **probabili
 
 2. **Generative models** - utilize joint probability 
 
-   Generative algorithms estimate parameters from the data (given a likelihood) and use the Bayes’ theorem to calculate the posterior probability. Examples of generative models are Generative Adversarial Network (GAN0, Bayesian Network, Naive Bayes, hidden Markov Model (HMM), LDA (latent Dirichlet allocation). These models understand how data is embedded in space. Autoencoder, Boltzmann machine, and self-organizing maps are some (unsupervised) deep learning models which make use of generative algorithm for tasks like analysis of high-dimensional datasets, image denoising, image compression, image generation, and anomaly detection.
+   Generative algorithms estimate parameters from the data (given a likelihood) and use the Bayes’ theorem to calculate the posterior probability. Examples of generative models are Generative Adversarial Network (GAN), Bayesian Network, Naive Bayes, hidden Markov Model, LDA (latent Dirichlet allocation). These models understand how data is embedded in space.
 
-    <img width="289" height="80" alt="ga" src="https://github.com/user-attachments/assets/224cc812-f975-4287-a379-86511eb3b567" />
+   <img width="289" height="80" alt="ga" src="https://github.com/user-attachments/assets/224cc812-f975-4287-a379-86511eb3b567" />
 
+   Autoencoder, Boltzmann machine, and self-organizing maps are some (unsupervised) deep learning models which make use of the generative algorithm for tasks like analysis of high-dimensional datasets, image denoising, image compression, image generation, and anomaly detection.
 
-   Discriminative algorithms assume a functional form to estimate the response from independent variables in the data. Examples of discriminative models are random forest, CNNs (image recognition, computer vision) and RNNs (time-series analysis, NLP).
+    Discriminative algorithms assume a functional form to estimate the response from independent variables in the data. Examples of discriminative models are random forest, CNNs (image recognition, computer vision) and RNNs (time-series analysis, NLP).
 
    
