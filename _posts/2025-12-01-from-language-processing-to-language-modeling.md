@@ -157,7 +157,7 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 
 # Caveats
 
-▶️ Longer input sequences mean more tokens, which in turn means high memory usage and often overload (cache for storing tokens to be reused). KY cache (K for key and V for value) leads to slow processing and forces higher memoru allocation, making it expensive. 
+▶️ Longer input sequences mean more tokens, which in turn means high memory usage and often overload (cache for storing tokens to be reused). KV cache (K for key and V for value) leads to slow processing and forces higher memory allocation, making it expensive. 
 
 ▶️ Older tokens lose relevance as the input grows, the model tends to forget older tokens and focus on recent ones, leading to factual inconsistencies with growing input size.
 
