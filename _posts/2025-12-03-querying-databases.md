@@ -95,7 +95,7 @@ Cloud services move data between different compute and storage services, as well
 
 While the cloud data warehouses like Google BigQuery, Snowflake, and Databricks offer orchestration capabilities within them, they often do not provide the full range of features and flexibility offered by dedicated data orchestration tools like [Prefect](https://docs.prefect.io/v3/get-started), [Dagster](https://github.com/dagster-io/dagster), [Airflow](https://github.com/apache/airflow). 
 
-The features of hashtag#data orchestrators include dependency management, resource utilization for different stages of the data pipeline, control and alerts, hashtag#data governance. The orchestration tools are important as they manage the complex workflows and execution of hashtag#data pipelines that feed in and out of data warehouses. 
+The features of data orchestrators include dependency management, resource utilization for different stages of the data pipeline, control and alerts, data governance. The orchestration tools are important as they manage the complex workflows and execution of data pipelines that feed in and out of data warehouses. 
 
 Dagster and Airflow have different approaches to interfacing with users which have critical implications for dependency and deployment management. Dagster enables thinking in terms of tables, files, models that data pipelines create and maintain. It has been designed to facilitate local development of pipelines, staging environment, unit testing, and code review. So, Dagster orchestrates data assets, not just tasks in a workflow. 
 
