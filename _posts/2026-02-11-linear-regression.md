@@ -122,6 +122,13 @@ Explicit regularization is where one explicitly adds a term to the (often ill-po
 
 Regularized regression models, Lasso (L1) and Ridge (L2) are used for feature selection and reducing complexity of the model thereby enhancing model interpretability. There's a third type - ElasticNet that allows a balance of both L1 & L2 penalty terms, leading to better model performance in some cases. 
 
+
+![l1](https://github.com/user-attachments/assets/fd0c443f-baf9-4fc4-8115-8801d1566b16)
+
+![l2](https://github.com/user-attachments/assets/93cfea65-e969-4678-87f9-2d9c13725971)
+
+<img width="514" height="75" alt="en" src="https://github.com/user-attachments/assets/95f30573-e9aa-4656-8c4a-5f5313e0800f" />
+
 A regression model is represented by a number of columns (m), a number of rows (n) in the dataset and regression coefficients or weights (w) on the independent variables. The loss function J in a vanilla (basic) linear model is a squared term. It is the square of the deviation of predicted value from actual value.
 
 
