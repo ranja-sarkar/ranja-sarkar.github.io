@@ -4,15 +4,19 @@ tags: [data, regression, machine-learning]
 
 ![viet](https://github.com/user-attachments/assets/2de96c5c-9ea3-4623-97ad-f85de4d6d77f)
 
-Linear regression is a supervised learning algorithm, aiming to explain the relationship between one (or more) independent variable (s) and a dependent variable (response/target). The coefficients or weights on the independent variables are what the model learns during training and optimization. A linear regression model is trained by either ordinary least squares (OLS) fitting or gradient descent method.
+Linear regression is a supervised learning algorithm, aiming to explain the relationship between one (or more) independent variable (s) and a dependent variable (response/target). The coefficients or weights on the independent variables are what the model learns during training and optimization. A linear regression model is trained by either ordinary least squares (OLS) fitting or gradient descent method. 
+
+![111](https://github.com/user-attachments/assets/2678e9a4-7f1c-4c41-ab9e-10f5ab412e3a)
+
 
 A linear model assumes that the effect of each independent variable/feature on the dependent variable does not depend upon the rest of the independent variables. Linear regression assumes a linearity in (beta-) coefficients of the variables. 
 
 If two variables interact, they may or may not be associated. Whether two variables are associated says nothing about whether they interact in their impact on a third variable. Association between two variables means the values of one variable relate in some way to the values of the other, and is measured by correlation. Interaction between two variables means the effect of one of those variables on a third variable differs at different values of the other. 
 
-Linear parameters in regression model
-
 A regression model still qualifies as a linear model because it is the independent variable that is polynomial (quadratic, cubic, quartic, etc.), and not the beta coefficient. A non-linear relationship between Xs and Y (response/target) might exist while preserving the linear model, it happens when the equation is additive and the effects of each component can be easily separated. 
+
+
+<img width="850" height="236" alt="222" src="https://github.com/user-attachments/assets/518d8dc7-b6f2-47e2-bb76-5f93291b6887" />
 
 So the linear parameters are:
 
