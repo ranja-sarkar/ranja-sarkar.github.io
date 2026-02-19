@@ -50,8 +50,8 @@ If the objective is to find the correlation or linear relationship between two c
 
 A T-test is a parametric test which measures whether a given cofficient/weight of a variable is significantly different than zero. 
 
-While the correlation coefficient (Pearson) is easy to calculate and provides a measure of the strength of linear association in the data, it also has its limitations.
-In a [research study](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0df2e673d8a8a1b63e7b24e1313264e9abfdfed5/_posts/assets/corr.pdf), it has been found the range of observed data has an impact on the coefficient value.  If necessary, one should look into alternatives to the correlation coefficient.
+While the correlation coefficient (Pearson) is easy to calculate and provides a measure of the strength of linear association in the data, it has its limitations.
+In a [research study](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/0df2e673d8a8a1b63e7b24e1313264e9abfdfed5/_posts/assets/corr.pdf), it has been found the range of observed data has an impact on the coefficient value.  If necessary, one should look into alternative methods as well.
 
 📌 **Non-parametric tests**
 
