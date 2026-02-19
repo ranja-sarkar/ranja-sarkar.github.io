@@ -76,9 +76,9 @@ The assumption that the observed data are a sample drawn from a multivariate nor
 
 💡 Setting a threshold to the percentage of non-zero values in a feature also helps decide which feature to drop from the data. The one falling below this threshold if removed reduces sparsity of the dataset. There are other methods to handle data sparsity for example, PCA, t-SNE. 
 
-💡 **PCA** is an unsupervised learning algorithm that identifies principal components (PCs) of the data along principal axes, the directions in which the data varies most. PCs represent the data in a lower-dimensional space with most variability, and preserve maximum information. PCA thus helps identy the top features to train a model, ensuring the model is reliable.  
+💡 **PCA** is an unsupervised learning algorithm that identifies principal components (PCs) of the data along principal axes, the directions in which the data varies most. PCs represent the data in a lower-dimensional space with most variability, and preserve maximum information. PCA thus helps identity the top features to train a model, ensuring the model is reliable.  
 
-💡 t-distributed Stochastic Neighbour Embedding or **t-SNE** is also an unsupervised learning algorithm. It is a nonlinear dimensionality reduction technique used to cluster (also visualize) high-dimensional data. A low dimensional embedding of the data is obtained with t-SNE while preserving global structure of the data. To use t-SNE with sparse data, the sparse matrix must first be converted into a dense matrix. 
+💡 t-distributed Stochastic Neighbour Embedding or **t-SNE** is also an unsupervised learning algorithm. The t in t-SNE stands for t-distribution which is used in lower dimensional embedded data. It is a nonlinear dimensionality reduction technique used to cluster (also visualize) high-dimensional data. A low dimensional embedding of the data is obtained with t-SNE while preserving global structure of the data. To use t-SNE with sparse data, the sparse matrix must first be converted into a dense matrix. 
 
 ![ss](https://github.com/user-attachments/assets/bba8800d-b418-497c-af47-3988852736c9)
 
