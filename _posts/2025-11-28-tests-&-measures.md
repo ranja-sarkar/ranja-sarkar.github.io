@@ -183,4 +183,10 @@ Linear regression is also a neural network though, with a linear activation func
 
 If we use a linear activation function, no matter how many layers we stacked, neural networks would behave like a single-layer perceptron because the combination of linear functions is still a linear function. 
 
+# References
 
+1. [Bayesian Statistics the fun way](https://bookdown.org/pbaumgartner/bayesian-fun/)
+
+2. [Not a Big Deal](https://www.statsig.com/blog/bayesian-vs-frequentist-statistics)
+
+3. [Bayesian Models](https://www.r-bloggers.com/2019/05/bayesian-models-in-r-2/)
