@@ -9,7 +9,7 @@ tags: [statistics, data]
 
 There are two schools of thought or approaches in statistical tests. One is frequentist, another is Bayesian. 
 
-The frequentist approach is how often an outcome happens over repeated runs of the experiment/test. It’s an objective view of whether an experiment is repeatable. 
+The frequentist approach is how often an outcome happens over repeated runs of the experiment/test. It’s an objective view of whether an experiment is repeatable. In the **Frequentist** culture, relative frequency of occurrence of an event (observed in repetitions) in an experiment is a measure of the probability of that event.
 
 The Bayesian approach is a subjective view of the same. [Bayesian](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3dab2be104f4905452c182d3e1d53218b277e8ad/_posts/assets/Springer%20Nature_2020.pdf) takes into account how much faith we have in our results.
 
@@ -18,6 +18,14 @@ The Bayesian approach is a subjective view of the same. [Bayesian](https://githu
 
 
 It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability.
+
+In the **Bayesian** culture, we’re uncertain about our model but the ground truth (reality) is our data; *Focus on the degree of belief about an unknown. Probability is a measure of how likely something is, given our current knowledge.* 
+
+It is all about beliefs in a Bayesian approach. The data we collect updates our prior (initial) belief. The posterior represents our updated understanding. 
+
+Bayesian statistics finds the likelihood of alternatives explaining the data but strictly says these alternatives are driven by priors, which are informed or sensible but rarely objective. Bayesianism leaves a room for subjectivity.
+
+Bayesian thinking is about changing our mind and updating how we understand the world. The data we observe/collect is all that's real, so our beliefs ultimately need to shift until they align with the data.
 
 ---
 
