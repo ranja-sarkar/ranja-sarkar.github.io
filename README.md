@@ -18,7 +18,7 @@ Chapter 2: **Machine Learning vis-a-vis Mathematical Modeling**
 
 Chapter 3: [Principal Component Analysis](https://github.com/ranja-sarkar/pca) (link in chapter page 39)
 
-Chapter 4: [Gradient Descent](https://github.com/ranja-sarkar/GD)
+Chapter 4: [Gradient Descent](https://ranja-sarkar.github.io/GD/)
 
 Chapter 5: [Support Vector Machine](https://github.com/ranja-sarkar/SVM)
 
