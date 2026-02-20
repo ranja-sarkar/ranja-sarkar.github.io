@@ -11,7 +11,13 @@ There are two schools of thought or approaches in statistical tests. One is freq
 
 The frequentist approach is how often an outcome happens over repeated runs of the experiment/test. It’s an objective view of whether an experiment is repeatable. 
 
-The Bayesian approach is a subjective view of the same. [Bayesian](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3dab2be104f4905452c182d3e1d53218b277e8ad/_posts/assets/Springer%20Nature_2020.pdf) takes into account how much faith we have in our results. It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability.
+The Bayesian approach is a subjective view of the same. [Bayesian](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/3dab2be104f4905452c182d3e1d53218b277e8ad/_posts/assets/Springer%20Nature_2020.pdf) takes into account how much faith we have in our results.
+
+![100](https://github.com/user-attachments/assets/695f4f90-5612-48df-bb99-13d8d7203bac)
+![200](https://github.com/user-attachments/assets/7f57336d-50ab-410a-a43a-f7f4ae56b992)
+
+
+It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability.
 
 ---
 
