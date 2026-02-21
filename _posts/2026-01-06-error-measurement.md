@@ -2,7 +2,8 @@
 tags: [data, error, machine-learning]
 ---
 
-![IMG_2895](https://github.com/user-attachments/assets/8bfbb6aa-a2ca-49bf-9805-7cca411816ae)
+
+![named](https://github.com/user-attachments/assets/8cb895b0-f1b7-4b46-bf95-0f4daba01b08)
 
 <ins>**Measurement of model error**</ins>
 
@@ -62,7 +63,11 @@ The **train set** is used to learn the model parameters (or hyperparameters).
 
 # Adjusted R^2
 
-The goodness of fit, R^2 under-penalizes model complexity that is, it fails to decrease the prediction error as much as required with the addition of complexity in the model. This can lead to misleading conclusions. However, it is fast to compute and easy to interpret.
+The goodness of fit, R^2 is a metric that represents the percentage of the variance in **y** explained by our features **x**.
+
+<img width="152" height="47" alt="rr" src="https://github.com/user-attachments/assets/6b4225db-c5e6-4e2e-973a-2b2683a7940e" />
+
+R^2 however under-penalizes model complexity that is, it fails to decrease the prediction error as much as required with the addition of complexity in the model. This can lead to misleading conclusions. However, it is fast to compute and easy to interpret.
 
 ![rr](https://github.com/user-attachments/assets/94702b1f-86ff-4301-a1b8-6233eb0ffe41)
 
