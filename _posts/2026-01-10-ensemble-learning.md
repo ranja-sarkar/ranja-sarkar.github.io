@@ -12,10 +12,10 @@ Ensembles execute multiple models, then combine their outputs to make the final 
 
 Bagging is bootstrapping followed by aggregation that is, bootstrap aggregating, and enables **reduction of variance** in the ensemble. An example of a bagging ensemble is random forest. 
 
-![bagg](https://github.com/user-attachments/assets/cf67376a-809c-4c08-b4b9-772a39261228)
+<img width="179" height="212" alt="bgg" src="https://github.com/user-attachments/assets/015feed9-5fdf-43bc-a18f-c0d43485c7e2" />
 
 
-Bootstrapping involves creating multiple subsets of training data. Each subset is of equal size and training is carried out in a parallel manner. Aggregation combines the outputs of each learner/model.  
+**Bootstrapping involves creating multiple subsets of training data.** Each subset is of equal size and training is carried out in a parallel manner. Aggregation combines the outputs of each learner/model.  
 
 In a regression task, typically the average (or weighted average) of predictions from each model is considered to make the final prediction. 
 
@@ -39,11 +39,10 @@ Depending on the performance, we can also put a weight on each learner of the en
 
 # Boosting ensemble
 
-A boosting algorithm works in a sequential manner. The output from a model is fed as input to the next model in a sequential way. Each model tries to correct the errors in the previous model. Models are added sequentially until a stopping condition is met in the boosting method. Owing to the employment of additive combination there is **reduction of bias** in the ensemble. 
+A boosting algorithm works in a sequential manner. **The output from a model is fed as input to the next model in a sequential way. Each model tries to correct the errors in the previous model.** Models are added sequentially until a stopping condition is met in the boosting method. Owing to the employment of additive combination there is **reduction of bias** in the ensemble. 
 
-![boost](https://github.com/user-attachments/assets/afc63f1c-e59f-4cd7-afc5-3ee48b22bbba)
+<img width="182" height="185" alt="boo" src="https://github.com/user-attachments/assets/9003e71b-1ad9-4835-b680-f539e56a21e8" />
 
----
 
 **Adaptive Boosting**
 
