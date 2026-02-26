@@ -4,7 +4,7 @@
 
 [*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
 
-[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python/blob/main/README.md)
+[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python)
 
 -----
 
