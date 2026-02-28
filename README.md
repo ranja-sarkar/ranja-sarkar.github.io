@@ -1,9 +1,8 @@
 
 [Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python)
 
-<img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
 <img width="443" height="592" alt="rs" src="https://github.com/user-attachments/assets/95d81c59-9cfd-4d66-b5ff-cb5be2bca6fb" />
-
+<img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
 
 Rhetoric: [*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
 
