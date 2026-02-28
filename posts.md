@@ -60,6 +60,8 @@ permalink: /myposts
 
 # *March 2026*
 
+<img width="359" height="316" alt="ai-ml" src="https://github.com/user-attachments/assets/48296d57-fa6d-4ee2-b4d6-48ffe40d60e8" />
+
 
 -----
 
