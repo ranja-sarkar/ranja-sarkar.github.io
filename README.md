@@ -1,10 +1,13 @@
 
 <img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
 
+[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python)
+
+
+![Uploading rs.png…]()
 
 [*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
 
-[Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python)
 
 -----
 
