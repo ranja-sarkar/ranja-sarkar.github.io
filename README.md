@@ -7,7 +7,7 @@
 <img width="443" height="592" alt="rs" src="https://github.com/user-attachments/assets/95d81c59-9cfd-4d66-b5ff-cb5be2bca6fb" />
 
 
-[*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
+Rhetoric: [*Power of persuasion: Where is it located in our brain?*](https://muyinteresante.okdiario.com/ciencia/62384.html)
 
 
 -----
