@@ -1,6 +1,6 @@
 
 
-<img width="347" height="414" alt="rs" src="https://github.com/user-attachments/assets/ca1345a7-d27f-4787-a05d-e9ed916a02d8" />
+<img width="400" height="400" alt="10" src="https://github.com/user-attachments/assets/58bc9273-e439-461f-bc53-d994bbf7dd9d" />
 <img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
 
 [Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python)
