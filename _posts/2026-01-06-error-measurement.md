@@ -71,11 +71,12 @@ R^2 however under-penalizes model complexity that is, it fails to decrease the p
 
 ![rr](https://github.com/user-attachments/assets/94702b1f-86ff-4301-a1b8-6233eb0ffe41)
 
-A variation in the independent (x) variable explains a variation in the dependent (y) variable. Zero linear relationship between x and y yields R^2 = 0 and R^2 = 1 means 100% variation in y is explained by variation in x. A negative R^2 means that our model is doing worse (capturing less variance in y) than a flat line through the mean of our data would. 
+A variation in the independent (x) variable explains a variation in the dependent (y) variable. Zero linear relationship between x and y yields R^2 = 0 and R^2 = 1 means 100% variation in y is explained by variation in x. **A negative R^2 means that our model is doing worse (capturing less variance in y) than a flat line through the mean of our data would**. 
 
 Adjusted R^2 is more accurate as it considers only significant features or independent variables in the dataset to predict the target or dependent variable. It properly penalizes the insignificant ones. 
 
-![rr0](https://github.com/user-attachments/assets/e1589523-2e9f-401e-a988-f4644570a55e)
+<img width="178" height="29" alt="ah" src="https://github.com/user-attachments/assets/99c97bfa-5e77-4954-98bf-349d86328139" />
+
 
 n =  number of rows in the dataset, m = number of the columns in the dataset. 
 
