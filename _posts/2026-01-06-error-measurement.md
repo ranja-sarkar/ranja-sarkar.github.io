@@ -78,7 +78,7 @@ Adjusted R^2 is more accurate as it considers only significant features or indep
 <img width="178" height="29" alt="ah" src="https://github.com/user-attachments/assets/99c97bfa-5e77-4954-98bf-349d86328139" />
 
 
-n =  number of rows in the dataset, m = number of the columns in the dataset. 
+*n =  number of rows in the dataset, m = number of the columns in the dataset*. 
 
 Use of adjusted R^2 however is less generalizable and may still overfit the (tabular) data.
 
@@ -94,7 +94,7 @@ Bayesian Information Criterion (BIC) for sample size n is given by,
 
 BIC = −2ln(likelihood) + mln(n)
 
-The first term in the equations can be thought of as the training error and the second term can be thought of as the penalty to adjust for the optimism. The goal is to minimize AIC/BIC. These measures or metrics require a model that can generate likelihoods, thereby needing a leap of faith that the specific equation used is theoretically suitable to the problem and associated data.
+The first term in the equations can be thought of as the training error and the second term can be thought of as the penalty to adjust for the optimism. The goal is to minimize [AIC and/or BIC](https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118856406.app5). These measures or metrics require a model that can generate likelihoods, thereby needing a leap of faith that the specific equation used is theoretically suitable to the problem and associated data.
 
 -----
 
