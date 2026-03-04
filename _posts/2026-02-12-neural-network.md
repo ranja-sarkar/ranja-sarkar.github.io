@@ -2,7 +2,8 @@
 tags: [networks, neuralnets, data, deep learning]  
 ---
 
-![chrchgt](https://github.com/user-attachments/assets/1ffba787-8e90-43ce-9467-c6d1a70e3953)
+
+![do](https://github.com/user-attachments/assets/f234100e-a342-4056-9b65-5f5920b61c39)
 
 
 The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
@@ -109,5 +110,7 @@ Hyper-parameters other than the learning rate requires monitoring of both train 
 Practitioners turn typically to exisiting frameworks to solve problems with deep learning. The widely used and popular deep learning frameworks are [tensorflow and pytorch](https://www.datacamp.com/tutorial/pytorch-vs-tensorflow-vs-keras).   
 
 In general, for development and deployment of any predictive model these [points](https://ranja-sarkar.github.io/2026/01/05/model-lifecycle.html) remain valid.
+
+# Applications of a neural network
 
 
