@@ -129,7 +129,7 @@ The families of the transformer architecture are encoder-only, decoder-only, and
 
 The **GPT (generative pre-trained transformer)** series developed by OpenAI has a **decoder-only** architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
 
-**BERT (Bidirectional Encoder Representations from Transformers)&& developed by Google has **encoder-only** architecture, and is and used primarily for text classification and sentiment analysis. **Google Gemini** has **encoder-decoder** architecture. It is multimodal and good for content generation and complex reasoning.
+**BERT (Bidirectional Encoder Representations from Transformers)** developed by Google has **encoder-only** architecture, and is and used primarily for text classification and sentiment analysis. **Google Gemini** has **encoder-decoder** architecture. It is multimodal and good for content generation and complex reasoning.
 
 -----
 
