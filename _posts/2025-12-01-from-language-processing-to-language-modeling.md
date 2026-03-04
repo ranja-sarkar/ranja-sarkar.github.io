@@ -127,9 +127,9 @@ Positional encoding is typically introduced as a set of additional vectors that 
 
 The families of the transformer architecture are encoder-only, decoder-only, and [encoder-decoder](https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder). An encoder network looks across the input sequence and the decoder network looks across a sequence of representations from the encoder. 
 
-The **GPT (generative pre-trained transformer)** series developed by OpenAI has a decoder-only architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
+The **GPT (generative pre-trained transformer)** series developed by OpenAI has a **decoder-only** architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
 
-BERT (Bidirectional Encoder Representations from Transformers) developed by Google has encoder-only architecture, and is and used primarily for text classification and sentiment analysis. Gemini has encoder-decoder architecture. It is multimodal and good for content generation and complex reasoning.
+**BERT (Bidirectional Encoder Representations from Transformers)&& developed by Google has **encoder-only** architecture, and is and used primarily for text classification and sentiment analysis. **Google Gemini** has **encoder-decoder** architecture. It is multimodal and good for content generation and complex reasoning.
 
 -----
 
