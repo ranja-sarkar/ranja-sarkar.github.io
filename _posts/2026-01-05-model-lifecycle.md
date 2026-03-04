@@ -53,9 +53,12 @@ Even high-performance models could be rendered useless in production environment
 Once the model is served to end users, they have to understand the model predictions and trust them, else usage would eventually go down. Making the model outcomes actionable is a key indicator of success and user feedback helps in continuous improvement and detecting areas needing revision. 
 
 Also, the essential measures to track with the model under production are as follows.
-1. **Latency**, which is the delay of the model to perform a specific task 
-2. **Throughput**, which is the amount of data processed in a given time
-3. **Memory**, which is the space allocated for model storage
+
+1. **Latency** - the delay of the model to perform a specific task 
+
+2. **Throughput** - the amount of data processed in a given time
+
+3. **Memory** - the space allocated for model storage
 
 Although the production framework is selected keeping the above in mind, and as required by the particular solution, these need to be tracked once the model is operational to realize true value. Models need to be maintained. Real-world data evolves, and since the models feed on data, their performances often decay over time due to data drift or concept drift or changes in the environment. Most importantly, it is essential to diagnose if a defect arises from the data or the framework or pipeline used so it can be fixed or debugged accordingly.
 
