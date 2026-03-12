@@ -38,7 +38,7 @@ MSE is known as L2 loss, and MAE is known as L1 loss.
 
 <img width="212" height="61" alt="mse" src="https://github.com/user-attachments/assets/18c47025-943c-4b9d-902c-fd5ac3f8d0f3" />
 
-Whatever the case, we should be thinking of the metric as integral part of the modeling process, and select the best metric based on the specific concerns of the use-case.
+Whatever the case, we should be thinking of the metric as integral part of the modeling process, and select the best metric based on the specific concerns of the use-case. The quantile regreesion or [median regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.QuantileRegressor.html) uses MAE loss, and the mean or least squares regression uses MSE loss. 
 
 <img width="233" height="48" alt="mae" src="https://github.com/user-attachments/assets/08687404-3ea5-4495-ba5a-9e1ea93f9b99" />
 
