@@ -88,7 +88,8 @@ Using sparse data to train a model require good amount of computing resources ow
 
 When working with **text data** and [natural language processing (NLP)](https://smltar.com/embeddings), sparsity arises because many documents do not contain most words resulting in zero values. There are special data structures and algorithms for handling such data. For example, an array can more efficiently store the locations and values of the non-zero elements (not all elements) than other data structures. 
 
------
+sensitivity analysis which is defined as studying how the uncertainty in model output can be allocated to its inputs important. 
+---
 
-Finally, **sensitivity analysis** which is defined as studying how the uncertainty in model output can be allocated to its inputs, the sources of uncertainty is important. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (for missing & sparse) data. 
+Each input is a source of uncertainty. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (for missing & sparse) data. 
 
