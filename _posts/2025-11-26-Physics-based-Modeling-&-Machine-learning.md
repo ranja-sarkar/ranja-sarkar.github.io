@@ -25,7 +25,9 @@ Governing equations are known for many physical systems but direct numerical sol
 
 📌  **Uncertainty quantification**
 
-This is of great importance as it makes it possible to characterize the quantiles and skews in distributions and allows for examining how close predictions are to being acceptable or how sensitive the outcome is wrt change in input features. Variants of neural networks have exhibited success here, as a surrogate for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the integration of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
+This is of great importance as it enables characterization of the quantiles and skews in distributions and allows for examining how close predictions are to being acceptable, or how sensitive the outcome is wrt change sin input features. 
+
+Variants of neural networks have exhibited success in uncertainty quantification, as surrogates for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the integration of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
 
 📌 **Data generation**
 
