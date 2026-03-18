@@ -26,7 +26,14 @@ Governing equations are known for many physical systems but direct numerical sol
 
 This is of great importance as it enables characterization of the quantiles and skews in distributions and allows for examining how close model predictions are to being acceptable, or how sensitive the predictions (model output) are wrt changes in input features. 
 
-Variants of neural networks have exhibited success in uncertainty quantification, as surrogates for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the integration of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
+<img width="382" height="28" alt="sense" src="https://github.com/user-attachments/assets/8852ea4e-6265-47e0-bca9-eb8b3d9fbe06" />
+
+Probabilistic sensitivity analysis incorporates probability distributions for input variables, one example being Monte Carlo simulation wherein we run thousands of iterations on randomly sampled input values to create probability distributions for outputs.
+
+Variants of neural networks have exhibited success in uncertainty quantification, as surrogates for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the incorporation of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
+
+A sensitivity analysis helps distinguish between assumptions that significantly affect and minimally affect the outcome.
+
 
 📌 **Data generation**
 
