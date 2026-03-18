@@ -20,8 +20,9 @@ Sparse data is subtly different from missing data. Some values are not present i
 Values are known in sparse data unlike missing data, but they're not useful. This makes it difficult to identify the relevant features in sparse tabular data. If all features are used for machine learning (violating maximum relevance-minimum redundancy), overfitting of model occurs. On the other hand, if too many features are removed (too much data compression), we are at a risk of losing valuable information. 
 
 -----
+**Handling missing data** demands a nuanced approach, far beyond quick fixes. 
 
-**Handling missing data** demands a nuanced approach, far beyond quick fixes. If a dataset contains a large percentage of missing values, their presence can be detrimental to statistical estimation. 
+If a dataset contains a large percentage of missing values, their presence can be detrimental to statistical estimation. 
 
 There exist [missingness patterns](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e840bbe96ba301e263f9f0e23cd405fba268ba0b/_posts/assets/kjae-miss.pdf) viz.,
 
@@ -68,8 +69,9 @@ Multiple Imputation by Chained Equations (MICE) and Fully Conditional Specificat
 The assumption that the observed data are a sample drawn from a multivariate normal distribution helps to estimate the missing data, and it is done ny using conditional distributions of other (relatively complete) features. Expectation Maximization is a method of MLE that can be used to generate a new dataset in which the missing values have been imputed with values estimated by MLE.
 
 -----
+**Handling sparse data** too demands a nuanced approach. 
 
-**Handling sparse data** too demands a nuanced approach. Using sparse data to train a model require good amount of computing resources owing to their large size. They require longer processing time which limits the throughput. There are methods to mitigate these challenges, other than feature hashing wherein each feature is converted into a fixed-length array of values using a hashing function (maps each to an index) that makes it feasible to store the features. 
+Using sparse data to train a model require good amount of computing resources owing to their large size. They require longer processing time which limits the throughput. There are methods to mitigate these challenges, other than feature hashing wherein each feature is converted into a fixed-length array of values using a hashing function (maps each to an index) that makes it feasible to store the features. 
 
 
 ![hash](https://github.com/user-attachments/assets/2993d0ee-86c2-4fef-80ff-6ff9e1903981)
