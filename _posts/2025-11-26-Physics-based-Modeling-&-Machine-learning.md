@@ -32,7 +32,7 @@ Probabilistic sensitivity analysis incorporates probability distributions for in
 
 Variants of neural networks have exhibited success in uncertainty quantification, as surrogates for expensive traditional simulations and ones that have greater scalability than [Gaussian processes](https://thegradient.pub/gaussian-process-not-quite-for-dummies/). Also, the incorporation of prior Physics knowledge has the potential to allow for better characterization of uncertainty. 
 
-A sensitivity analysis helps distinguish between assumptions that significantly affect and minimally affect the outcome.
+A sensitivity analysis helps distinguish between assumptions that significantly affect and that minimally affect the outcome.
 
 
 📌 **Data generation**
