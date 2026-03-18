@@ -37,7 +37,7 @@ For filling in the gaps or imputing correctly, we must spot the profound busines
 
 Out of these types, MNAR raises the level of difficulty of handling missing data, because the missingness falls in line with unobserved/implicit features and is capable of distorting the entire data analysis. I will discuss one method from each type, please read the [2013 paper](https://github.com/ranja-sarkar/ranja-sarkar.github.io/blob/e840bbe96ba301e263f9f0e23cd405fba268ba0b/_posts/assets/kjae-miss.pdf) for further details. 
 
-💡 **Mean/median/mode Imputation**
+📌  **Mean/median/mode Imputation**
 
 The following scenarios arise while using a [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) dataframe function (python) to drop rows or columns in tabular data having missing values.
 
@@ -54,7 +54,7 @@ The fillna() pandas function is used to impute with mean or median of the featur
 Mean imputation however is sensitive to outliers, and median imputation essentially assumes that the data is MCAR which might not be true in every case. For categorical/qualitative data (nominal or ordinal), the best measures of central tendency are mode and median. 
 
 
-💡 **Multiple Imputation**
+📌  **Multiple Imputation**
 
 This is a method wherein the missing information in a feature/column is filled by considering the information from other features in the dataset. This method can however be computationally expensive for large datasets. 
 
@@ -62,7 +62,7 @@ The reliance of **random forest** algorithm (ensemble learner) on bootstrapping 
 
 Multiple Imputation by Chained Equations (MICE) and Fully Conditional Specification (FCS) find use in some cases. MICE, for example performs imputation for features with missing data within a separate model which makes it possible to capture complex interactions between them. FCS imputes missing values one at a time, conditional on observations, it then repeats the process multiple times to create several complete datasets. 
 
-💡 **Maximum Likelihood Estimation (MLE)**
+📌  **Maximum Likelihood Estimation (MLE)**
 
 The assumption that the observed data are a sample drawn from a multivariate normal distribution helps to estimate the missing data, and it is done ny using conditional distributions of other (relatively complete) features. Expectation Maximization is a method of MLE that can be used to generate a new dataset in which the missing values have been imputed with values estimated by MLE.
 
