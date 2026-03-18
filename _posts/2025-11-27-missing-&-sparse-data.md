@@ -88,8 +88,13 @@ Using sparse data to train a model require good amount of computing resources ow
 
 When working with **text data** and [natural language processing (NLP)](https://smltar.com/embeddings), sparsity arises because many documents do not contain most words resulting in zero values. There are special data structures and algorithms for handling such data. For example, an array can more efficiently store the locations and values of the non-zero elements (not all elements) than other data structures. 
 
-sensitivity analysis which is defined as studying how the uncertainty in model output can be allocated to its inputs important. 
+Sensitivity analysis, defined as analysing how the uncertainty in model output can be allocated to its inputs becomes important eventually. 
 ---
 
-Each input is a source of uncertainty. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis becomes essential to evaluate the robustness of the model trained with processed (for missing & sparse) data. 
+Each input is a source of uncertainty. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis is essential to evaluate the robustness of the model trained with processed data, in other words, evaluate the [risk and uncertainty](https://risk-engineering.org/notebook/sensitivity-analysis.html) of predictive models.
+
+Sensitivity analysis can be local as well as global. Local sensitivity analysis works well for understanding the immediate impact of minor variations in assumptions and provides insights into model behavior near expected values. Bar charts, spider or radar charts, and charts showing gradient (slope) are in general used to show relative sensitivity magnitudes.
+
+Global sensitivity analysis explores how outputs vary across the entire range of possible input values. This proves valuable when dealing with high uncertainty or when weplotsneed to understand model behavior under extreme conditions. Heatmaps, contour plots, 3D surface plots in general display behavior across entire input spaces and reveal non-linear relationships. 
+
 
