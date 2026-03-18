@@ -93,8 +93,8 @@ Sensitivity analysis, defined as analysing how the uncertainty in model output c
 
 Each input is a source of uncertainty. Assumptions made while imputation of missing values cannot be definitively validated for correctness hence, sensitivity analysis is essential to evaluate the robustness of the model trained with processed data, in other words, evaluate the [risk and uncertainty](https://risk-engineering.org/notebook/sensitivity-analysis.html) of predictive models.
 
-Sensitivity analysis can be local as well as global. Local sensitivity analysis works well for understanding the immediate impact of minor variations in assumptions and provides insights into model behavior near expected values. Bar charts, spider or radar charts, and charts showing gradient (slope) are in general used to show relative sensitivity magnitudes.
+Sensitivity analysis can be local as well as global. **Local sensitivity analysis** works well for understanding the immediate impact of minor variations in assumptions and provides insights into model behavior near expected values. Bar charts, spider or radar charts, and charts showing gradient (slope) are in general used to show relative sensitivity magnitudes.
 
-Global sensitivity analysis explores how outputs vary across the entire range of possible input values. This proves valuable when dealing with high uncertainty or when weplotsneed to understand model behavior under extreme conditions. Heatmaps, contour plots, 3D surface plots in general display behavior across entire input spaces and reveal non-linear relationships. 
+**Global sensitivity analysis** explores how outputs vary across the entire range of possible input values. This proves valuable when dealing with high uncertainty or when weplotsneed to understand model behavior under extreme conditions. Heatmaps, contour plots, 3D surface plots in general display behavior across entire input spaces and reveal non-linear relationships. 
 
 
