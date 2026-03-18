@@ -2,10 +2,8 @@
 tags: [data-handling, exploration, analysis]
 ---
 
+![ron](https://github.com/user-attachments/assets/b2a4a304-0007-4335-824d-f652da8b68ef)
 
-![named](https://github.com/user-attachments/assets/b35c1f2a-d7c9-4cca-8c4e-e7f1d9af34a8)
-
-<ins>**Missing & Sparse Data**</ins>
 
 Missing values in tabular data occur when information is either not available or difficult to find. Grasping the underlying reasons of the absence of data and scrutinizing the nature of missingness are crucial. Often, understanding the data-generating mechanism becomes important. 
 
@@ -19,8 +17,8 @@ Sparse data is subtly different from missing data. Some values are not present i
 
 Values are known in sparse data unlike missing data, but they're not useful. This makes it difficult to identify the relevant features in sparse tabular data. If all features are used for machine learning (violating maximum relevance-minimum redundancy), overfitting of model occurs. On the other hand, if too many features are removed (too much data compression), we are at a risk of losing valuable information. 
 
------
 **Handling missing data** demands a nuanced approach, far beyond quick fixes. 
+---
 
 If a dataset contains a large percentage of missing values, their presence can be detrimental to statistical estimation. 
 
@@ -68,8 +66,8 @@ Multiple Imputation by Chained Equations (MICE) and Fully Conditional Specificat
 
 The assumption that the observed data are a sample drawn from a multivariate normal distribution helps to estimate the missing data, and it is done ny using conditional distributions of other (relatively complete) features. Expectation Maximization is a method of MLE that can be used to generate a new dataset in which the missing values have been imputed with values estimated by MLE.
 
------
 **Handling sparse data** too demands a nuanced approach. 
+---
 
 Using sparse data to train a model require good amount of computing resources owing to their large size. They require longer processing time which limits the throughput. There are methods to mitigate these challenges, other than feature hashing wherein each feature is converted into a fixed-length array of values using a hashing function (maps each to an index) that makes it feasible to store the features. 
 
