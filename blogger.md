@@ -51,7 +51,9 @@ When I took my time-off, I got plenty of doubtful looks. Some said why did I not
 
 I could not tell them that I wanted to completely disconnect for as much time as I desired. 
 
-I will admit I made a bold move. I gave up months of pay and faced the challenges that come with this decision. My city has high living expenses, life is fast here. Sometimes I just want to resort to a frugal lifestyle. During my hiatus I gained what's valuable to me - a broader perspective, renewed trust in my abilities, more clarity, and the sense to nurture what I've built. Sounds intrepid, does it? Well, that's how I roll. 
+I will admit I made a bold move. I gave up months of pay and faced the challenges that come with this decision. My city has high living expenses, life is fast here. Sometimes I just want to resort to a frugal lifestyle. 
+
+During my hiatus I gained what's valuable to me - a broader perspective, renewed trust in my abilities, more clarity, and the sense to nurture what I've built. Sounds intrepid, does it? Well, that's how I roll. 
 
 I took the time to dive into things that helped me connect dots, to explore stuff, to read, to write. Most importantly I brought my attention back to things that are really important, they were else slipping away with the very short-span attentiveness that most humans are suffering from in present times. I realized that productivity does not come from relentless pushing. I also got to rest and relax, which felt like luxury before. 
 
