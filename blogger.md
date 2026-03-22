@@ -27,9 +27,15 @@ I visited the Himalayas during the autumn of 2023. The thought of being relentle
 
 After coming back from my short vacation, I decided to start blogging and actually started it during the winter of 2024 (Jan). My blog posts are about *Data Science & stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as well. 
 
-There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our experiences, learning & understanding with others, learning back from them and getting to know about their experiences. 
+There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our experiences, getting to know about the experiences of others, understanding and learning back from them.
+
+So I write. I share. I make myself happy.
 
 -----
+
+Every day we persuade people around us, and they persuade us, even if we are unaware of it.
+
+To persuade someone, you need a story - a narrative that reinforces positive emotions. Nothing persuades someone better than making them feel comfortable and happy. 
 
 Persuasion is an art, according to Aristotle it has three main elements - *ethos*, *logos*, and *pathos*. 
 Brevity and metaphor are crucial too for beautiful storytelling. 
