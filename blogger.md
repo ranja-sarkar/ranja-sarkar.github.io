@@ -27,9 +27,9 @@ I visited the Himalayas during the autumn of 2023. The thought of being relentle
 
 After coming back from my short vacation, I decided to start blogging and actually started it during the winter of 2024 (Jan). My blog posts are about *Data Science & stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as well. 
 
-There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our experiences, getting to know about the experiences of others, understanding and learning back from them.
+There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our experiences, getting to know about the experiences of others, understanding, learning back from them.
 
-So I write. I share. I make myself happy.
+So I write. I share. 
 
 -----
 
@@ -42,9 +42,26 @@ Brevity and metaphor are crucial too for beautiful storytelling.
 
 ![rhetoric](https://github.com/user-attachments/assets/6395227a-9000-46e9-aff9-d87d027240fb)
 
----
 
+![xmas](https://github.com/user-attachments/assets/9667674c-2142-4f77-99a2-5041d6e93a93)
 
+When I took my time-off, I got plenty of doubtful looks. 
 
+Some said why I did not consider a vacation, others said a sabbatical would have good enough. My family was no less. 
+I could not tell them that I wanted to completely disconnect for as much time as I wanted. 
+
+I'll admit I made a bold move. I gave up months of pay and faced the challenges that come with this decision. 
+
+Quite some time have passed, what I gained during this time is far more valuable - a broader perspective, more clarity, and renewed trust in my abilities. I took the time to dive into things that helped me connect the dots, to explore stuff, to read, to write, and most importantly I gained my attention back to things that are really important, while they were slipping away with the short-span attention that most humans are suffering from. At the same time I got to rest and relax, which felt like luxury before. 
+
+Sometimes the unconventional choices pay off. I learned the hard way,  that productivity does not come from relentless pushing. 
+
+One thing that I still do not understand is why career breaks are stigmatized. Maybe not all, but many need them. 
+
+On a different note, when I think about it now, I find it comical that I cared pretty much about titles, ranks, designations few years ago. And it is strange how I do not care about them at all anymore. You can call me what you like. I know whatever I do, I do well. And that's what matters. Ain't it? 
+
+Well, it does to me.  
+
+Oh yes! my break is over. Where am I resuming? That's a another post.  
 
 
