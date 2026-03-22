@@ -3,7 +3,7 @@ layout: default
 
 title: MyJournal
 
-permalink: /myblog
+permalink: /myblogs
 ---
 
 
