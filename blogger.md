@@ -45,23 +45,25 @@ Brevity and metaphor are crucial too for beautiful storytelling.
 
 ![xmas](https://github.com/user-attachments/assets/9667674c-2142-4f77-99a2-5041d6e93a93)
 
-When I took my time-off, I got plenty of doubtful looks. 
+When I took my time-off, I got plenty of doubtful looks. Some said why did I not consider only a vacation, others said a sabbatical would have  been good enough. My family was no less. 
 
-Some said why I did not consider a vacation, others said a sabbatical would have good enough. My family was no less. 
-I could not tell them that I wanted to completely disconnect for as much time as I wanted. 
+I could not tell them that I wanted to completely disconnect for as much time as I desired. 
 
-I'll admit I made a bold move. I gave up months of pay and faced the challenges that come with this decision. 
+I will admit I made a bold move. I gave up months of pay and faced the challenges that come with this decision. My city has high living expenses, life is fast here. Sometimes I just want to resort to a frugal lifestyle. During my hiatus I gained what's valuable to me - a broader perspective, renewed trust in my abilities, more clarity, and the sense to nurture what I've built. Sounds intrepid, does it? Well, that's how I roll. 
 
-Quite some time have passed, what I gained during this time is far more valuable - a broader perspective, more clarity, and renewed trust in my abilities. I took the time to dive into things that helped me connect the dots, to explore stuff, to read, to write, and most importantly I gained my attention back to things that are really important, while they were slipping away with the short-span attention that most humans are suffering from. At the same time I got to rest and relax, which felt like luxury before. 
+I took the time to dive into things that helped me connect dots, to explore stuff, to read, to write. Most importantly I brought my attention back to things that are really important, they were else slipping away with the very short-span attentiveness that most humans are suffering from in present times. I realized that productivity does not come from relentless pushing. I also got to rest and relax, which felt like luxury before. 
 
-Sometimes the unconventional choices pay off. I learned the hard way,  that productivity does not come from relentless pushing. 
+<img width="1047" height="548" alt="quote" src="https://github.com/user-attachments/assets/de6c4d38-3188-465e-874e-85baaf862a17" />
 
-One thing that I still do not understand is why career breaks are stigmatized. Maybe not all, but many need them. 
+Sometimes the unconventional choices pay off. 
 
-On a different note, when I think about it now, I find it comical that I cared pretty much about titles, ranks, designations few years ago. And it is strange how I do not care about them at all anymore. You can call me what you like. I know whatever I do, I do well. And that's what matters. Ain't it? 
+I still do not understand why career breaks are stigmatized (particularly in India) and the social taboo that comes with it. 
 
-Well, it does to me.  
+On a different note, when I think now, I find it comical about myself that I so cared about titles, ranks, designations not much long ago. It is so strange how I do not care at all about them anymore. 
 
-Oh yes! my break is over. Where am I resuming? That's a another post.  
+You can call me what you like. I know what I do, I do well. That's what matters. Ain't it? It does, to me.  
+
+Oh yes! my break is over. Where am I resuming? That's another post.  
+
 
 
