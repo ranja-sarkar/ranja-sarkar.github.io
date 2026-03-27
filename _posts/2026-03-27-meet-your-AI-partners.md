@@ -46,7 +46,7 @@ In hyperpersonalized systems, AI agents (like conversational bots) play a key ro
 
 # Goal-driven systems
 
-They are the master planners. Unlike the tailors who look at the individual, the strategists look at a high-level objective such as managing city-wide traffic or optimizing resources for a global corporation and works backward to achieve it. 
+They are the master planners. Unlike the tailors who look at the individual, the strategists look at a high-level objective such as managing city-wide traffic or optimizing resources for a global corporation (very much like [assignment problem](https://developers.google.com/optimization/assignment) in OR)and works backward to achieve it. 
 
 The strategist doesn't try to solve a massive problem all at once. Instead, it uses decomposes the task. These systems break high-level, complex objectives into smaller, actionable sub-goals. What truly sets these systems apart is that they establish a sequence of learning and actions. Through trial and error, they determine the best order of operations to reach a goal. 
 
