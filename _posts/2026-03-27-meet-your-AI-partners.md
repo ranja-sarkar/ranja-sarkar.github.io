@@ -24,13 +24,13 @@ Together, these illustrate how modern technology evolves to handle independent d
 
 # Autonomous systems
 
-They are the independent agents of the AI world. They are defined by their ability to operate without human control, making their decisions and performing tasks entirely on their own. A classic example of an autonomous system is the self-driving car. These vehicles are designed to navigate complex roads and drive safely to a destination without a human having to intervene at the wheel. To reach this level of independence, these systems use Reinforcement Learning (RL). Think of this as "learning from decisions". Much like a puppy learning a new trick, the system doesn't follow a rigid script; it explores. When the puppy sits on command, it gets a treat; when it jumps up, it doesn't. Over time, the puppy and the AI—refines their behaviour through a continuous action-result cycle:
+They are the independent agents of the AI world. They are defined by their ability to operate without human control, making their decisions and performing tasks entirely on their own. A classic example of an autonomous system is the self-driving car. These vehicles are designed to navigate complex roads and drive safely to a destination without a human having to intervene at the wheel. To reach this level of independence, these systems use [Reinforcement Learning (RL)](https://mlu-explain.github.io/reinforcement-learning/). Think of this as "learning from decisions". Much like a puppy learning a new trick, the system doesn't follow a rigid script; it explores. When the puppy sits on command, it gets a treat; when it jumps up, it doesn't. Over time, the puppy and the AI—refines their behaviour through a continuous action-result cycle:
 
 •	Good Decisions: Lead to rewards, encouraging the system to repeat that behaviour.
 
 •	Bad Decisions: Lead to penalties, teaching the system to avoid those actions in the future.
 
-A specialized version of this process is Reinforcement Learning with Human Feedback (RLHF), which is used to fine-tune large language models. In this process, humans rank the AI’s responses. The AI uses this feedback as a "loss" — a mathematical measure of the gap between the AI's current output and the desired human-approved result. By minimizing this loss, the model learns to be more helpful and accurate. RLHF makes AI outputs more context-specific and ensures the technology behaves exactly as humans expect it to.
+A specialized version of this process is [Reinforcement Learning with Human Feedback (RLHF)](https://huggingface.co/blog/rlhf), which is used to fine-tune large language models. In this process, humans rank the AI’s responses. The AI uses this feedback as a "loss" — a mathematical measure of the gap between the AI's current output and the desired human-approved result. By minimizing this loss, the model learns to be more helpful and accurate. RLHF makes AI outputs more context-specific and ensures the technology behaves exactly as humans expect it to.
 
 # Hyper-personalized systems
 
