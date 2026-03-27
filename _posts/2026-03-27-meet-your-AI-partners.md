@@ -5,8 +5,16 @@ tags: [artificial intelligence, machine learning, data science]
 <img width="522" height="80" alt="ai" src="https://github.com/user-attachments/assets/b189ca19-2ffa-474e-b5cc-3df7204939cf" />
 
 
-The provided text explores three distinct patterns of artificial intelligence development: autonomous, hyperpersonalized, and goal-driven systems. 
-Autonomous systems function without human guidance by using reinforcement learning to master complex tasks like self-driving. In contrast, hyperpersonalized systems leverage 
-deep data analytics and AI agents to create tailored consumer experiences that adapt to individual preferences and sentiments. Finally, goal-driven systems focus on achieving 
-specific objectives by decomposing large problems into actionable sub-tasks and adjusting to obstacles through trial and error. Together, these frameworks illustrate how 
-modern technology evolves to handle independent decision-making, human-centric interaction, and strategic optimization.
+It is helpful to think of AI not as a single, monolithic 'brain', but as a set of distinct patterns designed to solve different kinds of problems. Aside unsupervised systems (clustering, anomaly detection), supervised systems meant for predictions and decision-making, and recognition and conversational systems, we have other AI systems to interact with the world.
+
+•	The Doer (Autonomous Systems): These systems act independently to get the job done.
+•	The Tailor (Hyper-personalized Systems): These systems focus entirely on the unique needs of a single individual.
+•	The Strategist (Goal-driven Systems): These systems break down complex objectives into manageable plans.
+
+
+Autonomous systems function without human guidance by using reinforcement learning to master complex tasks like self-driving cars. In contrast, hyperpersonalized systems leverage AI to create tailored consumer experiences that adapt to individual preferences and sentiments. Goal-driven systems focus on achieving specific objectives by decomposing large problems into actionable sub-tasks and adjusting to obstacles through trial and error. 
+
+<img width="505" height="273" alt="ai0" src="https://github.com/user-attachments/assets/2e25fc2b-60b0-41ff-894b-681cba3df15a" />
+
+Together, these illustrate how modern technology evolves to handle independent decision-making, human-centric interaction, and strategic optimization. It allows us to see how technology is evolving from simple automation into sophisticated machines capable of independent decision-making and long-term planning. So understanding these AI patterns is our 'GPS' to the modern tech landscape. 
+
