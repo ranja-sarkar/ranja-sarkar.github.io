@@ -7,7 +7,7 @@ tags: [artificial intelligence, machine learning, data science]
 
 It is helpful to think of AI not as a monolithic 'brain', but as a set of patterns designed to solve different kinds of problems. 
 
-Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (predictive) systems meant for decision-making**, **recognition and conversational (generative) systems**, we have other AI systems for interacting with the world.
+Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (predictive) systems meant for decision-making**, **recognition and conversational (generative) systems**, we have other AI systems for large-scale interactions.
 
 •	**Doers (Autonomous Systems)**: These systems act independently to get the job done. 
 
@@ -55,4 +55,6 @@ They are also masters of recalibration. If the system hits an obstacle or enviro
 
 # Navigating the AI Landscape
 
-By categorizing systems into "Doers," "Tailors," and "Strategists," we see that AI isn't magic — it is a structured set of tools designed for making independent decisions, serving individual human needs, or achieving complex, systemic goals.Whether it’s a car navigating a street, an app recognizing your lifetime value as a customer, or a system keeping city traffic flowing, these patterns are working behind the scenes to shape our digital experience. 
+By categorizing systems into "Doers," "Tailors," and "Strategists," we see that AI isn't magic — it is a structured set of tools designed for making independent decisions, serving individual human needs, or achieving complex, systemic goals.
+
+Whether it’s a car navigating a street, an app recognizing your lifetime value as a customer, or a system keeping city traffic flowing, these patterns are working behind the scenes to shape our digital experience. 
