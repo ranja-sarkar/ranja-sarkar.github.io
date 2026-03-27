@@ -2,8 +2,7 @@
 tags: [artificial intelligence, machine learning, data science]  
 ---
 
-
-<img width="2752" height="1536" alt="ai" src="https://github.com/user-attachments/assets/643d5b1a-7db8-4149-b409-6596d9bf420a" />
+<img width="522" height="80" alt="ai" src="https://github.com/user-attachments/assets/b189ca19-2ffa-474e-b5cc-3df7204939cf" />
 
 
 The provided text explores three distinct patterns of artificial intelligence development: autonomous, hyperpersonalized, and goal-driven systems. 
