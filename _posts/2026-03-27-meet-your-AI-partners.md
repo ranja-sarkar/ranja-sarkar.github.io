@@ -30,7 +30,7 @@ They are the independent agents of the AI world. They are defined by their abili
 
 •	Bad Decisions: Lead to penalties, teaching the system to avoid those actions in the future.
 
-A specialized version of this process is [Reinforcement Learning with Human Feedback (RLHF)](https://huggingface.co/blog/rlhf), which is used to fine-tune large language models. In this process, humans rank the AI’s responses. The AI uses this feedback as a "loss" — a mathematical measure of the gap between the AI's current output and the desired human-approved result. By minimizing this loss, the model learns to be more helpful and accurate. RLHF makes AI outputs more context-specific and ensures the technology behaves exactly as humans expect it to.
+A specialized version of this process is Reinforcement Learning with Human Feedback [(RLHF)](https://huggingface.co/blog/rlhf), which is used to fine-tune large language models. In this process, humans rank the AI’s responses. The AI uses this feedback as a "loss" — a mathematical measure of the gap between the AI's current output and the desired human-approved result. By minimizing this loss, the model learns to be more helpful and accurate. RLHF makes AI outputs more context-specific and ensures the technology behaves exactly as humans expect it to.
 
 # Hyper-personalized systems
 
@@ -50,7 +50,7 @@ They are the master planners. Unlike the tailors who look at the individual, the
 
 The strategist doesn't try to solve a massive problem all at once. Instead, it uses decomposes the task. These systems break high-level, complex objectives into smaller, actionable sub-goals. What truly sets these systems apart is that they establish a sequence of learning and actions. Through trial and error, they determine the best order of operations to reach a goal. 
 
-They are also masters of recalibration. If the system hits an obstacle or environment changes (like a sudden road closure in a traffic management scenario), it fails but analyzes the new situation, and chooses the next best action to keep moving toward the objective. By learning through a sequence of actions, the goal-driven systems establish a successful path to achieve difficult, large-scale goals that would be impossible for humans to coordinate manually.
+They are also masters of recalibration. If the system hits an obstacle or environment changes (like a sudden road closure in a traffic management scenario), it fails but analyzes the new situation, and chooses the next best action to keep moving toward the objective. By learning through a sequence of actions, the goal-driven systems establish a successful path to achieve big, difficult goals that would be impossible for humans to coordinate manually.
 
 
 # Navigating the AI Landscape
