@@ -57,4 +57,4 @@ They are also masters of recalibration. If the system hits an obstacle or enviro
 
 By categorizing systems into "Doers," "Tailors," and "Strategists," we see that AI isn't magic — it is a structured set of tools designed for making independent decisions, serving individual human needs, or achieving complex, systemic goals.
 
-Whether it’s a car navigating a street, an app recognizing your lifetime value as a customer, or a system keeping city traffic flowing, these patterns are working behind the scenes to shape our digital experience. 
+Whether it’s a car navigating a street, an app recognizing our lifetime value as a customer, or a system keeping city traffic flowing, these patterns are working behind the scenes to shape our digital experience. 
