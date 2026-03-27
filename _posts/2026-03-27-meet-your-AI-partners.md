@@ -5,7 +5,9 @@ tags: [artificial intelligence, machine learning, data science]
 <img width="522" height="80" alt="ai" src="https://github.com/user-attachments/assets/b189ca19-2ffa-474e-b5cc-3df7204939cf" />
 
 
-It is helpful to think of AI not as a single, monolithic 'brain', but as a set of distinct patterns designed to solve different kinds of problems. Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (predictive) systems meant for decision-making**, **recognition and conversational (generative) systems**, we have other AI systems for interacting with the world.
+It is helpful to think of AI not as a monolithic 'brain', but as a set of patterns designed to solve different kinds of problems. 
+
+Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (predictive) systems meant for decision-making**, **recognition and conversational (generative) systems**, we have other AI systems for interacting with the world.
 
 •	**Doers (Autonomous Systems)**: These systems act independently to get the job done. 
 
