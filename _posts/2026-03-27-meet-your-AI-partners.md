@@ -5,7 +5,7 @@ tags: [artificial intelligence, machine learning, data science]
 <img width="522" height="80" alt="ai" src="https://github.com/user-attachments/assets/b189ca19-2ffa-474e-b5cc-3df7204939cf" />
 
 
-It is helpful to think of AI not as a single, monolithic 'brain', but as a set of distinct patterns designed to solve different kinds of problems. Aside **unsupervised systems (clustering, anomaly detection)**, **supervised systems meant for predictions and decision-making**, **recognition and conversational systems**, we have other AI systems for interacting with the world.
+It is helpful to think of AI not as a single, monolithic 'brain', but as a set of distinct patterns designed to solve different kinds of problems. Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (predictive) systems meant for decision-making**, **recognition and conversational (generative) systems**, we have other AI systems for interacting with the world.
 
 •	**Doers (Autonomous Systems)**: These systems act independently to get the job done. 
 
@@ -46,7 +46,9 @@ In hyperpersonalized systems, AI agents (like conversational bots) play a key ro
 
 They are the master planners. Unlike the tailors who look at the individual, the strategists look at a high-level objective such as managing city-wide traffic or optimizing resources for a global corporation and works backward to achieve it. 
 
-The strategist doesn't try to solve a massive problem all at once. Instead, it uses decomposes the task. These systems break high-level, complex objectives into smaller, actionable sub-goals. What truly sets these systems apart is that they establish a sequence of learning and actions. Through trial and error, they determine the best order of operations to reach a goal. They are also masters of recalibration. If the system hits an obstacle or environment changes (like a sudden road closure in a traffic management scenario), it doesn't just fail. Instead, it analyzes the new situation and chooses the next best action to keep moving toward the objective. By learning through a sequence of actions, the goal-driven systems establish a successful path to achieve difficult, large-scale goals that would be impossible for humans to coordinate manually.
+The strategist doesn't try to solve a massive problem all at once. Instead, it uses decomposes the task. These systems break high-level, complex objectives into smaller, actionable sub-goals. What truly sets these systems apart is that they establish a sequence of learning and actions. Through trial and error, they determine the best order of operations to reach a goal. 
+
+They are also masters of recalibration. If the system hits an obstacle or environment changes (like a sudden road closure in a traffic management scenario), it fails but analyzes the new situation, and chooses the next best action to keep moving toward the objective. By learning through a sequence of actions, the goal-driven systems establish a successful path to achieve difficult, large-scale goals that would be impossible for humans to coordinate manually.
 
 
 # Navigating the AI Landscape
