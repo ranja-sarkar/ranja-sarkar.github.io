@@ -64,7 +64,7 @@ permalink: /myposts
 
 ▶️ [RAG]()
 
-▶️ [LLMs]()
+▶️ [LLMs](https://ranja-sarkar.github.io/2026/03/31/llm.html)
 
 ▶️ [AI](https://ranja-sarkar.github.io/2026/03/27/meet-your-AI-partners.html)
 
