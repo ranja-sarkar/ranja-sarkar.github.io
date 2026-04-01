@@ -17,7 +17,7 @@ Chapter 2: **Machine Learning vis-a-vis Mathematical Modeling**
 
 # Part II: Mathematical Tools
 
-Chapter 3: [Principal Component Analysis](https://github.com/ranja-sarkar/pca) (link in chapter page 39)
+Chapter 3: [Principal Component Analysis](https://ranja-sarkar.github.io/pca/) (link in chapter page 39)
 
 Chapter 4: [Gradient Descent](https://ranja-sarkar.github.io/GD/)
 
