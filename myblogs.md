@@ -32,20 +32,8 @@ There are things we realize only when we slow down. Almost all of us have clear 
 
 So I write. I share. 
 
-# Early 2025
 
-Every day we persuade people around us, and they persuade us, even if we are unaware of it.
-
-To persuade someone, you need a story - a narrative that reinforces positive emotions. Nothing persuades someone better than making them feel comfortable and happy. 
-
-![xmas](https://github.com/user-attachments/assets/9667674c-2142-4f77-99a2-5041d6e93a93)
-
-Persuasion is an art, according to Aristotle it has three main elements - *ethos*, *logos*, and *pathos*. 
-Brevity and metaphor are crucial too for beautiful storytelling. 
-
-![rhetoric](https://github.com/user-attachments/assets/6395227a-9000-46e9-aff9-d87d027240fb)
-
-# 2026 
+# Early 2026 
 
 When I took my time-off, I got plenty of doubtful looks. Some said why did I not consider only a vacation, others said a sabbatical would have  been good enough. My family was no less. 
 
