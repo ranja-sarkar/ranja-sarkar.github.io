@@ -53,9 +53,9 @@ I still do not understand why career breaks are stigmatized (particularly in Ind
 
 On a different note, when I think now, I find it comical about myself that I so cared about titles, ranks, designations not much long ago. It is so strange how I do not care at all about them anymore. 
 
-You can call me what you like. I know what I do, I do well. That's what matters. Ain't it? It does, to me.  
+You can call me what you like. I know what I do and that I do it well. That's what matters to me.   
 
-Oh yes! my break is over. Where am I resuming? That's another post.  
+Oh yes! my break is over. Where have I joined? That's another post.  
 
 
 
