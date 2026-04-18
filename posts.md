@@ -56,7 +56,7 @@ permalink: /myposts
 
 ▶️ [Dockerize for deployment](https://ranja-sarkar.github.io/2026/02/16/dockerize.html)
 
-▶️ [Linear Regression]()
+▶️ [Linear Regression](https://ranja-sarkar.github.io/2026/02/11/linear-regression.html)
 
 # *March 2026*
 
