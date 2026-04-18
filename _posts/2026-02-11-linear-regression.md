@@ -13,18 +13,19 @@ A linear model assumes that the effect of each independent variable on the respo
 
 # Association & interaction of variables 
 
-Whether two variables are associated has nothing to do with whether they interact in their impact on a third variable. Interaction between two variables means the effect of one of the variables on a third variable differs at different values of the other. If two variables interact, they may or may not be associated. 
-
 Association between two variables means the values of one variable relate in some way to the values of the other, and is measured by correlation (coefficient). 
+
+Whether two variables are associated has nothing to do with whether they interact in their impact on a third variable. Interaction between two variables means the effect of one of the variables on a third variable differs at different values of the other. If two variables interact, they may or may not be associated. Interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable. Scale changes of the variables affect the intercept (beta_0) and not the slopes/gradients (beta_1, beta_2, etc.) only if there’s no multiplicative term indicating interaction. An interaction term is effectively a multiplication of two (or more) variables that have a joint effect on the target. 
+
 
 # Linearity 
 
-A regression model also qualifies as a linear model when the independent variable is polynomial (quadratic, cubic, quartic, etc.), in nature. 
+A regression model also qualifies as a linear model when the independent variable is polynomial (quadratic, cubic, quartic, etc.), in nature. Linearity lies with the beta coefficients.
 
 <img width="175" height="164" alt="1" src="https://github.com/user-attachments/assets/5b4efd05-0ed5-4202-98e1-5ccc10cab79e" />
 
 
-Linearity lie with the beta coefficients, it happens when the equation is additive and the effects of each component can be easily separated. A non-linear relationship between X and Y (response) might thus exist while preserving the linear model. 
+Linearity happens when the equation is additive and the effects of each component can be easily separated. A non-linear relationship between X and Y (response) might thus exist while preserving the linear model. 
 
 <img width="353" height="164" alt="2" src="https://github.com/user-attachments/assets/e0219a33-9d8c-4f74-8aaf-917aa8344d57" />
 
@@ -40,15 +41,7 @@ epsilon is the residual error which is an unmeasured variable. It explains the r
 
 Univariate or bivariate data inspection is necessary to detect the relationships in the dataset. A simple scatter plot can reveal a curvilinear or nonlinear relationship. Inspection of residuals also reveals if a linear model is appropriate. A scatter plot of residuals indicates if a polynomial model (polynomial term or terms in the equation) would be a better fit to data. 
 
-Interactions in regression model
 
-interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable.
-
-Scale changes of the variables affect the intercept and not the slopes only if there’s no multiplicative or polynomial term indicating interaction.
-
-
-
-An interaction term is effectively a multiplication of two (or more) variables that have a joint effect on the target. 
 
 📌 Example
 
