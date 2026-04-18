@@ -17,7 +17,7 @@ Association between two variables means the values of one variable relate in som
 
 Whether two variables are associated has nothing to do with whether they interact in their impact on a third variable. Interaction between two variables means the effect of one of the variables on a third variable differs at different values of the other. If two variables interact, they may or may not be associated. 
 
-Interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable. Scale changes of the variables affect the intercept (beta_0) and not the slopes/gradients (beta_1, beta_2, etc.) only if there’s no multiplicative term indicating interaction. An interaction term is effectively a multiplication of two (or more) variables that have a joint effect on the target. By adding interaction terms to the regression model, one can measure the effect of their interaction on the target. It’s crucial to interpret the coefficient of the interaction (new variable) carefully to understand the direction and the strength of the relationship.
+Interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable. Scale changes of the variables affect the intercept (beta_0) and not the slopes/gradients (beta_1, beta_2, etc.) only if there’s no multiplicative term indicating interaction. An interaction term is effectively a multiplication of two (or more) variables that have a joint effect on the target. By adding interaction terms to the regression model, one can measure the effect of their interaction on the target. It’s crucial to [interpret](https://rinterested.github.io/statistics/lm_interactions_output_interpretation.html) the coefficient of the interaction (new variable) carefully to understand the direction and the strength of the relationship.
 
 
 # Linearity 
@@ -46,7 +46,7 @@ We see when x1 = 0, the y-intercepts are different for the binary values of x2. 
 
 The larger the difference in slopes or regression coefficients, larger the interaction effect on the response. 
 
-📌 **Note&&: Higher-order interactions between variables are possible. One can create interaction terms for numerical continuous as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
+📌 **Note**: Higher-order interactions between variables are possible. One can create interaction terms for numerical continuous as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
 
 -----
 
