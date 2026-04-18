@@ -33,18 +33,24 @@ Linearity happens when the equation is additive and the effects of each componen
 
 A simple scatter plot can reveal a curvilinear or nonlinear relationship. Inspection of residuals also reveals if a linear model is appropriate to fit a dataset.  
 
-📌 Example
+📌 **Example**
 
-Let us investigate an equation where, x1 is a continuous feature and x2 is a Boolean flag taking values 0 or 1.  
+Let us investigate an equation where, x1 is a continuous variable and x2 is a Boolean flag taking values 0 or 1.  
 
-For x2 = 1, we have y = 310 + 25x1 
+Equation: y = 300 + 20x1 + 10x2 + 5x1x2
 
-For x2 = 0, we have y = 300 + 20x1 
+For x2 = 1, we have y = 310 + 25x1 and for x2 = 0, we have y = 300 + 20x1 
 
-We see when x1 = 0, the y-intercepts are different for the binary values of x2. With an interaction term, the effect of x1 on y is different for the two x2-values. 
+We see when x1 = 0, the y-intercepts are different for the binary values of x2. 
+
+<img width="442" height="296" alt="3" src="https://github.com/user-attachments/assets/7f2e147c-e791-4458-9fb9-33f339e5dc19" />
+
+With an interaction term, the effect of x1 on y is different for the binary categorical variable x2. 
  
 
-📌 **Note**: Higher-order interactions are possible. One can create interaction terms for numerical [continuous](https://janhove.github.io/posts/2017-06-26-continuous-interactions/) as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
+📌 **Note** 
+
+Higher-order interactions are possible. One can create interaction terms for numerical [continuous](https://janhove.github.io/posts/2017-06-26-continuous-interactions/) as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
 
 
 # Optimizing regression model
