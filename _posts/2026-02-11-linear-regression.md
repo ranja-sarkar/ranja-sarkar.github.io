@@ -82,7 +82,7 @@ A regression model is represented by a number of columns (m), a number of rows (
 ![jbasic](https://github.com/user-attachments/assets/af784587-252c-41f6-a0d5-3a5fc36dc109)
 
 
-Regularized regression models - Lasso (L1) and Ridge (L2) are used for feature selection and reducing complexity of the model thereby enhancing model interpretability. There's a third type - ElasticNet that allows a balance of both L1 & L2 penalty terms, leading to better model performance in some cases. 
+Regularized regression models - **Lasso (L1)** and **Ridge (L2)** are used for feature selection and reducing complexity of the model thereby enhancing model interpretability. There's a third type - **ElasticNet** that allows a balance of both L1 & L2 penalty terms, leading to better model performance in some cases. 
 
 
 ![l1](https://github.com/user-attachments/assets/fd0c443f-baf9-4fc4-8115-8801d1566b16)
@@ -91,42 +91,17 @@ Regularized regression models - Lasso (L1) and Ridge (L2) are used for feature s
 
 <img width="514" height="75" alt="en" src="https://github.com/user-attachments/assets/95f30573-e9aa-4656-8c4a-5f5313e0800f" />
 
+The terms *regressor* (predictor or explanatory variable) and *covariate* may be used interchangeably, except that the latter must be used when there’s potential confounding. 
 
+In L2 (Ridge) regularization, the regression coefficients are found by minimizing the L2 loss function and in L1 (Lasso) regularization, they're found by minimizing the L1 loss function. The L2 loss function is differentiable and hence, Ridge (L2) has an edge over Lasso (L1). There’s a mixing parameter beta in the elasticnet (EN) that balances L1 and L2 to get the best of both appraoches. When alpha is zero, we’re back to Ridge and when alpha is 1, we’re back to Lasso.
 
-
-
-
-
-The terms ‘regressor’ (predictor or independent or explanatory variable) and ‘covariate’ may be used interchangeably, except that the latter must be used when there’s potential confounding. 
-
-In L2 (Ridge) regularization, the regression coefficients are found by minimizing the L2 loss function and in L1 (Lasso) regularization, they're found by minimizing the L1 loss function. 
-
-
-
-
-The L2 loss function is differentiable and hence, Ridge (L2) has an edge over Lasso (L1). There’s a mixing parameter beta in the elasticnet (EN) that balances L1 and L2 to get the best of both appraoches. When alpha is zero, we’re back to ridge and when alpha is 1, we’re back to lasso.
-
-
-
-
-
-
-
-L2 regression retains all features, reducing the impact of less relevant features by shrinking their coefficients, L1 regression can set some coefficients to zero, effectively selecting a subset of most relevant features. If higher number of coefficients are forced to zero, it tends to increase the bias in the model. So tuning alpha ([0, 1]) to low values ensures the bias-variance tradeoff is well dealt with. 
+L2 regression retains all features, reducing the impact of less relevant features by shrinking their coefficients, L1 regression can set some coefficients to zero, effectively selecting a subset of most relevant features. If higher number of coefficients are forced to zero, it tends to increase the bias in the model. So tuning alpha ([0, 1]) to low values ensures the [bias-variance tradeoff](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html) is well dealt with. 
 
 # Assessing regression model 
 
 A measure to assess the goodness of fit to data is called the coefficient of determination, as it determines how well the numeric predictions approximate the true data points. There’s an irreducible error term in the regression equation that collects all the unmodeled parts of the data.
 
-The sum of squared residuals (SSR) is a loss function. The goodness of fit (metric) is R^2, represented in terms of SSR (or SSE) and SST (total sum of squares). R^2 increases if the degree of freedom (n-m-1) of the dataset decreases and hence, the model loses its reliability. 
+The sum of squared residuals (SSR) is a loss function. The goodness of fit is R^2, represented in terms of SSR (or SSE) and SST (total sum of squares). [R^2](https://ranja-sarkar.github.io/2026/01/06/error-measurement.html) increases if the degree of freedom (n-m-1) of the dataset decreases and hence, the model loses its reliability. Please note that (n-1) is the degree of freedom for a single parameter or variable coefficient to be estimated. Degree of freedom is the number of independent parameters that a statistical analysis can estimate, in short the number of parameters free to vary. 
 
-Please note that (n-1) is the degree of freedom for a single parameter or variable coefficient to be estimated. Degree of freedom is the number of independent parameters that a statistical analysis can estimate, in short the number of parameters free to vary. 
-
-
-
-
-
-Additional model complexity is penalized with adjusted R2 , where adj. R^2 is a modified model assessment metric. Its value increases from R^2 when the new term improves the fit and decreases from R^2 when the term doesn’t improve the fit. In other words, adj. R^2 compensates/adjusts for inclusion of an irrelevant or unrelated variable term in the model and therefore, is an appropriate metric for evaluation. 
-
-Resampling methods like cross-validation are used for better measurement or model assessment. 
+Additional model complexity is penalized with [adjusted R^2](https://ranja-sarkar.github.io/2026/01/06/error-measurement.html) , where adj. R^2 is a modified model assessment metric. Its value increases from R^2 when the new term improves the fit and decreases from R^2 when the term doesn’t improve the fit. In other words, adj. R^2 compensates or adjusts for inclusion of an irrelevant (unrelated/insignificant) variable in the model and therefore, is an appropriate metric for evaluation. Other evaluation metrics are [RMSE, MAE,](https://developer.nvidia.com/blog/a-comprehensive-overview-of-regression-evaluation-metrics/#mean_squared_error%C2%A0), choosing the right metric is important. Resampling methods like cross-validation remain widely used for better [model assessment](https://ranja-sarkar.github.io/2026/01/06/error-measurement.html). 
 
