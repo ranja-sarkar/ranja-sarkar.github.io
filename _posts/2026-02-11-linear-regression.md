@@ -57,22 +57,21 @@ Higher-order interactions are possible. One can create interaction terms for num
 
 # Optimizing regression model
 
-The OLS algorithm minimizes the sum of squared errors (SSE) wherein the cost or loss function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In fig.1 below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is also called the bias. The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers.
+The **OLS** algorithm minimizes the sum of squared errors (SSE) wherein the cost or loss function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers.
 
 
 ![lr](https://github.com/user-attachments/assets/c5860948-248b-44fa-beb5-2cdfb263d40c)
 
-If the errors follow a normal distribution, OLS becomes MLE (maximum likelihood estimation) providing a probabilistic framework to draw inference from model estimates.
+If model errors follow a normal distribution, OLS becomes MLE (maximum likelihood estimation) providing a probabilistic framework to draw inference from the estimates.
 
-
-The gradient descent algorithm is an iterative process and minimizes the loss function by calculating the function derivative/slope and updating the weight/parameter after each iteration. This method therefore enables learning by making corrective updates to the estimates that move towards an optimal combination of parameters.  
+The **gradient descent** algorithm on the other hand is an iterative process and minimizes the loss function by calculating the function derivative or slope and updating the weight (model parameter) after each iteration. This method therefore enables learning by making corrective updates to the estimates that move towards an optimal combination of parameters.  
 
 ![gd](https://github.com/user-attachments/assets/bb7012c9-8d7c-4ead-a485-76c8828d1969)
 
 
-Post training a model, we might observe overfitting (the algorithm captures noise in the data), regularization of features helps reduce variance. Regularization prevents overfitting by not generating high coefficients for sparse predictor variables, also stabilizes the estimates especially when there's collinearity in data.
+Post training a model, we might observe overfitting (the algorithm captures noise), regularization of features helps reduce variance. Regularization prevents overfitting by not generating high coefficients for sparse predictor (independent) variables, also stabilizes the estimates especially when there's collinearity in data.
 
-For an algorithm that involves non-convex optimizations (ones with local minima and maxima) adding (independent) variables could make it complex, harder to find the best set of model parameters and result in higher bias. However, for algorithms like linear regression with efficient and precise machinery, added variables will only always reduce bias. 
+For an algorithm that involves non-convex optimizations (ones with local minima and maxima) adding (independent) variables could make it complex, and harder to find the best set of model parameters resulting in higher bias. However, for algorithms like linear regression with efficient and precise machinery, added variables will only always reduce bias. 
 
 # Regularizing regression model
 
