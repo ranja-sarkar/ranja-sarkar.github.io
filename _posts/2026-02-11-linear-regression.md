@@ -9,7 +9,7 @@ tags: [data, regression, machine-learning]
 ![111](https://github.com/user-attachments/assets/2678e9a4-7f1c-4c41-ab9e-10f5ab412e3a)
 
 
-A linear model assumes that the effect of each independent variable on the response does not depend upon the rest of the independent variables. Linear regression therefore assumes a linearity in  coefficients (beta) of the variables. 
+A linear model assumes that the effect of each independent variable on the response does not depend upon the rest of the independent variables. Linear regression therefore assumes a linearity in  coefficients (beta) of the variables. Epsilon is the irreducible error (un-measured). It is the unexplained variability in a dataset.
 
 # Association & interaction of variables 
 
@@ -20,7 +20,7 @@ Whether two variables are associated has nothing to do with whether they interac
 
 # Linearity 
 
-A regression model also qualifies as a linear model when the independent variable is polynomial (quadratic, cubic, quartic, etc.), in nature. Linearity lies with the beta coefficients.
+A regression model also qualifies as a linear model when the independent variable is polynomial (quadratic, cubic, quartic, etc.), in nature. Linearity lies with the beta coefficients so betas are the linear parameters along with the y-intercept.
 
 <img width="175" height="164" alt="1" src="https://github.com/user-attachments/assets/5b4efd05-0ed5-4202-98e1-5ccc10cab79e" />
 
@@ -29,19 +29,7 @@ Linearity happens when the equation is additive and the effects of each componen
 
 <img width="353" height="164" alt="2" src="https://github.com/user-attachments/assets/e0219a33-9d8c-4f74-8aaf-917aa8344d57" />
 
-So the linear parameters are:
-
-intercept (beta_0)
-
-
-
-Slope or slopes (how much Y differs on an average for each unit difference in X, there can be multiple Xs and each one has its own slope) → beta_1, beta_2, etc.
-
-epsilon is the residual error which is an unmeasured variable. It explains the residual variance, the unexplained variability in a dataset.
-
-Univariate or bivariate data inspection is necessary to detect the relationships in the dataset. A simple scatter plot can reveal a curvilinear or nonlinear relationship. Inspection of residuals also reveals if a linear model is appropriate. A scatter plot of residuals indicates if a polynomial model (polynomial term or terms in the equation) would be a better fit to data. 
-
-
+A simple scatter plot can reveal a curvilinear or nonlinear relationship. Inspection of residuals also reveals if a linear model is appropriate to fit a dataset.  
 
 📌 Example
 
@@ -53,14 +41,10 @@ For x2 = 0, we have y = 300 + 20x1
 
 We see when x1 = 0, the y-intercepts are different for the binary values of x2. With an interaction term, the effect of x1 on y is different for the two x2-values. 
 
-beta_2 is the difference in the intercepts obtained with the x2-values, and beta_3 is the difference in slopes of x1 obtained with the x2-values. The regression lines might or might not intersect. 
 
 The larger the difference in slopes or regression coefficients, larger the interaction effect on the response. 
 
 📌 Note
-
-
-
 
 Higher-order interactions between features are possible.
 
