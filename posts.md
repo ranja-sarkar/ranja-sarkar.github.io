@@ -52,7 +52,7 @@ permalink: /myposts
 <img width="296" height="179" alt="cp" src="https://github.com/user-attachments/assets/02053005-7452-4a56-97ad-4f1e715c4e0a" />
 
 
-▶️ [Neural Networks](https://ranja-sarkar.github.io/2026/02/12/neural-network.html)
+▶️ [Neural Networks]()
 
 ▶️ [Dockerize for deployment](https://ranja-sarkar.github.io/2026/02/16/dockerize.html)
 
@@ -64,7 +64,7 @@ permalink: /myposts
 
 ▶️ [RAG]()
 
-▶️ [LLMs](https://ranja-sarkar.github.io/2026/03/31/llm.html)
+▶️ [LLMs]()
 
 ▶️ [AI](https://ranja-sarkar.github.io/2026/03/27/meet-your-AI-partners.html)
 
