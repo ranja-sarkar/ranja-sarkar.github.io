@@ -11,6 +11,8 @@ tags: [data, regression, machine-learning]
 
 A linear model assumes that the effect of each independent variable on the response does not depend upon the rest of the independent variables. Linear regression therefore assumes a linearity in  coefficients (beta) of the variables. Epsilon is the irreducible error (un-measured). It is the unexplained variability in a dataset.
 
+Linear regression is a parametric model, so it has assumptions like the model errors are independent, model errors have equal variance (homoscedasticity), and they are normally distributed. 
+
 # Association & interaction 
 
 **Association between two variables** means the values of one variable relate in some way to the values of the other, and is measured by correlation (coefficient). 
