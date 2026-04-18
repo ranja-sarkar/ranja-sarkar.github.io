@@ -41,7 +41,7 @@ Equation: y = 300 + 20x1 + 10x2 + 5x1x2
 
 For x2 = 1, we have y = 310 + 25x1 and for x2 = 0, we have y = 300 + 20x1 
 
-We see when x1 = 0, the y-intercepts are different for the binary values of x2. 
+We see when x1 = 0, the y-intercepts are different for the binary values of x2. The difference in the slopes has an impact too on the [interaction](https://joelcarlson.github.io/2016/05/10/Exploring-Interactions/).
 
 <img width="442" height="296" alt="3" src="https://github.com/user-attachments/assets/7f2e147c-e791-4458-9fb9-33f339e5dc19" />
 
