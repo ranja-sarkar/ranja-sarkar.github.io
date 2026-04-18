@@ -11,11 +11,11 @@ tags: [data, regression, machine-learning]
 
 A linear model assumes that the effect of each independent variable on the response does not depend upon the rest of the independent variables. Linear regression therefore assumes a linearity in  coefficients (beta) of the variables. Epsilon is the irreducible error (un-measured). It is the unexplained variability in a dataset.
 
-# Association & interaction of variables 
+# Association & interaction 
 
-Association between two variables means the values of one variable relate in some way to the values of the other, and is measured by correlation (coefficient). 
+**Association between two variables** means the values of one variable relate in some way to the values of the other, and is measured by correlation (coefficient). 
 
-Whether two variables are associated has nothing to do with whether they interact in their impact on a third variable. Interaction between two variables means the effect of one of the variables on a third variable differs at different values of the other. If two variables interact, they may or may not be associated. 
+Whether two variables are associated has nothing to do with whether they interact in their impact on a third variable. **Interaction between two variables** means that the effect of one of the variables on a third variable differs at different values of the other. If two variables interact, they may or may not be associated. 
 
 Interaction terms enable examining whether the relationship between the target and an independent variable changes depending on another independent variable. Scale changes of the variables affect the intercept (beta_0) and not the slopes/gradients (beta_1, beta_2, etc.) only if there’s no multiplicative term indicating interaction. An interaction term is effectively a multiplication of two (or more) variables that have a joint effect on the target. By adding interaction terms to the regression model, one can measure the effect of their interaction on the target. It’s crucial to [interpret](https://rinterested.github.io/statistics/lm_interactions_output_interpretation.html) the coefficient of the interaction (new variable) carefully to understand the direction and the strength of the relationship.
 
@@ -42,17 +42,12 @@ For x2 = 1, we have y = 310 + 25x1
 For x2 = 0, we have y = 300 + 20x1 
 
 We see when x1 = 0, the y-intercepts are different for the binary values of x2. With an interaction term, the effect of x1 on y is different for the two x2-values. 
-
-
-The larger the difference in slopes or regression coefficients, larger the interaction effect on the response. 
+ 
 
 📌 **Note**: Higher-order interactions are possible. One can create interaction terms for numerical [continuous](https://janhove.github.io/posts/2017-06-26-continuous-interactions/) as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
 
------
 
-A measure to assess the goodness of fit to data is called the coefficient of determination, as it determines how well the numeric predictions approximate the true data points. There’s an irreducible error term in the regression equation that collects all the unmodeled parts of the data.
-
-📌 Optimization methods
+# Optimizing regression model
 
 The OLS algorithm minimizes the sum of squared errors (SSE) wherein the cost or loss function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In fig.1 below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is also called the bias. The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers.
 
@@ -71,7 +66,7 @@ Post training a model, we might observe overfitting (the algorithm captures nois
 
 For an algorithm that involves non-convex optimizations (ones with local minima and maxima) adding (independent) variables could make it complex, harder to find the best set of model parameters and result in higher bias. However, for algorithms like linear regression with efficient and precise machinery, added variables will only always reduce bias. 
 
-📌 Regularization methods
+# Regularizing regression model
 
 Explicit regularization is where one explicitly adds a term to the (often ill-posed) optimization problem. These terms could be priors, or constraints. The regularization or penalty term imposes a cost on the optimization function to make the optimal solution unique. Explicit regularization of regression models almost always ensures optimal model complexity. Implicit regularization includes early stopping which is prevalent in stochastic gradient descent algorithm used for training/optimizing deep neural networks. 
 
@@ -112,10 +107,9 @@ The L2 loss function is differentiable and hence, Ridge (L2) has an edge over La
 
 L2 regression retains all features, reducing the impact of less relevant features by shrinking their coefficients, L1 regression can set some coefficients to zero, effectively selecting a subset of most relevant features. If higher number of coefficients are forced to zero, it tends to increase the bias in the model. So tuning alpha ([0, 1]) to low values ensures the bias-variance tradeoff is well dealt with. 
 
+# Assessing regression model 
 
-
-
-🎯 Model Assessment
+A measure to assess the goodness of fit to data is called the coefficient of determination, as it determines how well the numeric predictions approximate the true data points. There’s an irreducible error term in the regression equation that collects all the unmodeled parts of the data.
 
 The sum of squared residuals (SSR) is a loss function. The goodness of fit (metric) is R^2, represented in terms of SSR (or SSE) and SST (total sum of squares). R^2 increases if the degree of freedom (n-m-1) of the dataset decreases and hence, the model loses its reliability. 
 
