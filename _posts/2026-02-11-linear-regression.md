@@ -46,7 +46,7 @@ We see when x1 = 0, the y-intercepts are different for the binary values of x2. 
 
 The larger the difference in slopes or regression coefficients, larger the interaction effect on the response. 
 
-📌 **Note**: Higher-order interactions between variables are possible. One can create interaction terms for numerical continuous as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
+📌 **Note**: Higher-order interactions are possible. One can create interaction terms for numerical [continuous](https://janhove.github.io/posts/2017-06-26-continuous-interactions/) as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
 
 -----
 
