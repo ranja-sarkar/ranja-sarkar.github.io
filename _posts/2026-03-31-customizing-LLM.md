@@ -1,5 +1,5 @@
 --- 
-tags: [artificial intelligence, LLMs]  
+tags: [AI, LLMs]  
 ---
 
 <img width="353" height="229" alt="ftstp" src="https://github.com/user-attachments/assets/68fa10bb-56b4-4ef7-a8e1-7e4ec2e36907" />
