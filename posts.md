@@ -62,9 +62,9 @@ permalink: /myposts
 
 <img width="359" height="316" alt="ai-ml" src="https://github.com/user-attachments/assets/48296d57-fa6d-4ee2-b4d6-48ffe40d60e8" />
 
-▶️ [RAG]()
+▶️ [RAG](https://ranja-sarkar.github.io/2026/03/01/rag.html)
 
-▶️ [LLMs]()
+▶️ [LLMs](https://ranja-sarkar.github.io/2026/03/31/customizing-LLM.html)
 
 ▶️ [AI](https://ranja-sarkar.github.io/2026/03/27/meet-your-AI-partners.html)
 
