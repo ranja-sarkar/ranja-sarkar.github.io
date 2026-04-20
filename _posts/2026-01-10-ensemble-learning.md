@@ -69,7 +69,7 @@ Time to fit [500k samples with 28 features](https://openreview.net/pdf?id=ryexWd
 
 <img width="326" height="61" alt="1" src="https://github.com/user-attachments/assets/5a9bf4fc-06e7-41d4-ace8-c9104c2bb769" />
 
-CatBoost aims to reduce the need for extensive tuning, like in XGBoost. Find a [detailed comparison](https://xgboosting.com/xgboost-vs-catboost/) of CatBoost and XGBoost.
+CatBoost aims to reduce the need for extensive tuning that we need in XGBoost. Find a [detailed comparison](https://xgboosting.com/xgboost-vs-catboost/) of CatBoost and XGBoost.
 
 Results of [benchmarking & optimization of gradient boosting decision tree algorithms](https://arxiv.org/pdf/1809.04559) have been reported by many including [NVIDIA](https://github.com/NVIDIA/gbm-bench).
 
