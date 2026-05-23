@@ -16,11 +16,11 @@ The Bayesian approach is a subjective view of the same. [Bayesian](https://githu
 ![200](https://github.com/user-attachments/assets/7f57336d-50ab-410a-a43a-f7f4ae56b992)
 
 
-It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability. In the **Bayesian** culture, we’re uncertain about our model but the ground truth (reality) is our data; *Focus on the degree of belief about an unknown. Probability is a measure of how likely something is, given our current knowledge.* 
+It includes prior knowledge about the data and personal beliefs about the results (likelihood). We start with a belief (prior) and we strengthen/weaken the prior with each evidence/datapoint that is, we update the belief to a degree. The updated belief is posterior probability. In the **Bayesian** culture, we’re uncertain about our model but the ground truth (reality) is our data; the focus is on the degree of belief about an unknown. 
 
-It is all about beliefs in a Bayesian approach. The data we collect updates our prior (initial) belief. The posterior represents our updated understanding. Bayesian statistics finds the likelihood of alternatives explaining the data but strictly says these alternatives are driven by priors, which are informed or sensible but rarely objective. Bayesianism leaves a room for subjectivity.
+*Probability is a measure of how likely something is, given our current knowledge.* 
 
-Bayesian thinking is about changing our mind and updating how we understand the world. The data we observe/collect is all that's real, so our beliefs ultimately need to shift until they align with the data.
+It is all about beliefs in a Bayesian approach. The data we collect updates our prior (initial) belief. The posterior represents our updated understanding. Bayesian statistics finds the likelihood of alternatives explaining the data but strictly says these alternatives are driven by priors, which are informed or sensible but rarely objective. Bayesianism leaves a room for subjectivity. Bayesian thinking is about changing our mind and updating how we understand the world. The data we observe/collect is all that's real, so our beliefs ultimately need to shift until they align with the data.
 
 ---
 
@@ -38,9 +38,8 @@ CLT is vital for two reasons, the normality assumption and the precision of esti
 
 The 'precision of estimates' property of CLT becomes relevant when we use a sample to estimate the mean of an entire population. With a larger sample size, the sample mean is more likely to be close to the real population mean. In other words, the estimate becomes precise. 
 
----
 It's mentionworthy here that **accuracy** and **precision** cannot be used interchangeably. Accuracy is being true to intention (degree of closeness of measured value to true value) while precision is true to itself (degree of closeness of repeated measured values).
-
+---
 
 Descriptive statistics helps draw inference about a sample. Inferential statistics helps infer about the population. If the sample is representative of the population, both stats yield same results.
 
