@@ -40,10 +40,12 @@ It's mentionworthy here that **accuracy** and **precision** cannot be used inter
 
 Descriptive statistics helps draw inference about a sample. Inferential statistics helps infer about the population. If the sample is representative of the population, both stats yield same results.
 
-**Probability** and **likelihood** are different terms. Probability is finding the chance of outcomes given a data distribution, and likelihood is finding the most likely distribution given the outcomes. Since likelihood is not probability, one can obtain likelihood greater than 1. 
+**Probability** and **likelihood** are different terms. Probability is finding the chance of outcomes given a data distribution, and likelihood is finding the most likely distribution given the outcomes. 
+---
+
+Since likelihood is not probability, one can obtain likelihood greater than 1. 
 Having stated this, it may be helpful to conceptually think of likelihood as "probability of the data given the parameters".
 
----
 
 # Test types
 
