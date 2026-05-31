@@ -14,7 +14,7 @@ If represented in a Venn diagram, the AI superset has two major subsets - Natura
 
 One would ask, where is Data Science? 
 
-Well, we humans create value with data scientifically what we call Data Science. We start with a business problem and work toward an appropriate data-backed (using machine learning or deep learning) solution, sometimes we use even simpler statistical methods to get to that solution. Data Science is te genesis of AI. 
+Well, we humans create value with data scientifically what we call Data Science. We start with a business problem and work toward an appropriate data-backed (using machine learning or deep learning) solution, sometimes we use even simpler statistical methods to get to that solution. Data Science is the genesis of AI. 
 
 Coming back to the Venn diagram, the remaining space in the AI superset would have transfer learning, reinforcement learning, hyperpersonalization, etc., systems that are directly or indirectly influenced by ML/DL models as well as LLMs.
 
