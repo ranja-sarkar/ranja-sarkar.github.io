@@ -3,9 +3,6 @@ tags: [networks, neuralnets, data, deep learning]
 ---
 
 
-![do](https://github.com/user-attachments/assets/f234100e-a342-4056-9b65-5f5920b61c39)
-
-
 The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
 
 <img width="289" height="116" alt="nn" src="https://github.com/user-attachments/assets/01cc8002-6f5d-4728-b883-cc6976ab6d9c" />
@@ -18,7 +15,7 @@ Forward propagation is when data moves from left (input layer) to right (output 
 
 📌 Convolutional Neural Networks (CNNs) are specifically designed for processing spatial data, such as images. They use special convolutional layers to scan and identify local patterns within the input. This makes them more efficient for object detection and computer vision tasks. 
 
-📌 Graph Neural Networks (GNNs) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in the form of scalars or embeddings can be stored at each graph node or edge.
+📌 [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) (GNNs) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in the form of scalars or embeddings can be stored at each graph node or edge.
 
 <img width="230" height="224" alt="gnn" src="https://github.com/user-attachments/assets/4b22096c-94e4-4255-b3a5-40c895c253b5" />
 
@@ -113,4 +110,10 @@ In general, for development and deployment of any predictive model these [points
 
 # Applications of a neural network
 
+To name a few,
 
+1) **Feature selection & anomaly detection**: [Auroencoders](https://www.tensorflow.org/tutorials/generative/autoencoder) are unsupervised neural networks designed to efficiently compress and reconstruct data. By forcing data through a narrow "bottleneck," the network learns the most essential features, which are widely used for dimensionality reduction, denoising, and anomaly detection.
+
+2) **Computer vision**
+
+3) **Aerospace Engineering** is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high performance auto piloting, securing the aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks could be used at. As passenger safety is of utmost importance inside an aircraft, algorithms built using the neural network systems ensures the accuracy in the autopilot system. 
