@@ -112,8 +112,8 @@ In general, for development and deployment of any predictive model these [points
 
 To name a few,
 
-1) **Feature selection & anomaly detection**: [Auroencoders](https://www.tensorflow.org/tutorials/generative/autoencoder) are unsupervised neural networks designed to efficiently compress and reconstruct data. By forcing data through a narrow "bottleneck," the network learns the most essential features, which are widely used for dimensionality reduction, denoising, and anomaly detection.
+1) **Feature selection & anomaly detection**: [Autoencoders](https://www.tensorflow.org/tutorials/generative/autoencoder) are unsupervised neural networks designed to efficiently compress and reconstruct data. By forcing data through a narrow "bottleneck", the network learns the most essential features in the dataset. Autoencoders are widely used for dimensionality reduction, denoising, and anomaly detection.
 
 2) **Computer vision**
 
-3) **Aerospace Engineering** is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high performance auto piloting, securing the aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks could be used at. As passenger safety is of utmost importance inside an aircraft, algorithms built using the neural network systems ensures the accuracy in the autopilot system. 
+3) **Aerospace Engineering**, covering developments in spacecraft and aircraft. Fault diagnosis, high performance auto piloting, securing the aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks could be used at. As passenger safety is of utmost importance inside an aircraft, algorithms built using the neural network systems ensure the accuracy. 
