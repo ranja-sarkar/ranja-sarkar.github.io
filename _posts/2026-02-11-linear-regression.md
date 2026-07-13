@@ -57,7 +57,9 @@ Higher-order interactions are possible. One can create interaction terms for num
 
 # Optimizing regression model
 
-The **OLS** algorithm minimizes the sum of squared errors (SSE) wherein the cost or loss function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers.
+The **OLS** algorithm minimizes the sum of squared errors (SSE) wherein the cost (loss) function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. 
+
+The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers (larger errors are magnified). Since MSE is not robust to outliers, the fix in such cases would be to use another loss function [MAE](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html) or regularization (explained below).   
 
 
 ![lr](https://github.com/user-attachments/assets/c5860948-248b-44fa-beb5-2cdfb263d40c)
