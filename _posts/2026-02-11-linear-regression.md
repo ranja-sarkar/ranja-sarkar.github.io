@@ -24,7 +24,7 @@ Interaction terms enable examining whether the relationship between the target a
 
 # Linearity 
 
-A regression model also qualifies as a linear model when the independent variable is polynomial (quadratic, cubic, quartic, etc.), in nature. Linearity lies with the beta coefficients so betas are the linear parameters along with the y-intercept.
+A regression model, when the independent variable is polynomial (quadratic, cubic, quartic, etc.), in nature also qualifies as a linear model. Linearity lies with the beta coefficients so betas are the linear parameters along with the y-intercept.
 
 <img width="175" height="164" alt="1" src="https://github.com/user-attachments/assets/5b4efd05-0ed5-4202-98e1-5ccc10cab79e" />
 
