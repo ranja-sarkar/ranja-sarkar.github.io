@@ -4,7 +4,6 @@ tags: [models, ensembles, machinelearning]
 
 ![title](https://github.com/user-attachments/assets/78520f1a-430f-4fb9-bf0e-05cfc57dbb67)
 
-<ins>**Ensemble Learning**</ins>
 
 Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting. In one of my previous [posts](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html), I mentioned how underfitted or biased and overfitted (high-variance) models can be handled. Ensembling is another way to obtain a low bias or low variance predictive model, depending on the use-case or problem at hand. 
 
@@ -93,11 +92,11 @@ In stacking, the training data is split into several equal parts (say 12 parts).
 
 ---
 
-Stacking ensembles are not as widely used or not popular as the bagging and boosting ensembles, especially the gradient boosting learners. 
-
-There are casacdes as well, the approach of which is similar to ensembles. Read about cascades [here](https://research.google/blog/model-ensembles-are-faster-than-you-think/).
-
+Stacking ensembles are not as widely used or not popular as the bagging and gradient boosting ensembles. 
 
 <img width="431" height="133" alt="casc" src="https://github.com/user-attachments/assets/6f81a4ca-47fe-425e-aa9e-3ffcb5d0649b" />
+
+There are cascades as well, the approach of which is similar to ensembles. Read about cascades [here](https://research.google/blog/model-ensembles-are-faster-than-you-think/).
+
 
 
