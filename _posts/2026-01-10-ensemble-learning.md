@@ -5,7 +5,7 @@ tags: [models, ensembles, machinelearning]
 ![title](https://github.com/user-attachments/assets/78520f1a-430f-4fb9-bf0e-05cfc57dbb67)
 
 
-Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting. In one of my previous [posts](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html), I mentioned how underfitted or biased and overfitted (high-variance) models can be handled. Ensembling is another way to obtain a low bias or low variance predictive model, depending on the use-case or problem at hand. 
+Ensembles execute multiple models, then combine their outputs to make the final prediction. Diversity in ensembling is necessary to achieve better performance, which can be met via different ways like bagging, boosting. In one of my previous [posts](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html), I mentioned how underfitted (high bias) and overfitted (high variance) models can be handled. Ensembling is another way to obtain a low bias or low variance predictive model, depending on the use-case or problem at hand. 
 
 # Bagging ensemble
 
