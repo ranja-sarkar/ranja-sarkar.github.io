@@ -1,7 +1,6 @@
 
 
 <img width="321" height="330" alt="10" src="https://github.com/user-attachments/assets/b4940edd-8821-4743-a5a2-b3ae905de3d4" />
-<img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
 
 [Book Repo](https://github.com/PacktPublishing/A-Handbook-of-Mathematical-Models-with-Python)
 
@@ -36,6 +35,7 @@ Chapter 9: [Exploring Optimization Techniques](https://github.com/ranja-sarkar/H
 
 Chapter 10:  [Optimization Techniques for Machine Learning](https://ranja-sarkar.github.io/Optimization-NOGD/)
 
+<img width="263" height="281" alt="rs" src="https://github.com/user-attachments/assets/d93859b9-9e2e-4998-822b-726ce7bc566d" />
 
 
 
