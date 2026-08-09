@@ -6,6 +6,9 @@ title: Articles
 permalink: /myposts
 ---
 
+<img width="2111" height="2237" alt="xmas" src="https://github.com/user-attachments/assets/0a288dae-74d5-4954-beb0-76fdd6c43ebc" />
+
+
 # *November 2025*
 
 1.  [Missing & Sparse Data](https://ranja-sarkar.github.io/2025/11/27/missing-&-sparse-data.html)
