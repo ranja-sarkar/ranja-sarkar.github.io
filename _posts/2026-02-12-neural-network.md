@@ -2,6 +2,8 @@
 tags: [networks, neuralnets, data, deep learning]  
 ---
 
+<img width="829" height="282" alt="named" src="https://github.com/user-attachments/assets/2d81d5cc-6e02-4651-9653-95d60b29dc87" />
+
 
 The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
 
