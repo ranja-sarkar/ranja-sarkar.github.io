@@ -6,7 +6,8 @@ title: Articles
 permalink: /myposts
 ---
 
-<img width="2111" height="2237" alt="xmas" src="https://github.com/user-attachments/assets/0a288dae-74d5-4954-beb0-76fdd6c43ebc" />
+<img width="722" height="542" alt="rons" src="https://github.com/user-attachments/assets/35d4be60-a270-4ba3-833f-39b86a5acb65" />
+
 
 
 # *November 2025*
