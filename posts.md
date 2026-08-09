@@ -47,7 +47,7 @@ permalink: /myposts
 
 # *February 2026*
 
-1. [Neural Networks](https://ranja-sarkar.github.io/2026/02/12/neural-networks.html)
+1. [Neural Networks](https://ranja-sarkar.github.io/2026/02/12/neural-network.html)
 
 2. [Dockerize for deployment](https://ranja-sarkar.github.io/2026/02/16/dockerize.html)
 
