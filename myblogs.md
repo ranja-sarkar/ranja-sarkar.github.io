@@ -7,10 +7,6 @@ permalink: /myblogs
 ---
 
 
-"If a story is in you, it has to come out.”
-
-— William Faulkner
-
 # Late 2024
 
 ![topo](https://github.com/user-attachments/assets/d956214f-c45a-4765-91dc-4fa485a5639f)
@@ -30,6 +26,6 @@ After coming back from my short vacation, I decided to start blogging and actual
 
 There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of many other things. Contentment and joy come from sharing our experiences, getting to know about the experiences of others, understanding, learning back from them.
 
-So I write. I share. 
+So I write and share. 
 
 
