@@ -57,7 +57,7 @@ permalink: /myposts
 
 1. [RAG](https://ranja-sarkar.github.io/2026/03/01/rag.html)
 
-2. [LLMs](https://ranja-sarkar.github.io/2026/03/31/customizing-LLM.html)
+2. [LLMs](https://ranja-sarkar.github.io/2026/03/31/customizing-large-language-models.html)
 
 3. [AI](https://ranja-sarkar.github.io/2026/03/27/meet-your-AI-partners.html)
 
