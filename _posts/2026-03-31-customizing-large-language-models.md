@@ -16,7 +16,9 @@ Customization is not just a technical preference; it is a vital environmental an
 
 3.	Fine-tuning
 
-Customizing pre-trained LLMs to the purpose is the "optimal" way out to mitigate expenses and energy consumption. It is all about building from scratch *versus* buying & customizing**, the latter a sustainable solution.  
+**Build vs. Buy**
+
+Customizing pre-trained LLMs to the purpose is the "optimal" way out to mitigate expenses and energy consumption. It is all about building an LLM from scratch *versus* buying and customizing it per the domain (by RAG or fine-tuning) in accordance with the business requirement and budget allocated.  
 
 # Strategy Behind the Prompt 
 
