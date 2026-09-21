@@ -50,8 +50,10 @@ The shift from "applications" to "agents" represents a fundamental change in how
 
 # The Trust Quotient
 
-Every decision made in the AI lifecycle — from choosing GraphRAG to implementing a BLEU-based evaluation is a contribution to the "Trust Quotient" of your system. Customization is the vehicle for accuracy, fairness, completeness, and efficiency.
+Every decision made in the AI lifecycle — from choosing GraphRAG to implementing a BLEU-based evaluation is a contribution to the "Trust Quotient" of your system. Customization is the vehicle for accuracy, fairness, completeness, and efficiency. Do not treat models served to you as black boxes. 
 
-Do not treat models served to you as black boxes. As you refine your AI strategy, ask yourself - are you evaluating your applications as rigorous experiments to test your hypothesis?. The answer defines the reliability of the agentic future of your organization.
+As you refine your AI strategy, ask yourself - are you evaluating your applications as rigorous experiments to test your hypothesis? 
+
+Your answer defines the reliability of the agentic future of your organization.
 
 
