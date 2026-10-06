@@ -2,7 +2,8 @@
 tags: [data, regression, machine-learning]
 ---
 
-![viet](https://github.com/user-attachments/assets/2de96c5c-9ea3-4623-97ad-f85de4d6d77f)
+Ranja S.
+
 
 **Linear regression** is a supervised machine learning algorithm, aiming to explain the relationship between one (or more) independent variable (s) and a dependent variable called response or target. The coefficients or weights on the independent variables are what the model learns while it is trained and optimized. A linear regression model is trained by either ordinary least squares (OLS) fit or gradient descent method. 
 
@@ -57,7 +58,7 @@ Higher-order interactions are possible. One can create interaction terms for num
 
 # Optimizing regression model
 
-The **OLS** algorithm minimizes the sum of squared errors (SSE) wherein the cost (loss) function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. 
+The **ordinary least squares (OLS)** algorithm minimizes the sum of squared errors (SSE) wherein the cost (loss) function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. 
 
 The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers (larger errors are magnified). Since MSE is not robust to outliers, the fix in such cases would be to use another loss function [MAE](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html) or regularization (explained below).   
 
