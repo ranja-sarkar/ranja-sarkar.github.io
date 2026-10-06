@@ -5,7 +5,7 @@ tags: [data, regression, machine-learning]
 Ranja S.
 
 
-**Linear regression** is a supervised machine learning algorithm, aiming to explain the relationship between one (or more) independent variable (s) and a dependent variable called response or target. The coefficients or weights on the independent variables are what the model learns while it is trained and optimized. A linear regression model is trained by either ordinary least squares (OLS) fit or gradient descent method. 
+Linear regression is a supervised machine learning algorithm, aiming to explain the relationship between one (or more) independent variable (s) and a dependent variable called response or target. The coefficients or weights on the independent variables are what the model learns while it is trained and optimized. A linear regression model is trained by either ordinary least squares (OLS) fit or gradient descent method. 
 
 ![111](https://github.com/user-attachments/assets/2678e9a4-7f1c-4c41-ab9e-10f5ab412e3a)
 
@@ -14,7 +14,7 @@ A linear model assumes that the effect of each independent variable on the respo
 
 Linear regression is a parametric model, so it has assumptions like the model errors are independent, model errors have equal variance (homoscedasticity), and they are normally distributed. 
 
-# Association & interaction 
+# Association & interaction between variables
 
 **Association between two variables** means the values of one variable relate in some way to the values of the other, and is measured by correlation (coefficient). 
 
@@ -56,9 +56,13 @@ With an interaction term, the effect of x1 on y is different for the binary cate
 Higher-order interactions are possible. One can create interaction terms for numerical [continuous](https://janhove.github.io/posts/2017-06-26-continuous-interactions/) as well as categorical variables. By using interaction terms, one can make the specification of a linear model more flexible which can result in a better fit to the data and better predictive performance of the model.
 
 
-# Optimizing regression model
+# Regression models
 
-The **ordinary least squares (OLS)** algorithm minimizes the sum of squared errors (SSE) wherein the cost (loss) function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. 
+There are two methods for optimizing regression models - ordinary least squares (OLS) and gradient descent.
+
+## Optimization
+
+The **OLS** algorithm minimizes the sum of squared errors (SSE) wherein the cost (loss) function is mean squared error (MSE = SSE/n) and optimization occurs in closed form. In the figure below, number of independent variables is m, the number of observations/rows in the dataset is n, and the y-intercept is called the bias. 
 
 The squaring of errors prevents negative and positive terms from canceling out in the sum and gives more weight to points further from the regression line, punishing outliers (larger errors are magnified). Since MSE is not robust to outliers, the fix in such cases would be to use another loss function [MAE](https://ranja-sarkar.github.io/2025/12/18/metrics-in-machine-learning.html) or regularization (explained below).   
 
@@ -76,7 +80,7 @@ Post training a model, we might observe overfitting (the algorithm captures nois
 
 For an algorithm that involves non-convex optimizations (ones with local minima and maxima) adding (independent) variables could make it complex, and harder to find the best set of model parameters resulting in higher bias. However, for algorithms like linear regression with efficient and precise machinery, added variables will only always reduce bias. 
 
-# Regularizing regression model
+## Regularization
 
 Explicit regularization is where one explicitly adds a term to the (often ill-posed) optimization problem. These terms could be priors (Bayesian framework) or constraints. The regularization or penalty term imposes a cost on the optimization function to make the optimal solution unique. Explicit regularization of regression models almost always ensures optimal model complexity. Implicit regularization includes early stopping which is prevalent in stochastic gradient descent algorithm used for training neural networks. 
 
@@ -100,9 +104,9 @@ In L2 (Ridge) regularization, the regression coefficients are found by minimizin
 
 L2 regression retains all features, reducing the impact of less relevant features by shrinking their coefficients, L1 regression can set some coefficients to zero, effectively selecting a subset of most relevant features. If higher number of coefficients are forced to zero, it tends to increase the bias in the model. So tuning alpha ([0, 1]) to low values ensures the [bias-variance tradeoff](https://ranja-sarkar.github.io/2025/12/12/learning-&-prediction.html) is well dealt with. 
 
-# Assessing regression model 
+## Evaluation 
 
-A measure to assess the goodness of fit to data is called the coefficient of determination, as it determines how well the numeric predictions approximate the true data points. There’s an irreducible error term in the regression equation that collects all the unmodeled parts of the data.
+A measure to assess or evaluate the goodness of fit to data is called the coefficient of determination, as it determines how well the numeric predictions approximate the true data points. There’s an irreducible error term in the regression equation that collects all the unmodeled parts of the data.
 
 The sum of squared residuals (SSR) is a loss function. The goodness of fit is R^2, represented in terms of SSR (or SSE) and SST (total sum of squares). [R^2](https://ranja-sarkar.github.io/2026/01/06/error-measurement.html) increases if the degree of freedom (n-m-1) of the dataset decreases and hence, the model loses its reliability. Please note that (n-1) is the degree of freedom for a single parameter or variable coefficient to be estimated. Degree of freedom is the number of independent parameters that a statistical analysis can estimate, in short the number of parameters free to vary. 
 
