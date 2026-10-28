@@ -3,7 +3,7 @@ tags: [data, error, machine-learning]
 ---
 
 
-![named](https://github.com/user-attachments/assets/8cb895b0-f1b7-4b46-bf95-0f4daba01b08)
+Ranja S. 
 
 The primary goal while building a predictive model must be to make it predictive of the desired target value. The closer the predicted value to the target, more accurate the model. Model error based on training data is misleading, the error the model exhibits on ‘new’ and unseen data yields actual results. In this context, error implies [residual](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html).
 
