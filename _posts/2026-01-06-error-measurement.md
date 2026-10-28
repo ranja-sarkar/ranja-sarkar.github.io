@@ -5,8 +5,6 @@ tags: [data, error, machine-learning]
 
 ![named](https://github.com/user-attachments/assets/8cb895b0-f1b7-4b46-bf95-0f4daba01b08)
 
-<ins>**Measurement of model error**</ins>
-
 The primary goal while building a predictive model must be to make it predictive of the desired target value. The closer the predicted value to the target, more accurate the model. Model error based on training data is misleading, the error the model exhibits on ‘new’ and unseen data yields actual results. In this context, error implies [residual](https://ranja-sarkar.github.io/2025/11/28/tests-&-measures.html).
 
 When assessing the quality of a model, it is essential to accurately measure its **prediction error**. A model may fit the training data well, but may do a poor job of prediction on ‘new’ data. 
@@ -57,7 +55,7 @@ The **validation set** is used to select which model (hyperparameter set) should
 
 The **train set** is used to learn the model parameters (or hyperparameters).
 
-**An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on the entire dataset. The 'validation set' approach reserves  decent-sized chunk of data for validation and testing.**  
+*An issue with the 'holdout set' approach is that it tends to overestimate the test error for models fit on the entire dataset. The 'validation set' approach reserves  decent-sized chunk of data for validation and testing.*
 
 -----
 
@@ -108,7 +106,7 @@ Adjusting a model in an iterative process by using a holdout dataset to test is 
 <img width="299" height="142" alt="03" src="https://github.com/user-attachments/assets/ddfcd45c-be24-47b3-a658-a4c99dc8acc3" />
 
 
-**It has a potential conservative bias, nonetheless it is useful in practice as compared to overly optimistic predictions.**
+*This method has a potential conservative bias, nonetheless it is useful in practice as compared to overly optimistic predictions.*
 
 # K-fold CV
 
@@ -130,7 +128,14 @@ For 4-fold, there are 4 training sets and 4 validation sets. Each time (each ite
 
 At the end of the procedure, we take the average of the validation sets' scores and use it as the model's estimated (training) performance. And finally, the test (prediction) error is estimated. With CV, the model generalizes well. 
 
-**The CV approach typically does not overestimate the prediction error.**   
+*The CV approach typically does not overestimate the prediction error.*
+
+
+# Repeated K-fold CV
+
+This [method](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RepeatedKFold.html) repeats K-fold CV, producing different splits (randomization) in each repetition.
+
+Read [this](https://scikit-learn.org/stable/modules/cross_validation.html#repeated-k-fold) for more. 
 
 -----
 
