@@ -3,7 +3,7 @@ tags: [nlp, llm]
 ---
 
 
-<img width="554" height="155" alt="22" src="https://github.com/user-attachments/assets/6f3aa923-5473-429c-b73f-497a6344ffac" />
+Ranja S. 
 
 <ins>**From language processing to language modeling**</ins>
 
@@ -123,6 +123,10 @@ Positional encoding is typically introduced as a set of additional vectors that 
 
 ▶️ *The self-attention mechanism in a transformer architecture allows each word to attend to every other word in the sequence, weighing the importance for the current token.The cross-attention mechanism on the other hand allows looking across a related sequence. Self-attention operates in multiple attention heads to capture different relationships between tokens. Cross-attention is also multi-headed. The activation function softmax is used to calculate attention weights in the multi-head attention mechanism.*
 
+The core steps in a minimal transformer can be thought of as this pipeline:
+
+Tokens -> embedding -> positional information -> self-attention -> residual + normalization -> Feed-forward NN -> residual + normalization -> Output
+
 -----
 
 The families of the transformer architecture are encoder-only, decoder-only, and [encoder-decoder](https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder). An encoder network looks across the input sequence and the decoder network looks across a sequence of representations from the encoder. 
@@ -166,6 +170,6 @@ LLMs can be made to perform better by RL from human feedback [(RLHF)](https://gi
 It is clear by now that more tokens do not mean better results. It only means more noise in the input, leading to increase in hallucinations in the output. From a pragmatic point of view, higher number of tokens only lead to high costs (LLM service providers charge per token). 
 
 
-💡💡*Memory-efficient hybrid systems are smarter solutions.*
+💡*Memory-efficient hybrid systems are smarter solutions.*
 
 
