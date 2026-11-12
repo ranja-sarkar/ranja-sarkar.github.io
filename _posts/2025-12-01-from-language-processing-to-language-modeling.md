@@ -130,7 +130,7 @@ Tokens -> embedding -> positional information -> self-attention -> residual + no
 
 The families of the transformer architecture are encoder-only, decoder-only, and [encoder-decoder](https://magazine.sebastianraschka.com/p/understanding-encoder-and-decoder). An encoder network looks across the input sequence and the decoder network looks across a sequence of representations from the encoder. 
 
-The **GPT (generative pre-trained transformer)** series developed by OpenAI has a **decoder-only** architecture, has unidirectional (left to right) context handling, and used primarily for text generation and summarization. 
+The **GPT** (generative pre-trained transformer) series developed by OpenAI has a **decoder-only** architecture, has unidirectional context handling, and is used primarily for text generation and summarization. 
 
 **BERT** (Bidirectional Encoder Representations from Transformers) developed by Google has **encoder-only** architecture and used primarily for text classification and sentiment analysis. Google's **Gemini** and Meta's **BART** have **encoder-decoder** (bidirectional) architectures. They are multimodal and good for complex reasoning.
 
