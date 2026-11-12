@@ -5,7 +5,6 @@ tags: [nlp, llm]
 
 Ranja S. 
 
-<ins>**From language processing to language modeling**</ins>
 
 If represented in a Venn diagram, the AI superset has two major subsets - Natural language processing (NLP) and machine learning (ML). Deep learning (DL) or neural networks forms a sub-subset and generative AI is a subset of DL having substantial intersection with NLP.  
 
