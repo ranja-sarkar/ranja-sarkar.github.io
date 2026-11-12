@@ -52,6 +52,9 @@ For simplicity, bias terms are not shown in the perceptron. Weights refer to the
 
 *In transformers, different activation functions are used. Such as, ReLu is used for input dignal transformation and softmax or sigmoid are used for output decision-making that is, in signal expression or representation.*
 
+<img width="380" height="47" alt="sm" src="https://github.com/user-attachments/assets/6bb7ca2d-90ec-48cd-9e36-3023d9e10ad7" />
+
+
 📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
 ![do](https://github.com/user-attachments/assets/988ca913-0c04-4660-b4b3-85208e4ecf09)
@@ -80,7 +83,7 @@ Gradient descent is the iterative method used to train NNs, the algorithm has to
 
 Reaching convergence while training NNs can be difficult, nonetheless there’re ways to control it like picking an [optimizer](https://www.bdhammel.com/learning-rates/). A popular optimizer is the Adam optimizer wherein the learning rate is not set manually. [Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) uses an adaptive learning rate. 
 
-# Important points while building NNs
+# Important points 
 
 📌 **Goal**
 
