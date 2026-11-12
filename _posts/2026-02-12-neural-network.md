@@ -18,9 +18,6 @@ Forward propagation is when data moves from left (input layer) to right (output 
 
 📌 [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) (**GNNs**) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in the form of scalars or embeddings can be stored at each graph node or edge.
 
-<img width="230" height="224" alt="gnn" src="https://github.com/user-attachments/assets/4b22096c-94e4-4255-b3a5-40c895c253b5" />
-
-
 [GNNs](https://distill.pub/2021/gnn-intro/) on graphs with translational symmetry in all dimensions are [CNNs](https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns). GNNs on one-dimemsional directed line graph are [RNNs](https://keras.io/guides/sequential_model/).
 
 <img width="281" height="103" alt="rnn" src="https://github.com/user-attachments/assets/6b38bcca-abc4-4048-8e03-c78bb6b5c5e9" />
