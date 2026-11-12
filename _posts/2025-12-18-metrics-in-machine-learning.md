@@ -2,10 +2,8 @@
 tags: [machine-learning, supervised-unsupervised, metrics]
 ---
 
+Ranja S. 
 
-![pc](https://github.com/user-attachments/assets/facda9c1-e8aa-4711-86e6-09bf555ad31a)
-
-<ins>**Metrics in Machine Learning**</ins>
 
 Metrics are measures of quantitative assessment of performance. We track business performance as well as statistical model performance using metrics. A model learns from old data and predicts on new data, so the metrics and error (loss) functions for machine learning (ML) models are closely connected. The difference between assessing an ML model and making a business decision from the model output gets blurry in practice.
 
