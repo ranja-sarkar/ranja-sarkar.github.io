@@ -2,22 +2,21 @@
 tags: [networks, neuralnets, data, deep learning]  
 ---
 
-<img width="829" height="282" alt="named" src="https://github.com/user-attachments/assets/2d81d5cc-6e02-4651-9653-95d60b29dc87" />
-
+Ranja S.
 
 The earliest **neural networks (NNs)** are the feed-forward neural networksor multilayer perceptrons (MLPs), where input values flow forward linearly (forward pass) and gradients/derivatives flow backward linearly (backpropagation) through a network. Neurons are interconnected units/nodes arranged in layers in NNs. Each node in an input layer is a feature of the dataset. NNs can be wide, having many neurons in a given hidden layer and/or deep, having many hidden layers. More neurons/nodes enable complex learning at the cost of overfitting and more computational cost. 
 
 <img width="289" height="116" alt="nn" src="https://github.com/user-attachments/assets/01cc8002-6f5d-4728-b883-cc6976ab6d9c" />
 
-Forward propagation is when data moves from left (input layer) to right (output layer) in the network, and backward propagation is when the gradient moves from right to left  in the network. Prominent NN architectures are GNNs, RNNs, CNNs, GANs, and transformers.
+Forward propagation is when data moves from left (input layer) to right (output layer) in the network, and backward propagation is when the gradient moves from right to left in the network. Foundational NN architectures are GNNs, RNNs, CNNs, GANs, and transformers. All others are variants, hybrids, modified forms of these architectures. 
 
-# Architectures of a neural network
+# Architectures of NNs
 
-📌 Recurrent Neural Networks (RNNs) process sequential data. Unlike feedforward NNs which process data in a single pass, RNNs process data across multiple time steps. This makes them well-suited for tasks like natural language processing (NLP) and time-series forecasting. They can learn patterns in sequences by connecting the output from one time step to the input of the next, remembering previous information. 
+📌 **Recurrent Neural Networks (RNNs)** process sequential data. Unlike feedforward NNs which process data in a single pass, RNNs process data across multiple time steps. This makes them well-suited for tasks like natural language processing (NLP) and time-series forecasting. They can learn patterns in sequences by connecting the output from one time step to the input of the next, remembering previous information. 
 
-📌 Convolutional Neural Networks (CNNs) are specifically designed for processing spatial data, such as images. They use special convolutional layers to scan and identify local patterns within the input. This makes them more efficient for object detection and computer vision tasks. 
+📌 **Convolutional Neural Networks (CNNs)** are specifically designed for processing spatial data, such as images. They use special convolutional layers to scan and identify local patterns within the input. This makes them more efficient for object detection and computer vision tasks. 
 
-📌 [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) (GNNs) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in the form of scalars or embeddings can be stored at each graph node or edge.
+📌 [Graph Neural Networks](https://distill.pub/2021/gnn-intro/) (**GNNs**) operate on graph-structured data. They are designed to learn, and encode the relationships (edges) between nodes in a graph, making them useful for tasks such as social network analysis, molecular property prediction, and recommendation systems. Information in the form of scalars or embeddings can be stored at each graph node or edge.
 
 <img width="230" height="224" alt="gnn" src="https://github.com/user-attachments/assets/4b22096c-94e4-4255-b3a5-40c895c253b5" />
 
@@ -27,16 +26,17 @@ Forward propagation is when data moves from left (input layer) to right (output 
 <img width="281" height="103" alt="rnn" src="https://github.com/user-attachments/assets/6b38bcca-abc4-4048-8e03-c78bb6b5c5e9" />
 <img width="337" height="136" alt="cnn" src="https://github.com/user-attachments/assets/84be81b0-ed98-4a69-8d15-2c8cbdfb22e5" />
 
-📌 Transformers are architectures that rely on a self-attention mechanism to process input data, allowing them to handle long-range dependencies effectively. Self-attention allows for capturing relationships within input sequences and weigh the importance of different words/tokens of the sequence. For details of this mechanism, refer to the [article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) by Sebastian Raschka. Transformers incorporate in their architectures feed-forward NNs in parts. 
+📌 **Transformers** are architectures that rely on a self-attention mechanism to process input data, allowing them to handle long-range dependencies effectively. Self-attention allows for capturing relationships within input sequences and weigh the importance of different words/tokens of the sequence. For details of this mechanism, refer to the [article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) by Sebastian Raschka. 
+
+Transformers incorporate in their architectures feed-forward NNs in parts. The self-attention mechanism in a decoder of the transformer can be viewed as GNN that is, a neural network on a fully connected graph on all tokens of the context window. It is a (special) directed graph where one token is connected to all previous tokens in the context window.
 
 <img width="299" height="144" alt="nns" src="https://github.com/user-attachments/assets/3a48419c-2d1c-489f-92ae-4a0fe283446a" />
 
+Transformers have been especially successful in tasks such as language translation and text summarization due to their ability to capture contextual information across large sequences. 
 
-The self-attention mechanism in a decoder in the transformer architecture can be viewed as GNN that is, a neural network on a fully connected graph on all tokens of the context window. It can be thought of as a (special) directed graph where one token is connected to all previous tokens in the context window. Transformers have been especially successful in tasks such as language translation and text summarization due to their ability to capture contextual information across large sequences. 
+📌 **Generative Adversarial Networks (GANs)** consist of two distinct neural networks, a generator and a discriminator that compete against each other. The generator creates a data sample, and the discriminator determines if that data sample came from the captured training/observed data or the generator. By optimizing against each other, GANs learn to generate new samples. GAN extracts representative latent embeddings of observed data distributions and is known to approximate distributions very well. 
 
-📌 Generative Adversarial Networks (GANs) consist of two distinct neural networks, a generator and a discriminator that compete against each other. The generator creates a data sample and the discriminator determines if that data sample came from the captured training/observed data or the generator. By optimizing against each other, GANs learn to generate new samples. GAN extracts representative latent embeddings of observed data distributions, and is known to approximate distributions very well. 
-
-# Hyper-parameters of a neural network
+# Hyper-parameters of NNs
 
 A network is a structure of interconnected nodes, in other words it is a structure of connected neurons arranged in layers, has one or more input nodes, a function node (activation function) and an output node. Typically, the NN parameters are activation function, dropout, epoch, early stopping, batch-size, learning rate. 
 
@@ -50,6 +50,7 @@ For simplicity, bias terms are not shown in the perceptron. Weights refer to the
 
 ![af](https://github.com/user-attachments/assets/283b00a6-b4d7-4d65-88c3-bf55dcba885f)
 
+*In transformers, different activation functions are used. Such as, ReLu is used for input dignal transformation and softmax or sigmoid are used for output decision-making that is, in signal expression.*
 
 📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
@@ -79,7 +80,7 @@ Gradient descent is the iterative method used to train NNs, the algorithm has to
 
 Reaching convergence while training NNs can be difficult, nonetheless there’re ways to control it like picking an [optimizer](https://www.bdhammel.com/learning-rates/). A popular optimizer is the Adam optimizer wherein the learning rate is not set manually. [Adam](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) uses an adaptive learning rate. 
 
-# Important points while building a neural network
+# Important points while building NNs
 
 📌 **Goal**
 
@@ -110,12 +111,13 @@ Practitioners turn typically to exisiting frameworks to solve problems with deep
 
 In general, for development and deployment of any predictive model these [points](https://ranja-sarkar.github.io/2026/01/05/model-lifecycle.html) remain valid.
 
-# Applications of a neural network
+# Applications of NNs
 
-To name a few,
 
 1) **Feature selection & anomaly detection**: [Autoencoders](https://www.tensorflow.org/tutorials/generative/autoencoder) are unsupervised neural networks designed to efficiently compress and reconstruct data. By forcing data through a narrow "bottleneck", the network learns the most essential features in the dataset. Autoencoders are widely used for dimensionality reduction, denoising, and anomaly detection.
 
 2) **Computer vision** is the training of machines to see, process, and understand digital images and videos.
 
-3) **Aerospace Engineering**, covering developments in spacecraft and aircraft. Fault diagnosis, high performance auto piloting, securing the aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks could be used at. As passenger safety is of utmost importance inside an aircraft, algorithms built using the neural network systems ensure the accuracy. 
+3) **Aerospace Engineering**, covering developments in spacecraft and aircraft. Fault diagnosis, high-performance auto piloting, securing the aircraft control systems, and modeling dynamic simulations are some of the key areas that neural networks could be used at. As passenger safety is of utmost importance inside an aircraft, algorithms built using the neural network systems ensure the accuracy.
+
+4) **Text generation** in AI assistants along with semantic reasoning. This is possible due to transformers with which large language models are developed.
