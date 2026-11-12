@@ -50,7 +50,7 @@ For simplicity, bias terms are not shown in the perceptron. Weights refer to the
 
 ![af](https://github.com/user-attachments/assets/283b00a6-b4d7-4d65-88c3-bf55dcba885f)
 
-*In transformers, different activation functions are used. Such as, ReLu is used for input dignal transformation and softmax or sigmoid are used for output decision-making that is, in signal expression.*
+*In transformers, different activation functions are used. Such as, ReLu is used for input dignal transformation and softmax or sigmoid are used for output decision-making that is, in signal expression or representation.*
 
 📌 **Dropout** → It refers to randomly dropping out or omitting neurons from both hidden and visible layers, while training a model to optimize performance of the network. It's a regularization technique to prevent overfitting.
 
@@ -120,4 +120,4 @@ In general, for development and deployment of any predictive model these [points
 
 3) **Aerospace Engineering**, covering developments in spacecraft and aircraft. Fault diagnosis, high-performance auto piloting, securing the aircraft control systems, and modeling dynamic simulations are some of the key areas that neural networks could be used at. As passenger safety is of utmost importance inside an aircraft, algorithms built using the neural network systems ensure the accuracy.
 
-4) **Text generation** in AI assistants along with semantic reasoning. This is possible due to transformers with which large language models are developed.
+4) **Text generation** in AI assistants along with semantic reasoning. This is possible due to transformer, the underlying architecture of large language models or foundational models for generative AI.
