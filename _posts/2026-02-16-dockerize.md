@@ -2,7 +2,7 @@
 tags: [production, deployment,docker]  
 ---
 
-<img width="224" height="168" alt="ship" src="https://github.com/user-attachments/assets/e5ba7380-9692-490b-baa2-a51122b7497a" />
+Ranja S.
 
 
 Notebooks are good to test out an idea, for quick data exploration & visualization, and to code for checking out or experimenting with a model. However, they are bad at modularization (reusability), testability, reproducability, versioning, and collaboration. Notebook codes do not specify versions of libraries imported, have hard-coded paths, and untested logic. For the code to be production-ready, it must be versioned, reproducible, organised, and tested. And finally shipped for operations!
