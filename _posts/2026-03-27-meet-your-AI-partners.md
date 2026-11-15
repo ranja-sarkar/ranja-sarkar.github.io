@@ -2,6 +2,7 @@
 tags: [artificial intelligence, machine learning, data science]  
 ---
 
+Ranja S.
 
 It is helpful to think of AI not as a monolithic 'brain', but as a set of patterns designed to solve different kinds of problems. 
 
