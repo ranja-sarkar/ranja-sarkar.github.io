@@ -4,10 +4,9 @@ tags: [code, program, content, write]
 
 ---
 
+Ranja S.
 
-<img width="383" height="139" alt="book" src="https://github.com/user-attachments/assets/fe13d87e-defd-4807-bc46-0de05960e9d8" />
-
-**Is writing important? Why do I write?**
+**Why do I write?**
 
 Well, before I started writing, there were loose ends of my concepts, there was knowledge that I thought I have but often grappled with complex problems. After I started writing, there’s sort of an illumination and I felt like I’ve begun to know how to approach solving open-ended problems. Writing has made me a better thinker, researcher, and scientist. Or may I say, writing has made me realize how sloppy my thinking is. 
 
