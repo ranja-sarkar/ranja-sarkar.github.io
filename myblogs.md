@@ -18,7 +18,7 @@ The onset of Autumn is marked by festivals in India. To me, Autumn's
 
 I visited the Himalayas in North India during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. 
 
-In November 2023, I took a much-needed break from a full-time role. A pause and introspection is of paramount importance, maybe in some ways it enables foreseeing the possibilities in store for us. 
+At the end of 2023, I took a much-needed break from a full-time role. A pause and introspection is of paramount importance, maybe in some ways it enables foreseeing the possibilities in store for us. 
 
 ![rrss](https://github.com/user-attachments/assets/4a2dfc9a-cf61-4c2e-b82c-b395017ede98)
 
@@ -32,9 +32,9 @@ So I write and share.
 
 <img width="640" height="480" alt="11" src="https://github.com/user-attachments/assets/aacd441d-9589-456f-8b31-2a5105be5089" />
 
-It has been almost 9 months now I resumed work as an FTE. And it felt like I picked up from where I left off. Now when I look back, I feel I've gained what's valuable - a broader perspective, renewed trust in my abilities, and the good sense to nurture what I have built so far. The break was so healing. 
+It has been almost a year now I resumed work as an FTE. And it felt like I picked up from where I left off. Now when I look back, I feel I've gained what's valuable - a broader perspective, renewed trust in my abilities, and the good sense to nurture what I have built so far. The break was so healing. 
 
-I could bring my attention back to things that are important, they were otherwise slipping away with very short-spanned attention that most humans in present times are suffering from. I realized that productivity does not come from relentless pushing. Sometimes the unconventional choices pay off. 
+I could bring my attention back to things that are really important, they were otherwise slipping away with the very short-spanned attention that most humans in present times are suffering from. I realized that productivity does not come from relentless pushing. Sometimes the unconventional choices pay off. 
 
 And I continue to write and share, not as much as as I'd like though.
 
