@@ -2,10 +2,10 @@
 tags: [probability, statistics]  
 ---
 
+Ranja S.
 
 ![ben1](https://github.com/user-attachments/assets/de3ef8f5-36c9-4f4d-ba95-1efa71e7077d)
 
-<ins>**Distributions**</ins>
 
 During my doctoral research, I had used the software Mathematica by Wolfram. My visits to the Wolfram Mathworld page gradually became rare events. 
 I visited it recently and landed at their pages of [Probability and Statistics](https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html). 
