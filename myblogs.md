@@ -22,7 +22,7 @@ At the end of 2023, I took a much-needed break from a full-time role. A pause an
 
 ![rrss](https://github.com/user-attachments/assets/4a2dfc9a-cf61-4c2e-b82c-b395017ede98)
 
-After coming back from my short vacation, I decided to start blogging which I did in the winter of 2024 (Jan). My blog posts are about *Data Science & stuff*, I try not to be too technical in my writing so I can connect with non-technical readers as well. 
+After coming back from my short vacation, I decided to start blogging which I did in the winter of 2024 (Jan). My blog posts are about [Data Science & stuff](https://ranja-sarkar.github.io/myposts). They are mostly technical articles, although I try to connect with non-technical readers to0. 
 
 There are things we realize only when we slow down. Almost all of us have clear understanding of a few things and not-so-clear, clouded concepts of few others. Contentment and joy come from sharing our experiences, getting to know about the experiences of others, understanding and learning back from them.
 
