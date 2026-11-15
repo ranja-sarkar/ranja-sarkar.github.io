@@ -11,14 +11,14 @@ permalink: /myblogs
 
 ![topo](https://github.com/user-attachments/assets/d956214f-c45a-4765-91dc-4fa485a5639f)
 
-The onset of Autumn is marked by festivals in India. To me, Autumn's
-
-- a time to rest and relax and rejuvenate oneself, then return refreshed to the inevitable hustle-bustle of life
-- a time to de-stress, celebrate small wins, revitalize for moving onward and upward.
+The onset of Autumn is marked by festivals in India. To me, Autumn's a time to rest, relax, reset and rejuvenate oneself and then return refreshed to the inevitable hustle-bustle of life. It's a time to de-stress, celebrate small wins, revitalize for moving onward and upward.
 
 I visited the Himalayas in North India during the autumn of 2023. The thought of being relentlessly on-the-go bogs us down, most often we do not even realize it. At times, all it takes to be consistent is to not move ahead of ourselves, to just slow down and appreciate how far we have come and be grateful for everything around us. 
 
-At the end of 2023, I took a much-needed break from a full-time role. A pause and introspection is of paramount importance, maybe in some ways it enables foreseeing the possibilities in store for us. 
+<img width="640" height="490" alt="44" src="https://github.com/user-attachments/assets/edde40b3-a29c-4a5c-b690-264884749e83" />
+
+
+At the end of 2023, I took a much-needed break from a full-time role. A pause and introspection is of paramount importance. Maybe in some ways it enables foreseeing the possibilities in store for us. 
 
 ![rrss](https://github.com/user-attachments/assets/4a2dfc9a-cf61-4c2e-b82c-b395017ede98)
 
@@ -32,11 +32,13 @@ So I write and share.
 
 <img width="640" height="480" alt="11" src="https://github.com/user-attachments/assets/aacd441d-9589-456f-8b31-2a5105be5089" />
 
-It has been almost a year now I resumed work as an FTE. And it felt like I picked up from where I left off. Now when I look back, I feel I've gained what's valuable - a broader perspective, renewed trust in my abilities, and the good sense to nurture what I have built so far. The break was so healing. 
+It has been almost a year now I resumed work as an FTE. And it felt like I picked up from where I left off. Now when I look back, I feel I've gained what's valuable - a broader perspective, renewed trust in my abilities, and the good sense to nurture what I have built so far. 
 
-I could bring my attention back to things that are really important, they were otherwise slipping away with the very short-spanned attention that most humans in present times are suffering from. I realized that productivity does not come from relentless pushing. Sometimes the unconventional choices pay off. 
+<img width="640" height="480" alt="33" src="https://github.com/user-attachments/assets/4ba501e8-3122-4840-9a56-33b8d9f4f04d" />
 
-And I continue to write and share, not as much as as I'd like though.
+The break was so healing. I could bring my attention back to things that are really important, they were otherwise slipping away with the very short-spanned attention that most humans in present times are suffering from. I realized that productivity does not come from relentless pushing. Sometimes the unconventional choices pay off. 
+
+And I continue to write and share, not as much as I'd like though.
 
 <img width="498" height="582" alt="22" src="https://github.com/user-attachments/assets/5d877104-c61f-4118-bf51-f7780df28de7" />
 
