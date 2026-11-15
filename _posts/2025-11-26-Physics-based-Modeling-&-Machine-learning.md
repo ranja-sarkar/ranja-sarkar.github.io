@@ -2,6 +2,7 @@
 tags: [physics, models, machinelearning]
 ---
 
+Ranja S. 
 
 ![tree](https://github.com/user-attachments/assets/7bc914de-82f2-4803-b4d4-831e76491b2f)
 
