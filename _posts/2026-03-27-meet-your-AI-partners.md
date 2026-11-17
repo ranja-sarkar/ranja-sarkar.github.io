@@ -4,9 +4,9 @@ tags: [artificial intelligence, machine learning, data science]
 
 Ranja S.
 
-It is helpful to think of AI not as a monolithic 'brain', but as a set of patterns designed to solve different kinds of problems. 
+It is helpful if we do not think of AI as a monolithic 'brain', but instead we think of AI as a set of patterns designed to solve different kinds of problems. Let me explain.
 
-Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (predictive) systems meant for decision-making**, **recognition and conversational (generative) systems**, we have other AI systems for large-scale interactions.
+Apart from the machine learning based unsupervised systems (e.g. clustering, anomaly detection) and supervised systems (for prediction), recognition and conversational systems, we have other AI systems at a very large-scale. They can be broadly classified as:
 
 •	**Doers (Autonomous Systems)**: These systems act independently to get the job done. 
 
@@ -14,12 +14,13 @@ Aside **unsupervised systems (clustering, anomaly detection)**, **supervised (pr
 
 •	**Strategists (Goal-driven Systems)**: These systems break down complex objectives into manageable plans.
 
+We put all data-driven solutions arrived at using machine learning and deep learning under the hood of Data Science. And then there is optimization - optimizing either the model trained with data or the business model with objectives and variables affecting it. Data Science is the genesis of AI. When the data is big and interactions between the data points become larger and complex, what we have as a solution is AI.
 
 Autonomous systems function without human guidance by using reinforcement learning to master complex tasks like self-driving cars. In contrast, hyperpersonalized systems leverage AI to create tailored consumer experiences that adapt to individual preferences and sentiments. Goal-driven systems focus on achieving specific objectives by decomposing large problems into actionable sub-tasks and adjusting to obstacles through trial and error. 
 
 <img width="505" height="273" alt="ai0" src="https://github.com/user-attachments/assets/2e25fc2b-60b0-41ff-894b-681cba3df15a" />
 
-Together, these illustrate how modern technology evolves to handle independent decision-making, human-centric interaction, and strategic optimization. It allows us to see how technology is evolving from simple automation into sophisticated machines capable of independent decision-making and long-term planning. So understanding these AI patterns is our 'GPS' to the modern tech landscape. 
+Together, these illustrate how modern technology evolves to handle independent decision-making, human-centric interaction, and strategic optimization. It allows us to see how technology is evolving from simple automation into sophisticated machines capable of independent decision-making and long-term planning. So understanding these AI patterns is our GPS to the modern technology landscape. 
 
 # Autonomous systems
 
@@ -54,6 +55,6 @@ They are also masters of recalibration. If the system hits an obstacle or enviro
 
 # Navigating the AI Landscape
 
-By categorizing systems into "Doers," "Tailors," and "Strategists," we see that AI isn't magic — it is a structured set of tools designed for making independent decisions, serving individual human needs, or achieving complex, systemic goals.
+By categorizing systems into "Doers," "Tailors," and "Strategists," we see that AI isn't magic — it is a structured set of tools designed for making independent decisions, serving individual human needs, and achieving complex, systemic goals.
 
 Whether it’s a car navigating a street, an app recognizing our lifetime value as a customer, or a system keeping city traffic flowing, these patterns are working behind the scenes to shape our digital experience. 
