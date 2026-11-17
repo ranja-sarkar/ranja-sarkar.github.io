@@ -4,6 +4,9 @@ tags: [artificial intelligence, machine learning, data science]
 
 Ranja S.
 
+<img width="124" height="42" alt="11" src="https://github.com/user-attachments/assets/ca9f2fa4-e310-4e73-b441-770fa5cd2171" />
+
+
 It is helpful if we do not think of AI as a monolithic 'brain', but instead we think of AI as a set of patterns designed to solve different kinds of problems. Let me explain.
 
 Apart from the machine learning based unsupervised systems (e.g. clustering, anomaly detection) and supervised systems (for prediction), recognition and conversational systems, we have other AI systems at a very large-scale. They can be broadly classified as:
